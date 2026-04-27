@@ -218,6 +218,19 @@ p {
   overflow: hidden;
 }
 
+.sd-hero-forest-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image:
+    linear-gradient(135deg, rgba(233, 245, 235, 0.74), rgba(223, 239, 228, 0.34)),
+    linear-gradient(12deg, rgba(8, 56, 32, 0.5), rgba(8, 56, 32, 0.08) 34%, rgba(8, 56, 32, 0.48)),
+    url("https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1800&q=80");
+  background-size: cover;
+  background-position: center;
+  filter: saturate(1.08) contrast(1.04);
+}
+
 .sd-hero-right {
   background: #ffffff;
   position: relative;
@@ -451,16 +464,64 @@ p {
 .sd-hero-card {
   width: min(99%, 720px);
   height: min(80vh, 760px);
-  background: #ffffff;
-  border: 1px solid rgba(73, 108, 85, 0.24);
+/*   background: rgba(255, 255, 255, 0.88);
+ */  border: 1px solid rgba(73, 108, 85, 0.28);
   border-radius: 18px;
-  box-shadow: 0 16px 30px rgba(35, 59, 45, 0.12);
+  box-shadow: 0 24px 42px rgba(35, 59, 45, 0.2);
+  backdrop-filter: blur(2px);
+  overflow: hidden;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   z-index: 2;
+}
+
+.sd-hero-carousel,
+.sd-hero-carousel .carousel-inner,
+.sd-hero-carousel .carousel-item,
+.sd-hero-slide-frame {
+  width: 100%;
+  height: 100%;
+}
+
+.sd-hero-slide-frame {
+  position: relative;
+  margin: 0;
+}
+
+.sd-hero-slide-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(14, 45, 33, 0.06) 0%, rgba(14, 45, 33, 0.3) 100%);
+}
+
+.sd-hero-slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: saturate(1.03) contrast(1.03);
+}
+
+.sd-hero-carousel .carousel-indicators {
+  bottom: 14px;
+  margin-bottom: 0;
+  z-index: 3;
+}
+
+.sd-hero-carousel .carousel-indicators [data-bs-target] {
+  width: 30px;
+  height: 4px;
+  border-radius: 999px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.55);
+}
+
+.sd-hero-carousel .carousel-indicators .active {
+  background-color: #ffffff;
 }
 
 .sd-wordmark-hero {
@@ -486,6 +547,35 @@ p {
   filter: drop-shadow(0 12px 22px rgba(23, 49, 74, 0.16));
 }
 
+.sd-hero-copy {
+  width: min(100%, 520px);
+  display: grid;
+  grid-template-rows: auto auto auto;
+  row-gap: clamp(12px, 1.8vw, 24px);
+  text-align: center;
+}
+
+.sd-hero-copy .sd-wordmark-inline {
+  width: min(100%, 390px);
+  margin: 0 auto;
+}
+
+.sd-hero-copy p {
+  margin: 0;
+  max-width: 470px;
+  font-size: 16px;
+  line-height: 1.55;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sd-hero-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
 .sd-hero-content h1 {
   margin-top: 0;
 }
@@ -506,6 +596,8 @@ p {
 .sd-hero-content > .container {
   position: relative;
   z-index: 2;
+  display: flex;
+  justify-content: center;
 }
 
 .sd-section {
@@ -624,6 +716,10 @@ p {
 }
 
 @media (max-width: 991px) {
+  .sd-hero-forest-bg {
+    background-position: center 42%;
+  }
+
   .sd-hero-media {
     min-height: 360px;
     padding-top: 6.5rem;
@@ -632,6 +728,7 @@ p {
   .sd-hero-card {
     height: auto;
     width: min(96%, 520px);
+    min-height: 390px;
   }
 
   .sd-wordmark-hero {
@@ -653,6 +750,14 @@ p {
 }
 
 @media (max-width: 767px) {
+  .sd-hero-forest-bg {
+    background-image:
+      linear-gradient(145deg, rgba(233, 245, 235, 0.84), rgba(223, 239, 228, 0.44)),
+      linear-gradient(12deg, rgba(8, 56, 32, 0.42), rgba(8, 56, 32, 0.08) 34%, rgba(8, 56, 32, 0.38)),
+      url("https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=80");
+    background-position: center;
+  }
+
   h1 {
     font-size: 30px;
     line-height: 38px;
@@ -697,6 +802,7 @@ p {
 
   .sd-hero-card {
     width: min(88%, 320px);
+    min-height: 290px;
   }
 
   .sd-wordmark-hero {
@@ -706,6 +812,10 @@ p {
 
   .sd-wordmark-inline {
     margin: 0 auto 20px;
+  }
+
+  .sd-hero-cta-row {
+    justify-content: center;
   }
 
   .sd-blob-mid {
