@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "homeTitle": "Sustainable Discounts | Commerce for Biodiversity",
+    "homeDescription": "Redirecting commerce inefficiencies into reliable recurring funding for nature.",
+    "aboutTitle": "About | Sustainable Discounts",
+    "aboutDescription": "Learn why Sustainable Discounts exists and how our model works.",
+    "howTitle": "How It Works | Sustainable Discounts",
+    "howDescription": "A clear process from everyday discounts to recurring biodiversity funding.",
+    "faqTitle": "FAQ | Sustainable Discounts",
+    "faqDescription": "Answers about Sustainable Discounts, funding flow, and biodiversity impact."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "how": "How It Works",
+    "faq": "FAQ",
+    "cta": "Join Waitlist"
+  },
+  "home": {
+    "hero": {
+      "title": "Sustainable Discounts",
+      "subtitle": "Redirecting commerce inefficiencies into reliable, recurring funding for nature without spending a single dollar.",
+      "primaryCta": "See The Model",
+      "secondaryCta": "Get Early Access"
+    },
+    "benefits": {
+      "title": "A model designed for people, merchants, and the planet",
+      "description": "We keep the buying experience smooth while turning hidden inefficiencies into biodiversity outcomes.",
+      "items": [
+        {
+          "title": "No extra spend",
+          "body": "Users unlock value through normal purchases while funding nature projects in the background."
+        },
+        {
+          "title": "Reliable recurring flow",
+          "body": "Funding is connected to real commerce activity, generating sustained support over time."
+        },
+        {
+          "title": "Measurable nature impact",
+          "body": "Projects are selected around biodiversity protection with transparent reporting and traceability."
+        }
+      ]
+    },
+    "featureLeft": {
+      "title": "Biodiversity-first portfolio",
+      "body": "From rainforests to coral reefs, our funding strategy supports diverse ecosystems and species.",
+      "cta": "Read Our Story"
+    },
+    "featureRight": {
+      "title": "Built for repeatable scale",
+      "body": "Sustainable Discounts can grow with partners and consumers while preserving a simple user journey.",
+      "cta": "Explore Steps"
+    },
+    "newsletter": {
+      "title": "Get launch updates",
+      "description": "Join founders, merchants, and nature advocates building a new funding engine for biodiversity.",
+      "name": "Name",
+      "email": "Email",
+      "cta": "Subscribe",
+      "confirmation": "Thanks. Your subscription has been received."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Why Sustainable Discounts",
+      "description": "We connect everyday commerce to long term nature financing using a frictionless and transparent structure."
+    },
+    "vision": {
+      "title": "Our vision",
+      "body": "Nature should not depend only on one-time donations. We believe biodiversity needs dependable recurring capital."
+    },
+    "model": {
+      "title": "Our model",
+      "body": "By rerouting inefficiencies already present in commercial transactions, we generate value for users and nature together."
+    },
+    "impact": {
+      "title": "Impact design",
+      "body": "Funding priorities span forests, marine ecosystems, pollinators, fungi networks, and freshwater restoration."
+    }
+  },
+  "how": {
+    "hero": {
+      "title": "How it works",
+      "description": "A four-step engine that translates ordinary discount behavior into recurring biodiversity financing."
+    },
+    "steps": [
+      {
+        "title": "Users shop as usual",
+        "body": "People buy from participating merchants through normal digital shopping behavior."
+      },
+      {
+        "title": "Discount inefficiencies are captured",
+        "body": "Hidden inefficiencies in discount mechanics are identified and redirected instead of being lost."
+      },
+      {
+        "title": "Value is allocated to nature",
+        "body": "A portion is routed into biodiversity projects selected for ecological relevance and durability."
+      },
+      {
+        "title": "Impact is tracked and reported",
+        "body": "Participants get clear visibility into funded projects, outcomes, and recurring contribution performance."
+      }
+    ]
+  },
+  "faq": {
+    "hero": {
+      "title": "Frequently asked questions",
+      "description": "Everything you need to know about participation, funding mechanics, and ecosystem impact."
+    },
+    "items": [
+      {
+        "q": "Do users need to spend more money?",
+        "a": "No. The model is designed to work without additional user spending."
+      },
+      {
+        "q": "What types of biodiversity projects are funded?",
+        "a": "We prioritize high-value ecosystems such as tropical forests, reefs, wetlands, and species-protection initiatives."
+      },
+      {
+        "q": "Can merchants participate early?",
+        "a": "Yes. Merchants can join the waitlist to evaluate pilot integrations and co-branded campaigns."
+      },
+      {
+        "q": "How often is impact reported?",
+        "a": "Reporting cadence can vary by project, but the system is built around recurring and transparent updates."
+      }
+    ]
+  },
+  "footer": {
+    "copy1": "Sustainable Discounts turns commerce inefficiencies into recurring nature funding.",
+    "copy2": "All rights reserved {{year}}."
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "homeTitle": "Sustainable Discounts | Comercio para la biodiversidad",
+    "homeDescription": "Redirigimos ineficiencias del comercio en financiamiento recurrente para la naturaleza.",
+    "aboutTitle": "Nosotros | Sustainable Discounts",
+    "aboutDescription": "Conoce por que existe Sustainable Discounts y como funciona el modelo.",
+    "howTitle": "Como funciona | Sustainable Discounts",
+    "howDescription": "Un proceso claro desde descuentos cotidianos hasta financiamiento recurrente para biodiversidad.",
+    "faqTitle": "Preguntas frecuentes | Sustainable Discounts",
+    "faqDescription": "Respuestas sobre Sustainable Discounts, flujo de fondos e impacto en biodiversidad."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "how": "Como funciona",
+    "faq": "FAQ",
+    "cta": "Unirme"
+  },
+  "home": {
+    "hero": {
+      "title": "Sustainable Discounts",
+      "subtitle": "Redirigimos ineficiencias del comercio hacia financiamiento confiable y recurrente para la naturaleza, sin gastar un solo dolar adicional.",
+      "primaryCta": "Ver el modelo",
+      "secondaryCta": "Acceso temprano"
+    },
+    "benefits": {
+      "title": "Un modelo para personas, comercios y planeta",
+      "description": "Mantenemos una experiencia de compra fluida mientras convertimos ineficiencias ocultas en resultados de biodiversidad.",
+      "items": [
+        {
+          "title": "Sin gasto extra",
+          "body": "Las personas obtienen valor en compras normales mientras financian proyectos de naturaleza en segundo plano."
+        },
+        {
+          "title": "Flujo recurrente confiable",
+          "body": "El financiamiento se conecta a actividad comercial real, generando soporte sostenido en el tiempo."
+        },
+        {
+          "title": "Impacto medible en naturaleza",
+          "body": "Los proyectos se seleccionan para proteger biodiversidad con reportes transparentes y trazabilidad."
+        }
+      ]
+    },
+    "featureLeft": {
+      "title": "Portafolio enfocado en biodiversidad",
+      "body": "Desde selvas tropicales hasta arrecifes, nuestra estrategia apoya ecosistemas y especies diversas.",
+      "cta": "Leer nuestra historia"
+    },
+    "featureRight": {
+      "title": "Disenado para escalar",
+      "body": "Sustainable Discounts crece con aliados y consumidores manteniendo una experiencia simple.",
+      "cta": "Explorar pasos"
+    },
+    "newsletter": {
+      "title": "Recibe novedades",
+      "description": "Unete a fundadores, comercios y defensores de la naturaleza construyendo un nuevo motor de financiamiento.",
+      "name": "Nombre",
+      "email": "Correo",
+      "cta": "Suscribirme",
+      "confirmation": "Gracias. Tu suscripcion fue recibida."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Por que Sustainable Discounts",
+      "description": "Conectamos comercio cotidiano con financiamiento de largo plazo para naturaleza usando una estructura transparente."
+    },
+    "vision": {
+      "title": "Nuestra vision",
+      "body": "La naturaleza no deberia depender solo de donaciones puntuales. La biodiversidad necesita capital recurrente."
+    },
+    "model": {
+      "title": "Nuestro modelo",
+      "body": "Al redirigir ineficiencias ya presentes en transacciones comerciales, generamos valor para usuarios y naturaleza."
+    },
+    "impact": {
+      "title": "Diseno de impacto",
+      "body": "Las prioridades abarcan bosques, ecosistemas marinos, polinizadores, redes fungicas y restauracion de agua dulce."
+    }
+  },
+  "how": {
+    "hero": {
+      "title": "Como funciona",
+      "description": "Un motor de cuatro pasos que traduce descuentos cotidianos en financiamiento recurrente para biodiversidad."
+    },
+    "steps": [
+      {
+        "title": "Las personas compran normal",
+        "body": "La gente compra en comercios aliados manteniendo su comportamiento digital habitual."
+      },
+      {
+        "title": "Se capturan ineficiencias de descuentos",
+        "body": "Ineficiencias ocultas en mecanicas de descuento se identifican y redirigen en lugar de perderse."
+      },
+      {
+        "title": "El valor se asigna a naturaleza",
+        "body": "Una porcion se dirige a proyectos de biodiversidad con relevancia ecologica y permanencia."
+      },
+      {
+        "title": "Se reporta el impacto",
+        "body": "Participantes reciben visibilidad clara sobre proyectos financiados y resultados recurrentes."
+      }
+    ]
+  },
+  "faq": {
+    "hero": {
+      "title": "Preguntas frecuentes",
+      "description": "Todo lo necesario sobre participacion, flujo de fondos e impacto en ecosistemas."
+    },
+    "items": [
+      {
+        "q": "Los usuarios deben gastar mas dinero?",
+        "a": "No. El modelo esta disenado para funcionar sin gasto adicional del usuario."
+      },
+      {
+        "q": "Que tipo de proyectos se financian?",
+        "a": "Priorizamos ecosistemas de alto valor como bosques tropicales, arrecifes, humedales e iniciativas de proteccion de especies."
+      },
+      {
+        "q": "Los comercios pueden participar temprano?",
+        "a": "Si. Los comercios pueden unirse a la lista de espera para pilotos e integraciones."
+      },
+      {
+        "q": "Cada cuanto se reporta el impacto?",
+        "a": "La frecuencia varia por proyecto, pero el sistema se construye para reportes recurrentes y transparentes."
+      }
+    ]
+  },
+  "footer": {
+    "copy1": "Sustainable Discounts convierte ineficiencias del comercio en financiamiento recurrente para naturaleza.",
+    "copy2": "Todos los derechos reservados {{year}}."
+  }
+}
