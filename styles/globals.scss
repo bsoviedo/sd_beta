@@ -464,8 +464,7 @@ p {
 .sd-hero-card {
   width: min(99%, 720px);
   height: min(80vh, 760px);
-/*   background: rgba(255, 255, 255, 0.88);
- */  border: 1px solid rgba(73, 108, 85, 0.28);
+  border: 1px solid rgba(73, 108, 85, 0.28);
   border-radius: 18px;
   box-shadow: 0 24px 42px rgba(35, 59, 45, 0.2);
   backdrop-filter: blur(2px);
@@ -496,6 +495,26 @@ p {
   position: absolute;
   inset: 0;
   background: linear-gradient(180deg, rgba(14, 45, 33, 0.06) 0%, rgba(14, 45, 33, 0.3) 100%);
+}
+
+.sd-hero-photo-credit {
+  position: absolute;
+  left: 14px;
+  bottom: 12px;
+  z-index: 4;
+  margin: 0;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(9, 38, 26, 0.62);
+  color: rgba(255, 255, 255, 0.94);
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.sd-hero-photo-credit a {
+  color: #fff;
+  text-decoration: underline;
 }
 
 .sd-hero-slide-image {
@@ -548,15 +567,15 @@ p {
 }
 
 .sd-hero-copy {
-  width: min(100%, 520px);
+  width: min(100%, 620px);
   display: grid;
   grid-template-rows: auto auto auto;
-  row-gap: clamp(12px, 1.8vw, 24px);
+  row-gap: clamp(14px, 2vw, 26px);
   text-align: center;
 }
 
 .sd-hero-copy .sd-wordmark-inline {
-  width: min(100%, 390px);
+  width: min(100%, 560px);
   margin: 0 auto;
 }
 
@@ -811,7 +830,18 @@ p {
   }
 
   .sd-wordmark-inline {
-    margin: 0 auto 20px;
+    width: min(100%, 420px);
+    margin: 0 auto 16px;
+  }
+
+  .sd-hero-photo-credit {
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.2;
   }
 
   .sd-hero-cta-row {

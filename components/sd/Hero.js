@@ -7,24 +7,39 @@ function Hero() {
   const [activeSlide, setActiveSlide] = useState(0);
   const landscapeSlides = [
     {
-      src: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1800&q=80",
-      alt: "Forest landscape"
+      src: "https://plus.unsplash.com/premium_photo-1669613233557-1676c121fe73?q=80&w=1800&auto=format&fit=crop",
+      alt: "Forest landscape",
+      label: "Forest",
+      creditName: "Ales Krivec",
+      creditUrl: "https://unsplash.com/@aleskrivec"
     },
     {
-      src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=80",
-      alt: "Ocean landscape"
+      src: "https://plus.unsplash.com/premium_photo-1669750791963-ec6f3a565fb9?q=80&w=1800&auto=format&fit=crop",
+      alt: "Ocean landscape",
+      label: "Ocean",
+      creditName: "Tasha Marie",
+      creditUrl: "https://unsplash.com/@teapalm"
     },
     {
-      src: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1800&q=80",
-      alt: "Desert landscape"
+      src: "https://plus.unsplash.com/premium_photo-1671611799147-68a4f9b3f0e1?q=80&w=1800&auto=format&fit=crop",
+      alt: "Desert landscape",
+      label: "Desert",
+      creditName: "Wesley Tingey",
+      creditUrl: "https://unsplash.com/@wesleyphotography"
     },
     {
-      src: "https://images.unsplash.com/photo-1482192505345-5655af888cc4?auto=format&fit=crop&w=1800&q=80",
-      alt: "Snow landscape"
+      src: "https://plus.unsplash.com/premium_photo-1673859054724-d3ce699da39d?q=80&w=1800&auto=format&fit=crop",
+      alt: "Snow landscape",
+      label: "Snow",
+      creditName: "Febe Vanermen",
+      creditUrl: "https://unsplash.com/@febev"
     },
     {
-      src: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1800&q=80",
-      alt: "Grassland landscape"
+      src: "https://plus.unsplash.com/premium_photo-1676757789342-83f83f3534ca?q=80&w=1800&auto=format&fit=crop",
+      alt: "Grassland landscape",
+      label: "Grassland",
+      creditName: "Sylwia Bartyzel",
+      creditUrl: "https://unsplash.com/@sylwiabartyzel"
     }
   ];
   const activeBackgroundImage = landscapeSlides[activeSlide]?.src || landscapeSlides[0].src;
@@ -69,6 +84,12 @@ function Hero() {
                   <Carousel.Item key={slide.src}>
                     <figure className="sd-hero-slide-frame mb-0">
                       <img className="sd-hero-slide-image" src={slide.src} alt={slide.alt} loading="lazy" />
+                      <figcaption className="sd-hero-photo-credit">
+                        <span>{slide.label} | </span>
+                        <a href={slide.creditUrl} target="_blank" rel="noreferrer">
+                          Photo by {slide.creditName}
+                        </a>
+                      </figcaption>
                     </figure>
                   </Carousel.Item>
                 ))}
