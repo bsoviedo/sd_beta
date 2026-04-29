@@ -6,22 +6,18 @@ import PageHero from "components/sd/PageHero";
 
 export default function FAQPage() {
   const { t } = useTranslation("common");
+  const faqItems = t("faq.items", { returnObjects: true });
 
-  const faqs = [
-    { q: t("faq.items.0.q"), a: t("faq.items.0.a") },
-    { q: t("faq.items.1.q"), a: t("faq.items.1.a") },
-    { q: t("faq.items.2.q"), a: t("faq.items.2.a") },
-    { q: t("faq.items.3.q"), a: t("faq.items.3.a") }
-  ];
+  const faqs = Array.isArray(faqItems) ? faqItems : [];
 
   return (
     <Layout title={t("meta.faqTitle")} description={t("meta.faqDescription")}>
-      <PageHero title={t("faq.hero.title")} description={t("faq.hero.description")} />
+      <PageHero title={t("faq.hero.title")} description={t("faq.hero.description")} carouselSide="right" />
       <section className="sd-section">
         <Container className="px-4 px-lg-5">
-          <Accordion defaultActiveKey="0" alwaysOpen>
+          <Accordion>
             {faqs.map((item, index) => (
-              <Accordion.Item eventKey={String(index)} key={item.q} className="mb-3 sd-card border-0">
+              <Accordion.Item eventKey={String(index)} key={`${item.q}-${index}`} className="mb-3 sd-card border-0">
                 <Accordion.Header>{item.q}</Accordion.Header>
                 <Accordion.Body>{item.a}</Accordion.Body>
               </Accordion.Item>

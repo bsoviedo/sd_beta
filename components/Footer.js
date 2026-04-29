@@ -21,8 +21,8 @@ function Footer() {
           </Col>
           <Col lg={5}>
             <div className="d-flex align-items-center justify-content-lg-end gap-3">
-              <img src="/logos/Whale%20Top%20D%20Logo.png" alt="SD monogram" height="56" />
-              <img src="/logos/Wordmark%20with%20TM.png" alt="Sustainable Discounts wordmark" height="38" />
+              <img src="/logos/Whale%20Top%20D%20Logo.png" alt="Mandatum monogram" height="56" />
+              <img src="/logos/Wordmark%20with%20TM.png" alt="Mandatum wordmark" height="38" />
             </div>
           </Col>
         </Row>

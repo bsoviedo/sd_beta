@@ -1,4 +1,4 @@
-import { Button, Carousel, Col, Container, Row } from "react-bootstrap";
+import { Carousel, Col, Container, Row } from "react-bootstrap";
 import { useState } from "react";
 import { useTranslation } from "next-i18next";
 
@@ -116,7 +116,6 @@ function Hero() {
                 <p>{t("home.hero.subtitle")}</p>
                 <div className="sd-hero-cta-row">
                   <a href="#how"><button className="sd-cta-btn">{t("home.hero.primaryCta")}</button></a>
-                  <a href="#newsletter"><Button className="sd-outline-btn">{t("home.hero.secondaryCta")}</Button></a>
                 </div>
               </div>
             </Container>

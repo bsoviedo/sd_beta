@@ -1,133 +1,133 @@
 {
   "meta": {
-    "homeTitle": "Sustainable Discounts | Comercio para la biodiversidad",
-    "homeDescription": "Redirigimos ineficiencias del comercio en financiamiento recurrente para la naturaleza.",
-    "aboutTitle": "Nosotros | Sustainable Discounts",
-    "aboutDescription": "Conoce por que existe Sustainable Discounts y como funciona el modelo.",
-    "howTitle": "Como funciona | Sustainable Discounts",
-    "howDescription": "Un proceso claro desde descuentos cotidianos hasta financiamiento recurrente para biodiversidad.",
-    "faqTitle": "Preguntas frecuentes | Sustainable Discounts",
-    "faqDescription": "Respuestas sobre Sustainable Discounts, flujo de fondos e impacto en biodiversidad."
+    "homeTitle": "Mandatum | Accion climatica y ambiental sin costo",
+    "homeDescription": "Paga menos y protege el planeta. Con Sustainable Discounts, las marcas desbloquean costos ocultos en compras diarias para financiar accion real por el clima y la biodiversidad.",
+    "aboutTitle": "Nuestra mision | Mandatum",
+    "aboutDescription": "Conoce por que existe Mandatum y como alineamos el comercio con impacto medible para clima y biodiversidad.",
+    "howTitle": "Como funciona | Mandatum",
+    "howDescription": "Un flujo practico que convierte descuentos existentes en contribuciones para proyectos ambientales de alta calidad.",
+    "faqTitle": "Preguntas frecuentes | Mandatum",
+    "faqDescription": "Respuestas sobre Mandatum, Sustainable Discounts y como se genera y reporta el impacto."
   },
   "nav": {
     "home": "Inicio",
-    "about": "Nosotros",
+    "about": "Nuestra compania",
     "how": "Como funciona",
     "faq": "FAQ",
-    "cta": "Unirme"
+    "cta": "Como funciona"
   },
   "home": {
     "hero": {
-      "title": "Sustainable Discounts",
-      "subtitle": "Redirigimos ineficiencias del comercio hacia financiamiento confiable y recurrente para la naturaleza, sin gastar un solo dolar adicional.",
-      "primaryCta": "Ver el modelo",
-      "secondaryCta": "Acceso temprano"
+      "title": "Mandatum",
+      "subtitle": "Accion climatica y ambiental sin costo adicional. Sustainable Discounts permite ahorrar mientras las marcas financian soluciones reales para biodiversidad y clima.",
+      "primaryCta": "Ver como funciona",
+      "secondaryCta": "Registrarme"
     },
     "benefits": {
-      "title": "Un modelo para personas, comercios y planeta",
-      "description": "Mantenemos una experiencia de compra fluida mientras convertimos ineficiencias ocultas en resultados de biodiversidad.",
-      "items": [
-        {
-          "title": "Sin gasto extra",
-          "body": "Las personas obtienen valor en compras normales mientras financian proyectos de naturaleza en segundo plano."
-        },
-        {
-          "title": "Flujo recurrente confiable",
-          "body": "El financiamiento se conecta a actividad comercial real, generando soporte sostenido en el tiempo."
-        },
-        {
-          "title": "Impacto medible en naturaleza",
-          "body": "Los proyectos se seleccionan para proteger biodiversidad con reportes transparentes y trazabilidad."
-        }
-      ]
+      "title": "Los consumidores exigen sostenibilidad",
+      "description": "",
+      "card1Stat": "80%",
+      "card1Body": "Jovenes adultos dispuestos a pagar mas por productos sostenibles",
+      "card2Stat": "91%",
+      "card2Body": "Creen que las empresas deberian tomar accion climatica",
+      "card3Stat": "75%",
+      "card3Body": "Buscan marcas que tengan un impacto positivo en el planeta"
     },
     "featureLeft": {
-      "title": "Portafolio enfocado en biodiversidad",
-      "body": "Desde selvas tropicales hasta arrecifes, nuestra estrategia apoya ecosistemas y especies diversas.",
-      "cta": "Leer nuestra historia"
+      "title": "Contribuciones ambientales en accion",
+      "body": "Mandatum trabaja con proyectos ambientales lideres para poner a trabajar las contribuciones de las tiendas de forma rapida y transparente.",
+      "cta": "Conoce nuestra mision"
     },
     "featureRight": {
-      "title": "Disenado para escalar",
-      "body": "Sustainable Discounts crece con aliados y consumidores manteniendo una experiencia simple.",
+      "title": "Listo para escalar el impacto climatico de tu marca sin costo?",
+      "body": "Mandatum para comerciantes ayuda a aumentar conversion y permite a compradores compartir su descuento con la Naturaleza.",
       "cta": "Explorar pasos"
     },
     "newsletter": {
-      "title": "Recibe novedades",
-      "description": "Unete a fundadores, comercios y defensores de la naturaleza construyendo un nuevo motor de financiamiento.",
+      "title": "Registrate para novedades",
+      "description": "Unete a la comunidad de Mandatum y sigue resultados de clima y biodiversidad impulsados por comercio cotidiano.",
       "name": "Nombre",
-      "email": "Correo",
-      "cta": "Suscribirme",
-      "confirmation": "Gracias. Tu suscripcion fue recibida."
+      "email": "Tu correo",
+      "cta": "Registrate",
+      "confirmation": "Gracias. Tu informacion fue recibida."
     }
   },
   "about": {
     "hero": {
-      "title": "Por que Sustainable Discounts",
-      "description": "Conectamos comercio cotidiano con financiamiento de largo plazo para naturaleza usando una estructura transparente."
+      "title": "Nuestra mision",
+      "description": "Movilizamos financiamiento recurrente a gran escala para proteger bosques y oceanos mientras reducimos riesgos climaticos y de biodiversidad."
     },
     "vision": {
-      "title": "Nuestra vision",
-      "body": "La naturaleza no deberia depender solo de donaciones puntuales. La biodiversidad necesita capital recurrente."
+      "title": "Accion por clima y naturaleza sin costo",
+      "body": "Mandatum redirige costos ocultos del comercio para escalar accion climatica y de biodiversidad sin gasto adicional para usuarios."
     },
     "model": {
-      "title": "Nuestro modelo",
-      "body": "Al redirigir ineficiencias ya presentes en transacciones comerciales, generamos valor para usuarios y naturaleza."
+      "title": "Mandatum y los ODS de la ONU",
+      "body": "Trabajamos con proyectos ambientales de alto impacto para generar resultados inmediatos y seguimiento transparente en el tiempo."
     },
     "impact": {
-      "title": "Diseno de impacto",
-      "body": "Las prioridades abarcan bosques, ecosistemas marinos, polinizadores, redes fungicas y restauracion de agua dulce."
+      "title": "El Mandatum de nuestra vida",
+      "body": "Proteger el planeta no es solo responsabilidad de gobiernos. Es un mandato compartido entre personas, marcas e instituciones."
     }
   },
   "how": {
     "hero": {
       "title": "Como funciona",
-      "description": "Un motor de cuatro pasos que traduce descuentos cotidianos en financiamiento recurrente para biodiversidad."
+      "description": "Los comerciantes usan descuentos existentes y Mandatum los convierte en Sustainable Discounts conectados a resultados ambientales verificados."
     },
     "steps": [
       {
-        "title": "Las personas compran normal",
-        "body": "La gente compra en comercios aliados manteniendo su comportamiento digital habitual."
+        "title": "Los comerciantes usan descuentos existentes",
+        "body": "Mandatum convierte descuentos actuales en un flujo de Sustainable Discounts sin interrumpir la operacion comercial."
       },
       {
-        "title": "Se capturan ineficiencias de descuentos",
-        "body": "Ineficiencias ocultas en mecanicas de descuento se identifican y redirigen en lugar de perderse."
+        "title": "Se eligen productos activados",
+        "body": "Los comerciantes definen que productos muestran la opcion de contribucion para que compradores elijan en la pagina de producto."
       },
       {
-        "title": "El valor se asigna a naturaleza",
-        "body": "Una porcion se dirige a proyectos de biodiversidad con relevancia ecologica y permanencia."
+        "title": "Clientes eligen descuento o contribucion",
+        "body": "Los clientes eligen entre mas descuento o mas contribucion, generando impacto medible desde decisiones de compra."
       },
       {
-        "title": "Se reporta el impacto",
-        "body": "Participantes reciben visibilidad clara sobre proyectos financiados y resultados recurrentes."
+        "title": "El checkout no cambia",
+        "body": "El carrito y el pago funcionan normal mientras las contribuciones se asignan a proyectos certificados y se reportan en el tiempo."
       }
     ]
   },
   "faq": {
     "hero": {
-      "title": "Preguntas frecuentes",
-      "description": "Todo lo necesario sobre participacion, flujo de fondos e impacto en ecosistemas."
+      "title": "FAQ",
+      "description": "Respuestas clave para compradores y comerciantes sobre Sustainable Discounts e impacto climatico."
     },
     "items": [
       {
-        "q": "Los usuarios deben gastar mas dinero?",
-        "a": "No. El modelo esta disenado para funcionar sin gasto adicional del usuario."
+        "q": "What is Mandatum?",
+        "a": "Mandatum ayuda a los comercios a convertir descuentos existentes en Sustainable Discounts que apoyan proyectos de clima y biodiversidad."
       },
       {
-        "q": "Que tipo de proyectos se financian?",
-        "a": "Priorizamos ecosistemas de alto valor como bosques tropicales, arrecifes, humedales e iniciativas de proteccion de especies."
+        "q": "Why use Mandatum?",
+        "a": "Mandatum puede aumentar la conversion y permite que los compradores elijan entre descuento o contribucion sin complejidad adicional."
       },
       {
-        "q": "Los comercios pueden participar temprano?",
-        "a": "Si. Los comercios pueden unirse a la lista de espera para pilotos e integraciones."
+        "q": "Where do my donations go?",
+        "a": "Las contribuciones se dirigen a proyectos ambientales verificados, seleccionados por calidad, transparencia e impacto medible."
       },
       {
-        "q": "Cada cuanto se reporta el impacto?",
-        "a": "La frecuencia varia por proyecto, pero el sistema se construye para reportes recurrentes y transparentes."
+        "q": "How can I install Mandatum on my e-commerce store?",
+        "a": "Puedes instalar Mandatum desde Shopify App Store y configurarlo con tu esquema actual de descuentos."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "Mandatum es gratis de instalar y no requiere contrato fijo para comenzar."
+      },
+      {
+        "q": "Is there a contract required or additional set up fees?",
+        "a": "No. No hay contrato de largo plazo obligatorio ni costo adicional de configuracion para lanzar."
       }
     ]
   },
   "footer": {
-    "copy1": "Sustainable Discounts convierte ineficiencias del comercio en financiamiento recurrente para naturaleza.",
-    "copy2": "Todos los derechos reservados {{year}}."
+    "copy1": "Por el planeta, con proposito. Mandatum alinea rentabilidad con impacto medible en clima y biodiversidad.",
+    "copy2": "Copyright Mandatum. Todos los derechos reservados {{year}}."
   }
 }

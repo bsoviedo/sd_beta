@@ -30,8 +30,8 @@ function Header() {
     >
       <Container fluid className="px-3 px-md-4">
         <Link href="/" className="d-flex align-items-center gap-2">
-          <img src="/logos/Whale%20Top%20D%20Logo.png" alt="Sustainable Discounts logo" height="52" />
-          <span className="sd-brand-text d-none d-md-inline">Sustainable Discounts</span>
+          <img src="/logos/Whale%20Top%20D%20Logo.png" alt="Mandatum logo" height="52" />
+          <span className="sd-brand-text d-none d-md-inline">Mandatum</span>
         </Link>
         <Navbar.Toggle aria-controls="sd-navbar" />
         <Navbar.Collapse id="sd-navbar">
@@ -56,7 +56,7 @@ function Header() {
                 ES
               </Button>
             </div>
-            <Link href="/#newsletter" className="ms-lg-3">
+            <Link href="/how-it-works" className="ms-lg-3">
               <button className="sd-cta-btn">{t("nav.cta")}</button>
             </Link>
           </Nav>
