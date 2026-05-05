@@ -108,7 +108,7 @@ export default function OurImpactPage() {
               <div className="sd-oi-hero-copy">
                 <p className="sd-oi-kicker mb-2">{copy.topTag}</p>
                 <h1 className="mb-3">{copy.title}</h1>
-                <p className="mb-2">"{copy.quote}"</p>
+                <p className="mb-2">&ldquo;{copy.quote}&rdquo;</p>
                 <p className="sd-oi-quote-source mb-0">- {copy.quoteSource}</p>
               </div>
             </Col>

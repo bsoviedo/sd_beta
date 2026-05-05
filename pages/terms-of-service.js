@@ -17,12 +17,12 @@ export default function TermsOfService() {
               <p className="text-muted mb-4" style={{ fontSize: "13px" }}>Last updated: October 1, 2018</p>
 
               <p><strong>PLEASE READ THESE TERMS CAREFULLY AS THEY ESTABLISH A LEGAL AGREEMENT BETWEEN YOU AND MANDATUM, A SUBSIDIARY OF ESTRATRA LLC.</strong></p>
-              <p>Please Note: Section 8 of these Terms of Service contains the link to the Term's <strong>DISPUTE RESOLUTION, ARBITRATION CLAUSE and CLASS ACTION WAIVER</strong> that applies to all Mandatum Users. It affects and dictates how disputes with Mandatum are resolved. By accepting these Terms of Service, <u>you agree to be bound by this Arbitration Clause and Class Action Waiver</u>.</p>
+              <p>Please Note: Section 8 of these Terms of Service contains the link to the Term&apos;s <strong>DISPUTE RESOLUTION, ARBITRATION CLAUSE and CLASS ACTION WAIVER</strong> that applies to all Mandatum Users. It affects and dictates how disputes with Mandatum are resolved. By accepting these Terms of Service, <u>you agree to be bound by this Arbitration Clause and Class Action Waiver</u>.</p>
               <p><em>Please review these Terms of Service periodically, as they are subject to alterations by and at the sole discretion of Mandatum at anytime for any reason. So long as you continue to use Mandatum, any such modifications will <strong>AUTOMATICALLY</strong> apply to you.</em></p>
 
               <h5 className="mt-4 mb-2" style={{ color: "var(--sd-primary)" }}>1. Legal Relationship</h5>
               <p style={{ marginLeft: "1.2rem" }}>
-                1.1. This document provides all information regarding the Terms of Use (hereafter, "Terms") that control the use of the website address Mandatum.co.<br />
+                1.1. This document provides all information regarding the Terms of Use (hereafter, &quot;Terms&quot;) that control the use of the website address Mandatum.co.<br />
                 1.2. These Terms govern the access and use of the Services provided through Mandatum by Estratra LLC within the entire United States, its territories, and possessions.<br />
                 1.3. By accessing or using Mandatum, you agree to be bound by all of these Terms.<br />
                 1.4. These terms supersede any prior agreements or arrangements between you and Estratra, any of its Owners, Investors or Employees.<br />
@@ -33,10 +33,10 @@ export default function TermsOfService() {
 
               <h5 className="mt-4 mb-2" style={{ color: "var(--sd-primary)" }}>2. Usage of Your Account</h5>
               <p style={{ marginLeft: "1.2rem" }}>
-                2.1. By agreeing to these terms, you confirm to never utilize another User's account without their express allowance, to never solicit the login information of another User's account, to never make public the information of other Users' private information, that all the information you provided while creating your account is accurate and complete, and that you will keep your account password secure at all times.<br />
+                2.1. By agreeing to these terms, you confirm to never utilize another User&apos;s account without their express allowance, to never solicit the login information of another User&apos;s account, to never make public the information of other Users&apos; private information, that all the information you provided while creating your account is accurate and complete, and that you will keep your account password secure at all times.<br />
                 2.2. By agreeing to these Terms, you take full responsibility for any and all activity on your Account. Estratra <strong>will not be liable</strong> for any losses you or others using your account may have incurred.<br />
                 2.3. Any breach to the security of your Account must immediately be reported to Estratra.<br />
-                2.4. You will in no way upload or use viruses including "bugs," "spiders," "robots," or any other virulent code, or any other means of altering Mandatum's Technological Dignity.<br />
+                2.4. You will in no way upload or use viruses including &quot;bugs,&quot; &quot;spiders,&quot; &quot;robots,&quot; or any other virulent code, or any other means of altering Mandatum&apos;s Technological Dignity.<br />
                 2.5. By agreeing to these Terms, you agree to in no way use Mandatum for illegal or mischievous purposes.
               </p>
 

@@ -51,8 +51,8 @@ function Footer() {
               <p className="sd-footer-text mb-1" style={{ fontSize: "13px" }}>{t("footer.tagline")}</p>
               <p className="sd-footer-text mb-2" style={{ fontSize: "13px" }}>{t("footer.copy2", { year: new Date().getFullYear() })}</p>
               <div className="d-flex gap-3">
-                <a href="/terms-of-service" className="sd-footer-link" style={{ fontSize: "13px" }}>{t("footer.terms")}</a>
-                <a href="/privacy-policy" className="sd-footer-link" style={{ fontSize: "13px" }}>{t("footer.privacy")}</a>
+                <Link href="/terms-of-service" className="sd-footer-link" style={{ fontSize: "13px" }}>{t("footer.terms")}</Link>
+                <Link href="/privacy-policy" className="sd-footer-link" style={{ fontSize: "13px" }}>{t("footer.privacy")}</Link>
               </div>
             </div>
           </Col>
