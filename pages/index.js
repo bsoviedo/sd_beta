@@ -59,18 +59,24 @@ export default function HomePage() {
         ctaButton: "Add to your Shopify Store",
         ctaSubtitle: "Free to install, no contract required"
       };
+  const partners = [
+    { name: "TERRASOS", img: "/img/partners/Log_Ter_NyA_Hor.png" },
+    { name: "Fundacion Omacha", img: "/img/partners/projects-omacha-ffffff.svg" },
+    { name: "Rainforest Foundation US", img: "/img/partners/projects-rainforest-ffffff.svg" },
+    { name: "BIOVERSE", img: "/img/partners/projects-bioverse-ffffff.svg" }
+  ];
   const partnersCopy = isSpanish
     ? {
         title: "Tus contribuciones climaticas trabajando al maximo",
         description:
           "Nos hemos aliado con proyectos ambientales de alta calidad para asegurar que tus contribuciones generen impacto transformacional.",
-        partners: ["TERRASOS", "Fundacion Omacha", "Rainforest Foundation US", "BIOVERSE"]
+        partners
       }
     : {
         title: "Your Climate Contributions Hard At Work",
         description:
           "We've partnered with the world's best environmental projects that are generating transformational outcomes to ensure your contributions have maximum impact.",
-        partners: ["TERRASOS", "Fundacion Omacha", "Rainforest Foundation US", "BIOVERSE"]
+        partners
       };
 
   return (
@@ -107,8 +113,10 @@ export default function HomePage() {
             <h2 className="sd-impact-title">{partnersCopy.title}</h2>
             <p className="sd-impact-description mx-auto">{partnersCopy.description}</p>
             <div className="sd-impact-partners">
-              {partnersCopy.partners.map((name) => (
-                <span className="sd-impact-partner" key={name}>{name}</span>
+              {partnersCopy.partners.map((p) => (
+                <div className="sd-impact-partner" key={p.name}>
+                  <img src={p.img} alt={p.name} className="sd-impact-partner-img" />
+                </div>
               ))}
             </div>
           </div>

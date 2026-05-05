@@ -3,7 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/how-it-works": "pages/how-it-works.js",
-  "/": "pages/index.js",
   "/faq": "pages/faq.js",
-  "/about": "pages/about.js"
+  "/our-impact": "pages/our-impact.js"
 }

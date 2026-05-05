@@ -1,18 +1,27 @@
 {
   "meta": {
-    "homeTitle": "Mandatum | Climate and Nature Action at No Extra Cost",
+    "homeTitle": "Climate and Nature Action at No Extra Cost",
     "homeDescription": "Pay less and protect the planet. With Sustainable Discounts, brands unlock hidden costs in daily purchases so users save while funding real climate and biodiversity action.",
-    "aboutTitle": "Our Mission | Mandatum",
+    "aboutTitle": "Our Mission",
     "aboutDescription": "Learn why Mandatum exists and how we align commerce with measurable impact for climate and biodiversity.",
-    "howTitle": "How It Works | Mandatum",
+    "howTitle": "How It Works",
     "howDescription": "A practical flow that turns existing discounts into contributions for high quality nature projects.",
-    "faqTitle": "FAQ | Mandatum",
-    "faqDescription": "Answers about Mandatum, Sustainable Discounts, and how impact is generated and tracked."
+    "impactTitle": "Our Impact",
+    "impactDescription": "Aligning profit with planetary impact through measurable biodiversity and climate outcomes.",
+    "blogTitle": "Blog",
+    "blogDescription": "Insights, updates, and perspectives on sustainable commerce and measurable impact.",
+    "faqTitle": "FAQ",
+    "faqDescription": "Answers about Mandatum, Sustainable Discounts, and how impact is generated and tracked.",
+    "termsTitle": "Terms of Service",
+    "termsDescription": "Terms of service for using Mandatum and its Sustainable Discounts platform.",
+    "privacyTitle": "Privacy Policy",
+    "privacyDescription": "How Mandatum collects, uses and protects your personal information."
   },
   "nav": {
     "home": "Home",
     "about": "Our Company",
     "how": "How It Works",
+    "impact": "Our Impact",
     "faq": "FAQ",
     "cta": "How It Works"
   },
@@ -128,6 +137,22 @@
   },
   "footer": {
     "copy1": "For the planet, with purpose. Mandatum aligns profit with measurable climate and biodiversity impact.",
-    "copy2": "Copyright Mandatum. All rights reserved {{year}}."
+    "copy2": "Copyright © Mandatum {{year}}.",
+    "forShoppers": "For shoppers",
+    "forMerchants": "For merchants",
+    "aboutUs": "About us",
+    "blog": "Blog",
+    "followUs": "Follow us",
+    "tagline": "For the 🌍 with 💚 from Miami, FL",
+    "terms": "Terms",
+    "privacy": "Privacy"
+  },
+  "blog": {
+    "hero": {
+      "title": "The Mandated Blogger",
+      "description": "Insights on climate, biodiversity, and how commerce can create measurable impact.",
+      "quote": "Mother Earth cannot afford the way commerce functions today"
+    },
+    "readMore": "Read article"
   }
 }

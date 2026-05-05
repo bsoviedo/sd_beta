@@ -662,6 +662,47 @@ p {
   max-width: 860px;
 }
 
+// Blog post body – rendered from DatoCMS markdown HTML
+.blog-post-body {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--sd-body);
+
+  h1, h2, h3, h4 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: var(--sd-primary);
+  }
+
+  p {
+    margin-bottom: 1.25rem;
+  }
+
+  a {
+    color: var(--sd-primary);
+    text-decoration: underline;
+  }
+
+  ul, ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  blockquote {
+    border-left: 4px solid var(--sd-primary);
+    padding-left: 1rem;
+    color: var(--sd-muted);
+    font-style: italic;
+    margin-bottom: 1.25rem;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+}
+
 .sd-card {
   border-radius: 22px;
   border: none;
@@ -900,15 +941,19 @@ p {
   align-items: center;
   justify-content: center;
   min-width: 210px;
-  min-height: 62px;
-  padding: 0.75rem 1.25rem;
+  min-height: 80px;
+  padding: 1rem 1.5rem;
   border-radius: 14px;
-  color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.34);
   background: rgba(255, 255, 255, 0.08);
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+}
+
+.sd-impact-partner-img {
+  max-height: 52px;
+  max-width: 180px;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
 }
 
 /* ── How It Works steps ─────────────────────────────── */
@@ -1166,6 +1211,11 @@ p {
 
 .sd-footer-link:hover {
   color: #fff !important;
+  text-decoration: none;
+}
+
+.sd-footer-link svg {
+  transition: color 0.2s;
 }
 
 .sd-tm {
@@ -1213,8 +1263,12 @@ p {
   }
 
   .sd-impact-partner {
-    min-width: 180px;
-    font-size: 1.15rem;
+    min-width: 140px;
+  }
+
+  .sd-impact-partner-img {
+    max-height: 40px;
+    max-width: 130px;
   }
 
   .sd-about-impact-section {
@@ -1337,5 +1391,129 @@ p {
 
   .sd-about-sponsor-logo {
     max-height: 36px;
+  }
+}
+
+.sd-oi-hero {
+  background: #0f3b2a;
+  color: #fff;
+}
+
+.sd-oi-hero-image-wrap {
+  min-height: 360px;
+}
+
+.sd-oi-hero-image {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  object-fit: cover;
+}
+
+.sd-oi-hero-copy-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.sd-oi-hero-copy {
+  padding: 3rem 2rem;
+  max-width: 760px;
+}
+
+.sd-oi-kicker {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.88;
+}
+
+.sd-oi-quote-source {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+}
+
+.sd-oi-maxcopy {
+  max-width: 980px;
+}
+
+.sd-oi-logo-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.sd-oi-logo {
+  width: min(240px, 70%);
+}
+
+.sd-oi-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  min-height: 320px;
+}
+
+.sd-oi-card-large {
+  min-height: 680px;
+}
+
+.sd-oi-card-image {
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  object-fit: cover;
+}
+
+.sd-oi-card-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1.25rem 1.25rem 1.5rem;
+  color: #fff;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(7, 20, 14, 0.74) 68%, rgba(7, 20, 14, 0.86) 100%);
+}
+
+.sd-oi-card-content h3 {
+  margin: 0;
+  font-size: 2.15rem;
+  line-height: 1.1;
+}
+
+.sd-oi-card-content p {
+  margin-top: 0.35rem;
+  color: rgba(255, 255, 255, 0.92);
+  line-height: 1.35;
+}
+
+.sd-oi-carousel-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.sd-oi-carousel-image {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+@media (max-width: 991px) {
+  .sd-oi-card-large {
+    min-height: 320px;
+  }
+
+  .sd-oi-hero-copy {
+    padding: 2rem 1.25rem 2.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .sd-oi-carousel-image {
+    height: 280px;
+  }
+
+  .sd-oi-card-content h3 {
+    font-size: 1.75rem;
   }
 }

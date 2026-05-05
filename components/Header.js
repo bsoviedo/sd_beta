@@ -39,6 +39,7 @@ function Header() {
             <Link href="/" className="nav-link sd-nav-link">{t("nav.home")}</Link>
             <Link href="/about" className="nav-link sd-nav-link">{t("nav.about")}</Link>
             <Link href="/how-it-works" className="nav-link sd-nav-link">{t("nav.how")}</Link>
+            <Link href="/our-impact" className="nav-link sd-nav-link">{t("nav.impact")}</Link>
             <Link href="/faq" className="nav-link sd-nav-link">{t("nav.faq")}</Link>
             <div className="d-flex align-items-center gap-2 ms-lg-3 my-2 my-lg-0">
               <Button

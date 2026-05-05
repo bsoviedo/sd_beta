@@ -1,18 +1,27 @@
 {
   "meta": {
-    "homeTitle": "Mandatum | Accion climatica y ambiental sin costo",
+    "homeTitle": "Accion climatica y ambiental sin costo",
     "homeDescription": "Paga menos y protege el planeta. Con Sustainable Discounts, las marcas desbloquean costos ocultos en compras diarias para financiar accion real por el clima y la biodiversidad.",
-    "aboutTitle": "Nuestra mision | Mandatum",
+    "aboutTitle": "Nuestra mision",
     "aboutDescription": "Conoce por que existe Mandatum y como alineamos el comercio con impacto medible para clima y biodiversidad.",
-    "howTitle": "Como funciona | Mandatum",
+    "howTitle": "Como funciona",
     "howDescription": "Un flujo practico que convierte descuentos existentes en contribuciones para proyectos ambientales de alta calidad.",
-    "faqTitle": "Preguntas frecuentes | Mandatum",
-    "faqDescription": "Respuestas sobre Mandatum, Sustainable Discounts y como se genera y reporta el impacto."
+    "impactTitle": "Nuestro impacto",
+    "impactDescription": "Alineando rentabilidad con impacto planetario mediante resultados medibles de clima y biodiversidad.",
+    "blogTitle": "Blog",
+    "blogDescription": "Ideas, actualizaciones y perspectivas sobre comercio sostenible e impacto medible.",
+    "faqTitle": "Preguntas frecuentes",
+    "faqDescription": "Respuestas sobre Mandatum, Sustainable Discounts y como se genera y reporta el impacto.",
+    "termsTitle": "Terminos de Servicio",
+    "termsDescription": "Terminos de uso para la plataforma Mandatum y sus Descuentos Sostenibles.",
+    "privacyTitle": "Politica de Privacidad",
+    "privacyDescription": "Como Mandatum recopila, usa y protege tu informacion personal."
   },
   "nav": {
     "home": "Inicio",
     "about": "Nuestra compania",
     "how": "Como funciona",
+    "impact": "Nuestro impacto",
     "faq": "FAQ",
     "cta": "Como funciona"
   },
@@ -128,6 +137,22 @@
   },
   "footer": {
     "copy1": "Por el planeta, con proposito. Mandatum alinea rentabilidad con impacto medible en clima y biodiversidad.",
-    "copy2": "Copyright Mandatum. Todos los derechos reservados {{year}}."
+    "copy2": "Copyright © Mandatum {{year}}.",
+    "forShoppers": "Para compradores",
+    "forMerchants": "Para comercios",
+    "aboutUs": "Sobre nosotros",
+    "blog": "Blog",
+    "followUs": "Síguenos",
+    "tagline": "Por el 🌍 con 💚 desde Miami, FL",
+    "terms": "Términos",
+    "privacy": "Privacidad"
+  },
+  "blog": {
+    "hero": {
+      "title": "The Mandated Blogger",
+      "description": "Reflexiones sobre clima, biodiversidad y como el comercio puede crear impacto medible.",
+      "quote": "Mother Earth cannot afford the way commerce functions today"
+    },
+    "readMore": "Leer articulo"
   }
 }

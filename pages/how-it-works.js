@@ -1,5 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -81,6 +80,26 @@ export default function HowItWorksPage() {
     ? { title: "Comienza hoy, es gratis.", button: "Agregar a tu tienda Shopify", sub: "Instalacion gratuita, sin contrato" }
     : { title: "Get started today for free.", button: "Add to your Shopify Store", sub: "Free to install, no contract required" };
 
+  const partners = [
+    { name: "TERRASOS", img: "/img/partners/projects-bioverse-ffffff.svg" },
+    { name: "Fundacion Omacha", img: "/img/partners/projects-omacha-ffffff.svg" },
+    { name: "Rainforest Foundation US", img: "/img/partners/projects-rainforest-ffffff.svg" },
+    { name: "BIOVERSE", img: "/img/partners/projects-bioverse-ffffff.svg" }
+  ];
+  const partnersCopy = isSpanish
+    ? {
+        title: "Tus contribuciones climaticas trabajando al maximo",
+        description:
+          "Nos hemos aliado con proyectos ambientales de alta calidad para asegurar que tus contribuciones generen impacto transformacional.",
+        partners
+      }
+    : {
+        title: "Your Climate Contributions Hard At Work",
+        description:
+          "We've partnered with the world's best environmental projects that are generating transformational outcomes to ensure your contributions have maximum impact.",
+        partners
+      };
+
   return (
     <Layout title={t("meta.howTitle")} description={t("meta.howDescription")}>
       <PageHero title={t("how.hero.title")} description={t("how.hero.description")} carouselSide="left" />
@@ -110,18 +129,27 @@ export default function HowItWorksPage() {
         );
       })}
 
+      <section className="sd-section pt-0">
+        <Container className="px-4 px-lg-5">
+          <div className="sd-impact-block text-center">
+            <div className="sd-impact-sprout" aria-hidden="true">🌱</div>
+            <h2 className="sd-impact-title">{partnersCopy.title}</h2>
+            <p className="sd-impact-description mx-auto">{partnersCopy.description}</p>
+            <div className="sd-impact-partners">
+              {partnersCopy.partners.map((p) => (
+                <div className="sd-impact-partner" key={p.name}>
+                  <img src={p.img} alt={p.name} className="sd-impact-partner-img" />
+                </div>
+              ))}
+            </div>
+          </div>
+        </Container>
+      </section>
+
       <section className="sd-hiw-cta">
         <Container className="text-center px-4">
           <hr className="sd-hiw-cta-hr" />
           <h5 className="sd-hiw-cta-title">{ctaCopy.title}</h5>
-          <a
-            href="https://apps.shopify.com/mandatum-app"
-            target="_blank"
-            rel="noreferrer"
-            className="sd-hiw-cta-btn"
-          >
-            🛍 {ctaCopy.button}
-          </a>
           <p className="sd-hiw-cta-sub">— {ctaCopy.sub}</p>
         </Container>
       </section>
