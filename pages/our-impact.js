@@ -46,7 +46,7 @@ export default function OurImpactPage() {
 
   const copy = isSpanish
     ? {
-        topTag: "Sustainable Discounts",
+        topTag: "Sustainable Discounts™",
         title: "Alineando las ganancias con el impacto al planeta",
         quote: "Para evitar la catastrofe climatica, invierte rapidamente en las soluciones climaticas mas efectivas de freno de emergencia.",
         quoteSource: "Proyecto Drawdown, septiembre de 2023",
@@ -55,7 +55,7 @@ export default function OurImpactPage() {
           "Identificar donde invertir es importante. En Cornell University, nuestro equipo identifica proyectos naturales con potencial de impacto instantaneo.",
         scienceTitle: "Precision Cientifica",
         scienceBody:
-          "Mandatum se basa en ciencia y datos para asignar contribuciones de forma estrategica y proteger sumideros naturales de carbono.",
+          "Sustainable Discounts™ se basa en ciencia y datos para asignar contribuciones de forma estrategica y proteger sumideros naturales de carbono.",
         trackingTitle: "Seguimiento en Linea",
         terrasosTitle: "Terrasos - El Globo",
         cloudForest: "HA DE BOSQUE DE NIEBLA",
@@ -68,7 +68,7 @@ export default function OurImpactPage() {
         speciesPerHa: "especies protegidas por hectarea"
       }
     : {
-        topTag: "Sustainable Discounts",
+        topTag: "Sustainable Discounts™",
         title: "Aligning Profit with Planetary Impact",
         quote: "To avoid climate catastrophe, invest in the most effective emergency brake climate solutions swiftly.",
         quoteSource: "Drawdown Project, September 2023",
@@ -77,7 +77,7 @@ export default function OurImpactPage() {
           "Pinpointing where to invest matters. At Cornell University, our team identifies nature projects with instant impact potential.",
         scienceTitle: "Scientific Precision",
         scienceBody:
-          "Mandatum relies on science and data to allocate contributions strategically and protect natural carbon sinks.",
+          "Sustainable Discounts™ relies on science and data to allocate contributions strategically and protect natural carbon sinks.",
         trackingTitle: "Online Tracking",
         terrasosTitle: "Terrasos - El Globo",
         cloudForest: "HA OF CLOUD FOREST",

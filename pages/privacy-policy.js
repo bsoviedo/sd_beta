@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
 
               <h5 className="mt-2 mb-2" style={{ color: "var(--sd-primary)" }}>1. Information Provided by You</h5>
               <p style={{ marginLeft: "1.2rem" }}>
-                Mandatum strives to collect as little information from you as possible. The information we do collect is as follows:
+                Sustainable Discounts™ strives to collect as little information from you as possible. The information we do collect is as follows:
                 <ul className="mt-2">
                   <li>Email Address</li>
                   <li>Password</li>
@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
 
               <h5 className="mt-4 mb-2" style={{ color: "var(--sd-primary)" }}>2. Information Collected Automatically</h5>
               <p style={{ marginLeft: "1.2rem" }}>
-                Mandatum uses cookies to collect and analyze information on site performance and usage, in order to further enhance and customize content and advertisements.
+                Sustainable Discounts™ uses cookies to collect and analyze information on site performance and usage, in order to further enhance and customize content and advertisements.
               </p>
 
               <h5 className="mt-4 mb-2" style={{ color: "var(--sd-primary)" }}>Customer Service</h5>
@@ -39,7 +39,7 @@ export default function PrivacyPolicy() {
               </p>
 
               <p className="text-center fw-bold mt-4">
-                Mandatum is a Florida Limited Liability Company with a current Certificate of Good Standing.
+                Sustainable Discounts™ is a Florida Limited Liability Company with a current Certificate of Good Standing.
               </p>
 
             </Card.Body>

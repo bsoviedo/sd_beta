@@ -31,8 +31,8 @@ function Header() {
       <Container fluid className="px-3 px-md-4">
         <Link href="/" className="d-flex align-items-center gap-2">
           <img src="/logos/Whale%20Top%20D%20Logo.png" alt="Mandatum logo" height="52" />
-          <span className="sd-brand-text d-none d-md-inline">Mandatum</span>
-        </Link>
+{/*           <span className="sd-brand-text d-none d-md-inline">Mandatum</span>
+ */}        </Link>
         <Navbar.Toggle aria-controls="sd-navbar" />
         <Navbar.Collapse id="sd-navbar">
           <Nav className="ms-auto align-items-lg-center">

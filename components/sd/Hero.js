@@ -110,7 +110,7 @@ function Hero() {
               <div className="sd-hero-copy">
                 <img
                   className="sd-wordmark-inline"
-                  src="/logos/Wordmark_with_TM-removebg-preview.png"
+                  src="/logos/Wordmark with TM_no_bg.png"
                   alt={t("home.hero.title")}
                 />
                 <p>{t("home.hero.subtitle")}</p>

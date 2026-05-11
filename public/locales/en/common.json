@@ -1,9 +1,9 @@
 {
   "meta": {
     "homeTitle": "Climate and Nature Action at No Extra Cost",
-    "homeDescription": "Pay less and protect the planet. With Sustainable Discounts, brands unlock hidden costs in daily purchases so users save while funding real climate and biodiversity action.",
+    "homeDescription": "Pay less and protect the planet. With Sustainable Discounts™, brands unlock hidden costs in daily purchases so users save while funding real climate and biodiversity action.",
     "aboutTitle": "Our Mission",
-    "aboutDescription": "Learn why Mandatum exists and how we align commerce with measurable impact for climate and biodiversity.",
+    "aboutDescription": "Learn why Sustainable Discounts™ exists and how we align commerce with measurable impact for climate and biodiversity.",
     "howTitle": "How It Works",
     "howDescription": "A practical flow that turns existing discounts into contributions for high quality nature projects.",
     "impactTitle": "Our Impact",
@@ -11,11 +11,11 @@
     "blogTitle": "Blog",
     "blogDescription": "Insights, updates, and perspectives on sustainable commerce and measurable impact.",
     "faqTitle": "FAQ",
-    "faqDescription": "Answers about Mandatum, Sustainable Discounts, and how impact is generated and tracked.",
+    "faqDescription": "Answers about Sustainable Discounts™, and how impact is generated and tracked.",
     "termsTitle": "Terms of Service",
-    "termsDescription": "Terms of service for using Mandatum and its Sustainable Discounts platform.",
+    "termsDescription": "Terms of service for using Sustainable Discounts™ and its platform.",
     "privacyTitle": "Privacy Policy",
-    "privacyDescription": "How Mandatum collects, uses and protects your personal information."
+    "privacyDescription": "How Sustainable Discounts™ collects, uses and protects your personal information."
   },
   "nav": {
     "home": "Home",
@@ -27,8 +27,8 @@
   },
   "home": {
     "hero": {
-      "title": "Mandatum",
-      "subtitle": "Climate and nature action at no extra cost. Sustainable Discounts help shoppers save while brands fund real biodiversity and climate solutions.",
+      "title": "Sustainable Discounts™",
+      "subtitle": "Climate and nature action at no extra cost. Sustainable Discounts™ help shoppers save while brands fund real biodiversity and climate solutions.",
       "primaryCta": "See How It Works",
       "secondaryCta": "Sign Up"
     },
@@ -44,17 +44,17 @@
     },
     "featureLeft": {
       "title": "Environmental contributions at work",
-      "body": "Mandatum works with top environmental projects to put merchant contributions to hard work quickly and transparently.",
+      "body": "Sustainable Discounts™ works with top environmental projects to put merchant contributions to hard work quickly and transparently.",
       "cta": "Learn Our Mission"
     },
     "featureRight": {
       "title": "Ready to scale your brand climate impact at no cost?",
-      "body": "Mandatum for merchants helps increase conversion while letting shoppers share their discounts with Nature.",
+      "body": "Sustainable Discounts™ for merchants helps increase conversion while letting shoppers share their discounts with Nature.",
       "cta": "Explore Steps"
     },
     "newsletter": {
       "title": "Sign up for updates",
-      "description": "Join the Mandatum community and follow climate and biodiversity outcomes powered by everyday commerce.",
+      "description": "Join the Sustainable Discounts™ community and follow climate and biodiversity outcomes powered by everyday commerce.",
       "name": "Name",
       "email": "Your email",
       "cta": "Sign up",
@@ -68,10 +68,10 @@
     },
     "vision": {
       "title": "Nature and climate action at no cost",
-      "body": "Mandatum redirects hidden costs in commerce so that climate and biodiversity action can scale without extra user spending."
+      "body": "Sustainable Discounts™ redirects hidden costs in commerce so that climate and biodiversity action can scale without extra user spending."
     },
     "model": {
-      "title": "Mandatum and the UN SDGs",
+      "title": "Sustainable Discounts™ and the UN SDGs",
       "body": "We partner with high impact environmental projects to generate immediate outcomes and transparent long term tracking."
     },
     "impact": {
@@ -82,12 +82,12 @@
   "how": {
     "hero": {
       "title": "How It Works",
-      "description": "Merchants use existing discounts and Mandatum turns them into Sustainable Discounts connected to verified environmental outcomes."
+      "description": "Merchants use existing discounts and Sustainable Discounts™ turns them into Sustainable Discounts™ connected to verified environmental outcomes."
     },
     "steps": [
       {
         "title": "Merchants use existing discounts",
-        "body": "Mandatum converts any existing discount into a Sustainable Discount flow without disrupting the current commerce setup."
+        "body": "Sustainable Discounts™ converts any existing discount into a Sustainable Discount flow without disrupting the current commerce setup."
       },
       {
         "title": "Choose eligible products",
@@ -106,28 +106,28 @@
   "faq": {
     "hero": {
       "title": "FAQ",
-      "description": "Key answers for shoppers and merchants about Sustainable Discounts and climate impact."
+      "description": "Key answers for shoppers and merchants about Sustainable Discounts™ and climate impact."
     },
     "items": [
       {
-        "q": "What is Mandatum?",
-        "a": "Mandatum helps merchants turn existing discounts into Sustainable Discounts that support climate and biodiversity projects."
+        "q": "What is Sustainable Discounts™?",
+        "a": "Sustainable Discounts™ helps merchants turn existing discounts into Sustainable Discounts™ that support climate and biodiversity projects."
       },
       {
-        "q": "Why use Mandatum?",
-        "a": "Mandatum helps increase conversion while allowing shoppers to choose between discount and contribution at no extra platform complexity."
+        "q": "Why use Sustainable Discounts™?",
+        "a": "Sustainable Discounts™ helps increase conversion while allowing shoppers to choose between discount and contribution at no extra platform complexity."
       },
       {
         "q": "Where do my donations go?",
         "a": "Contributions are directed to verified environmental projects selected for quality, transparency, and measurable impact."
       },
       {
-        "q": "How can I install Mandatum on my e-commerce store?",
-        "a": "You can install Mandatum from the Shopify App Store and configure it with your existing discount setup."
+        "q": "How can I install Sustainable Discounts™ on my e-commerce store?",
+        "a": "You can install Sustainable Discounts™ from the Shopify App Store and configure it with your existing discount setup."
       },
       {
         "q": "How much does it cost?",
-        "a": "Mandatum is free to install and does not require a fixed contract to get started."
+        "a": "Sustainable Discounts™ is free to install and does not require a fixed contract to get started."
       },
       {
         "q": "Is there a contract required or additional set up fees?",
@@ -136,8 +136,8 @@
     ]
   },
   "footer": {
-    "copy1": "For the planet, with purpose. Mandatum aligns profit with measurable climate and biodiversity impact.",
-    "copy2": "Copyright © Mandatum {{year}}.",
+    "copy1": "For the planet, with purpose. Sustainable Discounts™ aligns profit with measurable climate and biodiversity impact.",
+    "copy2": "Copyright © Sustainable Discounts™ {{year}}.",
     "forShoppers": "For shoppers",
     "forMerchants": "For merchants",
     "aboutUs": "About us",

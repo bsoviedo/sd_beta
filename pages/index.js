@@ -19,7 +19,7 @@ export default function HomePage() {
           {
             icon: "globe",
             title: "Genera impacto climatico",
-            body: "Demuestrale a tus clientes como tu marca impacta positivamente el cambio climatico. Mandatum permite a tus compradores elegir cuanto donar a causas que estan transformando la proteccion del medio ambiente y reporta ese impacto de forma ordenada."
+            body: "Demuestrale a tus clientes como tu marca impacta positivamente el cambio climatico. Sustainable Discounts™ permite a tus compradores elegir cuanto donar a causas que estan transformando la proteccion del medio ambiente y reporta ese impacto de forma ordenada."
           },
           {
             icon: "rocket",
@@ -29,7 +29,7 @@ export default function HomePage() {
           {
             icon: "chart",
             title: "Aumenta el trafico directo",
-            body: "Las tiendas que usan Mandatum son promovidas automaticamente en nuestra comunidad de compradores conscientes, generando trafico gratuito y de alta intencion hacia tu tienda."
+            body: "Las tiendas que usan Sustainable Discounts™ son promovidas automaticamente en nuestra comunidad de compradores conscientes, generando trafico gratuito y de alta intencion hacia tu tienda."
           }
         ],
         ctaTitle: "Comienza ya, es gratis.",
@@ -42,7 +42,7 @@ export default function HomePage() {
           {
             icon: "globe",
             title: "Make Climate Impact",
-            body: "Show customers the climate positive brand they want you to be. Mandatum lets your shoppers choose how much you donate to transformational environmental causes and transparently tracks your impact."
+            body: "Show customers the climate positive brand they want you to be. Sustainable Discounts™ lets your shoppers choose how much you donate to transformational environmental causes and transparently tracks your impact."
           },
           {
             icon: "rocket",
@@ -52,7 +52,7 @@ export default function HomePage() {
           {
             icon: "chart",
             title: "Increase Direct Traffic",
-            body: "Mandatum merchants are promoted to our community of eco conscious shoppers, driving free, high intent traffic to your store while reducing dependence on costly marketplaces."
+            body: "Sustainable Discounts™ merchants are promoted to our community of eco conscious shoppers, driving free, high intent traffic to your store while reducing dependence on costly marketplaces."
           }
         ],
         ctaTitle: "Get started today for free.",

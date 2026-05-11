@@ -12,12 +12,12 @@ export default function AboutPage() {
 
   const impactCopy = isSpanish
     ? {
-        title: "Mandatum y los ODS de la ONU",
+        title: "Sustainable Discounts™ y los ODS de la ONU",
         description: "Nos asociamos con los mejores proyectos ambientales para asegurar contribucion inmediata y maximo impacto.",
         image: "/img/about-us/E_SDG_PRINT-mandatum_es.png"
       }
     : {
-        title: "Mandatum and the UN SDGs",
+        title: "Sustainable Discounts™ and the UN SDGs",
         description: "We partner with the world's best environmental projects to ensure immediate contribution and maximum impact.",
         image: "/img/about-us/E_SDG_PRINT-mandatum_en.png"
       };
@@ -114,7 +114,7 @@ export default function AboutPage() {
       <PageHero title={t("about.hero.title")} description={t("about.hero.description")} carouselSide="right" />
       <section className="sd-about-impact-section">
         <Container className="px-4 px-lg-5 text-center">
-          <h2 className="sd-about-impact-title">{isSpanish ? "🚀 Mandatum y los ODS de la ONU" : "🚀 Mandatum and the UN SDGs"}</h2>
+          <h2 className="sd-about-impact-title">{isSpanish ? "🚀 Sustainable Discounts™ y los ODS de la ONU" : "🚀 Sustainable Discounts™ and the UN SDGs"}</h2>
           <p className="sd-about-impact-description mx-auto">{impactCopy.description}</p>
           <img className="sd-about-impact-image" src={impactCopy.image} alt={impactCopy.title} />
         </Container>
