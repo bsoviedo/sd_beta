@@ -14,7 +14,7 @@ export default function HowItWorksPage() {
     ? [
         {
           title: "Los comerciantes usan descuentos existentes",
-          body: "Mandatum convierte cualquier descuento existente en un Sustainable Discount sin cambiar la configuracion actual de tu tienda.",
+          body: "Sustainable Discounts™ convierte cualquier descuento existente en un Sustainable Discount™ sin cambiar la configuracion actual de tu tienda.",
           image: "/img/for-merchants/how_bg_graphic_step1.svg",
           side: "left"
         },
@@ -26,13 +26,13 @@ export default function HowItWorksPage() {
         },
         {
           title: "Compradores eligen descuento o contribucion",
-          body: "Los clientes usan Mandatum para elegir entre un descuento en el producto o una contribucion que el comerciante hace al medio ambiente.",
+          body: "Los clientes usan Sustainable Discounts™ para elegir entre un descuento en el producto o una contribucion que el comerciante hace al medio ambiente.",
           image: "/img/for-merchants/how_bg_graphic_step3-es.svg",
           side: "left"
         },
         {
           title: "El checkout no cambia",
-          body: "Los articulos anadidos al carrito con Mandatum se integran perfectamente con tu checkout existente y las contribuciones van automaticamente a proyectos verificados.",
+          body: "Los articulos anadidos al carrito con Sustainable Discounts™ se integran perfectamente con tu checkout existente y las contribuciones van automaticamente a proyectos verificados.",
           image: "/img/for-merchants/how_bg_graphic_step4.svg",
           side: "right"
         },
@@ -46,7 +46,7 @@ export default function HowItWorksPage() {
     : [
         {
           title: "Merchants Use Existing Discounts",
-          body: "Mandatum turns any existing discount into a Sustainable Discounts™.",
+          body: "Sustainable Discounts™ turns any existing discount into a Sustainable Discounts™.",
           image: "/img/for-merchants/how_bg_graphic_step1.svg",
           side: "left"
         },
@@ -58,13 +58,13 @@ export default function HowItWorksPage() {
         },
         {
           title: "Choose Discount vs. Contribution",
-          body: "Shoppers use Mandatum to choose between a discount on the product or a contribution the merchant make to the environment.",
+          body: "Shoppers use Sustainable Discounts™ to choose between a discount on the product or a contribution the merchant make to the environment.",
           image: "/img/for-merchants/how_bg_graphic_step3-en.svg",
           side: "left"
         },
         {
           title: "Checkout as Usual",
-          body: "Items added to the cart using Mandatum integrate seamlessly with your existing checkout and your contributions are automatically made to our verified environmental partner projects.",
+          body: "Items added to the cart using Sustainable Discounts™ integrate seamlessly with your existing checkout and your contributions are automatically made to our verified environmental partner projects.",
           image: "/img/for-merchants/how_bg_graphic_step4.svg",
           side: "right"
         },

@@ -1451,6 +1451,7 @@ p {
   border-radius: 16px;
   overflow: hidden;
   min-height: 320px;
+  height: 100%;
 }
 
 .sd-oi-card-large {
@@ -1462,6 +1463,7 @@ p {
   height: 100%;
   min-height: 320px;
   object-fit: cover;
+  display: block;
 }
 
 .sd-oi-card-content {
