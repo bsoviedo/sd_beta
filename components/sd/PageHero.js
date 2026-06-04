@@ -1,229 +1,21 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Carousel, Col, Container, Row } from "react-bootstrap";
+import { landscapeSlides } from "./Hero";
 
 function PageHero({ title, description, carouselSide = "right" }) {
   const [activeSlide, setActiveSlide] = useState(0);
+  const [mounted, setMounted] = useState(false);
+  const [slides, setSlides] = useState([]);
   const isCarouselLeft = carouselSide === "left";
 
-  const landscapeSlides = [
-    {
-      src: "https://images.unsplash.com/photo-5zu9E9cDR7s?auto=format&fit=crop&w=1800&q=80",
-      alt: "Jaguar walking next to a tree",
-      label: "Jaguar",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-HYTwWSE5ztw?auto=format&fit=crop&w=1800&q=80",
-      alt: "Green frog",
-      label: "Rana",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-WPJrcj9_h6U?auto=format&fit=crop&w=1800&q=80",
-      alt: "Green frog on a leaf",
-      label: "Rana en hoja",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-I7GLUheea0g?auto=format&fit=crop&w=1800&q=80",
-      alt: "Toucan perched on a branch",
-      label: "Tucán",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-COTccpFTQsA?auto=format&fit=crop&w=1800&q=80",
-      alt: "Two flamingos feeding in water",
-      label: "Flamencos",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-bMY8z1MLUOs?auto=format&fit=crop&w=1800&q=80",
-      alt: "Gorilla sitting among leaves",
-      label: "Gorila",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-7h4yibuV3Ms?auto=format&fit=crop&w=1800&q=80",
-      alt: "Orangutan hanging from a tree branch",
-      label: "Orangután",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-lD-Dw38WAq0?auto=format&fit=crop&w=1800&q=80",
-      alt: "Pink dolphin in water",
-      label: "Delfín rosado",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-lwACYK8ScmA?auto=format&fit=crop&w=1800&q=80",
-      alt: "Humpback whale in the sea",
-      label: "Ballena jorobada",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-PO0UHx-5mHo?auto=format&fit=crop&w=1800&q=80",
-      alt: "Two whales swimming in water",
-      label: "Ballenas negras",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-71kHyBGC6dQ?auto=format&fit=crop&w=1800&q=80",
-      alt: "Whale jumping above the water",
-      label: "Ballena saltando",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-M8xxVih_V_U?auto=format&fit=crop&w=1800&q=80",
-      alt: "Sea turtle in the water",
-      label: "Tortuga marina",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-9XzyEzPAHMI?auto=format&fit=crop&w=1800&q=80",
-      alt: "Turtle in a body of water",
-      label: "Tortuga marina",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-o9iSB_smxI4?auto=format&fit=crop&w=1800&q=80",
-      alt: "Coral reef underwater",
-      label: "Corales",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-hqAGgNsMpEY?auto=format&fit=crop&w=1800&q=80",
-      alt: "Grey and black fish underwater",
-      label: "Peces en coral",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-pnYRhSpYF9U?auto=format&fit=crop&w=1800&q=80",
-      alt: "Crocodiles swimming in a lake",
-      label: "Cocodrilo",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-K0SABlddN-o?auto=format&fit=crop&w=1800&q=80",
-      alt: "Person on a rock mountain with condor",
-      label: "Cóndor de los Andes",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-ekV_axnZRUA?auto=format&fit=crop&w=1800&q=80",
-      alt: "Two red macaws",
-      label: "Guacamayas",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-3mMH9IvtTFU?auto=format&fit=crop&w=1800&q=80",
-      alt: "Pair of birds sitting atop a tree",
-      label: "Guacamayas",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-9y7y26C-l4Y?auto=format&fit=crop&w=1800&q=80",
-      alt: "School of fish in water",
-      label: "Banco de peces",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-KPT1H7rLEzk?auto=format&fit=crop&w=1800&q=80",
-      alt: "Giraffe standing in a field",
-      label: "Jirafa",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-F-rmsJqJDlQ?auto=format&fit=crop&w=1800&q=80",
-      alt: "Giraffe standing next to a tree",
-      label: "Jirafa",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-KZBcR6k-dbA?auto=format&fit=crop&w=1800&q=80",
-      alt: "Brown and white sloth sitting in a tree",
-      label: "Oso perezoso",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-4Vp3rA1K5L8?auto=format&fit=crop&w=1800&q=80",
-      alt: "Sloth hanging from a tree branch",
-      label: "Oso perezoso",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-Dzsg0c95JyE?auto=format&fit=crop&w=1800&q=80",
-      alt: "Titi monkey sitting in a tree",
-      label: "Titi",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-rhh7HCARWHg?auto=format&fit=crop&w=1800&q=80",
-      alt: "Green and white snake on a branch",
-      label: "Serpiente",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-YAIGmqV4dFc?auto=format&fit=crop&w=1800&q=80",
-      alt: "Camel in the desert",
-      label: "Camello",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-qr0BfLPEEjA?auto=format&fit=crop&w=1800&q=80",
-      alt: "Camel standing in the desert",
-      label: "Camello",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-sGzCGGc_aaA?auto=format&fit=crop&w=1800&q=80",
-      alt: "Ant on a green fruit",
-      label: "Hormiga",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-YQdmMkjWza8?auto=format&fit=crop&w=1800&q=80",
-      alt: "White and black butterfly on a green leaf",
-      label: "Mariposa",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-REjGmtobbWw?auto=format&fit=crop&w=1800&q=80",
-      alt: "Butterfly sitting on a green leaf",
-      label: "Mariposa",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    }
-  ];
+  useEffect(() => {
+    const count = Math.random() < 0.5 ? 4 : 5;
+    const shuffled = [...landscapeSlides]
+      .sort(() => 0.5 - Math.random())
+      .slice(0, count);
+    setSlides(shuffled);
+    setMounted(true);
+  }, []);
 
   const carouselColumn = (
     <Col lg={6} className="sd-hero-media sd-hero-left px-3 px-md-4 px-lg-5" style={{ minHeight: "auto", paddingTop: "9rem" }}>
@@ -241,30 +33,42 @@ function PageHero({ title, description, carouselSide = "right" }) {
         <span className="sd-forest-line sd-forest-line-left" />
       </div>
       <div className="sd-hero-card">
-        <Carousel
-          className="sd-hero-carousel"
-          controls={false}
-          indicators
-          interval={3600}
-          activeIndex={activeSlide}
-          onSelect={(selectedIndex) => setActiveSlide(selectedIndex)}
-          pause={false}
-          touch
-        >
-          {landscapeSlides.map((slide) => (
-            <Carousel.Item key={slide.src}>
-              <figure className="sd-hero-slide-frame mb-0">
-                <img className="sd-hero-slide-image" src={slide.src} alt={slide.alt} loading="lazy" />
-                <figcaption className="sd-hero-photo-credit">
-                  <span>{slide.label} | </span>
-                  <a href={slide.creditUrl} target="_blank" rel="noreferrer">
-                    Photo by {slide.creditName}
-                  </a>
-                </figcaption>
-              </figure>
-            </Carousel.Item>
-          ))}
-        </Carousel>
+        {!mounted ? (
+          <figure className="sd-hero-slide-frame mb-0">
+            <img className="sd-hero-slide-image" src={landscapeSlides[0].src} alt={landscapeSlides[0].alt} />
+            <figcaption className="sd-hero-photo-credit">
+              <span>{landscapeSlides[0].label} | </span>
+              <a href={landscapeSlides[0].creditUrl} target="_blank" rel="noreferrer">
+                Photo by {landscapeSlides[0].creditName}
+              </a>
+            </figcaption>
+          </figure>
+        ) : (
+          <Carousel
+            className="sd-hero-carousel"
+            controls={false}
+            indicators
+            interval={3600}
+            activeIndex={activeSlide}
+            onSelect={(selectedIndex) => setActiveSlide(selectedIndex)}
+            pause={false}
+            touch
+          >
+            {slides.map((slide) => (
+              <Carousel.Item key={slide.src}>
+                <figure className="sd-hero-slide-frame mb-0">
+                  <img className="sd-hero-slide-image" src={slide.src} alt={slide.alt} loading="lazy" />
+                  <figcaption className="sd-hero-photo-credit">
+                    <span>{slide.label} | </span>
+                    <a href={slide.creditUrl} target="_blank" rel="noreferrer">
+                      Photo by {slide.creditName}
+                    </a>
+                  </figcaption>
+                </figure>
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        )}
       </div>
     </Col>
   );
