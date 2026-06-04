@@ -1,17 +1,17 @@
 {
   "meta": {
-    "homeTitle": "Climate and Nature Action at No Extra Cost",
-    "homeDescription": "Pay less and protect the planet. With Sustainable Discounts™, brands unlock hidden costs in daily purchases so users save while funding real climate and biodiversity action.",
-    "aboutTitle": "Our Mission",
-    "aboutDescription": "Learn why Sustainable Discounts™ exists and how we align commerce with measurable impact for climate and biodiversity.",
-    "howTitle": "How It Works",
-    "howDescription": "A practical flow that turns existing discounts into contributions for high quality nature projects.",
-    "impactTitle": "Our Impact",
-    "impactDescription": "Aligning profit with planetary impact through measurable biodiversity and climate outcomes.",
-    "blogTitle": "Blog",
-    "blogDescription": "Insights, updates, and perspectives on sustainable commerce and measurable impact.",
-    "faqTitle": "FAQ",
-    "faqDescription": "Answers about Sustainable Discounts™, and how impact is generated and tracked.",
+    "homeTitle": "Climate and nature action at no extra cost",
+    "homeDescription": "Sustainable Discounts redirects hidden commerce fees to fund forests and oceans while shoppers save and brands recover margin.",
+    "aboutTitle": "The Movement",
+    "aboutDescription": "The origin story of Sustainable Discounts and how hidden marketplace costs become nature funding.",
+    "howTitle": "For Merchants",
+    "howDescription": "Recover pricing control, improve profits, and fund conservation with Sustainable Discounts.",
+    "impactTitle": "The Numbers That Matter",
+    "impactDescription": "Live SD impact counts, private beta results, and how commerce can double conservation finance.",
+    "blogTitle": "For Shoppers",
+    "blogDescription": "How shoppers save, support nature, and build a conservation history with Sustainable Discounts.",
+    "faqTitle": "Conservation",
+    "faqDescription": "SD’s conservation movement, resource allocation, and how commerce creates reliable funding for nature.",
     "termsTitle": "Terms of Service",
     "termsDescription": "Terms of service for using Sustainable Discounts™ and its platform.",
     "privacyTitle": "Privacy Policy",
@@ -19,11 +19,13 @@
   },
   "nav": {
     "home": "Home",
-    "about": "Our Company",
-    "how": "How It Works",
-    "impact": "Our Impact",
-    "faq": "FAQ",
-    "cta": "How It Works"
+    "movement": "The Movement",
+    "merchants": "For Merchants",
+    "shoppers": "For Shoppers",
+    "conservation": "Conservation",
+    "team": "The Team",
+    "impact": "Impact",
+    "cta": "Add to Shopify"
   },
   "home": {
     "hero": {

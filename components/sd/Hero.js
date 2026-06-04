@@ -1,45 +1,226 @@
+import Link from "next/link";
 import { Carousel, Col, Container, Row } from "react-bootstrap";
 import { useState } from "react";
-import { useTranslation } from "next-i18next";
 
 function Hero() {
-  const { t } = useTranslation("common");
   const [activeSlide, setActiveSlide] = useState(0);
   const landscapeSlides = [
     {
-      src: "https://plus.unsplash.com/premium_photo-1669613233557-1676c121fe73?q=80&w=1800&auto=format&fit=crop",
-      alt: "Forest landscape",
-      label: "Forest",
-      creditName: "Ales Krivec",
-      creditUrl: "https://unsplash.com/@aleskrivec"
+      src: "https://images.unsplash.com/photo-5zu9E9cDR7s?auto=format&fit=crop&w=1800&q=80",
+      alt: "Jaguar walking next to a tree",
+      label: "Jaguar",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
     },
     {
-      src: "https://plus.unsplash.com/premium_photo-1669750791963-ec6f3a565fb9?q=80&w=1800&auto=format&fit=crop",
-      alt: "Ocean landscape",
-      label: "Ocean",
-      creditName: "Tasha Marie",
-      creditUrl: "https://unsplash.com/@teapalm"
+      src: "https://images.unsplash.com/photo-HYTwWSE5ztw?auto=format&fit=crop&w=1800&q=80",
+      alt: "Green frog",
+      label: "Rana",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
     },
     {
-      src: "https://plus.unsplash.com/premium_photo-1671611799147-68a4f9b3f0e1?q=80&w=1800&auto=format&fit=crop",
-      alt: "Desert landscape",
-      label: "Desert",
-      creditName: "Wesley Tingey",
-      creditUrl: "https://unsplash.com/@wesleyphotography"
+      src: "https://images.unsplash.com/photo-WPJrcj9_h6U?auto=format&fit=crop&w=1800&q=80",
+      alt: "Green frog on a leaf",
+      label: "Rana en hoja",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
     },
     {
-      src: "https://plus.unsplash.com/premium_photo-1673859054724-d3ce699da39d?q=80&w=1800&auto=format&fit=crop",
-      alt: "Snow landscape",
-      label: "Snow",
-      creditName: "Febe Vanermen",
-      creditUrl: "https://unsplash.com/@febev"
+      src: "https://images.unsplash.com/photo-I7GLUheea0g?auto=format&fit=crop&w=1800&q=80",
+      alt: "Toucan perched on a branch",
+      label: "Tucán",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
     },
     {
-      src: "https://plus.unsplash.com/premium_photo-1676757789342-83f83f3534ca?q=80&w=1800&auto=format&fit=crop",
-      alt: "Grassland landscape",
-      label: "Grassland",
-      creditName: "Sylwia Bartyzel",
-      creditUrl: "https://unsplash.com/@sylwiabartyzel"
+      src: "https://images.unsplash.com/photo-COTccpFTQsA?auto=format&fit=crop&w=1800&q=80",
+      alt: "Two flamingos feeding in water",
+      label: "Flamencos",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-bMY8z1MLUOs?auto=format&fit=crop&w=1800&q=80",
+      alt: "Gorilla sitting among leaves",
+      label: "Gorila",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-7h4yibuV3Ms?auto=format&fit=crop&w=1800&q=80",
+      alt: "Orangutan hanging from a tree branch",
+      label: "Orangután",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-lD-Dw38WAq0?auto=format&fit=crop&w=1800&q=80",
+      alt: "Pink dolphin in water",
+      label: "Delfín rosado",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-lwACYK8ScmA?auto=format&fit=crop&w=1800&q=80",
+      alt: "Humpback whale in the sea",
+      label: "Ballena jorobada",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-PO0UHx-5mHo?auto=format&fit=crop&w=1800&q=80",
+      alt: "Two whales swimming in water",
+      label: "Ballenas negras",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-71kHyBGC6dQ?auto=format&fit=crop&w=1800&q=80",
+      alt: "Whale jumping above the water",
+      label: "Ballena saltando",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-M8xxVih_V_U?auto=format&fit=crop&w=1800&q=80",
+      alt: "Sea turtle in the water",
+      label: "Tortuga marina",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-9XzyEzPAHMI?auto=format&fit=crop&w=1800&q=80",
+      alt: "Turtle in a body of water",
+      label: "Tortuga marina",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-o9iSB_smxI4?auto=format&fit=crop&w=1800&q=80",
+      alt: "Coral reef underwater",
+      label: "Corales",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-hqAGgNsMpEY?auto=format&fit=crop&w=1800&q=80",
+      alt: "Grey and black fish underwater",
+      label: "Peces en coral",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-pnYRhSpYF9U?auto=format&fit=crop&w=1800&q=80",
+      alt: "Crocodiles swimming in a lake",
+      label: "Cocodrilo",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-K0SABlddN-o?auto=format&fit=crop&w=1800&q=80",
+      alt: "Person on a rock mountain with condor",
+      label: "Cóndor de los Andes",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-ekV_axnZRUA?auto=format&fit=crop&w=1800&q=80",
+      alt: "Two red macaws",
+      label: "Guacamayas",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-3mMH9IvtTFU?auto=format&fit=crop&w=1800&q=80",
+      alt: "Pair of birds sitting atop a tree",
+      label: "Guacamayas",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-9y7y26C-l4Y?auto=format&fit=crop&w=1800&q=80",
+      alt: "School of fish in water",
+      label: "Banco de peces",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-KPT1H7rLEzk?auto=format&fit=crop&w=1800&q=80",
+      alt: "Giraffe standing in a field",
+      label: "Jirafa",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-F-rmsJqJDlQ?auto=format&fit=crop&w=1800&q=80",
+      alt: "Giraffe standing next to a tree",
+      label: "Jirafa",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-KZBcR6k-dbA?auto=format&fit=crop&w=1800&q=80",
+      alt: "Brown and white sloth sitting in a tree",
+      label: "Oso perezoso",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-4Vp3rA1K5L8?auto=format&fit=crop&w=1800&q=80",
+      alt: "Sloth hanging from a tree branch",
+      label: "Oso perezoso",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-Dzsg0c95JyE?auto=format&fit=crop&w=1800&q=80",
+      alt: "Titi monkey sitting in a tree",
+      label: "Titi",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-rhh7HCARWHg?auto=format&fit=crop&w=1800&q=80",
+      alt: "Green and white snake on a branch",
+      label: "Serpiente",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-YAIGmqV4dFc?auto=format&fit=crop&w=1800&q=80",
+      alt: "Camel in the desert",
+      label: "Camello",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-qr0BfLPEEjA?auto=format&fit=crop&w=1800&q=80",
+      alt: "Camel standing in the desert",
+      label: "Camello",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-sGzCGGc_aaA?auto=format&fit=crop&w=1800&q=80",
+      alt: "Ant on a green fruit",
+      label: "Hormiga",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-YQdmMkjWza8?auto=format&fit=crop&w=1800&q=80",
+      alt: "White and black butterfly on a green leaf",
+      label: "Mariposa",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
+    },
+    {
+      src: "https://images.unsplash.com/photo-REjGmtobbWw?auto=format&fit=crop&w=1800&q=80",
+      alt: "Butterfly sitting on a green leaf",
+      label: "Mariposa",
+      creditName: "Unsplash",
+      creditUrl: "https://unsplash.com"
     }
   ];
   const activeBackgroundImage = landscapeSlides[activeSlide]?.src || landscapeSlides[0].src;
@@ -106,16 +287,20 @@ function Hero() {
               <span className="sd-forest-line sd-forest-line-right" />
             </div>
             <Container className="px-4 px-lg-5 py-5 py-lg-0">
-              <h1 className="visually-hidden">{t("home.hero.title")}</h1>
               <div className="sd-hero-copy">
-                <img
-                  className="sd-wordmark-inline"
-                  src="/logos/Wordmark with TM_no_bg.png"
-                  alt={t("home.hero.title")}
-                />
-                <p>{t("home.hero.subtitle")}</p>
+                <h1>Every purchase, giving back to the planet.</h1>
+                <p className="sd-hero-tagline">At no extra cost to anyone.</p>
+                <p>
+                  Sustainable Discounts redirects fees hidden inside commerce to fund forest and ocean conservation.
+                  Shoppers get a real discount. Brands recover margin. Nature gets funded.
+                </p>
                 <div className="sd-hero-cta-row">
-                  <a href="#how"><button className="sd-cta-btn">{t("home.hero.primaryCta")}</button></a>
+                  <Link href="/how-it-works">
+                    <button className="sd-cta-btn">I'm a brand. See how it works.</button>
+                  </Link>
+                  <Link href="/blog">
+                    <button className="sd-cta-btn sd-cta-secondary">I'm a shopper. Find SD brands.</button>
+                  </Link>
                 </div>
               </div>
             </Container>

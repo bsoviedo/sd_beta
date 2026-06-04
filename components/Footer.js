@@ -11,25 +11,24 @@ function Footer() {
       <Container fluid className="px-4 px-lg-5 py-5">
         <Row className="g-4 align-items-start">
 
-          {/* Column 1 – Main nav links */}
           <Col xs={6} lg={3}>
             <nav className="d-flex flex-column gap-2">
-              <Link href="/" className="sd-footer-link fw-semibold">{t("footer.forShoppers")}</Link>
-              <Link href="/how-it-works" className="sd-footer-link fw-semibold">{t("footer.forMerchants")}</Link>
-              <Link href="/about" className="sd-footer-link fw-semibold">{t("footer.aboutUs")}</Link>
+              <Link href="/" className="sd-footer-link fw-semibold">{t("nav.home")}</Link>
+              <Link href="/about" className="sd-footer-link fw-semibold">{t("nav.movement")}</Link>
+              <Link href="/how-it-works" className="sd-footer-link fw-semibold">{t("nav.merchants")}</Link>
+              <Link href="/blog" className="sd-footer-link fw-semibold">{t("nav.shoppers")}</Link>
+            </nav>
+          </Col>
+
+          <Col xs={6} lg={3}>
+            <nav className="d-flex flex-column gap-2">
+              <Link href="/faq" className="sd-footer-link fw-semibold">{t("nav.conservation")}</Link>
+              <Link href="/about#team" className="sd-footer-link fw-semibold">{t("nav.team")}</Link>
               <Link href="/our-impact" className="sd-footer-link fw-semibold">{t("nav.impact")}</Link>
+              <Link href="/terms-of-service" className="sd-footer-link fw-semibold">{t("footer.terms")}</Link>
             </nav>
           </Col>
 
-          {/* Column 2 – Secondary links */}
-          <Col xs={6} lg={3}>
-            <nav className="d-flex flex-column gap-2">
-              <Link href="/blog" className="sd-footer-link fw-semibold">{t("footer.blog")}</Link>
-              <Link href="/faq" className="sd-footer-link fw-semibold">{t("nav.faq")}</Link>
-            </nav>
-          </Col>
-
-          {/* Column 3 – Social + logo + legal */}
           <Col lg={6}>
             <div className="d-flex flex-column align-items-lg-end">
               <p className="sd-footer-text fw-semibold mb-2">{t("footer.followUs")}</p>
@@ -51,7 +50,6 @@ function Footer() {
               <p className="sd-footer-text mb-1" style={{ fontSize: "13px" }}>{t("footer.tagline")}</p>
               <p className="sd-footer-text mb-2" style={{ fontSize: "13px" }}>{t("footer.copy2", { year: new Date().getFullYear() })}</p>
               <div className="d-flex gap-3">
-                <Link href="/terms-of-service" className="sd-footer-link" style={{ fontSize: "13px" }}>{t("footer.terms")}</Link>
                 <Link href="/privacy-policy" className="sd-footer-link" style={{ fontSize: "13px" }}>{t("footer.privacy")}</Link>
               </div>
             </div>

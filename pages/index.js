@@ -12,114 +12,223 @@ export default function HomePage() {
   const { t } = useTranslation("common");
   const isSpanish = locale === "es";
 
-  const merchantCopy = isSpanish
+  const ideaCopy = isSpanish
     ? {
-        title: "La manera mas rentable de salvar el planeta",
-        items: [
-          {
-            icon: "globe",
-            title: "Genera impacto climatico",
-            body: "Demuestrale a tus clientes como tu marca impacta positivamente el cambio climatico. Sustainable Discounts™ permite a tus compradores elegir cuanto donar a causas que estan transformando la proteccion del medio ambiente y reporta ese impacto de forma ordenada."
-          },
-          {
-            icon: "rocket",
-            title: "Aumenta la conversion",
-            body: "44% de los consumidores prefieren comprar con marcas que tienen un claro compromiso con la sostenibilidad. Convierte tu compromiso con el clima y la biodiversidad en clientes leales con flujos probados de optimizacion."
-          },
-          {
-            icon: "chart",
-            title: "Aumenta el trafico directo",
-            body: "Las tiendas que usan Sustainable Discounts™ son promovidas automaticamente en nuestra comunidad de compradores conscientes, generando trafico gratuito y de alta intencion hacia tu tienda."
-          }
-        ],
-        ctaTitle: "Comienza ya, es gratis.",
-        ctaButton: "Agrega tu tienda Shopify",
-        ctaSubtitle: "La instalacion es gratis y no requiere contrato."
+        label: "El comercio incluye costos.",
+        headline: "Una oportunidad en cada compra.",
+        body:
+          "El comercio incluye costos. A veces solo necesitas el producto. Hasta el 40% de lo que pagas en un marketplace va para su infraestructura. No para tu producto.",
+        step1: "Commerce generates a hidden cost. Up to 40% of what you pay goes to marketplace infrastructure.",
+        step2: "SD makes that cost visible and creates a real choice.",
+        step3: "Shopper saves. Brand earns more. Nature gets funded. Automatically.",
+        linkText: "See the full mechanism"
       }
     : {
-        title: "The most profitable way to save the planet",
-        items: [
-          {
-            icon: "globe",
-            title: "Make Climate Impact",
-            body: "Show customers the climate positive brand they want you to be. Sustainable Discounts™ lets your shoppers choose how much you donate to transformational environmental causes and transparently tracks your impact."
-          },
-          {
-            icon: "rocket",
-            title: "Boost Site Conversion",
-            body: "44% of consumers prefer to buy from brands that have a clear commitment to sustainability. Turn your climate and biodiversity commitment into loyal customers with tested conversion flows."
-          },
-          {
-            icon: "chart",
-            title: "Increase Direct Traffic",
-            body: "Sustainable Discounts™ merchants are promoted to our community of eco conscious shoppers, driving free, high intent traffic to your store while reducing dependence on costly marketplaces."
-          }
-        ],
-        ctaTitle: "Get started today for free.",
-        ctaButton: "Add to your Shopify Store",
-        ctaSubtitle: "Free to install, no contract required"
+        label: "Commerce includes costs.",
+        headline: "An opportunity in every purchase.",
+        body:
+          "Commerce features costs. Sometimes all you need is the product. Up to 40% of what you pay on a major marketplace goes to its infrastructure. Not your product.",
+        step1: "Step 1: Commerce generates a hidden cost. Up to 40% of what you pay goes to marketplace infrastructure.",
+        step2: "Step 2: SD makes that cost visible and creates a real choice.",
+        step3: "Step 3: Shopper saves. Brand earns more. Nature gets funded. Automatically.",
+        linkText: "See the full mechanism"
       };
-  const partners = [
-    { name: "TERRASOS", img: "/img/partners/Log_Ter_NyA_Hor.png" },
-    { name: "Fundacion Omacha", img: "/img/partners/projects-omacha-ffffff.svg" },
-    { name: "Rainforest Foundation US", img: "/img/partners/projects-rainforest-ffffff.svg" },
-    { name: "BIOVERSE", img: "/img/partners/projects-bioverse-ffffff.svg" }
+
+  const audienceCards = isSpanish
+    ? [
+        {
+          title: "Para marcas",
+          body: "Recupera control de precios, mejora ganancias. Ofrece un descuento real en tu canal directo. Gana una historia de conservacion que ningun marketplace puede reproducir.",
+          foot: "Gratis para instalar. Sin contrato.",
+          href: "/how-it-works",
+          cta: "How SD works for your brand"
+        },
+        {
+          title: "Para compradores",
+          body: "El mismo producto. Precio mas bajo. Una contribucion de conservacion verificada incluida. Tu decides cuanto de tu descuento va para ti y cuanto paga al planeta.",
+          foot: "Encuentra marcas SD y crea tu cuenta planeta.",
+          href: "/blog",
+          cta: "Find SD brands"
+        },
+        {
+          title: "Para el movimiento",
+          body: "Cientificos, conservacionistas, activistas, periodistas, fundadores, celebridades y expertos del sector. Si crees que el comercio puede proteger la naturaleza, aqui hay un lugar para ti.",
+          foot: "Únete al movimiento.",
+          href: "/faq",
+          cta: "Join the movement"
+        }
+      ]
+    : [
+        {
+          title: "For brands",
+          body: "Recover pricing control, improve profits. Offer shoppers a real discount on your direct channel. Earn a conservation story no marketplace can replicate.",
+          foot: "Free to install. No contract.",
+          href: "/how-it-works",
+          cta: "How SD works for your brand"
+        },
+        {
+          title: "For shoppers",
+          body: "The same product. Lower price. A verified conservation contribution included. You decide how much of your discount goes to you and how much pays back the planet.",
+          foot: "Find SD brands and create your planet account.",
+          href: "/blog",
+          cta: "Find SD brands"
+        },
+        {
+          title: "For the movement",
+          body: "Scientists, conservationists, activists, journalists, founders, celebrities, industry experts. If you believe commerce can be redesigned to protect nature, there is a role for you here.",
+          foot: "Join the movement.",
+          href: "/faq",
+          cta: "Join the movement"
+        }
+      ];
+
+  const proofItems = [
+    "Earthshot Prize 2025 - Nominated",
+    "GEF and World Bank - Currently in due diligence",
+    "Change100 Winner 2026 - Top Impact Startup to Watch",
+    "Cornell University Life Changing Labs - Accelerator Winner, Summer 2024",
+    "Panthera - Partnership agreed in principle",
+    "Terrasos - Active partnership, biodiversity credits live"
   ];
-  const partnersCopy = isSpanish
+
+  const betaCopy = isSpanish
     ? {
-        title: "Tus contribuciones climaticas trabajando al maximo",
-        description:
-          "Nos hemos aliado con proyectos ambientales de alta calidad para asegurar que tus contribuciones generen impacto transformacional.",
-        partners
+        label: "La beta privada dijo lo que esperabamos.",
+        headline: "Numeros reales. Compras reales. Conservacion real.",
+        stat1: "60,000+ interacciones de consumidores en 10 tiendas de EE. UU., Reino Unido y Colombia.",
+        stat2: "32% de aumento en conversiones de carrito para marcas que usan SD.",
+        stat3: "38% de los pools disponibles fueron redirigidos voluntariamente a conservacion. El predeterminado era 30%.",
+        body: "No se ofrecio recompensa. Cuando la opcion era transparente, la gente eligio el planeta."
       }
     : {
-        title: "Your Climate Contributions Hard At Work",
-        description:
-          "We've partnered with the world's best environmental projects that are generating transformational outcomes to ensure your contributions have maximum impact.",
-        partners
+        label: "The private beta said what we hoped it would.",
+        headline: "Real numbers. Real purchases. Real conservation.",
+        stat1: "60,000+ consumer interactions across 10 stores in the USA, UK, and Colombia.",
+        stat2: "32% cart conversion rate uplift for brands using SD.",
+        stat3: "38% of available pools voluntarily redirected to conservation. The default was 30%.",
+        body: "No reward was offered. When the choice was transparent, people chose the planet."
+      };
+
+  const closingCopy = isSpanish
+    ? {
+        headline: "El mecanismo esta listo. El planeta no puede esperar.",
+        merchant: "Agrega SD a tu tienda Shopify. Gratis.",
+        nonShopify: "¿Otra plataforma? Nos integramos en 48 horas. Hable con nosotros.",
+        movement: "¿Quieres promover el movimiento? Ponte en contacto."
+      }
+    : {
+        headline: "The mechanism is ready. The planet cannot wait.",
+        merchant: "Add SD to your Shopify store. Free.",
+        nonShopify: "Different platform? We integrate in 48 hours. Talk to us.",
+        movement: "Want to promote the movement? Get in touch."
       };
 
   return (
     <Layout title={t("meta.homeTitle")} description={t("meta.homeDescription")}>
       <Hero />
       <Benefits />
+
       <section className="sd-section pt-0">
         <Container className="px-4 px-lg-5">
-          <h2 className="sd-section-title text-center mx-auto">{merchantCopy.title}</h2>
-          <Row className="g-4 mt-4 align-items-stretch">
-            {merchantCopy.items.map((item) => (
-              <Col lg={4} key={item.title}>
-                <article className="sd-merchant-card h-100">
-                  <div className={`sd-merchant-icon sd-merchant-icon-${item.icon}`} aria-hidden="true" />
-                  <h3 className="sd-merchant-card-title">{item.title}</h3>
-                  <p className="mb-0">{item.body}</p>
+          <h2 className="sd-section-title text-center mb-3">{ideaCopy.headline}</h2>
+          <p className="sd-home-copy text-center mx-auto mb-5" style={{ maxWidth: "780px" }}>
+            {ideaCopy.body}
+          </p>
+          <Row className="g-4 justify-content-center">
+            {[ideaCopy.step1, ideaCopy.step2, ideaCopy.step3].map((item, index) => (
+              <Col md={4} key={index}>
+                <article className="sd-step-card h-100">
+                  <h3 className="sd-step-number">Step {index + 1}</h3>
+                  <p className="mb-0">{item}</p>
                 </article>
               </Col>
             ))}
           </Row>
-          <div className="sd-home-cta-block text-center">
-            <h3>{merchantCopy.ctaTitle}</h3>
+          <div className="text-center mt-4">
             <Link href="/how-it-works">
-              <button className="sd-cta-btn sd-home-cta-btn">{merchantCopy.ctaButton}</button>
+              <button className="sd-cta-btn">{ideaCopy.linkText}</button>
             </Link>
-            <p className="mb-0">{merchantCopy.ctaSubtitle}</p>
           </div>
         </Container>
       </section>
+
       <section className="sd-section pt-0">
         <Container className="px-4 px-lg-5">
-          <div className="sd-impact-block text-center">
-            <div className="sd-impact-sprout" aria-hidden="true">🌱</div>
-            <h2 className="sd-impact-title">{partnersCopy.title}</h2>
-            <p className="sd-impact-description mx-auto">{partnersCopy.description}</p>
-            <div className="sd-impact-partners">
-              {partnersCopy.partners.map((p) => (
-                <div className="sd-impact-partner" key={p.name}>
-                  <img src={p.img} alt={p.name} className="sd-impact-partner-img" />
-                </div>
+          <h2 className="sd-section-title text-center mb-5">{isSpanish ? "Tres audiencias. Un mecanismo." : "Three audiences. One mechanism."}</h2>
+          <Row className="g-4">
+            {audienceCards.map((card) => (
+              <Col md={4} key={card.title}>
+                <article className="sd-audience-card h-100">
+                  <h3>{card.title}</h3>
+                  <p>{card.body}</p>
+                  <p className="fw-semibold">{card.foot}</p>
+                  <Link href={card.href}>
+                    <button className="sd-link-btn mt-3">{card.cta}</button>
+                  </Link>
+                </article>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </section>
+
+      <section className="sd-section pt-0">
+        <Container className="px-4 px-lg-5">
+          <div className="sd-proof-strip text-center">
+            <h2 className="sd-section-title text-center">{isSpanish ? "Validado de manera independiente" : "Independently validated"}</h2>
+            <ul className="sd-proof-items list-unstyled d-flex flex-wrap justify-content-center gap-3 mx-auto" style={{ maxWidth: "980px" }}>
+              {proofItems.map((item) => (
+                <li className="sd-proof-item p-3" key={item}>
+                  <span>{item}</span>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
+        </Container>
+      </section>
+
+      <section className="sd-section pt-0 sd-beta-block">
+        <Container className="px-4 px-lg-5">
+                    <h2 className="sd-section-title text-center mb-4">{betaCopy.label}</h2>
+
+          <p className="sd-section-label text-center mb-2">{betaCopy.headline}</p>
+          <Row className="g-4 justify-content-center">
+            {[betaCopy.stat1, betaCopy.stat2, betaCopy.stat3].map((stat, index) => (
+              <Col md={6} lg={4} key={index}>
+                <article className="sd-stat-card sd-stat-card-highlight h-100 d-flex align-items-center justify-content-center text-center">
+                  <div>
+                    <p className="sd-stat-card-text mb-4">{stat}</p>
+                  </div>
+                </article>
+              </Col>
+            ))}
+          </Row>
+          <p className="text-center mt-4 mx-auto sd-beta-description" style={{ maxWidth: "720px" }}>
+            {betaCopy.body}
+          </p>
+        </Container>
+      </section>
+
+      <section className="sd-section pt-0">
+        <Container className="px-4 px-lg-5 text-center">
+          <h2 className="sd-section-title mb-4">{closingCopy.headline}</h2>
+          <Row className="g-3 justify-content-center">
+            <Col md={4}>
+              <Link href="/how-it-works">
+                <button className="sd-cta-btn w-100">{closingCopy.merchant}</button>
+              </Link>
+            </Col>
+            <Col md={4}>
+              <Link href="/faq">
+                <button className="sd-cta-btn w-100">{closingCopy.nonShopify}</button>
+              </Link>
+            </Col>
+            <Col md={4}>
+              <Link href="/about#team">
+                <button className="sd-cta-btn w-100">{closingCopy.movement}</button>
+              </Link>
+            </Col>
+          </Row>
         </Container>
       </section>
     </Layout>

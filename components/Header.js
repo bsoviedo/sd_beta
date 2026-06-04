@@ -31,16 +31,17 @@ function Header() {
       <Container fluid className="px-3 px-md-4">
         <Link href="/" className="d-flex align-items-center gap-2">
           <img src="/logos/Whale%20Top%20D%20Logo.png" alt="Mandatum logo" height="52" />
-{/*           <span className="sd-brand-text d-none d-md-inline">Mandatum</span>
- */}        </Link>
+        </Link>
         <Navbar.Toggle aria-controls="sd-navbar" />
         <Navbar.Collapse id="sd-navbar">
           <Nav className="ms-auto align-items-lg-center">
             <Link href="/" className="nav-link sd-nav-link">{t("nav.home")}</Link>
-            <Link href="/about" className="nav-link sd-nav-link">{t("nav.about")}</Link>
-            <Link href="/how-it-works" className="nav-link sd-nav-link">{t("nav.how")}</Link>
+            <Link href="/about" className="nav-link sd-nav-link">{t("nav.movement")}</Link>
+            <Link href="/how-it-works" className="nav-link sd-nav-link">{t("nav.merchants")}</Link>
+            <Link href="/blog" className="nav-link sd-nav-link">{t("nav.shoppers")}</Link>
+            <Link href="/faq" className="nav-link sd-nav-link">{t("nav.conservation")}</Link>
+            <Link href="/about#team" className="nav-link sd-nav-link">{t("nav.team")}</Link>
             <Link href="/our-impact" className="nav-link sd-nav-link">{t("nav.impact")}</Link>
-            <Link href="/faq" className="nav-link sd-nav-link">{t("nav.faq")}</Link>
             <div className="d-flex align-items-center gap-2 ms-lg-3 my-2 my-lg-0">
               <Button
                 variant={router.locale === "en" ? "secondary" : "outline-secondary"}

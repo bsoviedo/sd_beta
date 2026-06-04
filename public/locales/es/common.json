@@ -1,17 +1,17 @@
 {
   "meta": {
     "homeTitle": "Accion climatica y ambiental sin costo",
-    "homeDescription": "Paga menos y protege el planeta. Con Sustainable Discounts™, las marcas desbloquean costos ocultos en compras diarias para financiar accion real por el clima y la biodiversidad.",
-    "aboutTitle": "Nuestra mision",
-    "aboutDescription": "Conoce por que existe Sustainable Discounts™ y como alineamos el comercio con impacto medible para clima y biodiversidad.",
-    "howTitle": "Como funciona",
-    "howDescription": "Un flujo practico que convierte descuentos existentes en contribuciones para proyectos ambientales de alta calidad.",
-    "impactTitle": "Nuestro impacto",
-    "impactDescription": "Alineando rentabilidad con impacto planetario mediante resultados medibles de clima y biodiversidad.",
-    "blogTitle": "Blog",
-    "blogDescription": "Ideas, actualizaciones y perspectivas sobre comercio sostenible e impacto medible.",
-    "faqTitle": "Preguntas frecuentes",
-    "faqDescription": "Respuestas sobre Sustainable Discounts™, y como se genera y reporta el impacto.",
+    "homeDescription": "Sustainable Discounts redirige cargos ocultos del comercio para financiar bosques y oceanos mientras los compradores ahorran y las marcas recuperan margen.",
+    "aboutTitle": "El Movimiento",
+    "aboutDescription": "La historia de origen de Sustainable Discounts y como los costos ocultos del mercado se transforman en financiamiento para la naturaleza.",
+    "howTitle": "Para Comercios",
+    "howDescription": "Recupera control de precios, mejora ganancias y financia conservacion con Sustainable Discounts.",
+    "impactTitle": "Los numeros que importan",
+    "impactDescription": "Contadores de impacto SD en vivo, resultados de la beta privada y como el comercio puede duplicar las finanzas de conservacion.",
+    "blogTitle": "Para Compradores",
+    "blogDescription": "Como los compradores ahorran, apoyan a la naturaleza y construyen un historial de conservacion con Sustainable Discounts.",
+    "faqTitle": "Conservacion",
+    "faqDescription": "El movimiento de conservacion de SD, asignacion de fondos y como el comercio crea financiamiento confiable para la naturaleza.",
     "termsTitle": "Terminos de Servicio",
     "termsDescription": "Terminos de uso para la plataforma Sustainable Discounts™ y sus Descuentos Sostenibles.",
     "privacyTitle": "Politica de Privacidad",
@@ -19,11 +19,13 @@
   },
   "nav": {
     "home": "Inicio",
-    "about": "Nuestra compania",
-    "how": "Como funciona",
-    "impact": "Nuestro impacto",
-    "faq": "FAQ",
-    "cta": "Como funciona"
+    "movement": "El Movimiento",
+    "merchants": "Para Comercios",
+    "shoppers": "Para Compradores",
+    "conservation": "Conservacion",
+    "team": "El Equipo",
+    "impact": "Impacto",
+    "cta": "Agregar a Shopify"
   },
   "home": {
     "hero": {
