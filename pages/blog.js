@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import Link from "next/link";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Layout from "components/Layout";
@@ -129,9 +130,9 @@ export default function ShoppersPage() {
             {t("shoppers.brandsSection.section5Desc")}
           </p>
           <div>
-            <a href="/">
+            <Link href="/">
               <button className="sd-cta-btn">{t("shoppers.brandsSection.browseButton")}</button>
-            </a>
+            </Link>
           </div>
         </Container>
       </section>
