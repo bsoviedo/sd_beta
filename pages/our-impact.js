@@ -1,110 +1,70 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Layout from "components/Layout";
 import PageHero from "components/sd/PageHero";
 
 export default function OurImpactPage() {
-  const { locale } = useRouter();
   const { t } = useTranslation("common");
-  const isSpanish = locale === "es";
 
-  const heroCopy = isSpanish
-    ? {
-        title: "Los numeros que importan.",
-        description:
-          "Cada contribucion rastreada. Cada dolar transferido. Cada hectarea documentada. Esta pagina muestra lo que SD ya ha hecho, no lo que planea hacer."
-      }
-    : {
-        title: "The numbers that matter.",
-        description:
-          "Every contribution tracked. Every dollar transferred. Every hectare documented. This page shows what SD has actually done. Not what it plans to do."
-      };
-
-  const lastUpdated = "June 1, 2026";
   const counters = [
-    { label: "Hectares of habitat protected", value: "12,340" },
-    { label: "Tons of CO2 avoided", value: "8,920" },
-    { label: "Species supported", value: "1,280" },
-    { label: "Conservation contributions transferred", value: "$2.1M" },
-    { label: "Merchants active on SD", value: "10" },
-    { label: "Shopper interactions", value: "60,000+" }
+    { label: t("impact.countersSection.card1Label"), value: "12,340" },
+    { label: t("impact.countersSection.card2Label"), value: "8,920" },
+    { label: t("impact.countersSection.card3Label"), value: "1,280" },
+    { label: t("impact.countersSection.card4Label"), value: "$2.1M" },
+    { label: t("impact.countersSection.card5Label"), value: "10" },
+    { label: t("impact.countersSection.card6Label"), value: "60,000+" }
   ];
 
   const betaStats = [
-    "60,000+ consumer interactions.",
-    "32% cart conversion rate uplift for brands using SD.",
-    "38% average portion of discount pools redirected to conservation. Default was 30%.",
-    "$0 additional cost to anyone. The money came from what was already being spent."
+    t("impact.betaSection.stat1"),
+    t("impact.betaSection.stat2"),
+    t("impact.betaSection.stat3"),
+    t("impact.betaSection.stat4")
   ];
 
   const validationItems = [
-    "Earthshot Prize 2025 - Nominated. One of the most rigorous environmental prize processes in the world.",
-    "GEF and World Bank - Currently in due diligence. One of the highest levels of validation in conservation finance.",
-    "Change100 Winner 2026 - Top Impact Startup to Watch, alongside Microsoft Entrepreneurship for Positive Impact.",
-    "Cornell University Life Changing Labs - Accelerator Winner, Summer 2024."
+    { title: t("impact.validationSection.item1Title"), desc: t("impact.validationSection.item1Desc") },
+    { title: t("impact.validationSection.item2Title"), desc: t("impact.validationSection.item2Desc") },
+    { title: t("impact.validationSection.item3Title"), desc: t("impact.validationSection.item3Desc") },
+    { title: t("impact.validationSection.item4Title"), desc: t("impact.validationSection.item4Desc") }
   ];
 
   const sdgs = [
-    {
-      title: "SDG 1 - NO POVERTY",
-      body: "1.2 billion people depend directly on forests for their livelihoods. When a forest goes, their economic base goes with it."
-    },
-    {
-      title: "SDG 2 - ZERO HUNGER",
-      body: "The Amazon generates the flying rivers that carry rainfall for hundreds of millions of people. Deforestation breaks that cycle."
-    },
-    {
-      title: "SDG 3 - GOOD HEALTH",
-      body: "Intact forests reduce the risk of zoonotic disease spillover. The science connecting deforestation to pandemic risk is well established."
-    },
-    {
-      title: "SDG 6 - CLEAN WATER",
-      body: "Forests are the most effective water filtration systems on Earth. When they go, rivers run brown and water costs rise."
-    },
-    {
-      title: "SDG 8 - DECENT WORK",
-      body: "Conservation projects funded by SD create employment in the most economically vulnerable regions: rangers, scientists, community monitors."
-    },
-    {
-      title: "SDG 13 - CLIMATE ACTION",
-      body: "Forest protection delivers over 30% of the emission reductions needed by 2030. Every intact hectare is a carbon vault."
-    },
-    {
-      title: "SDG 14 - LIFE BELOW WATER",
-      body: "Reduced deforestation means less sediment runoff, protecting the reef and seagrass ecosystems that 3 billion people depend on for food."
-    },
-    {
-      title: "SDG 15 - LIFE ON LAND",
-      body: "Forest protection preserves biodiversity and supports indigenous communities, the most effective long-term stewards of their territories."
-    }
+    { title: t("impact.sdgsSection.sdg1Title"), body: t("impact.sdgsSection.sdg1Body") },
+    { title: t("impact.sdgsSection.sdg2Title"), body: t("impact.sdgsSection.sdg2Body") },
+    { title: t("impact.sdgsSection.sdg3Title"), body: t("impact.sdgsSection.sdg3Body") },
+    { title: t("impact.sdgsSection.sdg6Title"), body: t("impact.sdgsSection.sdg6Body") },
+    { title: t("impact.sdgsSection.sdg8Title"), body: t("impact.sdgsSection.sdg8Body") },
+    { title: t("impact.sdgsSection.sdg13Title"), body: t("impact.sdgsSection.sdg13Body") },
+    { title: t("impact.sdgsSection.sdg14Title"), body: t("impact.sdgsSection.sdg14Body") },
+    { title: t("impact.sdgsSection.sdg15Title"), body: t("impact.sdgsSection.sdg15Body") }
   ];
 
   const partners = [
-    {
-      name: "Terrasos",
-      detail: "Colombia - Verified biodiversity credits tied to traceable habitat protection. Active and deployed."
-    },
-    {
-      name: "Panthera",
-      detail: "Global - Wild cats and large intact ecosystems across the Americas, Africa, and Asia. Partnership agreed in principle. Due diligence ongoing."
-    }
+    { name: t("impact.partnersSection.partner1Name"), detail: t("impact.partnersSection.partner1Detail") },
+    { name: t("impact.partnersSection.partner2Name"), detail: t("impact.partnersSection.partner2Detail") }
   ];
 
   return (
     <Layout title={t("meta.impactTitle")} description={t("meta.impactDescription")}>
-      <PageHero title={heroCopy.title} description={heroCopy.description} carouselSide="right" />
+      <PageHero
+        title={t("impact.hero.title")}
+        description={t("impact.hero.description")}
+        carouselSide="right"
+      />
 
       <section className="sd-section pt-0">
         <Container className="px-4 px-lg-5 text-center">
-          <p className="text-muted mb-2">Last updated {lastUpdated}</p>
+          <p className="text-muted mb-4">
+            {t("impact.countersSection.lastUpdated")} {t("impact.countersSection.date")}
+          </p>
           <Row className="g-4 justify-content-center">
             {counters.map((counter) => (
               <Col md={4} key={counter.label}>
-                <article className="sd-counter-card h-100">
-                  <h3>{counter.value}</h3>
-                  <p className="mb-0">{counter.label}</p>
+                <article className="sd-counter-card h-100" style={{ borderRadius: "18px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.04)", padding: "2.5rem 1.5rem" }}>
+                  <h3 style={{ fontSize: "3rem", fontWeight: "800", color: "var(--sd-primary)", marginBottom: "0.5rem" }}>{counter.value}</h3>
+                  <p className="mb-0 text-muted" style={{ fontSize: "0.95rem", lineHeight: "1.4" }}>{counter.label}</p>
                 </article>
               </Col>
             ))}
@@ -112,19 +72,19 @@ export default function OurImpactPage() {
         </Container>
       </section>
 
-      <section className="sd-section sd-blog-section pt-0" style={{ paddingTop: "100px", paddingBottom: "100px" }}>
+      <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
-          <h2 className="text-center sd-section-accent mb-4">{isSpanish ? "Lo que aprendimos antes de salir al publico." : "What we learned before going public."}</h2>
-          <p className="sd-blog-text text-center mx-auto mb-4" style={{ maxWidth: "760px" }}>
-            {isSpanish
-              ? "10 tiendas. EE. UU., Reino Unido y Colombia. El objetivo fue prueba, no escala."
-              : "10 stores. USA, UK, and Colombia. The goal was proof, not scale."}
-          </p>
+          <h2 className="text-center sd-section-accent mb-4">{t("impact.betaSection.title")}</h2>
+          <div className="sd-blog-content mx-auto text-center mb-5" style={{ maxWidth: "800px" }}>
+            <p className="sd-blog-text" style={{ fontSize: "1.1rem" }}>
+              {t("impact.betaSection.intro")}
+            </p>
+          </div>
           <Row className="g-4 justify-content-center">
-            {betaStats.map((stat) => (
-              <Col md={6} key={stat}>
-                <article className="sd-stat-card h-100">
-                  <p className="sd-blog-text mb-3 mt-3 p-2">{stat}</p>
+            {betaStats.map((stat, idx) => (
+              <Col md={6} key={idx}>
+                <article className="sd-stat-card h-100 p-4 text-center d-flex align-items-center justify-content-center" style={{ minHeight: "130px", borderRadius: "16px" }}>
+                  <p className="sd-blog-text mb-0 fw-semibold" style={{ color: "var(--sd-dark)" }}>{stat}</p>
                 </article>
               </Col>
             ))}
@@ -134,11 +94,14 @@ export default function OurImpactPage() {
 
       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
-          <h2 className="text-center sd-section-accent mb-4">{isSpanish ? "Organizaciones que tomaron a SD en serio." : "Organizations that took SD seriously."}</h2>
-          <Row className="g-4">
-            {validationItems.map((item) => (
-              <Col md={6} key={item}>
-                <div className="sd-proof-item">{item}</div>
+          <h2 className="text-center sd-section-accent mb-4">{t("impact.validationSection.title")}</h2>
+          <Row className="g-4 justify-content-center">
+            {validationItems.map((val) => (
+              <Col md={6} lg={3} key={val.title}>
+                <article className="sd-team-card h-100 text-center p-4" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.06)" }}>
+                  <h3 className="mb-2" style={{ fontSize: "1.15rem", color: "var(--sd-primary)" }}>{val.title}</h3>
+                  <p className="small text-muted mb-0" style={{ fontSize: "0.85rem", lineHeight: "1.5" }}>{val.desc}</p>
+                </article>
               </Col>
             ))}
           </Row>
@@ -147,18 +110,18 @@ export default function OurImpactPage() {
 
       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
-          <h2 className="text-center sd-section-accent mb-4">{isSpanish ? "Ocho ODS de la ONU" : "The Eight UN SDGs"}</h2>
-          <p className="sd-blog-text text-center mx-auto mb-4" style={{ maxWidth: "760px" }}>
-            {isSpanish
-              ? "No es un reclamo de marketing. Es el resultado de decadas de investigacion sobre lo que significa mantener un bosque en pie."
-              : "Not a marketing claim. The result of decades of research on what keeping a forest standing actually does."}
-          </p>
+          <h2 className="text-center sd-section-accent mb-4">{t("impact.sdgsSection.title")}</h2>
+          <div className="sd-blog-content mx-auto text-center mb-5" style={{ maxWidth: "760px" }}>
+            <p className="sd-blog-text text-muted" style={{ fontSize: "1rem" }}>
+              {t("impact.sdgsSection.desc")}
+            </p>
+          </div>
           <Row className="g-4">
             {sdgs.map((item) => (
-              <Col md={6} key={item.title}>
-                <article className="sd-sdg-card h-100">
-                  <h3>{item.title}</h3>
-                  <p className="sd-blog-text">{item.body}</p>
+              <Col md={6} lg={3} key={item.title}>
+                <article className="sd-sdg-card h-100 p-4 text-center d-flex flex-column justify-content-start" style={{ borderRadius: "16px", background: "#ffffff", border: "1px solid rgba(0,0,0,0.05)" }}>
+                  <h3 className="mb-2" style={{ fontSize: "1rem", color: "var(--sd-primary)" }}>{item.title}</h3>
+                  <p className="small text-muted mb-0" style={{ fontSize: "0.85rem", lineHeight: "1.5" }}>{item.body}</p>
                 </article>
               </Col>
             ))}
@@ -168,13 +131,13 @@ export default function OurImpactPage() {
 
       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
-          <h2 className="text-center sd-section-accent mb-4">{isSpanish ? "Donde va el dinero." : "Where the money goes."}</h2>
+          <h2 className="text-center sd-section-accent mb-4">{t("impact.partnersSection.title")}</h2>
           <Row className="g-4 justify-content-center">
             {partners.map((partner) => (
               <Col md={6} key={partner.name}>
-                <article className="sd-partner-card h-100">
-                  <h3>{partner.name}</h3>
-                  <p className="sd-blog-text">{partner.detail}</p>
+                <article className="sd-partner-card h-100 p-4 text-center d-flex flex-column justify-content-center" style={{ borderRadius: "16px", background: "rgba(31,138,76,0.03)" }}>
+                  <h3 style={{ color: "var(--sd-primary)" }}>{partner.name}</h3>
+                  <p className="sd-blog-text text-muted" style={{ fontSize: "0.95rem" }}>{partner.detail}</p>
                 </article>
               </Col>
             ))}
@@ -184,47 +147,46 @@ export default function OurImpactPage() {
 
       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
-          <h2 className="text-center sd-section-accent mb-4">{isSpanish ? "Por que los numeros a escala no son especulativos." : "Why the numbers at scale are not speculative."}</h2>
-          <div className="sd-blog-content mx-auto" style={{ maxWidth: "800px" }}>
+          <h2 className="text-center sd-section-accent mb-4">{t("impact.scaleSection.title")}</h2>
+          <div className="sd-blog-content mx-auto text-center" style={{ maxWidth: "800px" }}>
             <div className="sd-faq-criteria mb-4">
               <div className="sd-faq-criterion">
-                <h4>Current</h4>
-                <p className="sd-blog-metric-text">$208B/year conservation</p>
+                <h4 className="mb-2" style={{ color: "var(--sd-primary)", fontSize: "1.1rem" }}>{t("impact.scaleSection.metric1")}</h4>
+                <p className="sd-blog-metric-text mb-0 fw-semibold">{t("impact.scaleSection.val1")}</p>
               </div>
               <div className="sd-faq-criterion">
-                <h4>Gap</h4>
-                <p className="sd-blog-metric-text">$942B needed annually</p>
+                <h4 className="mb-2" style={{ color: "var(--sd-accent)", fontSize: "1.1rem" }}>{t("impact.scaleSection.metric2")}</h4>
+                <p className="sd-blog-metric-text mb-0 fw-semibold">{t("impact.scaleSection.val2")}</p>
               </div>
               <div className="sd-faq-criterion">
-                <h4>Opportunity</h4>
-                <p className="sd-blog-metric-text">$2T intermediary fees</p>
+                <h4 className="mb-2" style={{ color: "var(--sd-primary)", fontSize: "1.1rem" }}>{t("impact.scaleSection.metric3")}</h4>
+                <p className="sd-blog-metric-text mb-0 fw-semibold">{t("impact.scaleSection.val3")}</p>
               </div>
             </div>
-            <div className="sd-blog-highlight mb-4">
-              <p className="sd-blog-text">10% capture = $200 billion for conservation</p>
+            <div className="sd-blog-highlight mb-4 p-4" style={{ borderRadius: "12px", background: "rgba(31, 138, 76, 0.06)" }}>
+              <p className="sd-blog-text mb-0 fw-bold">{t("impact.scaleSection.highlight")}</p>
             </div>
-            <p className="sd-blog-text" style={{fontSize: "0.95rem"}}>It is much easier to redirect existing spending than to create new funding.</p>
           </div>
           <blockquote className="sd-pull-quote sd-pull-quote-hero mx-auto mt-4" style={{ maxWidth: "720px" }}>
-            <p>{isSpanish ? "Es mucho mas facil redirigir el gasto existente que crear financiamiento nuevo." : "It is much easier to redirect existing spending than to create new funding."}</p>
+            <p>{t("impact.scaleSection.footer")}</p>
           </blockquote>
         </Container>
       </section>
 
       <section className="sd-section sd-blog-section sd-blog-cta-section pt-0">
         <Container className="px-4 px-lg-5 text-center">
-          <h2 className="sd-section-accent mb-4">{isSpanish ? "A que se compromete SD con la transparencia." : "What SD commits to on transparency."}</h2>
-          <div className="sd-blog-content mx-auto" style={{ maxWidth: "800px" }}>
+          <h2 className="sd-section-accent mb-4">{t("impact.transparencySection.title")}</h2>
+          <div className="sd-blog-content mx-auto text-center" style={{ maxWidth: "800px" }}>
             <div className="sd-blog-metrics mb-4">
-              <div className="sd-blog-metric">90% → Projects (90 days)</div>
-              <div className="sd-blog-metric">10% → Operations</div>
-              <div className="sd-blog-metric">Surplus → Conservation</div>
+              <div className="sd-blog-metric">{t("impact.transparencySection.metric1")}</div>
+              <div className="sd-blog-metric">{t("impact.transparencySection.metric2")}</div>
+              <div className="sd-blog-metric">{t("impact.transparencySection.metric3")}</div>
             </div>
-            <p className="sd-blog-text mb-3">Every allocation decision published with full reasoning and data.</p>
-            <p className="sd-blog-text mb-4" style={{fontSize: "0.95rem"}}>Blockchain verification of contribution data planned for future phase. Until then, contribution records published every cycle.</p>
+            <p className="sd-blog-text mb-3" style={{ fontSize: "1rem" }}>{t("impact.transparencySection.body1")}</p>
+            <p className="sd-blog-text mb-4 text-muted" style={{ fontSize: "0.95rem" }}>{t("impact.transparencySection.body2")}</p>
           </div>
           <a href="mailto:damian@mandatum.co">
-            <button className="sd-cta-btn mt-3">{isSpanish ? "Solicita acceso a los datos" : "Request data access"}</button>
+            <button className="sd-cta-btn mt-3">{t("impact.transparencySection.ctaButton")}</button>
           </a>
         </Container>
       </section>

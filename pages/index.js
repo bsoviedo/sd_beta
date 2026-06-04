@@ -1,6 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Layout from "components/Layout";
@@ -8,120 +7,43 @@ import Hero from "components/sd/Hero";
 import Benefits from "components/sd/Benefits";
 
 export default function HomePage() {
-  const { locale } = useRouter();
   const { t } = useTranslation("common");
-  const isSpanish = locale === "es";
 
-  const ideaCopy = isSpanish
-    ? {
-        label: "El comercio incluye costos.",
-        headline: "Una oportunidad en cada compra.",
-        body:
-          "El comercio incluye costos. A veces solo necesitas el producto. Hasta el 40% de lo que pagas en un marketplace va para su infraestructura. No para tu producto.",
-        step1: "Commerce generates a hidden cost. Up to 40% of what you pay goes to marketplace infrastructure.",
-        step2: "SD makes that cost visible and creates a real choice.",
-        step3: "Shopper saves. Brand earns more. Nature gets funded. Automatically.",
-        linkText: "See the full mechanism"
-      }
-    : {
-        label: "Commerce includes costs.",
-        headline: "An opportunity in every purchase.",
-        body:
-          "Commerce features costs. Sometimes all you need is the product. Up to 40% of what you pay on a major marketplace goes to its infrastructure. Not your product.",
-        step1: "Step 1: Commerce generates a hidden cost. Up to 40% of what you pay goes to marketplace infrastructure.",
-        step2: "Step 2: SD makes that cost visible and creates a real choice.",
-        step3: "Step 3: Shopper saves. Brand earns more. Nature gets funded. Automatically.",
-        linkText: "See the full mechanism"
-      };
-
-  const audienceCards = isSpanish
-    ? [
-        {
-          title: "Para marcas",
-          body: "Recupera control de precios, mejora ganancias. Ofrece un descuento real en tu canal directo. Gana una historia de conservacion que ningun marketplace puede reproducir.",
-          foot: "Gratis para instalar. Sin contrato.",
-          href: "/how-it-works",
-          cta: "How SD works for your brand"
-        },
-        {
-          title: "Para compradores",
-          body: "El mismo producto. Precio mas bajo. Una contribucion de conservacion verificada incluida. Tu decides cuanto de tu descuento va para ti y cuanto paga al planeta.",
-          foot: "Encuentra marcas SD y crea tu cuenta planeta.",
-          href: "/blog",
-          cta: "Find SD brands"
-        },
-        {
-          title: "Para el movimiento",
-          body: "Cientificos, conservacionistas, activistas, periodistas, fundadores, celebridades y expertos del sector. Si crees que el comercio puede proteger la naturaleza, aqui hay un lugar para ti.",
-          foot: "Únete al movimiento.",
-          href: "/faq",
-          cta: "Join the movement"
-        }
-      ]
-    : [
-        {
-          title: "For brands",
-          body: "Recover pricing control, improve profits. Offer shoppers a real discount on your direct channel. Earn a conservation story no marketplace can replicate.",
-          foot: "Free to install. No contract.",
-          href: "/how-it-works",
-          cta: "How SD works for your brand"
-        },
-        {
-          title: "For shoppers",
-          body: "The same product. Lower price. A verified conservation contribution included. You decide how much of your discount goes to you and how much pays back the planet.",
-          foot: "Find SD brands and create your planet account.",
-          href: "/blog",
-          cta: "Find SD brands"
-        },
-        {
-          title: "For the movement",
-          body: "Scientists, conservationists, activists, journalists, founders, celebrities, industry experts. If you believe commerce can be redesigned to protect nature, there is a role for you here.",
-          foot: "Join the movement.",
-          href: "/faq",
-          cta: "Join the movement"
-        }
-      ];
-
-  const proofItems = [
-    "Earthshot Prize 2025 - Nominated",
-    "GEF and World Bank - Currently in due diligence",
-    "Change100 Winner 2026 - Top Impact Startup to Watch",
-    "Cornell University Life Changing Labs - Accelerator Winner, Summer 2024",
-    "Panthera - Partnership agreed in principle",
-    "Terrasos - Active partnership, biodiversity credits live"
+  const audienceCards = [
+    {
+      title: t("home.audiencesSection.card1.title"),
+      headline: t("home.audiencesSection.card1.headline"),
+      body: t("home.audiencesSection.card1.body"),
+      foot: t("home.audiencesSection.card1.foot"),
+      href: "/how-it-works",
+      cta: t("home.audiencesSection.card1.cta")
+    },
+    {
+      title: t("home.audiencesSection.card2.title"),
+      headline: t("home.audiencesSection.card2.headline"),
+      body: t("home.audiencesSection.card2.body"),
+      foot: t("home.audiencesSection.card2.foot"),
+      href: "/blog",
+      cta: t("home.audiencesSection.card2.cta")
+    },
+    {
+      title: t("home.audiencesSection.card3.title"),
+      headline: t("home.audiencesSection.card3.headline"),
+      body: t("home.audiencesSection.card3.body"),
+      foot: t("home.audiencesSection.card3.foot"),
+      href: "/faq",
+      cta: t("home.audiencesSection.card3.cta")
+    }
   ];
 
-  const betaCopy = isSpanish
-    ? {
-        label: "La beta privada dijo lo que esperabamos.",
-        headline: "Numeros reales. Compras reales. Conservacion real.",
-        stat1: "60,000+ interacciones de consumidores en 10 tiendas de EE. UU., Reino Unido y Colombia.",
-        stat2: "32% de aumento en conversiones de carrito para marcas que usan SD.",
-        stat3: "38% de los pools disponibles fueron redirigidos voluntariamente a conservacion. El predeterminado era 30%.",
-        body: "No se ofrecio recompensa. Cuando la opcion era transparente, la gente eligio el planeta."
-      }
-    : {
-        label: "The private beta said what we hoped it would.",
-        headline: "Real numbers. Real purchases. Real conservation.",
-        stat1: "60,000+ consumer interactions across 10 stores in the USA, UK, and Colombia.",
-        stat2: "32% cart conversion rate uplift for brands using SD.",
-        stat3: "38% of available pools voluntarily redirected to conservation. The default was 30%.",
-        body: "No reward was offered. When the choice was transparent, people chose the planet."
-      };
-
-  const closingCopy = isSpanish
-    ? {
-        headline: "El mecanismo esta listo. El planeta no puede esperar.",
-        merchant: "Agrega SD a tu tienda Shopify. Gratis.",
-        nonShopify: "¿Otra plataforma? Nos integramos en 48 horas. Hable con nosotros.",
-        movement: "¿Quieres promover el movimiento? Ponte en contacto."
-      }
-    : {
-        headline: "The mechanism is ready. The planet cannot wait.",
-        merchant: "Add SD to your Shopify store. Free.",
-        nonShopify: "Different platform? We integrate in 48 hours. Talk to us.",
-        movement: "Want to promote the movement? Get in touch."
-      };
+  const proofItems = [
+    t("home.proofItems.item1", "Earthshot Prize 2025 - Nominated"),
+    t("home.proofItems.item2", "GEF and World Bank - Currently in due diligence"),
+    t("home.proofItems.item3", "Change100 Winner 2026 - Top Impact Startup to Watch"),
+    t("home.proofItems.item4", "Cornell University Life Changing Labs - Accelerator Winner, Summer 2024"),
+    t("home.proofItems.item5", "Panthera - Partnership agreed in principle"),
+    t("home.proofItems.item6", "Terrasos - Active partnership, biodiversity credits live")
+  ];
 
   return (
     <Layout title={t("meta.homeTitle")} description={t("meta.homeDescription")}>
@@ -130,15 +52,20 @@ export default function HomePage() {
 
       <section className="sd-section pt-0">
         <Container className="px-4 px-lg-5">
-          <h2 className="sd-section-title text-center mb-3">{ideaCopy.headline}</h2>
-          <p className="sd-home-copy text-center mx-auto mb-5" style={{ maxWidth: "780px" }}>
-            {ideaCopy.body}
+          <h2 className="sd-section-title text-center mb-3">{t("home.ideaSection.headline")}</h2>
+          <p className="sd-home-copy text-center mx-auto mb-2" style={{ maxWidth: "780px" }}>
+            {t("home.ideaSection.body1")}
+          </p>
+          <p className="sd-home-copy text-center mx-auto mb-5 fw-bold" style={{ maxWidth: "780px", color: "var(--sd-primary)" }}>
+            {t("home.ideaSection.body2")}
           </p>
           <Row className="g-4 justify-content-center">
-            {[ideaCopy.step1, ideaCopy.step2, ideaCopy.step3].map((item, index) => (
+            {[t("home.ideaSection.step1"), t("home.ideaSection.step2"), t("home.ideaSection.step3")].map((item, index) => (
               <Col md={4} key={index}>
                 <article className="sd-step-card h-100">
-                  <h3 className="sd-step-number">Step {index + 1}</h3>
+                  <h3 className="sd-step-number" style={{ color: "#ffffff" }}>
+                    {t("home.ideaSection.stepLabel", "Step")} {index + 1}
+                  </h3>
                   <p className="mb-0">{item}</p>
                 </article>
               </Col>
@@ -146,7 +73,7 @@ export default function HomePage() {
           </Row>
           <div className="text-center mt-4">
             <Link href="/how-it-works">
-              <button className="sd-cta-btn">{ideaCopy.linkText}</button>
+              <button className="sd-cta-btn">{t("home.ideaSection.linkText")}</button>
             </Link>
           </div>
         </Container>
@@ -154,17 +81,22 @@ export default function HomePage() {
 
       <section className="sd-section pt-0">
         <Container className="px-4 px-lg-5">
-          <h2 className="sd-section-title text-center mb-5">{isSpanish ? "Tres audiencias. Un mecanismo." : "Three audiences. One mechanism."}</h2>
+          <h2 className="sd-section-title text-center mb-5">{t("home.audiencesSection.title")}</h2>
           <Row className="g-4">
             {audienceCards.map((card) => (
               <Col md={4} key={card.title}>
-                <article className="sd-audience-card h-100">
-                  <h3>{card.title}</h3>
-                  <p>{card.body}</p>
-                  <p className="fw-semibold">{card.foot}</p>
-                  <Link href={card.href}>
-                    <button className="sd-link-btn mt-3">{card.cta}</button>
-                  </Link>
+                <article className="sd-audience-card h-100 d-flex flex-column justify-content-between p-4" style={{ background: "#ffffff", borderRadius: "16px", boxShadow: "0 10px 24px rgba(35,59,45,0.06)" }}>
+                  <div>
+                    <h3 className="mb-2" style={{ fontSize: "1.5rem" }}>{card.title}</h3>
+                    <h4 className="fs-6 fw-bold mb-3" style={{ color: "var(--sd-accent)" }}>{card.headline}</h4>
+                    <p style={{ fontSize: "0.95rem", lineHeight: "1.6", color: "rgba(28,56,39,0.8)" }}>{card.body}</p>
+                  </div>
+                  <div>
+                    <p className="fw-semibold text-muted small mt-2 mb-3">{card.foot}</p>
+                    <Link href={card.href}>
+                      <button className="sd-link-btn w-100 mt-2">{card.cta}</button>
+                    </Link>
+                  </div>
                 </article>
               </Col>
             ))}
@@ -175,7 +107,7 @@ export default function HomePage() {
       <section className="sd-section pt-0">
         <Container className="px-4 px-lg-5">
           <div className="sd-proof-strip text-center">
-            <h2 className="sd-section-title text-center">{isSpanish ? "Validado de manera independiente" : "Independently validated"}</h2>
+            <h2 className="sd-section-title text-center">{t("home.audiencesSection.validatedLabel", "Independently validated")}</h2>
             <ul className="sd-proof-items list-unstyled d-flex flex-wrap justify-content-center gap-3 mx-auto" style={{ maxWidth: "980px" }}>
               {proofItems.map((item) => (
                 <li className="sd-proof-item p-3" key={item}>
@@ -189,11 +121,10 @@ export default function HomePage() {
 
       <section className="sd-section pt-0 sd-beta-block">
         <Container className="px-4 px-lg-5">
-                    <h2 className="sd-section-title text-center mb-4">{betaCopy.label}</h2>
-
-          <p className="sd-section-label text-center mb-2">{betaCopy.headline}</p>
+          <h2 className="sd-section-title text-center mb-4">{t("home.betaSection.label")}</h2>
+          <p className="sd-section-label text-center mb-2">{t("home.betaSection.headline")}</p>
           <Row className="g-4 justify-content-center">
-            {[betaCopy.stat1, betaCopy.stat2, betaCopy.stat3].map((stat, index) => (
+            {[t("home.betaSection.stat1"), t("home.betaSection.stat2"), t("home.betaSection.stat3")].map((stat, index) => (
               <Col md={6} lg={4} key={index}>
                 <article className="sd-stat-card sd-stat-card-highlight h-100 d-flex align-items-center justify-content-center text-center">
                   <div>
@@ -204,28 +135,28 @@ export default function HomePage() {
             ))}
           </Row>
           <p className="text-center mt-4 mx-auto sd-beta-description" style={{ maxWidth: "720px" }}>
-            {betaCopy.body}
+            {t("home.betaSection.body")}
           </p>
         </Container>
       </section>
 
       <section className="sd-section pt-0">
         <Container className="px-4 px-lg-5 text-center">
-          <h2 className="sd-section-title mb-4">{closingCopy.headline}</h2>
+          <h2 className="sd-section-title mb-4">{t("home.closingSection.headline")}</h2>
           <Row className="g-3 justify-content-center">
             <Col md={4}>
               <Link href="/how-it-works">
-                <button className="sd-cta-btn w-100">{closingCopy.merchant}</button>
+                <button className="sd-cta-btn w-100">{t("home.closingSection.merchant")}</button>
               </Link>
             </Col>
             <Col md={4}>
               <Link href="/faq">
-                <button className="sd-cta-btn w-100">{closingCopy.nonShopify}</button>
+                <button className="sd-cta-btn w-100">{t("home.closingSection.nonShopify")}</button>
               </Link>
             </Col>
             <Col md={4}>
               <Link href="/about#team">
-                <button className="sd-cta-btn w-100">{closingCopy.movement}</button>
+                <button className="sd-cta-btn w-100">{t("home.closingSection.movement")}</button>
               </Link>
             </Col>
           </Row>

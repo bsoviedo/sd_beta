@@ -34,6 +34,14 @@
       "primaryCta": "See How It Works",
       "secondaryCta": "Sign Up"
     },
+    "heroExt": {
+      "title": "Every purchase, giving back to the planet.",
+      "tagline": "At no extra cost to anyone.",
+      "description1": "Sustainable Discounts redirects fees hidden inside commerce to fund forest and ocean conservation.",
+      "description2": "Shoppers get a real discount. Brands recover margin. Nature gets funded.",
+      "ctaBrand": "I'm a brand. See how it works.",
+      "ctaShopper": "I'm a shopper. Find SD brands."
+    },
     "benefits": {
       "title": "Consumers Demand Sustainability",
       "description": "",
@@ -61,12 +69,61 @@
       "email": "Your email",
       "cta": "Sign up",
       "confirmation": "Thank you. Your information has been received."
+    },
+    "ideaSection": {
+      "headline": "An opportunity in every purchase.",
+      "body1": "Commerce features costs. Sometimes all you need is the product.",
+      "body2": "Up to 40% of what you pay on a major marketplace goes to its infrastructure — not your product.",
+      "step1": "Commerce generates a hidden cost. Up to 40% of what you pay goes to marketplace infrastructure.",
+      "step2": "SD makes that cost visible and creates a real choice.",
+      "step3": "Shopper saves. Brand earns more. Nature gets funded. Automatically.",
+      "linkText": "See the full mechanism"
+    },
+    "audiencesSection": {
+      "title": "Three audiences. One mechanism.",
+      "card1": {
+        "title": "For brands",
+        "headline": "Recover pricing control and improve profits.",
+        "body": "Offer shoppers a real discount on your direct channel. Earn a conservation story no marketplace can replicate.",
+        "foot": "Free to install. No contract.",
+        "cta": "How SD works for your brand"
+      },
+      "card2": {
+        "title": "For shoppers",
+        "headline": "The same product. Lower price.",
+        "body": "A verified conservation contribution included. You decide how much of your discount goes to you and how much pays back the planet.",
+        "foot": "Find SD brands and create your planet account.",
+        "cta": "Find SD brands"
+      },
+      "card3": {
+        "title": "For the movement",
+        "headline": "Scientists, activists, journalists and experts.",
+        "body": "If you believe commerce can be redesigned to protect nature, there is a role for you here.",
+        "foot": "Join the movement.",
+        "cta": "Join the movement"
+      }
+    },
+    "betaSection": {
+      "label": "The private beta said what we hoped it would.",
+      "headline": "Real numbers. Real purchases. Real conservation.",
+      "stat1": "60,000+ consumer interactions across 10 stores in the USA, UK, and Colombia.",
+      "stat2": "32% cart conversion rate uplift for brands using SD.",
+      "stat3": "38% of available pools voluntarily redirected to conservation. The default was 30%.",
+      "body": "No reward was offered. When the choice was transparent, people chose the planet."
+    },
+    "closingSection": {
+      "headline": "The mechanism is ready. The planet cannot wait.",
+      "merchant": "Add SD to your Shopify store. Free.",
+      "nonShopify": "Different platform? We integrate in 48 hours. Talk to us.",
+      "movement": "Want to promote the movement? Get in touch."
     }
   },
   "about": {
     "hero": {
       "title": "Our Mission",
-      "description": "Mobilizing large scale recurring funding to protect forests and oceans while helping reduce climate and biodiversity risks."
+      "description": "Mobilizing large scale recurring funding to protect forests and oceans while helping reduce climate and biodiversity risks.",
+      "titleExt": "Born in the most biodiverse country on Earth.",
+      "descriptionExt": "Built to fix what commerce broke. Colombia holds approximately 10% of all species on the planet and it is also losing forests to economic forces that conservation funding has never matched."
     },
     "vision": {
       "title": "Nature and climate action at no cost",
@@ -79,12 +136,88 @@
     "impact": {
       "title": "The Mandatum of our lifetime",
       "body": "Protecting the planet is not only a government responsibility. It is a shared mandate for people, brands, and institutions."
+    },
+    "originSection": {
+      "headline": "The question he couldn't stop asking.",
+      "body1": "After running multi-billion dollar consumer electronics businesses, our founder watched billions disappear into distribution infrastructure, and ignoring the planet.",
+      "body2": "He kept asking: what if that money could work harder? The answer was always nature.",
+      "quote": "We are not solving a hypothetical problem. We are from Colombia, the most biodiverse country on Earth per square kilometer. This is personal.",
+      "author": "Damian Estrada, Founder and CEO"
+    },
+    "problemSection": {
+      "headline": "Nature doesn't have a solutions problem. It has a funding problem.",
+      "body1": "The projects are planned. The scientists are trained. The rangers are ready.",
+      "body2": "What's missing is the money: recurring, reliable, and not dependent on political calendars.",
+      "bullet1": "The projects are planned.",
+      "bullet2": "The scientists are trained.",
+      "bullet3": "The rangers are ready."
+    },
+    "insightSection": {
+      "headline": "The money is there. It just wasn't going anywhere useful.",
+      "body1": "Every durable goods purchase includes a hidden cost.",
+      "body2": "It goes to marketplace infrastructure. Not the product. Not the planet.",
+      "body3": "SD doesn't ask for new money. It asks commerce to be transparent about money that was always there.",
+      "metric1": "Up to 40% of price",
+      "metric2": "Goes to infrastructure",
+      "metric3": "Not product. Not planet.",
+      "link": "See exactly how the mechanism works"
+    },
+    "solutionSection": {
+      "headline": "A pricing mechanism, not a charity.",
+      "body": "SD is embedded at the point of sale. It doesn't ask for donations. It restructures the transaction.",
+      "shopper": "✅ Shoppers save",
+      "brand": "✅ Brands recover margin",
+      "nature": "✅ Nature gets funded",
+      "footer": "Not from generosity but from adding transparency to commerce."
+    },
+    "visionSection": {
+      "headline": "What the world looks like if this works.",
+      "goalLabel": "The goal:",
+      "goalValue": "Double global conservation finance from $208B to $400B+",
+      "engineTitle": "Engine",
+      "engineBody": "Commerce as driver",
+      "opportunityTitle": "Opportunity",
+      "opportunityBody": "10% of $2T intermediary fees",
+      "impactTitle": "Impact",
+      "impactBody": "$200B for nature",
+      "footer": "Deeper shift: All durable goods purchases automatically contribute to nature. Automatic climate justice."
+    },
+    "philosophySection": {
+      "title": "The Team",
+      "headline": "Everyone on this team chose to be here.",
+      "body1": "No large seed round. No full team before proof of concept.",
+      "body2": "What SD had: people who decided the mission was worth their time before anyone guaranteed it would be worth their money."
+    },
+    "team": {
+      "role": {
+        "damian": "Founder and CEO",
+        "jeisson": "Co-Founder and CTO",
+        "brayan": "Full-Stack Developer",
+        "dylan": "Growth Intern",
+        "adrian": "Growth Advisor",
+        "claudia": "Colombia Growth Lead"
+      },
+      "noLinkedin": "LinkedIn not available"
+    },
+    "validatorsSection": {
+      "title": "External organizations that examined SD and took it seriously.",
+      "cta": "Express interest",
+      "item1Title": "Earthshot Prize 2025",
+      "item1Desc": "Nominee - One of the most rigorous environmental prize processes in the world.",
+      "item2Title": "GEF and World Bank",
+      "item2Desc": "Due Diligence Phase - One of the highest levels of validation in conservation finance.",
+      "item3Title": "Change100 Winner 2026",
+      "item3Desc": "Top Impact Startup to Watch - Alongside Microsoft Entrepreneurship for Positive Impact.",
+      "item4Title": "Cornell Life Changing Labs",
+      "item4Desc": "Accelerator Winner - Cornell University, Summer 2024."
     }
   },
   "how": {
     "hero": {
       "title": "How It Works",
-      "description": "Merchants use existing discounts and Sustainable Discounts™ turns them into Sustainable Discounts™ connected to verified environmental outcomes."
+      "description": "Merchants use existing discounts and Sustainable Discounts™ turns them into Sustainable Discounts™ connected to verified environmental outcomes.",
+      "titleExt": "Recover pricing control, improve profits.",
+      "descriptionExt": "SD converts a portion of the fees you surrender to marketplace infrastructure into a discount for shoppers, a conservation contribution, and recovered margin for your brand. No additional cost. No donation budget required."
     },
     "steps": [
       {
@@ -103,7 +236,71 @@
         "title": "Checkout stays the same",
         "body": "Cart and checkout continue normally while contributions are routed to certified projects and tracked over time."
       }
-    ]
+    ],
+    "problemSection": {
+      "title": "For every $1,000 in revenue.",
+      "body1": "Up to $400 goes to marketplace fees. The shopper doesn't know the split. And most marketplace agreements include a price parity clause.",
+      "body2": "You cannot offer the same product for less on your own store. So you earn less on the marketplace, and you can't compete on your own channel.",
+      "body3": "That is the secret. SD makes it visible."
+    },
+    "mechanismSection": {
+      "headline": "Here is what changes when SD is live on your store.",
+      "withoutTitle": "Without SD",
+      "withoutItem1": "Shopper pays: $1,000",
+      "withoutItem2": "Marketplace takes: up to $400",
+      "withoutItem3": "Your revenue: $600 or less",
+      "withoutItem4": "Nature receives: $0",
+      "withTitle": "With SD (10% pool example)",
+      "withItem1": "Shopper pays: $930 (received a $70 discount)",
+      "withItem2": "Your revenue: $900 ($300 more than through the marketplace)",
+      "withItem3": "Nature receives: at least $30, up to $100 via the slider",
+      "withItem4": "SD operational fee: 10% of the conservation contribution: at least $3, up to $10 via slider.",
+      "body": "You set the pool. SD guarantees 30% minimum goes to conservation. The rest is the shopper discount. The shopper uses the slider to decide: keep more discount, or give more to the planet. You always receive $900. Your revenue is fixed. The shopper carries the only variable.",
+      "quote": "The first funding mechanism where everyone wins by design."
+    },
+    "featureSection": {
+      "title": "What SD looks like for your brand, in practice.",
+      "item1Title": "A banner at the product page.",
+      "item1Body": "\"Shop now and we give you and the planet up to $X on this item.\" A financial announcement, not a donation popup.",
+      "item2Title": "Real-time conservation metrics.",
+      "item2Body": "Square meters of habitat protected, species supported, CO2 avoided. Calculated in real time.",
+      "item3Title": "The slider.",
+      "item3Body": "The shopper splits the pool. You are not involved. Your margin is fixed.",
+      "item4Title": "A sustainability landing page for your brand.",
+      "item4Body": "Your cumulative impact, updated in real time. SD provides the marketing assets.",
+      "item5Title": "Impact documentation.",
+      "item5Body": "Conservation certificates, biodiversity credit records, or consolidated reports. SD handles everything.",
+      "item6Title": "Access to the myplanetaccount.com network.",
+      "item6Body": "Eco-conscious shoppers accumulate cross-brand conservation histories. Your brand is part of that network."
+    },
+    "conservationStorySection": {
+      "title": "The Conservation Story No Marketplace Can Match",
+      "body1": "Marketplace's business model depends on the secret staying intact. When shoppers see the real price, they make a different choice.",
+      "body2": "In the private beta, brands using SD saw a 32% cart conversion uplift. That customer didn't come through advertising: they came because the deal was genuinely better."
+    },
+    "industriesSection": {
+      "title": "Industries",
+      "ctaBrand": "Add to Shopify. Free.",
+      "ctaFaq": "Request a conversation",
+      "ind1Title": "Fashion and footwear",
+      "ind1Body": "SD gives fashion immediate, measurable conservation impact. Starting with the next transaction.",
+      "ind2Title": "Sporting goods",
+      "ind2Body": "Skiers need snow. Surfers need healthy oceans. SD is the funding engine that sustainability frameworks in sport have been missing.",
+      "ind3Title": "Electronics, furniture, home appliances, tools",
+      "ind3Body": "High transaction values, strong DTC growth, significant fees. The bulk of the $2 trillion opportunity."
+    },
+    "startStepsSection": {
+      "title": "How to Start",
+      "step1Title": "Install the free Shopify app.",
+      "step1Body": "Available to all 5+ million Shopify stores. Free. No contract.",
+      "step2Title": "Choose which products to activate.",
+      "step2Body": "Set your pool percentage. SD activates the banner and slider automatically.",
+      "step3Title": "Launch, track, and share.",
+      "step3Body": "Your sustainability page goes live. Contributions transfer to verified projects within 90 days."
+    },
+    "betaStatsSection": {
+      "title": "What the numbers looked like in the real world."
+    }
   },
   "faq": {
     "hero": {
@@ -156,5 +353,220 @@
       "quote": "Mother Earth cannot afford the way commerce functions today"
     },
     "readMore": "Read article"
+  },
+  "benefits": {
+    "title": "The funding gap is real and the solution is already there.",
+    "label": "The Problem in Three Numbers",
+    "card1Stat": "$942B",
+    "card1Body": "The annual gap between what nature needs and what it receives. It grew $200B in four years despite global pledges.",
+    "card2Stat": "92%",
+    "card2Body": "Of Americans support the Endangered Species Act. Most people want to help the planet. The problem is affordability.",
+    "card3Stat": "$0",
+    "card3Body": "What it costs to redirect that money. The inefficiency was always there. We can just use it better."
+  },
+  "shoppers": {
+    "hero": {
+      "title": "Shop smarter. Pay less. Pay back the planet.",
+      "description": "SD gives you a real discount on brands that sell direct. Part of what you would have paid in marketplace fees funds forest and ocean conservation instead. You choose how much of your saving goes to you, and how much goes to the planet."
+    },
+    "pointsSection": {
+      "title": "Most people want to protect nature but can't afford to.",
+      "point1Headline": "The problem",
+      "point1Text": "When you buy a $1,000 product through a marketplace, up to $400 goes to fees. You didn't know it. Most people don't.",
+      "point2Headline": "The opportunity",
+      "point2Text": "When you buy direct through an SD brand, that $400 goes somewhere better. You get a real discount. Nature gets funded.",
+      "point3Headline": "The outcome",
+      "point3Text": "At least $30 goes to verified conservation. The brand earns more. You pay less. Nobody loses."
+    },
+    "sliderSection": {
+      "title": "You decide how the pool splits.",
+      "highlightText": "\"Shop now and we give you and the planet up to $X on this item.\"",
+      "introText": "A popup opens. You see three real-world metrics:",
+      "metric1": "🌱 Habitat protected",
+      "metric2": "🦁 Species supported",
+      "metric3": "☁️ CO2 avoided",
+      "sliderText": "Then the slider. Move left for more discount. Move right to help the planet. The brand earns the same either way.",
+      "statHeadline": "In private beta:",
+      "statText": "38% of pools went to conservation (default was 30%). People chose to give more."
+    },
+    "planetAccountSection": {
+      "title": "Every purchase builds a conservation history that's yours.",
+      "ctaText": "Create a free account at myplanetaccount.com",
+      "recordIntro": "Your personal record across every SD brand you buy from:",
+      "record1": "Hectares protected",
+      "record2": "Species supported",
+      "record3": "CO2 offset",
+      "recordFooter": "Not a loyalty program. A record of what your commerce actually did for the planet.",
+      "ctaButton": "Create your planet account. Free."
+    },
+    "partnersSection": {
+      "title": "Where the money goes.",
+      "partnerIntro": "Every contribution funds scientifically verified projects reviewed by an independent allocation committee.",
+      "partner1": "🐾 Panthera",
+      "partner2": "🌍 Terrasos",
+      "partnerFooter": "Every contribution is tracked. Full documentation every cycle.",
+      "quote": "“When given a transparent choice, shoppers chose the planet. Not out of obligation. Out of preference.”"
+    },
+    "brandsSection": {
+      "title": "SD brands offering real discounts and real conservation.",
+      "section5Desc": "Discover brands that pay you back and pay back the planet.",
+      "browseButton": "Browse SD brands"
+    },
+    "storySection": {
+      "title": "The 38% story.",
+      "defaultLabel": "Default:",
+      "defaultVal": "30% to conservation",
+      "actualLabel": "Actual average:",
+      "actualVal": "38% to conservation",
+      "noteText": "No reward. No nudge. Just transparency.",
+      "footerText": "SD doesn't ask you to be a different kind of consumer. It asks the system to be transparent. The rest follows."
+    }
+  },
+  "conservation": {
+    "hero": {
+      "title": "Commerce can fund the planet.",
+      "description": "Sustainable Discounts is a movement, not just a mechanism. Scientists, conservationists, activists, journalists, founders, celebrities, industry associations, sustainability experts. If you believe commerce can be redesigned to protect nature, there is a role for you here."
+    },
+    "problemSection": {
+      "headline": "The funding crisis is structural. So is the solution.",
+      "body1": "Nature needs $942 billion more per year than it currently receives. Governments are cutting. Corporate pledges disappear with earnings cycles.",
+      "body2": "More than a quarter of conservation professionals are burning out. Not because they stopped caring, but because there is never enough money to do the work they know how to do.",
+      "body3": "SD does not ask conservation to work harder. It brings a new source of money entirely.",
+      "gap": "The gap: Nature needs $942 billion more per year than it currently receives.",
+      "strain": "The strain: Governments are cutting. Corporate pledges disappear. Professionals are burning out.",
+      "solution": "The solution: SD brings a new source of money entirely. Not asking conservation to work harder.",
+      "gapTitle": "The gap",
+      "strainTitle": "The strain",
+      "solutionTitle": "The solution"
+    },
+    "offerSection": {
+      "headline": "Reliable, recurrent funding. Generated by commerce. Not by donors.",
+      "highlight": "Every SD transaction = verified conservation contribution",
+      "subtitle": "Funding scales with commerce, not donor cycles.",
+      "metric1": "90% to projects",
+      "metric2": "10% operations",
+      "metric3": "Surplus → conservation",
+      "footer": "Transferred within 90 days. Verified. Tracked. Transparent."
+    },
+    "industrySection": {
+      "headline": "Your industries need immediate environmental impact. SD delivers it today.",
+      "intro": "Every durable goods sector is under sustainability pressure:",
+      "ind1": "👗 Fashion",
+      "ind2": "🏂 Sporting goods",
+      "ind3": "📱 Electronics",
+      "ind4": "🛋️ Furniture",
+      "bridge": "Long-term solutions take years. SD is the bridge.",
+      "highlight": "Immediate, measurable conservation impact starting today",
+      "cta": "Talk to us about your industry"
+    },
+    "allocationSection": {
+      "headline": "The Conservationist's Dream Team.",
+      "intro": "SD's allocation decisions are governed by an independent committee, currently being assembled. Every allocation decision will be published with full reasoning and data.",
+      "primary": "Primary Criteria",
+      "primary1": "🌍 Climate Velocity (Carbon sequestration speed)",
+      "primary2": "🦁 Biodiversity Integrity (Keystone ecosystems)",
+      "secondary": "Secondary Criteria",
+      "secondary1": "📈 Scalability and replicability",
+      "secondary2": "👥 Community Benefit and livelihoods",
+      "footer": "Seeking representation from leading scientific institutions and frontline practitioners."
+    },
+    "projectSection": {
+      "headline": "If your project can deliver immediate impact, SD will fund it.",
+      "intro": "SD is not a traditional funder. There is no grant application or lengthy review cycle.",
+      "highlight": "Scientifically verified + Measurable near-term results = Funded",
+      "body": "Evaluated on Climate Velocity and Biodiversity Integrity. Funded proportionally to commerce flowing through SD.",
+      "partners": "Current verified partners: Panthera and Terrasos",
+      "cta": "Present your project"
+    },
+    "closingSection": {
+      "headline": "The movement needs more than a mechanism. It needs the people who believe in it.",
+      "body1": "Conservation organizations. Scientists. Activists. Industry associations.",
+      "body2": "Celebrities. Journalists. Founders. Philanthropists.",
+      "body3": "Educators. Community leaders. Sustainability experts.",
+      "footer": "Every voice that promotes this concept accelerates the moment when commerce and conservation become inseparable.",
+      "cta": "Join the movement."
+    }
+  },
+  "impact": {
+    "hero": {
+      "title": "The numbers that matter.",
+      "description": "Every contribution tracked. Every dollar transferred. Every hectare documented. This page shows what SD has actually done. Not what it plans to do."
+    },
+    "countersSection": {
+      "lastUpdated": "Last updated on",
+      "date": "June 1, 2026",
+      "card1Label": "Hectares of habitat protected",
+      "card2Label": "Tons of CO2 avoided",
+      "card3Label": "Species supported",
+      "card4Label": "Conservation contributions transferred",
+      "card5Label": "Merchants active on SD",
+      "card6Label": "Shopper interactions"
+    },
+    "betaSection": {
+      "title": "What we learned before going public.",
+      "intro": "10 stores. USA, UK, and Colombia. The goal was proof, not scale.",
+      "stat1": "60,000+ consumer interactions across 10 stores.",
+      "stat2": "32% cart conversion rate uplift for brands using SD.",
+      "stat3": "38% average portion of discount pools redirected to conservation. Default was 30%.",
+      "stat4": "$0 additional cost to anyone. The money came from what was already being spent."
+    },
+    "validationSection": {
+      "title": "Organizations that examined SD and took it seriously.",
+      "item1Title": "Earthshot Prize 2025",
+      "item1Desc": "Nominated. One of the most rigorous environmental prize processes in the world.",
+      "item2Title": "GEF and World Bank",
+      "item2Desc": "Currently in due diligence. One of the highest levels of validation in conservation finance.",
+      "item3Title": "Change100 Winner 2026",
+      "item3Desc": "Top Impact Startup to Watch, alongside Microsoft Entrepreneurship for Positive Impact.",
+      "item4Title": "Cornell University Life Changing Labs",
+      "item4Desc": "Accelerator Winner, Summer 2024."
+    },
+    "sdgsSection": {
+      "title": "The Eight UN SDGs",
+      "desc": "Not a marketing claim. The result of decades of research on what keeping a forest standing actually does.",
+      "sdg1Title": "SDG 1 - NO POVERTY",
+      "sdg1Body": "1.2 billion people depend directly on forests for their livelihoods. When a forest goes, their economic base goes with it.",
+      "sdg2Title": "SDG 2 - ZERO HUNGER",
+      "sdg2Body": "The Amazon generates the flying rivers that carry rainfall for hundreds of millions of people. Deforestation breaks that cycle.",
+      "sdg3Title": "SDG 3 - GOOD HEALTH",
+      "sdg3Body": "Intact forests reduce the risk of zoonotic disease spillover. The science connecting deforestation to pandemic risk is well established.",
+      "sdg6Title": "SDG 6 - CLEAN WATER",
+      "sdg6Body": "Forests are the most effective water filtration systems on Earth. When they go, rivers run brown and water costs rise.",
+      "sdg8Title": "SDG 8 - DECENT WORK",
+      "sdg8Body": "Conservation projects funded by SD create employment in the most economically vulnerable regions: rangers, scientists, community monitors.",
+      "sdg13Title": "SDG 13 - CLIMATE ACTION",
+      "sdg13Body": "Forest protection delivers over 30% of the emission reductions needed by 2030. Every intact hectare is a carbon vault.",
+      "sdg14Title": "SDG 14 - LIFE BELOW WATER",
+      "sdg14Body": "Reduced deforestation means less sediment runoff, protecting the reef and seagrass ecosystems that 3 billion people depend on for food.",
+      "sdg15Title": "SDG 15 - LIFE ON LAND",
+      "sdg15Body": "Forest protection preserves biodiversity and supports indigenous communities, the most effective long-term stewards of their territories."
+    },
+    "partnersSection": {
+      "title": "Where the money goes.",
+      "partner1Name": "Terrasos",
+      "partner1Detail": "Colombia - Verified biodiversity credits tied to traceable habitat protection. Active and deployed.",
+      "partner2Name": "Panthera",
+      "partner2Detail": "Global - Wild cats and large intact ecosystems across the Americas, Africa, and Asia. Partnership agreed in principle. Due diligence ongoing."
+    },
+    "scaleSection": {
+      "title": "Why the numbers at scale are not speculative.",
+      "metric1": "Current",
+      "val1": "$208B/year conservation",
+      "metric2": "Gap",
+      "val2": "$942B needed annually",
+      "metric3": "Opportunity",
+      "val3": "$2T intermediary fees",
+      "highlight": "10% capture = $200 billion for conservation",
+      "footer": "It is much easier to redirect existing spending than to create new funding."
+    },
+    "transparencySection": {
+      "title": "What SD commits to on transparency.",
+      "metric1": "90% → Projects (90 days)",
+      "metric2": "10% → Operations",
+      "metric3": "Surplus → Conservation",
+      "body1": "Every allocation decision published with full reasoning and data.",
+      "body2": "Blockchain verification of contribution data planned for future phase. Until then, contribution records published every cycle.",
+      "ctaButton": "Request data access"
+    }
   }
 }

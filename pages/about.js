@@ -1,181 +1,115 @@
 import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
-import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Layout from "components/Layout";
 import PageHero from "components/sd/PageHero";
 
 export default function AboutPage() {
-  const { locale } = useRouter();
   const { t } = useTranslation("common");
-  const isSpanish = locale === "es";
-
-  const heroCopy = isSpanish
-    ? {
-        title: "Nacido en el pais mas biodiverso de la Tierra.",
-        description:
-          "Construido para arreglar lo que el comercio rompio. Colombia alberga el 10% de las especies del planeta y sus bosques siguen perdiendose por fuerzas economicas que el financiamiento de conservacion nunca igualo."
-      }
-    : {
-        title: "Born in the most biodiverse country on Earth.",
-        description:
-          "Built to fix what commerce broke. Colombia holds approximately 10% of all species on the planet and it is also losing forests to economic forces that conservation funding has never matched."
-      };
-
-  const originCopy = isSpanish
-    ? {
-        headline: "La pregunta que no dejaba de hacerse.",
-        body: "Despues de liderar negocios de electronica de consumo de miles de millones de dolares, nuestro fundador vi como millones desaparecian en infraestructura de distribucion, mientras el planeta era ignorado. El siguio preguntando: y si ese dinero pudiera trabajar mas? La respuesta siempre fue la naturaleza.",
-        quote: "No estamos resolviendo un problema hipotetico. Somos de Colombia, el pais mas biodiverso de la Tierra por kilometro cuadrado. Esto es personal.",
-        author: "Damian Estrada, Fundador y CEO"
-      }
-    : {
-        headline: "The question he couldn't stop asking.",
-        body: "After running multi-billion dollar consumer electronics businesses, our founder watched billions disappear into distribution infrastructure, and ignoring the planet. He kept asking: what if that money could work harder? The answer was always nature.",
-        quote: "We are not solving a hypothetical problem. We are from Colombia, the most biodiverse country on Earth per square kilometer. This is personal.",
-        author: "Damian Estrada, Founder and CEO"
-      };
-
-  const problemCopy = isSpanish
-    ? {
-        headline: "La naturaleza no tiene un problema de soluciones. Tiene un problema de financiamiento.",
-        body: "Los proyectos estan planeados. Los cientificos estan entrenados. Los guardianes estan listos. Lo que falta es el dinero. Recurrente, confiable, que no dependa de calendarios politicos."
-      }
-    : {
-        headline: "Nature doesn't have a solutions problem. It has a funding problem.",
-        body: "The projects are planned. The scientists are trained. The rangers are ready. What's missing is the money. Recurring, reliable, not dependent on political calendars."
-      };
-
-  const insightCopy = isSpanish
-    ? {
-        headline: "El dinero estaba ahi. Simplemente no iba a ningun lugar util.",
-        body: "Cada compra de bienes duraderos incluye un costo oculto. Hasta el 40% del precio. Va a la infraestructura del marketplace. No al producto. No al planeta. SD no pide dinero nuevo. Pide que el comercio sea transparente sobre el dinero que ya existia.",
-        link: "See exactly how the mechanism works"
-      }
-    : {
-        headline: "The money is there. It just wasn't going anywhere useful.",
-        body: "Every durable goods purchase includes a hidden cost. Up to 40% of the price. It goes to marketplace infrastructure. Not the product. Not the planet. SD doesn't ask for new money. It asks commerce to be transparent about money that was always there.",
-        link: "See exactly how the mechanism works"
-      };
-
-  const solutionCopy = isSpanish
-    ? {
-        headline: "Un mecanismo de precios, no una caridad.",
-        body: "SD se integra en el punto de venta. No pide donaciones. Reestructura la transaccion. Los compradores ahorran. Las marcas recuperan margen. La naturaleza recibe fondos. No por generosidad, sino por transparencia en el comercio."
-      }
-    : {
-        headline: "A pricing mechanism, not a charity.",
-        body: "SD is embedded at the point of sale. It doesn't ask for donations. It restructures the transaction. Shoppers save. Brands recover margin. Nature gets funded. Not from generosity but from adding transparency to commerce."
-      };
-
-  const visionCopy = isSpanish
-    ? {
-        headline: "Como se ve el mundo si esto funciona.",
-        body: "El objetivo es duplicar las finanzas de conservacion global, de $208B a mas de $400B, usando comercio como motor. Capturar el 10% de los $2T en tarifas intermediarias genera $200B para la naturaleza. Dinero que paga el Marco Global de Biodiversidad. El cambio profundo es estructural: todas las compras de bienes duraderos contribuyen automaticamente a la naturaleza. Justicia climatica automatica."
-      }
-    : {
-        headline: "What the world looks like if this works.",
-        body: "The goal is to double global conservation finance, from $208 billion to over $400 billion, using commerce as the engine. Capturing 10% of the $2 trillion in intermediary fees generates $200 billion for nature. Money that pays for the Global Biodiversity Framework agreed by 195 countries. The deeper shift is structural: all durable goods purchases automatically contribute to nature. Automatic climate justice."
-      };
 
   const teamMembers = [
     {
       name: "Damian Estrada",
-      role: isSpanish ? "Fundador y CEO" : "Founder and CEO",
+      role: t("about.team.role.damian"),
       href: "https://linkedin.com/in/damian-a-estrada"
     },
     {
       name: "Jeisson Prieto",
-      role: isSpanish ? "Co-Fundador y CTO" : "Co-Founder and CTO",
+      role: t("about.team.role.jeisson"),
       href: "https://linkedin.com/in/jeisson-prieto"
     },
     {
       name: "Brayan Oviedo",
-      role: isSpanish ? "Desarrollador full-stack" : "Full-Stack Developer",
+      role: t("about.team.role.brayan"),
       href: "https://www.linkedin.com/in/brayan-oviedo-yate-478072136/"
     },
     {
       name: "Dylan Price",
-      role: isSpanish ? "Growth Intern" : "Growth Intern",
+      role: t("about.team.role.dylan"),
       href: ""
     },
     {
       name: "Adrian Gross",
-      role: isSpanish ? "Growth Advisor" : "Growth Advisor",
+      role: t("about.team.role.adrian"),
       href: "https://www.linkedin.com/in/adrian-gross"
     },
     {
       name: "Claudia Estrada",
-      role: isSpanish ? "Colombia Growth Lead" : "Colombia Growth Lead",
+      role: t("about.team.role.claudia"),
       href: "https://www.linkedin.com/in/claudia-maria-estrada-zuluaga-b43578184/"
     }
   ];
 
-  const philosophyCopy = isSpanish
-    ? {
-        headline: "Todos en este equipo eligieron estar aqui.",
-        body: "Sin una gran ronda semilla. Sin equipo completo antes de la prueba. SD tuvo personas que decidieron que la mision valia su tiempo antes de que alguien garantizara que valdria su dinero."
-      }
-    : {
-        headline: "Everyone on this team chose to be here.",
-        body: "No large seed round. No full team before proof of concept. What SD had: people who decided the mission was worth their time before anyone guaranteed it would be worth their money."
-      };
-
-  const validatorsTitle = isSpanish ? "Externos que examinaron SD y lo tomaron en serio." : "External organizations that examined SD and took it seriously.";
   const validators = [
-    "Earthshot Prize 2025 - Nominee",
-    "GEF and World Bank - Due Diligence Phase",
-    "Change100 Winner 2026 - Top Impact Startup to Watch",
-    "Cornell University Life Changing Labs - Accelerator Winner, Summer 2024"
+    { title: t("about.validatorsSection.item1Title"), desc: t("about.validatorsSection.item1Desc") },
+    { title: t("about.validatorsSection.item2Title"), desc: t("about.validatorsSection.item2Desc") },
+    { title: t("about.validatorsSection.item3Title"), desc: t("about.validatorsSection.item3Desc") },
+    { title: t("about.validatorsSection.item4Title"), desc: t("about.validatorsSection.item4Desc") }
   ];
 
   return (
     <Layout title={t("meta.aboutTitle")} description={t("meta.aboutDescription")}>
-      <PageHero title={heroCopy.title} description={heroCopy.description} carouselSide="right" />
+      <PageHero
+        title={t("about.hero.titleExt")}
+        description={t("about.hero.descriptionExt")}
+        carouselSide="right"
+      />
 
       <section className="sd-section sd-blog-section">
         <Container className="px-4 px-lg-5">
-          <h2 className="text-center sd-section-accent mb-4">{originCopy.headline}</h2>
-          <div className="sd-blog-content mx-auto" style={{ maxWidth: "800px" }}>
-            <p className="sd-blog-text mb-4">{originCopy.body}</p>
+          <h2 className="text-center sd-section-accent mb-4">{t("about.originSection.headline")}</h2>
+          <div className="sd-blog-content mx-auto text-center" style={{ maxWidth: "800px" }}>
+            <p className="sd-blog-text mb-3" style={{ fontSize: "1.15rem", lineHeight: "1.7" }}>
+              {t("about.originSection.body1")}
+            </p>
+            <p className="sd-blog-text mb-4 fw-medium" style={{ color: "var(--sd-primary)" }}>
+              {t("about.originSection.body2")}
+            </p>
           </div>
           <blockquote className="sd-pull-quote sd-pull-quote-hero mx-auto mt-4" style={{ maxWidth: "720px" }}>
-            <p>{originCopy.quote}</p>
-            <footer className="sd-quote-author">{originCopy.author}</footer>
+            <p>{t("about.originSection.quote")}</p>
+            <footer className="sd-quote-author">{t("about.originSection.author")}</footer>
           </blockquote>
         </Container>
       </section>
 
       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
-          <h2 className="text-center sd-section-accent mb-4">{problemCopy.headline}</h2>
-          <div className="sd-blog-content mx-auto" style={{ maxWidth: "800px" }}>
-            <div className="sd-blog-highlight mb-3">
-              <p className="sd-blog-text">The projects are planned. The scientists are trained. The rangers are ready.</p>
+          <h2 className="text-center sd-section-accent mb-4">{t("about.problemSection.headline")}</h2>
+          <div className="sd-blog-content mx-auto text-center" style={{ maxWidth: "800px" }}>
+            <div className="sd-blog-highlight mb-4 p-4" style={{ background: "rgba(31, 138, 76, 0.06)", borderRadius: "12px", borderLeft: "4px solid var(--sd-primary)" }}>
+              <p className="sd-blog-text mb-2 fw-semibold">✓ {t("about.problemSection.bullet1")}</p>
+              <p className="sd-blog-text mb-2 fw-semibold">✓ {t("about.problemSection.bullet2")}</p>
+              <p className="sd-blog-text fw-semibold">✓ {t("about.problemSection.bullet3")}</p>
             </div>
-            <p className="sd-blog-text" style={{fontSize: "0.95rem"}}>What's missing: Recurring, reliable funding independent of political cycles.</p>
+            <p className="sd-blog-text fw-bold text-center" style={{ fontSize: "1.15rem", color: "var(--sd-primary)" }}>
+              {t("about.problemSection.body2")}
+            </p>
           </div>
         </Container>
       </section>
 
       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
-          <h2 className="text-center sd-section-accent mb-4">{insightCopy.headline}</h2>
-          <div className="sd-blog-content mx-auto" style={{ maxWidth: "800px" }}>
-            <p className="sd-blog-text mb-3">Every durable goods purchase includes a hidden cost.</p>
+          <h2 className="text-center sd-section-accent mb-4">{t("about.insightSection.headline")}</h2>
+          <div className="sd-blog-content mx-auto text-center" style={{ maxWidth: "800px" }}>
+            <p className="sd-blog-text mb-3">{t("about.insightSection.body1")}</p>
             <div className="sd-blog-metrics mb-4">
-              <div className="sd-blog-metric">Up to 40% of price</div>
-              <div className="sd-blog-metric">Goes to infrastructure</div>
-              <div className="sd-blog-metric">Not product. Not planet.</div>
+              <div className="sd-blog-metric">{t("about.insightSection.metric1")}</div>
+              <div className="sd-blog-metric">{t("about.insightSection.metric2")}</div>
+              <div className="sd-blog-metric">{t("about.insightSection.metric3")}</div>
             </div>
-            <div className="sd-blog-highlight">
-              <p className="sd-blog-text">SD doesn't ask for new money. It asks commerce to be transparent about money that was always there.</p>
+            <div className="sd-blog-highlight p-4 mb-3" style={{ background: "rgba(31, 138, 76, 0.06)", borderRadius: "12px" }}>
+              <p className="sd-blog-text mb-0 fw-semibold">{t("about.insightSection.body3")}</p>
             </div>
+            <p className="sd-blog-text text-muted mb-0" style={{ fontSize: "0.95rem" }}>
+              {t("about.insightSection.body2")}
+            </p>
           </div>
           <div className="text-center mt-4">
             <Link href="/how-it-works">
-              <button className="sd-cta-btn">{insightCopy.link}</button>
+              <button className="sd-cta-btn">{t("about.insightSection.link")}</button>
             </Link>
           </div>
         </Container>
@@ -183,50 +117,72 @@ export default function AboutPage() {
 
       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
-          <h2 className="text-center sd-section-accent mb-4">{solutionCopy.headline}</h2>
-          <div className="sd-blog-content mx-auto" style={{ maxWidth: "800px" }}>
-            <div className="sd-blog-point">
-              <p className="sd-blog-text">SD is embedded at the point of sale. It doesn't ask for donations. It restructures the transaction.</p>
+          <h2 className="text-center sd-section-accent mb-4">{t("about.solutionSection.headline")}</h2>
+          <div className="sd-blog-content mx-auto text-center" style={{ maxWidth: "800px" }}>
+            <div className="sd-blog-point p-4 mb-4" style={{ background: "rgba(31, 138, 76, 0.05)", borderLeft: "4px solid var(--sd-primary)", borderRadius: "8px" }}>
+              <p className="sd-blog-text fw-medium">{t("about.solutionSection.body")}</p>
             </div>
-            <div className="sd-blog-metrics mt-4">
-              <div className="sd-blog-metric">✅ Shoppers save</div>
-              <div className="sd-blog-metric">✅ Brands recover margin</div>
-              <div className="sd-blog-metric">✅ Nature gets funded</div>
+            <div className="sd-blog-metrics mt-4 mb-4">
+              <div className="sd-blog-metric">{t("about.solutionSection.shopper")}</div>
+              <div className="sd-blog-metric">{t("about.solutionSection.brand")}</div>
+              <div className="sd-blog-metric">{t("about.solutionSection.nature")}</div>
             </div>
+            <p className="sd-blog-text text-muted fst-italic mt-3" style={{ fontSize: "0.95rem" }}>
+              {t("about.solutionSection.footer")}
+            </p>
           </div>
         </Container>
       </section>
 
       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
-          <h2 className="text-center sd-section-accent mb-4">{visionCopy.headline}</h2>
-          <div className="sd-blog-content mx-auto" style={{ maxWidth: "800px" }}>
-            <p className="sd-blog-text mb-3"><strong>The goal:</strong> Double global conservation finance from $208B to $400B+</p>
+          <h2 className="text-center sd-section-accent mb-4">{t("about.visionSection.headline")}</h2>
+          <div className="sd-blog-content mx-auto text-center" style={{ maxWidth: "800px" }}>
+            <p className="sd-blog-text mb-4">
+              <strong>{t("about.visionSection.goalLabel")}</strong> {t("about.visionSection.goalValue")}
+            </p>
             <div className="sd-faq-criteria mb-4">
               <div className="sd-faq-criterion">
-                <h4>Engine</h4>
-                <p className="sd-blog-metric-text">Commerce as driver</p>
+                <h4 className="mb-2" style={{ color: "var(--sd-primary)", fontSize: "1.1rem" }}>
+                  {t("about.visionSection.engineTitle")}
+                </h4>
+                <p className="sd-blog-metric-text mb-0 fw-semibold">
+                  {t("about.visionSection.engineBody")}
+                </p>
               </div>
               <div className="sd-faq-criterion">
-                <h4>Opportunity</h4>
-                <p className="sd-blog-metric-text">10% of $2T intermediary fees</p>
+                <h4 className="mb-2" style={{ color: "var(--sd-primary)", fontSize: "1.1rem" }}>
+                  {t("about.visionSection.opportunityTitle")}
+                </h4>
+                <p className="sd-blog-metric-text mb-0 fw-semibold">
+                  {t("about.visionSection.opportunityBody")}
+                </p>
               </div>
               <div className="sd-faq-criterion">
-                <h4>Impact</h4>
-                <p className="sd-blog-metric-text">$200B for nature</p>
+                <h4 className="mb-2" style={{ color: "var(--sd-primary)", fontSize: "1.1rem" }}>
+                  {t("about.visionSection.impactTitle")}
+                </h4>
+                <p className="sd-blog-metric-text mb-0 fw-semibold">
+                  {t("about.visionSection.impactBody")}
+                </p>
               </div>
             </div>
-            <p className="sd-blog-text" style={{fontSize: "0.95rem"}}>Deeper shift: All durable goods purchases automatically contribute to nature. Automatic climate justice.</p>
+            <p className="sd-blog-text text-muted" style={{ fontSize: "0.95rem", lineHeight: "1.7" }}>
+              {t("about.visionSection.footer")}
+            </p>
           </div>
         </Container>
       </section>
 
       <section className="sd-section sd-blog-section pt-0" id="team">
         <Container className="px-4 px-lg-5">
-          <h2 className="text-center sd-section-accent mb-4">{isSpanish ? "El equipo" : "The team"}</h2>
-          <p className="sd-blog-text mx-auto text-center mb-5" style={{ maxWidth: "760px" }}>
-            {philosophyCopy.body}
-          </p>
+          <h2 className="text-center sd-section-accent mb-4">{t("about.philosophySection.title")}</h2>
+          <div className="sd-blog-content mx-auto text-center mb-5" style={{ maxWidth: "760px" }}>
+            <p className="sd-blog-text mb-2 fw-bold" style={{ color: "var(--sd-primary)", fontSize: "1.1rem" }}>
+              {t("about.philosophySection.body1")}
+            </p>
+            <p className="sd-blog-text">{t("about.philosophySection.body2")}</p>
+          </div>
           <Row className="g-4 justify-content-center">
             {teamMembers.map((member) => (
               <Col md={6} lg={4} key={member.name}>
@@ -238,7 +194,7 @@ export default function AboutPage() {
                       linkedin.com/in/{member.href.split("/").pop()}
                     </a>
                   ) : (
-                    <p className="text-muted mb-0">{isSpanish ? "Link de LinkedIn no disponible" : "LinkedIn not available"}</p>
+                    <p className="text-muted mb-0">{t("about.team.noLinkedin")}</p>
                   )}
                 </article>
               </Col>
@@ -249,17 +205,20 @@ export default function AboutPage() {
 
       <section className="sd-section sd-blog-section sd-blog-cta-section pt-0">
         <Container className="px-4 px-lg-5 text-center">
-          <h2 className="sd-section-accent mb-4">{validatorsTitle}</h2>
-          <div className="sd-proof-items d-flex flex-column align-items-center gap-2 mx-auto" style={{ maxWidth: "720px" }}>
-            {validators.map((item) => (
-              <div key={item} className="sd-proof-item text-start w-100">
-                {item}
-              </div>
+          <h2 className="sd-section-accent mb-4">{t("about.validatorsSection.title")}</h2>
+          <Row className="g-4 justify-content-center mt-2">
+            {validators.map((val) => (
+              <Col md={6} lg={3} key={val.title}>
+                <article className="sd-team-card h-100 text-center p-4" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.06)" }}>
+                  <h3 className="mb-2" style={{ fontSize: "1.15rem", color: "var(--sd-primary)" }}>{val.title}</h3>
+                  <p className="small text-muted mb-0" style={{ fontSize: "0.85rem", lineHeight: "1.5" }}>{val.desc}</p>
+                </article>
+              </Col>
             ))}
-          </div>
-          <div className="mt-4">
+          </Row>
+          <div className="mt-5">
             <a href="mailto:damian@mandatum.co">
-              <button className="sd-cta-btn">{isSpanish ? "Expresar interes" : "Express interest"}</button>
+              <button className="sd-cta-btn">{t("about.validatorsSection.cta")}</button>
             </a>
           </div>
         </Container>

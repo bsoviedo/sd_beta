@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { Carousel, Col, Container, Row } from "react-bootstrap";
 import { useState } from "react";
+import { useTranslation } from "next-i18next";
 
 function Hero() {
+  const { t } = useTranslation("common");
   const [activeSlide, setActiveSlide] = useState(0);
   const landscapeSlides = [
     {
@@ -288,18 +290,24 @@ function Hero() {
             </div>
             <Container className="px-4 px-lg-5 py-5 py-lg-0">
               <div className="sd-hero-copy">
-                <h1>Every purchase, giving back to the planet.</h1>
-                <p className="sd-hero-tagline">At no extra cost to anyone.</p>
-                <p>
-                  Sustainable Discounts redirects fees hidden inside commerce to fund forest and ocean conservation.
-                  Shoppers get a real discount. Brands recover margin. Nature gets funded.
+                <h1>{t("home.heroExt.title")}</h1>
+                <p className="sd-hero-tagline">{t("home.heroExt.tagline")}</p>
+                <p className="mb-3">
+                  {t("home.heroExt.description1")}
+                </p>
+                <p className="mb-4" style={{ fontSize: "1.05rem", fontWeight: "500" }}>
+                  {t("home.heroExt.description2")}
                 </p>
                 <div className="sd-hero-cta-row">
                   <Link href="/how-it-works">
-                    <button className="sd-cta-btn">I'm a brand. See how it works.</button>
+                    <button className="sd-cta-btn">
+                      {t("home.heroExt.ctaBrand")}
+                    </button>
                   </Link>
                   <Link href="/blog">
-                    <button className="sd-cta-btn sd-cta-secondary">I'm a shopper. Find SD brands.</button>
+                    <button className="sd-cta-btn sd-cta-secondary">
+                      {t("home.heroExt.ctaShopper")}
+                    </button>
                   </Link>
                 </div>
               </div>
