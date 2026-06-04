@@ -8,222 +8,82 @@ function Hero() {
   const [activeSlide, setActiveSlide] = useState(0);
   const landscapeSlides = [
     {
-      src: "https://images.unsplash.com/photo-5zu9E9cDR7s?auto=format&fit=crop&w=1800&q=80",
-      alt: "Jaguar walking next to a tree",
+      src: "/img/unsplash/jessy-hoffmann-5zu9E9cDR7s-unsplash.jpg",
+      alt: "Leopardo caminando junto a un árbol",
       label: "Jaguar",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
+      creditName: "Jessy Hoffmann",
+      creditUrl: "Foto de <a href='https://unsplash.com/es/@jessreporter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Jessy Hoffmann</a> en <a href='https://unsplash.com/es/fotos/leopardo-caminando-junto-a-un-arbol-5zu9E9cDR7s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
     },
     {
-      src: "https://images.unsplash.com/photo-HYTwWSE5ztw?auto=format&fit=crop&w=1800&q=80",
-      alt: "Green frog",
+      src: "/img/unsplash/zdenek-machacek-HYTwWSE5ztw-unsplash.jpg",
+      alt: "Rana verde",
       label: "Rana",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
+      creditName: "Zdeněk Macháček",
+      creditUrl: "Foto de <a href='https://unsplash.com/es/@zmachacek?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Zdeněk Macháček</a> en <a href='https://unsplash.com/es/fotos/rana-verde-HYTwWSE5ztw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
     },
     {
-      src: "https://images.unsplash.com/photo-WPJrcj9_h6U?auto=format&fit=crop&w=1800&q=80",
-      alt: "Green frog on a leaf",
-      label: "Rana en hoja",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
+      src: "/img/unsplash/dimitry-b-WPJrcj9_h6U-unsplash.jpg",
+      alt: "Rana amarilla",
+      label: "Rana",
+      creditName: "Dimitry B",
+      creditUrl: "Foto de <a href='https://unsplash.com/es/@dimitry_b?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Dimitry B</a> en <a href='https://unsplash.com/es/fotos/una-rana-verde-en-una-hoja-WPJrcj9_h6U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
     },
     {
-      src: "https://images.unsplash.com/photo-I7GLUheea0g?auto=format&fit=crop&w=1800&q=80",
-      alt: "Toucan perched on a branch",
+      src: "/img/unsplash/philip-graves-I7GLUheea0g-unsplash.jpg",
+      alt: "Un pájaro en una rama",
       label: "Tucán",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
+      creditName: " Philip Graves",
+      creditUrl: "Foto de <a href='https://unsplash.com/es/@philipgraves97?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Philip Graves</a> en <a href='https://unsplash.com/es/fotos/un-pajaro-en-una-rama-I7GLUheea0g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
     },
     {
-      src: "https://images.unsplash.com/photo-COTccpFTQsA?auto=format&fit=crop&w=1800&q=80",
-      alt: "Two flamingos feeding in water",
+      src: "/img/unsplash/thomas-griggs-COTccpFTQsA-unsplash.jpg",
+      alt: "Dos flamencos comiendo agua",
       label: "Flamencos",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
+      creditName: "Thomas Griggs",
+      creditUrl: "Foto de <a href='https://unsplash.com/es/@viajeenparacaidas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Thomas Griggs</a> en <a href='https://unsplash.com/es/fotos/dos-flamencos-comiendo-agua-COTccpFTQsA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
     },
     {
-      src: "https://images.unsplash.com/photo-bMY8z1MLUOs?auto=format&fit=crop&w=1800&q=80",
-      alt: "Gorilla sitting among leaves",
+      src: "/img/unsplash/simone-dinoia-bMY8z1MLUOs-unsplash.jpg",
+      alt: "El gorila está sentado en un árbol, entre las hojas.",
       label: "Gorila",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
+      creditName: " Simone Dinoia ",
+      creditUrl: "Foto de <a href='https://unsplash.com/es/@simonedna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Simone Dinoia</a> en <a href='https://unsplash.com/es/fotos/el-gorila-esta-sentado-en-un-arbol-entre-las-hojas-bMY8z1MLUOs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
     },
     {
-      src: "https://images.unsplash.com/photo-7h4yibuV3Ms?auto=format&fit=crop&w=1800&q=80",
-      alt: "Orangutan hanging from a tree branch",
+      src: "/img/unsplash/pat-whelen-7h4yibuV3Ms-unsplash.jpg",
+      alt: "Mono marrón colgando en la rama de un árbol durante el día",
       label: "Orangután",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
+      creditName: " Pat Whelen ",
+      creditUrl: "Foto de <a href='https://unsplash.com/es/@patwhelen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Pat Whelen</a> en <a href='https://unsplash.com/es/fotos/mono-marron-colgando-en-la-rama-de-un-arbol-durante-el-dia-7h4yibuV3Ms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
     },
     {
-      src: "https://images.unsplash.com/photo-lD-Dw38WAq0?auto=format&fit=crop&w=1800&q=80",
-      alt: "Pink dolphin in water",
-      label: "Delfín rosado",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
+      src: "/img/unsplash/marcus-dall-col-lD-Dw38WAq0-unsplash.jpg",
+      alt: "Una persona alimentando a un pez en un estanque",
+      label: "Delfín",
+      creditName: "Marcus Dall Col",
+      creditUrl: "Foto de <a href='https://unsplash.com/es/@marcusdallcol?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Marcus Dall Col</a> en <a href='https://unsplash.com/es/fotos/una-persona-alimentando-a-un-pez-en-un-estanque-lD-Dw38WAq0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
     },
     {
-      src: "https://images.unsplash.com/photo-lwACYK8ScmA?auto=format&fit=crop&w=1800&q=80",
-      alt: "Humpback whale in the sea",
-      label: "Ballena jorobada",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
+      src: "/img/unsplash/todd-cravens-lwACYK8ScmA-unsplash.jpg",
+      alt: "Ballena azul en el mar",
+      label: "Ballena azul",
+      creditName: "Todd Cravens",
+      creditUrl: "Foto de <a href='https://unsplash.com/es/@toddcravens?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Todd Cravens</a> en <a href='https://unsplash.com/es/fotos/ballena-azul-en-el-mar-lwACYK8ScmA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
     },
     {
-      src: "https://images.unsplash.com/photo-PO0UHx-5mHo?auto=format&fit=crop&w=1800&q=80",
-      alt: "Two whales swimming in water",
-      label: "Ballenas negras",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
+      src: "/img/unsplash/guille-pozzi-PO0UHx-5mHo-unsplash.jpg",
+      alt: "Dos ballenas negras nadando en un cuerpo de agua",
+      label: "Ballena azul",
+      creditName: "guille pozzi",
+      creditUrl: "Foto de <a href='https://unsplash.com/es/@guillepozzi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>guille pozzi</a> en <a href='https://unsplash.com/es/fotos/dos-ballenas-negras-nadando-en-un-cuerpo-de-agua-PO0UHx-5mHo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
     },
     {
-      src: "https://images.unsplash.com/photo-71kHyBGC6dQ?auto=format&fit=crop&w=1800&q=80",
-      alt: "Whale jumping above the water",
-      label: "Ballena saltando",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
+      src: "/img/unsplash/ilse-orsel-71kHyBGC6dQ-unsplash.jpg",
+      alt: "Ballena saltando sobre el agua",
+      label: "Ballena azul",
+      creditName: "Ilse Orsel",
+      creditUrl: "Foto de <a href='https://unsplash.com/es/@lgtts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Ilse Orsel</a> en <a href='https://unsplash.com/es/fotos/ballena-saltando-sobre-el-agua-71kHyBGC6dQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
     },
-    {
-      src: "https://images.unsplash.com/photo-M8xxVih_V_U?auto=format&fit=crop&w=1800&q=80",
-      alt: "Sea turtle in the water",
-      label: "Tortuga marina",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-9XzyEzPAHMI?auto=format&fit=crop&w=1800&q=80",
-      alt: "Turtle in a body of water",
-      label: "Tortuga marina",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-o9iSB_smxI4?auto=format&fit=crop&w=1800&q=80",
-      alt: "Coral reef underwater",
-      label: "Corales",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-hqAGgNsMpEY?auto=format&fit=crop&w=1800&q=80",
-      alt: "Grey and black fish underwater",
-      label: "Peces en coral",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-pnYRhSpYF9U?auto=format&fit=crop&w=1800&q=80",
-      alt: "Crocodiles swimming in a lake",
-      label: "Cocodrilo",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-K0SABlddN-o?auto=format&fit=crop&w=1800&q=80",
-      alt: "Person on a rock mountain with condor",
-      label: "Cóndor de los Andes",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-ekV_axnZRUA?auto=format&fit=crop&w=1800&q=80",
-      alt: "Two red macaws",
-      label: "Guacamayas",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-3mMH9IvtTFU?auto=format&fit=crop&w=1800&q=80",
-      alt: "Pair of birds sitting atop a tree",
-      label: "Guacamayas",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-9y7y26C-l4Y?auto=format&fit=crop&w=1800&q=80",
-      alt: "School of fish in water",
-      label: "Banco de peces",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-KPT1H7rLEzk?auto=format&fit=crop&w=1800&q=80",
-      alt: "Giraffe standing in a field",
-      label: "Jirafa",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-F-rmsJqJDlQ?auto=format&fit=crop&w=1800&q=80",
-      alt: "Giraffe standing next to a tree",
-      label: "Jirafa",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-KZBcR6k-dbA?auto=format&fit=crop&w=1800&q=80",
-      alt: "Brown and white sloth sitting in a tree",
-      label: "Oso perezoso",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-4Vp3rA1K5L8?auto=format&fit=crop&w=1800&q=80",
-      alt: "Sloth hanging from a tree branch",
-      label: "Oso perezoso",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-Dzsg0c95JyE?auto=format&fit=crop&w=1800&q=80",
-      alt: "Titi monkey sitting in a tree",
-      label: "Titi",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-rhh7HCARWHg?auto=format&fit=crop&w=1800&q=80",
-      alt: "Green and white snake on a branch",
-      label: "Serpiente",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-YAIGmqV4dFc?auto=format&fit=crop&w=1800&q=80",
-      alt: "Camel in the desert",
-      label: "Camello",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-qr0BfLPEEjA?auto=format&fit=crop&w=1800&q=80",
-      alt: "Camel standing in the desert",
-      label: "Camello",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-sGzCGGc_aaA?auto=format&fit=crop&w=1800&q=80",
-      alt: "Ant on a green fruit",
-      label: "Hormiga",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-YQdmMkjWza8?auto=format&fit=crop&w=1800&q=80",
-      alt: "White and black butterfly on a green leaf",
-      label: "Mariposa",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    },
-    {
-      src: "https://images.unsplash.com/photo-REjGmtobbWw?auto=format&fit=crop&w=1800&q=80",
-      alt: "Butterfly sitting on a green leaf",
-      label: "Mariposa",
-      creditName: "Unsplash",
-      creditUrl: "https://unsplash.com"
-    }
   ];
   const activeBackgroundImage = landscapeSlides[activeSlide]?.src || landscapeSlides[0].src;
 
