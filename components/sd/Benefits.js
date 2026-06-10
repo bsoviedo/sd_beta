@@ -26,8 +26,8 @@ function Benefits() {
     <section className="sd-section" id="how">
       <Container className="px-4 px-lg-5">
         <h2 className="sd-section-title text-center">{t("benefits.title")}</h2>
-        <p className="sd-section-label text-center mb-3">{t("benefits.label")}</p>
-        <Row className="g-4 mt-4 justify-content-center">
+        {/*         <p className="sd-section-label text-center mb-3">{t("benefits.label")}</p>
+ */}        <Row className="g-4 mt-4 justify-content-center">
           {cards.map((card) => (
             <Col md={6} lg={4} key={card.stat}>
               <article className="sd-stat-card h-100">

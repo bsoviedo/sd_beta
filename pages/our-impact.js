@@ -45,12 +45,14 @@ export default function OurImpactPage() {
     {
       name: t("impact.partnersSection.partner1Name"),
       detail: t("impact.partnersSection.partner1Detail"),
-      logo: "/img/logos/Log_Ter_NyA_Hor.png"
+      logo: "/img/logos/Log_Ter_NyA_Hor.png",
+      web: "https://www.terrasos.co/"
     },
     {
       name: t("impact.partnersSection.partner2Name"),
       detail: t("impact.partnersSection.partner2Detail"),
-      logo: "/img/logos/logo-main-white.svg"
+      logo: "/img/logos/logo-main-white.svg",
+      web: "https://www.panthera.org/"
     }
   ];
 
@@ -145,15 +147,17 @@ export default function OurImpactPage() {
               <Col md={6} key={partner.name}>
                 <article className="sd-partner-card h-100 p-4 text-center d-flex flex-column align-items-center justify-content-center" style={{ borderRadius: "16px", background: "rgba(31,138,76,0.03)" }}>
                   {partner.logo ? (
-                    <div className="mb-3 d-flex align-items-center justify-content-center" style={{
-                      height: "140px",
-                      width: "250px",
-                      background: partner.logo.includes("white") ? "var(--sd-primary)" : "transparent",
-                      borderRadius: "8px",
-                      padding: "8px 16px"
-                    }}>
-                      <img src={partner.logo} alt={`${partner.name} logo`} style={{ maxHeight: "100%", maxWidth: "100%", objectFit: "contain" }} />
-                    </div>
+                    <a href={partner.web} target="_blank" rel="noreferrer">
+                      <div className="mb-3 d-flex align-items-center justify-content-center" style={{
+                        height: "140px",
+                        width: "250px",
+                        background: partner.logo.includes("white") ? "var(--sd-primary)" : "transparent",
+                        borderRadius: "8px",
+                        padding: "8px 16px"
+                      }}>
+                        <img src={partner.logo} alt={`${partner.name} logo`} style={{ maxHeight: "100%", maxWidth: "100%", objectFit: "contain" }} />
+                      </div>
+                    </a>
                   ) : (
                     <h3 style={{ color: "var(--sd-primary)" }} className="mb-3">{partner.name}</h3>
                   )}

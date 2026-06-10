@@ -111,10 +111,14 @@ export default function ShoppersPage() {
             <p className="sd-blog-text mb-4">{t("shoppers.partnersSection.partnerIntro")}</p>
             <div className="sd-blog-partners mb-4 align-items-center">
               <div className="sd-blog-partner d-flex align-items-center justify-content-center" style={{ background: "var(--sd-primary)", padding: "0.4rem 1.2rem" }}>
-                <img src="/img/logos/logo-main-white.svg" alt="Panthera logo" style={{ height: "28px", objectFit: "contain" }} />
+                <a href="https://www.panthera.org/" target="_blank" rel="noreferrer">
+                  <img src="/img/logos/logo-main-white.svg" alt="Panthera logo" style={{ height: "28px", objectFit: "contain" }} />
+                </a>
               </div>
               <div className="sd-blog-partner d-flex align-items-center justify-content-center" style={{ background: "#ffffff", padding: "0.4rem 1.2rem" }}>
-                <img src="/img/logos/Log_Ter_NyA_Hor.png" alt="Terrasos logo" style={{ height: "28px", objectFit: "contain" }} />
+                <a href="https://www.terrasos.co/" target="_blank" rel="noreferrer">
+                  <img src="/img/logos/Log_Ter_NyA_Hor.png" alt="Terrasos logo" style={{ height: "28px", objectFit: "contain" }} />
+                </a>
               </div>
             </div>
             <p className="sd-blog-text mb-4 text-muted" style={{ fontSize: "0.9rem" }}>
