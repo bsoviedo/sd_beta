@@ -42,8 +42,16 @@ export default function OurImpactPage() {
   ];
 
   const partners = [
-    { name: t("impact.partnersSection.partner1Name"), detail: t("impact.partnersSection.partner1Detail") },
-    { name: t("impact.partnersSection.partner2Name"), detail: t("impact.partnersSection.partner2Detail") }
+    {
+      name: t("impact.partnersSection.partner1Name"),
+      detail: t("impact.partnersSection.partner1Detail"),
+      logo: "/img/logos/Log_Ter_NyA_Hor.png"
+    },
+    {
+      name: t("impact.partnersSection.partner2Name"),
+      detail: t("impact.partnersSection.partner2Detail"),
+      logo: "/img/logos/logo-main-white.svg"
+    }
   ];
 
   return (
@@ -135,9 +143,21 @@ export default function OurImpactPage() {
           <Row className="g-4 justify-content-center">
             {partners.map((partner) => (
               <Col md={6} key={partner.name}>
-                <article className="sd-partner-card h-100 p-4 text-center d-flex flex-column justify-content-center" style={{ borderRadius: "16px", background: "rgba(31,138,76,0.03)" }}>
-                  <h3 style={{ color: "var(--sd-primary)" }}>{partner.name}</h3>
-                  <p className="sd-blog-text text-muted" style={{ fontSize: "0.95rem" }}>{partner.detail}</p>
+                <article className="sd-partner-card h-100 p-4 text-center d-flex flex-column align-items-center justify-content-center" style={{ borderRadius: "16px", background: "rgba(31,138,76,0.03)" }}>
+                  {partner.logo ? (
+                    <div className="mb-3 d-flex align-items-center justify-content-center" style={{
+                      height: "140px",
+                      width: "250px",
+                      background: partner.logo.includes("white") ? "var(--sd-primary)" : "transparent",
+                      borderRadius: "8px",
+                      padding: "8px 16px"
+                    }}>
+                      <img src={partner.logo} alt={`${partner.name} logo`} style={{ maxHeight: "100%", maxWidth: "100%", objectFit: "contain" }} />
+                    </div>
+                  ) : (
+                    <h3 style={{ color: "var(--sd-primary)" }} className="mb-3">{partner.name}</h3>
+                  )}
+                  <p className="sd-blog-text text-muted mb-0" style={{ fontSize: "0.95rem" }}>{partner.detail}</p>
                 </article>
               </Col>
             ))}
