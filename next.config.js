@@ -6,6 +6,25 @@ const nextConfig = {
   i18n,
   images: {
     unoptimized: true
+  },
+  async redirects() {
+    return [
+      {
+        source: "/about",
+        destination: "/the-movement",
+        permanent: true
+      },
+      {
+        source: "/how-it-works",
+        destination: "/for-merchants",
+        permanent: true
+      },
+      {
+        source: "/our-impact",
+        destination: "/impact",
+        permanent: true
+      }
+    ];
   }
 };
 

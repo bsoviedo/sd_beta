@@ -4,14 +4,13 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Layout from "components/Layout";
 import PageHero from "components/sd/PageHero";
 
-export default function OurImpactPage() {
-  const { t } = useTranslation("common");
+export default function ImpactPage() {
+  const { t, i18n } = useTranslation("common");
+  const isEs = i18n.language?.startsWith("es");
 
   const counters = [
     { label: t("impact.countersSection.card1Label"), value: "33" },
-    {
-      label: t("impact.countersSection.card2Label"), value: "8,731"
-    },
+    { label: t("impact.countersSection.card2Label"), value: "8,731" },
     { label: t("impact.countersSection.card3Label"), value: "+1300" },
     { label: t("impact.countersSection.card4Label"), value: "$570" },
     { label: t("impact.countersSection.card5Label"), value: "10" },
@@ -33,14 +32,14 @@ export default function OurImpactPage() {
   ];
 
   const sdgs = [
-    { title: t("impact.sdgsSection.sdg1Title"), body: t("impact.sdgsSection.sdg1Body") },
-    { title: t("impact.sdgsSection.sdg2Title"), body: t("impact.sdgsSection.sdg2Body") },
-    { title: t("impact.sdgsSection.sdg3Title"), body: t("impact.sdgsSection.sdg3Body") },
-    { title: t("impact.sdgsSection.sdg6Title"), body: t("impact.sdgsSection.sdg6Body") },
-    { title: t("impact.sdgsSection.sdg8Title"), body: t("impact.sdgsSection.sdg8Body") },
-    { title: t("impact.sdgsSection.sdg13Title"), body: t("impact.sdgsSection.sdg13Body") },
-    { title: t("impact.sdgsSection.sdg14Title"), body: t("impact.sdgsSection.sdg14Body") },
-    { title: t("impact.sdgsSection.sdg15Title"), body: t("impact.sdgsSection.sdg15Body") }
+    { title: t("impact.sdgsSection.sdg1Title"), body: t("impact.sdgsSection.sdg1Body"), logo: isEs ? "/img/logos/sdg1_es.png" : "/img/logos/sdg1.svg", color: "#E5243B" },
+    { title: t("impact.sdgsSection.sdg2Title"), body: t("impact.sdgsSection.sdg2Body"), logo: isEs ? "/img/logos/sdg2_es.png" : "/img/logos/sdg2.svg", color: "#DDA63A" },
+    { title: t("impact.sdgsSection.sdg3Title"), body: t("impact.sdgsSection.sdg3Body"), logo: isEs ? "/img/logos/sdg3_es.png" : "/img/logos/sdg3.svg", color: "#4C9F38" },
+    { title: t("impact.sdgsSection.sdg6Title"), body: t("impact.sdgsSection.sdg6Body"), logo: isEs ? "/img/logos/sdg6_es.png" : "/img/logos/sdg6.svg", color: "#26BDE2" },
+    { title: t("impact.sdgsSection.sdg8Title"), body: t("impact.sdgsSection.sdg8Body"), logo: isEs ? "/img/logos/sdg8_es.png" : "/img/logos/sdg8.svg", color: "#A21942" },
+    { title: t("impact.sdgsSection.sdg13Title"), body: t("impact.sdgsSection.sdg13Body"), logo: isEs ? "/img/logos/sdg13_es.png" : "/img/logos/sdg13.svg", color: "#3F7E44" },
+    { title: t("impact.sdgsSection.sdg14Title"), body: t("impact.sdgsSection.sdg14Body"), logo: isEs ? "/img/logos/sdg14_es.png" : "/img/logos/sdg14.svg", color: "#0A97D9" },
+    { title: t("impact.sdgsSection.sdg15Title"), body: t("impact.sdgsSection.sdg15Body"), logo: isEs ? "/img/logos/sdg15_es.png" : "/img/logos/sdg15.svg", color: "#56C02B" }
   ];
 
   const partners = [
@@ -128,12 +127,17 @@ export default function OurImpactPage() {
               {t("impact.sdgsSection.desc")}
             </p>
           </div>
-          <Row className="g-4">
+          <Row className="g-4 justify-content-center">
             {sdgs.map((item) => (
-              <Col md={6} lg={3} key={item.title}>
-                <article className="sd-sdg-card h-100 p-4 text-center d-flex flex-column justify-content-start" style={{ borderRadius: "16px", background: "#ffffff", border: "1px solid rgba(0,0,0,0.05)" }}>
-                  <h3 className="mb-2" style={{ fontSize: "1rem", color: "var(--sd-primary)" }}>{item.title}</h3>
-                  <p className="small text-muted mb-0" style={{ fontSize: "0.85rem", lineHeight: "1.5" }}>{item.body}</p>
+              <Col sm={6} md={4} lg={3} key={item.title}>
+                <article className="sd-sdg-hover-card">
+                  <div className="sdg-logo-wrapper">
+                    <img src={item.logo} alt={item.title} className="sdg-logo-img" />
+                  </div>
+                  <div className="sdg-hover-overlay" style={{ backgroundColor: item.color + "F2" }}>
+                    <h3 className="sdg-overlay-title">{item.title}</h3>
+                    <p className="sdg-overlay-body">{item.body}</p>
+                  </div>
                 </article>
               </Col>
             ))}
@@ -216,6 +220,92 @@ export default function OurImpactPage() {
           </a>
         </Container>
       </section>
+
+      <style>{`
+        .sd-sdg-hover-card {
+          position: relative;
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          border-radius: 16px;
+          overflow: hidden;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+          background: #ffffff;
+          cursor: pointer;
+          transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        .sd-sdg-hover-card:hover {
+          transform: translateY(-6px);
+          box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+        }
+        .sdg-logo-wrapper {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: filter 0.3s ease, transform 0.3s ease;
+        }
+        .sdg-logo-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .sd-sdg-hover-card:hover .sdg-logo-wrapper {
+          filter: blur(5px) brightness(0.3);
+          transform: scale(1.08);
+        }
+        .sdg-hover-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          padding: 1.25rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          color: #ffffff;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+          z-index: 2;
+        }
+        .sd-sdg-hover-card:hover .sdg-hover-overlay {
+          opacity: 1;
+        }
+        .sdg-overlay-title {
+          font-size: 0.95rem;
+          font-weight: 800;
+          margin-bottom: 0.5rem;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          line-height: 1.3;
+          border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+          padding-bottom: 0.5rem;
+          width: 100%;
+        }
+        .sdg-overlay-body {
+          font-size: 0.8rem;
+          line-height: 1.4;
+          margin: 0;
+          font-weight: 500;
+        }
+        @media (max-width: 575px) {
+          .sdg-hover-overlay {
+            padding: 0.75rem;
+          }
+          .sdg-overlay-title {
+            font-size: 0.85rem;
+            margin-bottom: 0.35rem;
+            padding-bottom: 0.35rem;
+          }
+          .sdg-overlay-body {
+            font-size: 0.75rem;
+            line-height: 1.35;
+          }
+        }
+      `}</style>
     </Layout>
   );
 }

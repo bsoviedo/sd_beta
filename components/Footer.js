@@ -14,17 +14,19 @@ function Footer() {
           <Col xs={6} lg={3}>
             <nav className="d-flex flex-column gap-2">
               <Link href="/" className="sd-footer-link fw-semibold">{t("nav.home")}</Link>
-              <Link href="/about" className="sd-footer-link fw-semibold">{t("nav.movement")}</Link>
-              <Link href="/how-it-works" className="sd-footer-link fw-semibold">{t("nav.merchants")}</Link>
-              <Link href="/blog" className="sd-footer-link fw-semibold">{t("nav.shoppers")}</Link>
+              <Link href="/the-movement" className="sd-footer-link fw-semibold">{t("nav.movement")}</Link>
+              <Link href="/for-merchants" className="sd-footer-link fw-semibold">{t("nav.merchants")}</Link>
+              <Link href="/for-shoppers" className="sd-footer-link fw-semibold">{t("nav.shoppers")}</Link>
+              <Link href="/conservation" className="sd-footer-link fw-semibold">{t("nav.conservation")}</Link>
             </nav>
           </Col>
 
           <Col xs={6} lg={3}>
             <nav className="d-flex flex-column gap-2">
-              <Link href="/faq" className="sd-footer-link fw-semibold">{t("nav.conservation")}</Link>
-              <Link href="/about#team" className="sd-footer-link fw-semibold">{t("nav.team")}</Link>
-              <Link href="/our-impact" className="sd-footer-link fw-semibold">{t("nav.impact")}</Link>
+              <Link href="/the-team" className="sd-footer-link fw-semibold">{t("nav.team")}</Link>
+              <Link href="/impact" className="sd-footer-link fw-semibold">{t("nav.impact")}</Link>
+              <Link href="/faq" className="sd-footer-link fw-semibold">FAQ</Link>
+              <Link href="/blog" className="sd-footer-link fw-semibold">Blog</Link>
               <Link href="/terms-of-service" className="sd-footer-link fw-semibold">{t("footer.terms")}</Link>
             </nav>
           </Col>

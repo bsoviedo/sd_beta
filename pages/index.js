@@ -15,7 +15,7 @@ export default function HomePage() {
       headline: t("home.audiencesSection.card1.headline"),
       body: t("home.audiencesSection.card1.body"),
       foot: t("home.audiencesSection.card1.foot"),
-      href: "/how-it-works",
+      href: "/for-merchants",
       cta: t("home.audiencesSection.card1.cta")
     },
     {
@@ -23,7 +23,7 @@ export default function HomePage() {
       headline: t("home.audiencesSection.card2.headline"),
       body: t("home.audiencesSection.card2.body"),
       foot: t("home.audiencesSection.card2.foot"),
-      href: "/blog",
+      href: "/for-shoppers",
       cta: t("home.audiencesSection.card2.cta")
     },
     {
@@ -31,7 +31,7 @@ export default function HomePage() {
       headline: t("home.audiencesSection.card3.headline"),
       body: t("home.audiencesSection.card3.body"),
       foot: t("home.audiencesSection.card3.foot"),
-      href: "/faq",
+      href: "/conservation",
       cta: t("home.audiencesSection.card3.cta")
     }
   ];
@@ -72,7 +72,7 @@ export default function HomePage() {
             ))}
           </Row>
           <div className="text-center mt-4">
-            <Link href="/how-it-works">
+            <Link href="/for-merchants">
               <button className="sd-cta-btn">{t("home.ideaSection.linkText")}</button>
             </Link>
           </div>
@@ -145,17 +145,17 @@ export default function HomePage() {
           <h2 className="sd-section-title mb-4">{t("home.closingSection.headline")}</h2>
           <Row className="g-3 justify-content-center">
             <Col md={4}>
-              <Link href="/how-it-works">
+              <Link href="/for-merchants">
                 <button className="sd-cta-btn w-100">{t("home.closingSection.merchant")}</button>
               </Link>
             </Col>
             <Col md={4}>
-              <Link href="/faq">
+              <Link href="/conservation">
                 <button className="sd-cta-btn w-100">{t("home.closingSection.nonShopify")}</button>
               </Link>
             </Col>
             <Col md={4}>
-              <Link href="/about#team">
+              <Link href="/the-team">
                 <button className="sd-cta-btn w-100">{t("home.closingSection.movement")}</button>
               </Link>
             </Col>

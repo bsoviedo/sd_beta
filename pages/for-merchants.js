@@ -5,7 +5,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Layout from "components/Layout";
 import PageHero from "components/sd/PageHero";
 
-export default function HowItWorksPage() {
+export default function ForMerchantsPage() {
   const { t } = useTranslation("common");
 
   const withoutItems = [
@@ -94,32 +94,40 @@ export default function HowItWorksPage() {
       />
 
       <section className="sd-section sd-compact pt-0">
-        <Container className="px-4 px-lg-5 text-center">
-          <h2 className="text-center sd-section-accent mb-3">{t("how.problemSection.title")}</h2>
-          <div className="mx-auto" style={{ maxWidth: "760px" }}>
-            <p className="sd-text-muted mb-2" style={{ fontSize: "1rem" }}>
-              {t("how.problemSection.body1")}
-            </p>
-            <p className="sd-text-muted mb-3" style={{ fontSize: "1rem" }}>
-              {t("how.problemSection.body2")}
-            </p>
-            <p className="fw-bold text-center" style={{ fontSize: "1.1rem", color: "var(--sd-primary)" }}>
-              {t("how.problemSection.body3")}
-            </p>
-          </div>
+        <Container className="px-4 px-lg-5">
+          <h2 className="text-center sd-section-accent mb-4">{t("how.problemSection.title")}</h2>
+          <Row className="align-items-center g-5">
+            <Col lg={7}>
+              <div className="sd-blog-content">
+                <p className="sd-text-muted mb-3" style={{ fontSize: "1.05rem", lineHeight: "1.7" }}>
+                  {t("how.problemSection.body1")}
+                </p>
+                <p className="sd-text-muted mb-0" style={{ fontSize: "1.05rem", lineHeight: "1.7" }}>
+                  {t("how.problemSection.body2")}
+                </p>
+              </div>
+            </Col>
+            <Col lg={5}>
+              <div className="p-4 text-center" style={{ background: "rgba(31,138,76,0.05)", borderLeft: "4px solid var(--sd-primary)", borderRadius: "12px" }}>
+                <p className="fw-bold mb-0" style={{ fontSize: "1.15rem", color: "var(--sd-primary)", lineHeight: "1.6" }}>
+                  {t("how.problemSection.body3")}
+                </p>
+              </div>
+            </Col>
+          </Row>
         </Container>
       </section>
 
       <section className="sd-section sd-compact pt-0">
         <Container className="px-4 px-lg-5">
           <h2 className="text-center sd-section-accent mb-4">{t("how.mechanismSection.headline")}</h2>
-          <Row className="g-3">
+          <Row className="g-4">
             <Col md={6}>
               <article className="sd-comparison-card sd-card-compact h-100 p-4" style={{ borderRadius: "20px", background: "rgba(27,53,37,0.02)", border: "1px solid rgba(27,53,37,0.08)" }}>
                 <h3 className="fs-4 fw-bold text-center mb-3" style={{ color: "var(--sd-dark)" }}>
                   {t("how.mechanismSection.withoutTitle")}
                 </h3>
-                <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
+                <ul style={{ listStyleType: "none", paddingLeft: 0, margin: 0 }}>
                   {withoutItems.map((item, idx) => (
                     <li key={idx} className="mb-2 p-2" style={{ borderBottom: "1px solid rgba(0,0,0,0.05)", fontSize: "0.95rem" }}>
                       ❌ {item}
@@ -133,7 +141,7 @@ export default function HowItWorksPage() {
                 <h3 className="fs-4 fw-bold text-center mb-3" style={{ color: "var(--sd-primary)" }}>
                   {t("how.mechanismSection.withTitle")}
                 </h3>
-                <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
+                <ul style={{ listStyleType: "none", paddingLeft: 0, margin: 0 }}>
                   {withSDItems.map((item, idx) => (
                     <li key={idx} className="mb-2 p-2" style={{ borderBottom: "1px solid rgba(31,138,76,0.1)", fontSize: "0.95rem", fontWeight: idx === 1 ? "600" : "normal" }}>
                       ✅ {item}
@@ -143,12 +151,18 @@ export default function HowItWorksPage() {
               </article>
             </Col>
           </Row>
-          <div className="sd-blog-highlight p-4 mt-4 text-center mx-auto" style={{ maxWidth: "800px", borderRadius: "12px", background: "rgba(31, 138, 76, 0.06)" }}>
-            <p className="sd-blog-text mb-0 fw-semibold">{t("how.mechanismSection.body")}</p>
-          </div>
-          <blockquote className="sd-pull-quote sd-pull-quote-hero mx-auto mt-4" style={{ maxWidth: "720px" }}>
-            <p>{t("how.mechanismSection.quote")}</p>
-          </blockquote>
+          <Row className="g-4 mt-3 align-items-center">
+            <Col lg={6}>
+              <div className="sd-blog-highlight p-4 m-0" style={{ borderRadius: "12px", background: "rgba(31, 138, 76, 0.06)" }}>
+                <p className="sd-blog-text mb-0 fw-semibold" style={{ fontSize: "1rem", lineHeight: "1.6" }}>{t("how.mechanismSection.body")}</p>
+              </div>
+            </Col>
+            <Col lg={6}>
+              <blockquote className="sd-pull-quote sd-pull-quote-hero m-0 w-100">
+                <p className="mb-0">"{t("how.mechanismSection.quote")}"</p>
+              </blockquote>
+            </Col>
+          </Row>
         </Container>
       </section>
 
@@ -172,16 +186,27 @@ export default function HowItWorksPage() {
       </section>
 
       <section className="sd-section sd-compact pt-0">
-        <Container className="px-4 px-lg-5 text-center">
-          <h2 className="text-center sd-section-accent mb-3">{t("how.conservationStorySection.title")}</h2>
-          <div className="mx-auto text-center" style={{ maxWidth: "760px" }}>
-            <p className="sd-text-muted mb-3" style={{ fontSize: "1rem", lineHeight: "1.7" }}>
-              {t("how.conservationStorySection.body1")}
-            </p>
-            <p className="sd-text-muted fw-semibold" style={{ fontSize: "1.05rem", lineHeight: "1.7", color: "var(--sd-primary)" }}>
-              {t("how.conservationStorySection.body2")}
-            </p>
-          </div>
+        <Container className="px-4 px-lg-5">
+          <h2 className="text-center sd-section-accent mb-4">{t("how.conservationStorySection.title")}</h2>
+          <Row className="align-items-center g-5">
+            <Col lg={5}>
+              <div className="p-4 text-center d-flex flex-column justify-content-center" style={{ background: "rgba(31, 138, 76, 0.04)", borderRadius: "16px", minHeight: "180px", border: "1px solid rgba(31, 138, 76, 0.1)" }}>
+                <span className="text-uppercase fw-bold text-muted small d-block mb-2">Beta Result</span>
+                <h3 className="display-5 fw-extrabold text-primary mb-2" style={{ color: "var(--sd-primary)", fontWeight: "800" }}>32%</h3>
+                <p className="fw-semibold mb-0" style={{ color: "var(--sd-dark)", fontSize: "1rem" }}>Cart conversion rate uplift</p>
+              </div>
+            </Col>
+            <Col lg={7}>
+              <div className="sd-blog-content">
+                <p className="sd-text-muted mb-3" style={{ fontSize: "1.05rem", lineHeight: "1.7" }}>
+                  {t("how.conservationStorySection.body1")}
+                </p>
+                <p className="sd-text-muted fw-semibold mb-0" style={{ fontSize: "1.05rem", lineHeight: "1.7", color: "var(--sd-primary)" }}>
+                  {t("how.conservationStorySection.body2")}
+                </p>
+              </div>
+            </Col>
+          </Row>
         </Container>
       </section>
 
@@ -218,10 +243,10 @@ export default function HowItWorksPage() {
             ))}
           </Row>
           <div className="text-center mt-4">
-            <Link href="/how-it-works">
+            <Link href="/for-merchants">
               <button className="sd-cta-btn">{t("how.industriesSection.ctaBrand")}</button>
             </Link>
-            <Link href="/faq">
+            <Link href="/conservation">
               <button className="sd-cta-btn sd-cta-secondary mt-3 ms-md-3">{t("how.industriesSection.ctaFaq")}</button>
             </Link>
           </div>

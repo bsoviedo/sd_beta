@@ -12,6 +12,8 @@
     "blogDescription": "How shoppers save, support nature, and build a conservation history with Sustainable Discounts.",
     "faqTitle": "Conservation",
     "faqDescription": "SD’s conservation movement, resource allocation, and how commerce creates reliable funding for nature.",
+    "teamTitle": "The Team",
+    "teamDescription": "Meet the team behind Sustainable Discounts and discover the validators who trust us.",
     "termsTitle": "Terms of Service",
     "termsDescription": "Terms of service for using Sustainable Discounts™ and its platform.",
     "privacyTitle": "Privacy Policy",
@@ -494,12 +496,12 @@
     },
     "countersSection": {
       "lastUpdated": "Last updated on",
-      "date": "June 1, 2026",
+      "date": "June 16, 2026",
       "card1Label": "Hectares of habitat protected",
       "card2Label": "Tons of CO2 avoided",
       "card3Label": "Species supported",
       "card4Label": "Conservation contributions transferred",
-      "card5Label": "Merchants active on SD",
+      "card5Label": "Merchants (current and historic) on SD",
       "card6Label": "Shopper interactions"
     },
     "betaSection": {

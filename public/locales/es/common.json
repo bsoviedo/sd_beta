@@ -7,11 +7,13 @@
     "howTitle": "Para Comercios",
     "howDescription": "Recupera control de precios, mejora ganancias y financia conservacion con Sustainable Discounts.",
     "impactTitle": "Los numeros que importan",
-    "impactDescription": "Contadores de impacto SD en vivo, resultados de la beta privada y como el comercio puede duplicar las finanzas de conservacion.",
+    "impactDescription": "Contadores de impacto SD en vivo, resultados de la prueba privada y como el comercio puede duplicar las finanzas de conservacion.",
     "blogTitle": "Para Compradores",
     "blogDescription": "Como los compradores ahorran, apoyan a la naturaleza y construyen un historial de conservacion con Sustainable Discounts.",
     "faqTitle": "Conservacion",
     "faqDescription": "El movimiento de conservacion de SD, asignacion de fondos y como el comercio crea financiamiento confiable para la naturaleza.",
+    "teamTitle": "El Equipo",
+    "teamDescription": "Conoce al equipo detrás de Sustainable Discounts y las organizaciones externas que nos validan.",
     "termsTitle": "Terminos de Servicio",
     "termsDescription": "Terminos de uso para la plataforma Sustainable Discounts™ y sus Descuentos Sostenibles.",
     "privacyTitle": "Politica de Privacidad",
@@ -104,7 +106,7 @@
       }
     },
     "betaSection": {
-      "label": "La beta privada dijo lo que esperabamos.",
+      "label": "La prueba privada dijo lo que esperabamos.",
       "headline": "Numeros reales. Compras reales. Conservacion real.",
       "stat1": "60,000+ interacciones de consumidores en 10 tiendas de EE. UU., Reino Unido y Colombia.",
       "stat2": "32% de aumento en conversiones de carrito para marcas que usan SD.",
@@ -276,7 +278,7 @@
     "conservationStorySection": {
       "title": "La historia de conservación que ningún marketplace puede igualar",
       "body1": "El modelo de negocio del marketplace depende de que el secreto permanezca intacto. Cuando los compradores ven el precio real, toman una decisión diferente.",
-      "body2": "En la beta privada, las marcas usando SD vieron un aumento del 32% en la conversión del carrito. Ese cliente no vino por publicidad: vino porque la oferta era genuinamente mejor."
+      "body2": "En la prueba privada, las marcas usando SD vieron un aumento del 32% en la conversión del carrito. Ese cliente no vino por publicidad: vino porque la oferta era genuinamente mejor."
     },
     "industriesSection": {
       "title": "Industrias",
@@ -386,7 +388,7 @@
       "metric2": "🦁 Especies apoyadas",
       "metric3": "☁️ CO2 evitado",
       "sliderText": "Luego, el slider. Muévelo a la izquierda para obtener más descuento, o a la derecha para ayudar al planeta. La marca gana lo mismo de cualquier manera.",
-      "statHeadline": "En la beta privada:",
+      "statHeadline": "En la prueba privada:",
       "statText": "El 38% de los pools se redirigió voluntariamente a conservación (el predeterminado era 30%). La gente eligió dar más."
     },
     "planetAccountSection": {
@@ -494,16 +496,16 @@
     },
     "countersSection": {
       "lastUpdated": "Última actualización el",
-      "date": "1 de junio de 2026",
+      "date": "16 de junio de 2026",
       "card1Label": "Hectáreas de hábitat protegido",
       "card2Label": "Toneladas de CO2 evitadas",
       "card3Label": "Especies apoyadas",
       "card4Label": "Contribuciones transferidas",
-      "card5Label": "Tiendas activas en SD",
+      "card5Label": "Tiendas (actuales y anteriores) en SD",
       "card6Label": "Interacciones de compradores"
     },
     "betaSection": {
-      "title": "Lo que aprendimos en la beta privada.",
+      "title": "Lo que aprendimos en la prueba privada.",
       "intro": "10 tiendas en EE. UU., Reino Unido y Colombia. El objetivo fue comprobar el mecanismo de manera directo.",
       "stat1": "60,000+ interacciones de consumidores en 10 tiendas.",
       "stat2": "32% de aumento en conversión de carrito para marcas usando SD.",
@@ -542,7 +544,7 @@
       "sdg15Body": "La protección forestal preserva la biodiversidad y apoya a las comunidades indígenas, los protectores más eficientes del territorio."
     },
     "partnersSection": {
-      "title": "Dónde va el dinero.",
+      "title": "¿Dónde va el dinero?",
       "partner1Name": "Terrasos",
       "partner1Detail": "Colombia - Créditos de biodiversidad verificados vinculados a protección de hábitat rastreable.",
       "partner2Name": "Panthera",

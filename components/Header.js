@@ -36,12 +36,12 @@ function Header() {
         <Navbar.Collapse id="sd-navbar">
           <Nav className="ms-auto align-items-lg-center">
             <Link href="/" className="nav-link sd-nav-link">{t("nav.home")}</Link>
-            <Link href="/about" className="nav-link sd-nav-link">{t("nav.movement")}</Link>
-            <Link href="/how-it-works" className="nav-link sd-nav-link">{t("nav.merchants")}</Link>
-            <Link href="/blog" className="nav-link sd-nav-link">{t("nav.shoppers")}</Link>
-            <Link href="/faq" className="nav-link sd-nav-link">{t("nav.conservation")}</Link>
-            <Link href="/about#team" className="nav-link sd-nav-link">{t("nav.team")}</Link>
-            <Link href="/our-impact" className="nav-link sd-nav-link">{t("nav.impact")}</Link>
+            <Link href="/the-movement" className="nav-link sd-nav-link">{t("nav.movement")}</Link>
+            <Link href="/for-merchants" className="nav-link sd-nav-link">{t("nav.merchants")}</Link>
+            <Link href="/for-shoppers" className="nav-link sd-nav-link">{t("nav.shoppers")}</Link>
+            <Link href="/conservation" className="nav-link sd-nav-link">{t("nav.conservation")}</Link>
+            <Link href="/the-team" className="nav-link sd-nav-link">{t("nav.team")}</Link>
+            <Link href="/impact" className="nav-link sd-nav-link">{t("nav.impact")}</Link>
             <div className="d-flex align-items-center gap-2 ms-lg-3 my-2 my-lg-0">
               <Button
                 variant={router.locale === "en" ? "secondary" : "outline-secondary"}
@@ -58,7 +58,7 @@ function Header() {
                 ES
               </Button>
             </div>
-            <Link href="/how-it-works" className="ms-lg-3">
+            <Link href="/for-merchants" className="ms-lg-3">
               <button className="sd-cta-btn">{t("nav.cta")}</button>
             </Link>
           </Nav>

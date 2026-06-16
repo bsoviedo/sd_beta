@@ -306,12 +306,12 @@ function Hero() {
                   {t("home.heroExt.description2")}
                 </p>
                 <div className="sd-hero-cta-row">
-                  <Link href="/how-it-works">
+                  <Link href="/for-merchants">
                     <button className="sd-cta-btn">
                       {t("home.heroExt.ctaBrand")}
                     </button>
                   </Link>
-                  <Link href="/blog">
+                  <Link href="/for-shoppers">
                     <button className="sd-cta-btn sd-cta-secondary">
                       {t("home.heroExt.ctaShopper")}
                     </button>
