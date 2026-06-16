@@ -32,7 +32,7 @@ export default function TheMovementPage() {
             </Col>
             <Col lg={5}>
               <blockquote className="sd-pull-quote sd-pull-quote-hero m-0 w-100">
-                <p className="mb-3">"{t("about.originSection.quote")}"</p>
+                <p className="mb-3">&quot;{t("about.originSection.quote")}&quot;</p>
                 <footer className="sd-quote-author">{t("about.originSection.author")}</footer>
               </blockquote>
             </Col>

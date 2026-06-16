@@ -146,7 +146,7 @@ export default function ShoppersPage() {
             </Col>
             <Col lg={6}>
               <blockquote className="sd-pull-quote sd-pull-quote-hero m-0 w-100">
-                <p className="mb-0">"{t("shoppers.partnersSection.quote")}"</p>
+                <p className="mb-0">&quot;{t("shoppers.partnersSection.quote")}&quot;</p>
               </blockquote>
             </Col>
           </Row>
