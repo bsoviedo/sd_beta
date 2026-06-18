@@ -107,7 +107,7 @@ export default function HomePage() {
       <section className="sd-section pt-0">
         <Container className="px-4 px-lg-5">
           <div className="sd-proof-strip text-center">
-            <h2 className="sd-section-title text-center">{t("home.audiencesSection.validatedLabel", "Independently validated")}</h2>
+            <h2 className="sd-section-title text-center">{t("home.audiencesSection.validatedLabel")}</h2>
             <ul className="sd-proof-items list-unstyled d-flex flex-wrap justify-content-center gap-3 mx-auto" style={{ maxWidth: "980px" }}>
               {proofItems.map((item) => (
                 <li className="sd-proof-item p-3" key={item}>

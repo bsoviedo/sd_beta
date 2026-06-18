@@ -79,7 +79,8 @@
       "step1": "El comercio genera un costo oculto. Hasta el 40% de lo que pagas va a la infraestructura del marketplace.",
       "step2": "SD hace visible ese costo y crea una opción real.",
       "step3": "El comprador ahorra. La marca gana más. La naturaleza recibe financiamiento. Automáticamente.",
-      "linkText": "Ver el mecanismo completo"
+      "linkText": "Ver el mecanismo completo",
+      "stepLabel": "Paso"
     },
     "audiencesSection": {
       "title": "Tres audiencias. Un mecanismo.",
@@ -103,7 +104,8 @@
         "body": "Si crees que el comercio puede ser rediseñado para proteger la naturaleza, aquí hay un lugar para ti.",
         "foot": "Únete al movimiento.",
         "cta": "Únete al movimiento"
-      }
+      },
+      "validatedLabel": "Validado de manera independiente"
     },
     "betaSection": {
       "label": "La prueba privada dijo lo que esperabamos.",
@@ -118,6 +120,14 @@
       "merchant": "Agrega SD a tu tienda Shopify. Gratis.",
       "nonShopify": "¿Otra plataforma? Nos integramos en 48 horas. Hable con nosotros.",
       "movement": "¿Quieres promover el movimiento? Ponte en contacto."
+    },
+    "proofItems": {
+      "item1": "Premio Earthshot 2025 - Nominado",
+      "item2": "GEF y Banco Mundial - Actualmente en debida diligencia",
+      "item3": "Ganador de Change100 2026 - Startup de impacto a seguir",
+      "item4": "Cornell University Life Changing Labs - Ganador de la aceleradora, verano de 2024",
+      "item5": "Panthera - Alianza acordada en principio",
+      "item6": "Terrasos - Alianza activa, créditos de biodiversidad en vivo"
     }
   },
   "about": {

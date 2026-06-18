@@ -58,7 +58,8 @@ function Header() {
                 ES
               </Button>
             </div>
-            <Link href="/for-merchants" className="ms-lg-3">
+            <Link href="https://apps.shopify.com/mandatum-app?locale=es&st_source=autocomplete&surface_detail=autocomplete_apps" target="_blank"
+              rel="noopener noreferrer" className="ms-lg-3">
               <button className="sd-cta-btn">{t("nav.cta")}</button>
             </Link>
           </Nav>
