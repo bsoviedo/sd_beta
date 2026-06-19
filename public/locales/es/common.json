@@ -166,7 +166,7 @@
     },
     "insightSection": {
       "headline": "El dinero estaba ahí. Simplemente no iba a ningún lugar útil.",
-      "body1": "Cada compra de bienes duraderos incluye un costo oculto.",
+      "body1": "Cada compra de bienes de consumo duradero (cómo electrodomésticos y muebles) incluye un costo oculto.",
       "body2": "Va a la infraestructura del marketplace. No al producto. No al planeta.",
       "body3": "SD no pide dinero nuevo. Pide que el comercio sea transparente sobre el dinero que ya existía.",
       "metric1": "Hasta el 40% del precio",
@@ -177,13 +177,13 @@
     "solutionSection": {
       "headline": "Un mecanismo de precios, no una caridad.",
       "body": "SD se integra en el punto de venta. No pide donaciones. Reestructura la transacción.",
-      "shopper": "✅ Compradores ahorran",
-      "brand": "✅ Marcas recuperan margen",
-      "nature": "✅ La naturaleza recibe fondos",
+      "shopper": "✓ Los compradores ahorran",
+      "brand": "✓ Las marcas recuperan margen",
+      "nature": "✓ La naturaleza recibe fondos",
       "footer": "No por generosidad, sino por transparencia en el comercio."
     },
     "visionSection": {
-      "headline": "Cómo se ve el mundo si esto funciona.",
+      "headline": "Cómo se vería el mundo si esto funciona.",
       "goalLabel": "El objetivo:",
       "goalValue": "Duplicar las finanzas de conservación global de $208B a más de $400B+",
       "engineTitle": "Motor",
@@ -192,7 +192,7 @@
       "opportunityBody": "10% de los $2T en tarifas intermediarias",
       "impactTitle": "Impacto",
       "impactBody": "$200B para la naturaleza",
-      "footer": "El cambio profundo es estructural: todas las compras de bienes duraderos contribuyen automáticamente a la naturaleza. Justicia climática automática."
+      "footer": "El cambio profundo es estructural: todas las compras de bienes de consumo duradero (cómo electrodomésticos y muebles) contribuyen automáticamente a la naturaleza. Justicia climática automática."
     },
     "philosophySection": {
       "title": "El equipo",
@@ -213,7 +213,7 @@
     },
     "validatorsSection": {
       "title": "Externos que examinaron SD y lo tomaron en serio.",
-      "cta": "Expresar interés",
+      "cta": "Estoy interesado",
       "item1Title": "Premio Earthshot 2025",
       "item1Desc": "Nominado - Uno de los procesos de premios ambientales más rigurosos del mundo.",
       "item2Title": "GEF y Banco Mundial",
@@ -462,7 +462,7 @@
     },
     "industrySection": {
       "headline": "Tus industrias necesitan un impacto ambiental inmediato. SD lo entrega hoy.",
-      "intro": "Cada sector de bienes duraderos está bajo presión de sostenibilidad:",
+      "intro": "Cada sector de bienes de consumo duradero (cómo electrodomésticos y muebles) está bajo presión de sostenibilidad:",
       "ind1": "👗 Moda",
       "ind2": "🏂 Artículos deportivos",
       "ind3": "📱 Electrónica",
