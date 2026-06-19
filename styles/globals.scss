@@ -2066,3 +2066,487 @@ button {
     font-size: 1.75rem;
   }
 }
+
+/* ==========================================================================
+   The Movement Page - Custom Visual Redesign Classes
+   ========================================================================== */
+
+/* General Page Overrides */
+.sd-movement-page {
+  .sd-section-accent {
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 3.5rem;
+    color: var(--sd-dark);
+    text-align: center;
+    width: 100%;
+  }
+
+  .sd-section-accent::after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background: var(--sd-primary);
+    border-radius: 2px;
+  }
+}
+
+/* 1. Origin Section (Editorial Style & Glass Quote Card) */
+.sd-origin-editorial {
+  font-family: inherit;
+  
+  .sd-editorial-lead {
+    font-size: 1.35rem;
+    line-height: 1.8;
+    color: var(--sd-dark);
+    font-weight: 500;
+    position: relative;
+    padding-left: 1.5rem;
+    border-left: 3px solid var(--sd-primary);
+  }
+}
+
+.sd-origin-quote-card {
+  position: relative;
+  border-radius: 24px;
+  padding: 3rem 2.2rem 2.2rem;
+  background: linear-gradient(135deg, rgba(31, 138, 76, 0.04) 0%, rgba(20, 101, 62, 0.09) 100%);
+  border: 1px solid rgba(31, 138, 76, 0.16);
+  box-shadow: 0 20px 45px rgba(27, 53, 37, 0.05);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+  z-index: 1;
+
+  &::before {
+    content: "“";
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    font-size: 9rem;
+    font-family: "Georgia", serif;
+    color: rgba(31, 138, 76, 0.1);
+    line-height: 1;
+    z-index: -1;
+  }
+
+  .sd-quote-text {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    font-weight: 600;
+    color: var(--sd-dark);
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+
+  .sd-quote-author-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-top: 1px solid rgba(31, 138, 76, 0.12);
+    padding-top: 1rem;
+  }
+
+  .sd-quote-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--sd-primary);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 10px rgba(31, 138, 76, 0.2);
+  }
+
+  .sd-quote-author-info {
+    text-align: left;
+    
+    .sd-author-name {
+      font-weight: 700;
+      color: var(--sd-dark);
+      font-size: 1rem;
+      margin: 0;
+    }
+    
+    .sd-author-title {
+      font-size: 0.85rem;
+      color: rgba(27, 53, 37, 0.7);
+      margin: 0;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 30px 60px rgba(27, 53, 37, 0.12);
+    border-color: rgba(31, 138, 76, 0.3);
+  }
+}
+
+/* 2. Problem Section (Resource Cards & Missing Link Card) */
+.sd-resource-card {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid rgba(31, 138, 76, 0.06);
+  box-shadow: 0 12px 30px rgba(35, 59, 45, 0.04);
+  padding: 2.2rem 1.8rem;
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .sd-resource-icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    background: rgba(31, 138, 76, 0.06);
+    color: var(--sd-primary);
+    font-size: 1.8rem;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), background 0.4s ease, color 0.4s ease;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--sd-dark);
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+    color: rgba(27, 53, 37, 0.8);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  &:hover {
+    transform: translateY(-6px);
+    border-color: rgba(31, 138, 76, 0.22);
+    box-shadow: 0 24px 48px rgba(31, 138, 76, 0.08);
+
+    .sd-resource-icon {
+      background: var(--sd-primary);
+      color: #ffffff;
+      transform: scale(1.1) rotate(5deg);
+    }
+  }
+}
+
+.sd-missing-link-card {
+  background: linear-gradient(135deg, var(--sd-dark) 0%, var(--sd-secondary) 100%);
+  border-radius: 24px;
+  padding: 3rem 2rem;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(20, 101, 62, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  margin-top: 2rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 80% 20%, rgba(31, 138, 76, 0.25) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .sd-missing-kicker {
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--sd-accent);
+    margin-bottom: 0.8rem;
+    display: block;
+  }
+
+  .sd-missing-headline {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+/* 3. Insight Section (Dashboard Layout) */
+.sd-insight-metric-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 2.2rem 1.8rem;
+  border: 1px solid rgba(31, 138, 76, 0.06);
+  box-shadow: 0 12px 30px rgba(35, 59, 45, 0.04);
+  text-align: center;
+  height: 100%;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .sd-metric-value {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: var(--sd-primary);
+    line-height: 1.1;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.02em;
+  }
+
+  .sd-metric-label {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--sd-dark);
+    margin-bottom: 0.4rem;
+  }
+
+  .sd-metric-sub {
+    font-size: 0.95rem;
+    color: rgba(27, 53, 37, 0.7);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  &:hover {
+    border-color: rgba(31, 138, 76, 0.22);
+    box-shadow: 0 24px 48px rgba(31, 138, 76, 0.08);
+    transform: translateY(-5px);
+  }
+}
+
+.sd-insight-highlight-card {
+  background: linear-gradient(135deg, rgba(31, 138, 76, 0.05) 0%, rgba(255, 255, 255, 0.95) 100%);
+  border-left: 5px solid var(--sd-primary);
+  border-radius: 0 20px 20px 0;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(35, 59, 45, 0.03);
+  margin-bottom: 1.8rem;
+  text-align: left;
+
+  .sd-highlight-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.6;
+    color: var(--sd-primary);
+    margin: 0;
+  }
+}
+
+/* 4. Solution Section (Triple Win Grid) */
+.sd-triple-win-card {
+  background: #ffffff;
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 15px 35px rgba(35, 59, 45, 0.03);
+  padding: 2.8rem 2.2rem;
+  text-align: center;
+  height: 100%;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .sd-triple-win-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 20px;
+    background: rgba(31, 138, 76, 0.06);
+    color: var(--sd-primary);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.8rem;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  h3 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--sd-dark);
+    margin-bottom: 0.8rem;
+  }
+
+  p {
+    font-size: 0.98rem;
+    color: rgba(27, 53, 37, 0.8);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 28px 56px rgba(31, 138, 76, 0.08);
+    border-color: rgba(31, 138, 76, 0.16);
+
+    .sd-triple-win-icon {
+      background: var(--sd-primary);
+      color: #ffffff;
+      transform: scale(1.1) rotate(4deg);
+      box-shadow: 0 10px 20px rgba(31, 138, 76, 0.2);
+    }
+  }
+}
+
+.sd-solution-footer-note {
+  text-align: center;
+  font-size: 1.05rem;
+  font-style: italic;
+  color: rgba(27, 53, 37, 0.7);
+  margin-top: 2.5rem;
+}
+
+/* 5. Vision Section (Target Box & Pipeline Grid) */
+.sd-vision-target-card {
+  background: linear-gradient(135deg, var(--sd-dark) 0%, #0e1e15 100%);
+  border-radius: 30px;
+  padding: 4rem 3rem;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 30px 60px rgba(27, 53, 37, 0.18);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3.5rem;
+  border: 1px solid rgba(31, 138, 76, 0.25);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -20%;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(191, 122, 42, 0.12) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    right: -10%;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(31, 138, 76, 0.2) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .sd-target-kicker {
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-weight: 700;
+    color: var(--sd-accent);
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  .sd-target-number {
+    font-size: clamp(3.2rem, 7vw, 5.2rem);
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 30px rgba(31, 138, 76, 0.3);
+  }
+
+  .sd-target-footer {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.sd-vision-pipe-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 22px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 12px 35px rgba(35, 59, 45, 0.03);
+  height: 100%;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .sd-pipe-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--sd-primary);
+    margin-bottom: 0.8rem;
+  }
+
+  .sd-pipe-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--sd-dark);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 24px 48px rgba(31, 138, 76, 0.06);
+    border-color: rgba(31, 138, 76, 0.16);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .sd-movement-page {
+    .sd-section-accent {
+      font-size: 1.8rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  .sd-origin-quote-card {
+    padding: 2.5rem 1.8rem;
+    
+    .sd-quote-text {
+      font-size: 1.1rem;
+    }
+  }
+
+  .sd-missing-link-card {
+    padding: 2.5rem 1.5rem;
+    
+    .sd-missing-headline {
+      font-size: 1.35rem;
+    }
+  }
+
+  .sd-vision-target-card {
+    padding: 3rem 1.8rem;
+    
+    .sd-target-number {
+      font-size: 2.8rem;
+    }
+    
+    .sd-target-footer {
+      font-size: 0.98rem;
+    }
+  }
+}
