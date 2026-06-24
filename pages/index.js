@@ -87,12 +87,12 @@ export default function HomePage() {
               <Col md={4} key={card.title}>
                 <article className="sd-audience-card h-100 d-flex flex-column justify-content-between p-4" style={{ background: "#ffffff", borderRadius: "16px", boxShadow: "0 10px 24px rgba(35,59,45,0.06)" }}>
                   <div>
-                    <h3 className="mb-2" style={{ fontSize: "1.5rem" }}>{card.title}</h3>
-                    <h4 className="fs-6 fw-bold mb-3" style={{ color: "var(--sd-accent)" }}>{card.headline}</h4>
-                    <p style={{ fontSize: "0.95rem", lineHeight: "1.6", color: "rgba(28,56,39,0.8)" }}>{card.body}</p>
+                    <h3 className="mb-2" style={{ fontSize: "1.85rem", fontWeight: "700" }}>{card.title}</h3>
+                    <h4 className="fw-bold mb-3" style={{ color: "var(--sd-accent)", fontSize: "1.3rem", lineHeight: "1.4" }}>{card.headline}</h4>
+                    <p style={{ fontSize: "1.125rem", lineHeight: "1.65", color: "rgba(28,56,39,0.8)" }}>{card.body}</p>
                   </div>
                   <div>
-                    <p className="fw-semibold text-muted small mt-2 mb-3">{card.foot}</p>
+                    <p className="fw-semibold text-muted mt-2 mb-3" style={{ fontSize: "1rem" }}>{card.foot}</p>
                     <Link href={card.href}>
                       <button className="sd-link-btn w-100 mt-2">{card.cta}</button>
                     </Link>

@@ -22,10 +22,10 @@
   "nav": {
     "home": "Inicio",
     "movement": "El Movimiento",
-    "merchants": "Para Comercios",
-    "shoppers": "Para Compradores",
+    "merchants": "Comercios",
+    "shoppers": "Consumidores",
     "conservation": "Conservacion",
-    "team": "El Equipo",
+    "team": "Equipo",
     "impact": "Impacto",
     "cta": "Agregar a Shopify"
   },
@@ -116,7 +116,7 @@
       "body": "No hubo premios ni beneficios extra. Cuando la gente vio una alternativa clara, eligió ayudar al planeta."
     },
     "closingSection": {
-      "headline": "El mecanismo esta listo. El planeta no puede esperar.",
+      "headline": "¡El mecanismo esta listo! El planeta no puede esperar.",
       "merchant": "Agrega SD a tu tienda Shopify. Gratis.",
       "nonShopify": "¿Otra plataforma? Nos integramos en 48 horas. Hable con nosotros.",
       "movement": "¿Quieres promover el movimiento? Ponte en contacto."
