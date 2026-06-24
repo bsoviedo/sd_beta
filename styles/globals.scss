@@ -1834,6 +1834,12 @@ button {
 .sd-footer-link,
 .sd-footer-text {
   color: var(--sd-footer) !important;
+  font-size: 1.2rem;
+}
+
+.sd-footer-subtext {
+  color: var(--sd-footer) !important;
+  font-size: 1rem;
 }
 
 .sd-footer-link:hover {
