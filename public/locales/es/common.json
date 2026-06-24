@@ -37,10 +37,10 @@
       "secondaryCta": "Registrarme"
     },
     "heroExt": {
-      "title": "Cada compra, devolviendo algo al planeta.",
+      "title": "¡Cada compra le devuelve algo al planeta!",
       "tagline": "Sin costo adicional para nadie.",
       "description1": "Sustainable Discounts redirige las tarifas ocultas del comercio para financiar la conservación de bosques y océanos.",
-      "description2": "Los compradores obtienen un descuento real. Las marcas recuperan margen. La naturaleza es financiada.",
+      "description2": "Los consumidores obtienen un descuento real, mientras que las marcas aumentan su margen. Además, La naturaleza es financiada.",
       "ctaBrand": "Soy una marca. Ver cómo funciona.",
       "ctaShopper": "Soy un comprador. Buscar marcas SD."
     },
@@ -74,33 +74,33 @@
     },
     "ideaSection": {
       "headline": "Una oportunidad en cada compra.",
-      "body1": "El comercio incluye costos. A veces solo necesitas el producto.",
-      "body2": "Hasta el 40% de lo que pagas en un marketplace va para su infraestructura — no para tu producto.",
-      "step1": "El comercio genera un costo oculto. Hasta el 40% de lo que pagas va a la infraestructura del marketplace.",
+      "body1": "A veces no necesitas pagar de más, solo necesitas el producto.",
+      "body2": "Hasta el 40% de lo que pagas en un marketplace puede destinarse a la operación de la plataforma y no al producto.",
+      "step1": "En muchos canales de venta, una parte del valor de cada compra se destina a la operación de la plataforma.",
       "step2": "SD hace visible ese costo y crea una opción real.",
-      "step3": "El comprador ahorra. La marca gana más. La naturaleza recibe financiamiento. Automáticamente.",
+      "step3": "El comprador ahorra, la marca fortalece su relación con el cliente y se generan recursos para iniciativas ambientales.",
       "linkText": "Ver el mecanismo completo",
       "stepLabel": "Paso"
     },
     "audiencesSection": {
-      "title": "Tres audiencias. Un mecanismo.",
+      "title": "Tres audiencias,  una solución.",
       "card1": {
         "title": "Para marcas",
-        "headline": "Recupera el control de precios y mejora tus ganancias.",
-        "body": "Ofrece un descuento real en tu canal directo. Gana una historia de conservación que ningún marketplace puede reproducir.",
-        "foot": "Gratis para instalar. Sin contrato.",
-        "cta": "Cómo funciona SD para tu marca"
+        "headline": " Ofrece mejores precios a tus clientes sin sacrificar margen.",
+        "body": "Ofrece un descuento real en tu canal directo. Gana una historia de conservación que ningún marketplace puede reproducir, convirtiendo cada compra en una acción verificable para la naturaleza.",
+        "foot": "Sin costos de instalación ni contratos.",
+        "cta": "Conoce SD para marcas"
       },
       "card2": {
         "title": "Para compradores",
         "headline": "El mismo producto. Precio más bajo.",
         "body": "Una contribución de conservación verificada incluida. Tú decides cuánto de tu descuento va para ti y cuánto paga al planeta.",
-        "foot": "Encuentra marcas SD y crea tu cuenta planeta.",
+        "foot": "Encuentra marcas SD y rastrea tu impacto en 'my planet acount'",
         "cta": "Buscar marcas SD"
       },
       "card3": {
         "title": "Para el movimiento",
-        "headline": "Científicos, activistas, periodistas y expertos.",
+        "headline": "Personas que creen que otra forma de comprar es posible: Científicos, activistas, periodistas y expertos.",
         "body": "Si crees que el comercio puede ser rediseñado para proteger la naturaleza, aquí hay un lugar para ti.",
         "foot": "Únete al movimiento.",
         "cta": "Únete al movimiento"
@@ -108,12 +108,12 @@
       "validatedLabel": "Validado de manera independiente"
     },
     "betaSection": {
-      "label": "La prueba privada dijo lo que esperabamos.",
+      "label": "Las pruebas realizadas confirmaron lo que esperabamos.",
       "headline": "Numeros reales. Compras reales. Conservacion real.",
       "stat1": "60,000+ interacciones de consumidores en 10 tiendas de EE. UU., Reino Unido y Colombia.",
       "stat2": "32% de aumento en conversiones de carrito para marcas que usan SD.",
       "stat3": "38% de los pools disponibles fueron redirigidos voluntariamente a conservacion. El predeterminado era 30%.",
-      "body": "No se ofreció recompensa. Cuando la opción era transparente, la gente eligió el planeta."
+      "body": "No hubo premios ni beneficios extra. Cuando la gente vio una alternativa clara, eligió ayudar al planeta."
     },
     "closingSection": {
       "headline": "El mecanismo esta listo. El planeta no puede esperar.",
@@ -367,14 +367,14 @@
     "readMore": "Leer articulo"
   },
   "benefits": {
-    "title": "La brecha entre la naturaleza y el financiamiento es real.",
+    "title": "La brecha entre la naturaleza y el financiamiento climático es real.",
     "label": "La problemática en tres números",
     "card1Stat": "$942B",
-    "card1Body": "La brecha anual entre lo que la naturaleza necesita y lo que recibe. Creció $200B en cuatro años pese a los compromisos globales.",
+    "card1Body": "La brecha anual entre lo que la naturaleza necesita y lo que recibe creció $200B en cuatro años pese a los compromisos globales.",
     "card2Stat": "92%",
-    "card2Body": "De los estadounidenses apoyan la Ley de Especies en Peligro. La voluntad está. El problema es la asequibilidad.",
+    "card2Body": "De los estadounidenses apoyan la Ley de Especies en Peligro. La voluntad está, el problema es la asequibilidad.",
     "card3Stat": "$0",
-    "card3Body": "Lo que cuesta redirigir ese dinero. La ineficiencia siempre estuvo ahí. Solo tenemos que usarla mejor."
+    "card3Body": "Lo que cuesta redirigir ese dinero. La ineficiencia siempre estuvo ahí, ¡solo tenemos que usarla mejor!"
   },
   "shoppers": {
     "hero": {
