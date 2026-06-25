@@ -26,7 +26,7 @@ export default function TheTeamPage() {
     {
       name: "Dylan Price",
       role: t("about.team.role.dylan"),
-      href: ""
+      href: "https://www.linkedin.com/in/dylan-price-387a99199/"
     },
     {
       name: "Adrian Gross",
@@ -61,14 +61,14 @@ export default function TheTeamPage() {
           <Row className="align-items-center g-5 mb-5">
             <Col lg={6}>
               <div className="sd-blog-highlight p-4" style={{ background: "rgba(31, 138, 76, 0.05)", borderLeft: "4px solid var(--sd-primary)", borderRadius: "12px" }}>
-                <p className="sd-blog-text mb-0 fw-semibold" style={{ fontSize: "1.1rem", lineHeight: "1.7", color: "var(--sd-primary)" }}>
+                <p className="sd-blog-text mb-0 fw-semibold" style={{ fontSize: "clamp(1.3rem, 2.4vw, 1.55rem)", lineHeight: "1.7", color: "var(--sd-primary)" }}>
                   {t("about.philosophySection.body1")}
                 </p>
               </div>
             </Col>
             <Col lg={6}>
               <div className="sd-blog-content">
-                <p className="sd-blog-text mb-0" style={{ fontSize: "1.05rem", lineHeight: "1.7" }}>
+                <p className="sd-blog-text mb-0" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7" }}>
                   {t("about.philosophySection.body2")}
                 </p>
               </div>
@@ -79,13 +79,13 @@ export default function TheTeamPage() {
               <Col md={6} lg={4} key={member.name}>
                 <article className="sd-team-card h-100 text-center p-4">
                   <h3>{member.name}</h3>
-                  <p className="mb-3">{member.role}</p>
+                  <p className="mb-3" style={{ fontSize: "clamp(1.15rem, 2vw, 1.35rem)", color: "rgba(28, 56, 39, 0.75)" }}>{member.role}</p>
                   {member.href ? (
-                    <a href={member.href} target="_blank" rel="noreferrer" className="sd-link sd-link-inline">
+                    <a href={member.href} target="_blank" rel="noreferrer" className="sd-link sd-link-inline" style={{ fontSize: "clamp(1.05rem, 2vw, 1.25rem)" }}>
                       linkedin.com/in/{member.href.split("/").pop()}
                     </a>
                   ) : (
-                    <p className="text-muted mb-0">{t("about.team.noLinkedin")}</p>
+                    <p className="text-muted mb-0" style={{ fontSize: "clamp(1.05rem, 2vw, 1.25rem)" }}>{t("about.team.noLinkedin")}</p>
                   )}
                 </article>
               </Col>
@@ -101,8 +101,8 @@ export default function TheTeamPage() {
             {validators.map((val) => (
               <Col md={6} lg={3} key={val.title}>
                 <article className="sd-team-card h-100 text-center p-4" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.06)" }}>
-                  <h3 className="mb-2" style={{ fontSize: "1.15rem", color: "var(--sd-primary)" }}>{val.title}</h3>
-                  <p className="small text-muted mb-0" style={{ fontSize: "0.85rem", lineHeight: "1.5" }}>{val.desc}</p>
+                  <h3 className="mb-2" style={{ fontSize: "clamp(1.25rem, 2.3vw, 1.45rem)", color: "var(--sd-primary)" }}>{val.title}</h3>
+                  <p className="text-muted mb-0" style={{ fontSize: "clamp(1.05rem, 2vw, 1.25rem)", lineHeight: "1.5" }}>{val.desc}</p>
                 </article>
               </Col>
             ))}

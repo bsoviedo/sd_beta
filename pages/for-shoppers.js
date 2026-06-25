@@ -25,7 +25,7 @@ export default function ShoppersPage() {
                 <h3 className="fs-5 fw-bold mb-3" style={{ color: "var(--sd-primary)" }}>
                   {t("shoppers.pointsSection.point1Headline")}
                 </h3>
-                <p className="small text-muted mb-0" style={{ fontSize: "0.95rem", lineHeight: "1.6" }}>
+                <p className="text-muted mb-0" style={{ fontSize: "clamp(1.15rem, 2.2vw, 1.35rem)", lineHeight: "1.6" }}>
                   {t("shoppers.pointsSection.point1Text")}
                 </p>
               </article>
@@ -35,7 +35,7 @@ export default function ShoppersPage() {
                 <h3 className="fs-5 fw-bold mb-3" style={{ color: "var(--sd-primary)" }}>
                   {t("shoppers.pointsSection.point2Headline")}
                 </h3>
-                <p className="small text-muted mb-0" style={{ fontSize: "0.95rem", lineHeight: "1.6" }}>
+                <p className="text-muted mb-0" style={{ fontSize: "clamp(1.15rem, 2.2vw, 1.35rem)", lineHeight: "1.6" }}>
                   {t("shoppers.pointsSection.point2Text")}
                 </p>
               </article>
@@ -45,7 +45,7 @@ export default function ShoppersPage() {
                 <h3 className="fs-5 fw-bold mb-3" style={{ color: "var(--sd-primary)" }}>
                   {t("shoppers.pointsSection.point3Headline")}
                 </h3>
-                <p className="small text-muted mb-0" style={{ fontSize: "0.95rem", lineHeight: "1.6" }}>
+                <p className="text-muted mb-0" style={{ fontSize: "clamp(1.15rem, 2.2vw, 1.35rem)", lineHeight: "1.6" }}>
                   {t("shoppers.pointsSection.point3Text")}
                 </p>
               </article>
@@ -61,10 +61,10 @@ export default function ShoppersPage() {
             <Col lg={6}>
               <div className="sd-blog-content">
                 <div className="sd-blog-highlight mb-4 p-4" style={{ borderRadius: "12px", background: "rgba(31, 138, 76, 0.06)" }}>
-                  <p className="sd-blog-text mb-0 fw-semibold" style={{ fontSize: "1.05rem" }}>{t("shoppers.sliderSection.highlightText")}</p>
+                  <p className="sd-blog-text mb-0 fw-semibold" style={{ fontSize: "clamp(1.3rem, 2.4vw, 1.55rem)" }}>{t("shoppers.sliderSection.highlightText")}</p>
                 </div>
-                <p className="sd-blog-text mb-3" style={{ fontSize: "1.05rem" }}>{t("shoppers.sliderSection.introText")}</p>
-                <p className="sd-blog-text mb-0" style={{ fontSize: "0.98rem", lineHeight: "1.7" }}>
+                <p className="sd-blog-text mb-3" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)" }}>{t("shoppers.sliderSection.introText")}</p>
+                <p className="sd-blog-text mb-0" style={{ fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)", lineHeight: "1.7" }}>
                   {t("shoppers.sliderSection.sliderText")}
                 </p>
               </div>
@@ -72,12 +72,12 @@ export default function ShoppersPage() {
             <Col lg={6}>
               <div className="d-flex flex-column gap-3">
                 <div className="sd-blog-metrics flex-column align-items-stretch gap-2 w-100">
-                  <div className="sd-blog-metric text-center p-3 w-100 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px" }}>{t("shoppers.sliderSection.metric1")}</div>
-                  <div className="sd-blog-metric text-center p-3 w-100 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px" }}>{t("shoppers.sliderSection.metric2")}</div>
-                  <div className="sd-blog-metric text-center p-3 w-100 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px" }}>{t("shoppers.sliderSection.metric3")}</div>
+                  <div className="sd-blog-metric text-center p-3 w-100 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px", fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)", fontWeight: "500" }}>{t("shoppers.sliderSection.metric1")}</div>
+                  <div className="sd-blog-metric text-center p-3 w-100 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px", fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)", fontWeight: "500" }}>{t("shoppers.sliderSection.metric2")}</div>
+                  <div className="sd-blog-metric text-center p-3 w-100 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px", fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)", fontWeight: "500" }}>{t("shoppers.sliderSection.metric3")}</div>
                 </div>
                 <div className="sd-blog-stat p-4 m-0" style={{ borderRadius: "12px", background: "rgba(31,138,76,0.03)", borderLeft: "4px solid var(--sd-primary)" }}>
-                  <p className="sd-blog-text mb-0" style={{ fontSize: "0.95rem" }}>
+                  <p className="sd-blog-text mb-0" style={{ fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)" }}>
                     <strong>{t("shoppers.sliderSection.statHeadline")}</strong> {t("shoppers.sliderSection.statText")}
                   </p>
                 </div>
@@ -93,11 +93,11 @@ export default function ShoppersPage() {
           <Row className="align-items-center g-5">
             <Col lg={6}>
               <div className="sd-blog-content">
-                <p className="sd-blog-text mb-3 fw-semibold" style={{ fontSize: "1.1rem", color: "var(--sd-primary)" }}>{t("shoppers.planetAccountSection.ctaText")}</p>
-                <p className="sd-blog-text mb-4" style={{ fontSize: "1rem", lineHeight: "1.6" }}>
+                <p className="sd-blog-text mb-3 fw-semibold" style={{ fontSize: "clamp(1.3rem, 2.4vw, 1.55rem)", color: "var(--sd-primary)" }}>{t("shoppers.planetAccountSection.ctaText")}</p>
+                <p className="sd-blog-text mb-4" style={{ fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)", lineHeight: "1.6" }}>
                   {t("shoppers.planetAccountSection.recordIntro")}
                 </p>
-                <p className="sd-blog-text mb-0 text-muted" style={{ fontSize: "0.95rem" }}>
+                <p className="sd-blog-text mb-0 text-muted" style={{ fontSize: "clamp(1.15rem, 2.1vw, 1.28rem)" }}>
                   {t("shoppers.planetAccountSection.recordFooter")}
                 </p>
               </div>
@@ -105,9 +105,9 @@ export default function ShoppersPage() {
             <Col lg={6}>
               <div className="d-flex flex-column gap-3">
                 <div className="sd-blog-records flex-column align-items-stretch gap-2 w-100">
-                  <div className="sd-blog-record text-center p-3 w-100 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px", fontWeight: "bold" }}>{t("shoppers.planetAccountSection.record1")}</div>
-                  <div className="sd-blog-record text-center p-3 w-100 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px", fontWeight: "bold" }}>{t("shoppers.planetAccountSection.record2")}</div>
-                  <div className="sd-blog-record text-center p-3 w-100 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px", fontWeight: "bold" }}>{t("shoppers.planetAccountSection.record3")}</div>
+                  <div className="sd-blog-record text-center p-3 w-100 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px", fontWeight: "600", fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)" }}>{t("shoppers.planetAccountSection.record1")}</div>
+                  <div className="sd-blog-record text-center p-3 w-100 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px", fontWeight: "600", fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)" }}>{t("shoppers.planetAccountSection.record2")}</div>
+                  <div className="sd-blog-record text-center p-3 w-100 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px", fontWeight: "600", fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)" }}>{t("shoppers.planetAccountSection.record3")}</div>
                 </div>
                 <div className="text-center mt-3">
                   <a href="https://myplanetaccount.com" target="_blank" rel="noreferrer" className="w-100">
@@ -126,7 +126,7 @@ export default function ShoppersPage() {
           <Row className="align-items-center g-5">
             <Col lg={6}>
               <div className="sd-blog-content">
-                <p className="sd-blog-text mb-4" style={{ fontSize: "1.05rem" }}>{t("shoppers.partnersSection.partnerIntro")}</p>
+                <p className="sd-blog-text mb-4" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7" }}>{t("shoppers.partnersSection.partnerIntro")}</p>
                 <div className="sd-blog-partners mb-4 align-items-center justify-content-start gap-3">
                   <div className="sd-blog-partner d-flex align-items-center justify-content-center m-0" style={{ background: "var(--sd-primary)", padding: "0.5rem 1.5rem", borderRadius: "8px" }}>
                     <a href="https://www.panthera.org/" target="_blank" rel="noreferrer">
@@ -139,7 +139,7 @@ export default function ShoppersPage() {
                     </a>
                   </div>
                 </div>
-                <p className="sd-blog-text text-muted mb-0" style={{ fontSize: "0.9rem" }}>
+                <p className="sd-blog-text text-muted mb-0" style={{ fontSize: "clamp(1.15rem, 2.1vw, 1.28rem)" }}>
                   {t("shoppers.partnersSection.partnerFooter")}
                 </p>
               </div>
@@ -156,7 +156,7 @@ export default function ShoppersPage() {
       <section className="sd-section sd-blog-section sd-blog-cta-section pt-0">
         <Container className="px-4 px-lg-5 text-center">
           <h2 className="sd-section-accent mb-3">{t("shoppers.brandsSection.title")}</h2>
-          <p className="sd-blog-text mb-4 text-muted" style={{ maxWidth: "760px", margin: "0 auto 2rem" }}>
+          <p className="sd-blog-text mb-4 text-muted" style={{ maxWidth: "760px", margin: "0 auto 2rem", fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)" }}>
             {t("shoppers.brandsSection.section5Desc")}
           </p>
           <div>
@@ -173,13 +173,13 @@ export default function ShoppersPage() {
           <Row className="align-items-center g-5">
             <Col lg={5}>
               <div className="sd-blog-highlight p-4 text-center" style={{ borderRadius: "16px", background: "rgba(31, 138, 76, 0.06)", border: "1px solid rgba(31,138,76,0.12)" }}>
-                <p className="sd-blog-text mb-2">
-                  <strong>{t("shoppers.storySection.defaultLabel")}</strong> <span style={{ color: "var(--sd-dark)", fontWeight: "bold" }}>{t("shoppers.storySection.defaultVal")}</span>
+                <p className="sd-blog-text mb-2" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.4rem)" }}>
+                  <strong>{t("shoppers.storySection.defaultLabel")}</strong> <span style={{ color: "var(--sd-dark)", fontWeight: "bold", fontSize: "clamp(1.3rem, 2.4vw, 1.5rem)" }}>{t("shoppers.storySection.defaultVal")}</span>
                 </p>
-                <p className="sd-blog-text mb-2" style={{ fontSize: "1.2rem", color: "var(--sd-primary)", fontWeight: "bold" }}>↓</p>
-                <p className="sd-blog-text mb-0">
+                <p className="sd-blog-text mb-2" style={{ fontSize: "1.5rem", color: "var(--sd-primary)", fontWeight: "bold" }}>↓</p>
+                <p className="sd-blog-text mb-0" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.4rem)" }}>
                   <strong>{t("shoppers.storySection.actualLabel")}</strong>{" "}
-                  <span style={{ fontSize: "1.3rem", color: "var(--sd-primary)", fontWeight: 800 }}>
+                  <span style={{ fontSize: "clamp(1.5rem, 3vw, 1.85rem)", color: "var(--sd-primary)", fontWeight: 800 }}>
                     {t("shoppers.storySection.actualVal")}
                   </span>
                 </p>
@@ -187,10 +187,10 @@ export default function ShoppersPage() {
             </Col>
             <Col lg={7}>
               <div className="sd-blog-content">
-                <p className="sd-blog-text mb-3 fw-semibold" style={{ fontSize: "1rem", color: "var(--sd-primary)" }}>
+                <p className="sd-blog-text mb-3 fw-semibold" style={{ fontSize: "clamp(1.35rem, 2.5vw, 1.6rem)", color: "var(--sd-primary)" }}>
                   {t("shoppers.storySection.noteText")}
                 </p>
-                <p className="sd-blog-text mb-0" style={{ fontSize: "1.05rem", lineHeight: "1.7" }}>
+                <p className="sd-blog-text mb-0" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7" }}>
                   {t("shoppers.storySection.footerText")}
                 </p>
               </div>

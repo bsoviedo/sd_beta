@@ -206,7 +206,7 @@ export default function TheMovementPage() {
         {/* 6. CTA Section */}
         <section className="sd-section sd-blog-section sd-blog-cta-section pt-0">
           <Container className="px-4 px-lg-5 text-center">
-            <h2 className="sd-section-accent mb-4" style={{ fontSize: "2rem" }}>
+            <h2 className="sd-section-accent mb-4">
               {t("about.validatorsSection.cta")}
             </h2>
             <Row className="g-3 justify-content-center mt-2">

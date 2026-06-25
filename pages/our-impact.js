@@ -68,15 +68,15 @@ export default function OurImpactPage() {
 
       <section className="sd-section pt-0">
         <Container className="px-4 px-lg-5 text-center">
-          <p className="text-muted mb-4">
+          <p className="text-muted mb-4" style={{ fontSize: "clamp(1.15rem, 2vw, 1.3rem)" }}>
             {t("impact.countersSection.lastUpdated")} {t("impact.countersSection.date")}
           </p>
           <Row className="g-4 justify-content-center">
             {counters.map((counter) => (
               <Col md={4} key={counter.label}>
                 <article className="sd-counter-card h-100" style={{ borderRadius: "18px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.04)", padding: "2.5rem 1.5rem" }}>
-                  <h3 style={{ fontSize: "3rem", fontWeight: "800", color: "var(--sd-primary)", marginBottom: "0.5rem" }}>{counter.value}</h3>
-                  <p className="mb-0 text-muted" style={{ fontSize: "0.95rem", lineHeight: "1.4" }}>{counter.label}</p>
+                  <h3 style={{ fontSize: "clamp(3.2rem, 5.5vw, 4.2rem)", fontWeight: "800", color: "var(--sd-primary)", marginBottom: "0.5rem" }}>{counter.value}</h3>
+                  <p className="mb-0 text-muted" style={{ fontSize: "clamp(1.1rem, 2vw, 1.25rem)", lineHeight: "1.4" }}>{counter.label}</p>
                 </article>
               </Col>
             ))}
@@ -88,7 +88,7 @@ export default function OurImpactPage() {
         <Container className="px-4 px-lg-5">
           <h2 className="text-center sd-section-accent mb-4">{t("impact.betaSection.title")}</h2>
           <div className="sd-blog-content mx-auto text-center mb-5" style={{ maxWidth: "800px" }}>
-            <p className="sd-blog-text" style={{ fontSize: "1.1rem" }}>
+            <p className="sd-blog-text" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)" }}>
               {t("impact.betaSection.intro")}
             </p>
           </div>
@@ -96,7 +96,7 @@ export default function OurImpactPage() {
             {betaStats.map((stat, idx) => (
               <Col md={6} key={idx}>
                 <article className="sd-stat-card h-100 p-4 text-center d-flex align-items-center justify-content-center" style={{ minHeight: "130px", borderRadius: "16px" }}>
-                  <p className="sd-blog-text mb-0 fw-semibold" style={{ color: "var(--sd-dark)" }}>{stat}</p>
+                  <p className="sd-blog-text mb-0 fw-semibold" style={{ color: "var(--sd-dark)", fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)" }}>{stat}</p>
                 </article>
               </Col>
             ))}
@@ -111,8 +111,8 @@ export default function OurImpactPage() {
             {validationItems.map((val) => (
               <Col md={6} lg={3} key={val.title}>
                 <article className="sd-team-card h-100 text-center p-4" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.06)" }}>
-                  <h3 className="mb-2" style={{ fontSize: "1.15rem", color: "var(--sd-primary)" }}>{val.title}</h3>
-                  <p className="small text-muted mb-0" style={{ fontSize: "0.85rem", lineHeight: "1.5" }}>{val.desc}</p>
+                  <h3 className="mb-2" style={{ fontSize: "clamp(1.25rem, 2.3vw, 1.45rem)", color: "var(--sd-primary)" }}>{val.title}</h3>
+                  <p className="text-muted mb-0" style={{ fontSize: "clamp(1.05rem, 2vw, 1.25rem)", lineHeight: "1.5" }}>{val.desc}</p>
                 </article>
               </Col>
             ))}
@@ -124,7 +124,7 @@ export default function OurImpactPage() {
         <Container className="px-4 px-lg-5">
           <h2 className="text-center sd-section-accent mb-4">{t("impact.sdgsSection.title")}</h2>
           <div className="sd-blog-content mx-auto text-center mb-5" style={{ maxWidth: "760px" }}>
-            <p className="sd-blog-text text-muted" style={{ fontSize: "1rem" }}>
+            <p className="sd-blog-text text-muted" style={{ fontSize: "clamp(1.15rem, 2.1vw, 1.28rem)" }}>
               {t("impact.sdgsSection.desc")}
             </p>
           </div>
@@ -132,8 +132,8 @@ export default function OurImpactPage() {
             {sdgs.map((item) => (
               <Col md={6} lg={3} key={item.title}>
                 <article className="sd-sdg-card h-100 p-4 text-center d-flex flex-column justify-content-start" style={{ borderRadius: "16px", background: "#ffffff", border: "1px solid rgba(0,0,0,0.05)" }}>
-                  <h3 className="mb-2" style={{ fontSize: "1rem", color: "var(--sd-primary)" }}>{item.title}</h3>
-                  <p className="small text-muted mb-0" style={{ fontSize: "0.85rem", lineHeight: "1.5" }}>{item.body}</p>
+                  <h3 className="mb-2" style={{ fontSize: "clamp(1.15rem, 2.1vw, 1.35rem)", color: "var(--sd-primary)" }}>{item.title}</h3>
+                  <p className="text-muted mb-0" style={{ fontSize: "clamp(1.05rem, 2vw, 1.22rem)", lineHeight: "1.5" }}>{item.body}</p>
                 </article>
               </Col>
             ))}
@@ -163,7 +163,7 @@ export default function OurImpactPage() {
                   ) : (
                     <h3 style={{ color: "var(--sd-primary)" }} className="mb-3">{partner.name}</h3>
                   )}
-                  <p className="sd-blog-text text-muted mb-0" style={{ fontSize: "0.95rem" }}>{partner.detail}</p>
+                  <p className="sd-blog-text text-muted mb-0" style={{ fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>{partner.detail}</p>
                 </article>
               </Col>
             ))}
@@ -177,20 +177,20 @@ export default function OurImpactPage() {
           <div className="sd-blog-content mx-auto text-center" style={{ maxWidth: "800px" }}>
             <div className="sd-faq-criteria mb-4">
               <div className="sd-faq-criterion">
-                <h4 className="mb-2" style={{ color: "var(--sd-primary)", fontSize: "1.1rem" }}>{t("impact.scaleSection.metric1")}</h4>
-                <p className="sd-blog-metric-text mb-0 fw-semibold">{t("impact.scaleSection.val1")}</p>
+                <h4 className="mb-2" style={{ color: "var(--sd-primary)", fontSize: "clamp(1.25rem, 2.3vw, 1.45rem)" }}>{t("impact.scaleSection.metric1")}</h4>
+                <p className="sd-blog-metric-text mb-0 fw-semibold" style={{ fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)" }}>{t("impact.scaleSection.val1")}</p>
               </div>
               <div className="sd-faq-criterion">
-                <h4 className="mb-2" style={{ color: "var(--sd-accent)", fontSize: "1.1rem" }}>{t("impact.scaleSection.metric2")}</h4>
-                <p className="sd-blog-metric-text mb-0 fw-semibold">{t("impact.scaleSection.val2")}</p>
+                <h4 className="mb-2" style={{ color: "var(--sd-accent)", fontSize: "clamp(1.25rem, 2.3vw, 1.45rem)" }}>{t("impact.scaleSection.metric2")}</h4>
+                <p className="sd-blog-metric-text mb-0 fw-semibold" style={{ fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)" }}>{t("impact.scaleSection.val2")}</p>
               </div>
               <div className="sd-faq-criterion">
-                <h4 className="mb-2" style={{ color: "var(--sd-primary)", fontSize: "1.1rem" }}>{t("impact.scaleSection.metric3")}</h4>
-                <p className="sd-blog-metric-text mb-0 fw-semibold">{t("impact.scaleSection.val3")}</p>
+                <h4 className="mb-2" style={{ color: "var(--sd-primary)", fontSize: "clamp(1.25rem, 2.3vw, 1.45rem)" }}>{t("impact.scaleSection.metric3")}</h4>
+                <p className="sd-blog-metric-text mb-0 fw-semibold" style={{ fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)" }}>{t("impact.scaleSection.val3")}</p>
               </div>
             </div>
             <div className="sd-blog-highlight mb-4 p-4" style={{ borderRadius: "12px", background: "rgba(31, 138, 76, 0.06)" }}>
-              <p className="sd-blog-text mb-0 fw-bold">{t("impact.scaleSection.highlight")}</p>
+              <p className="sd-blog-text mb-0 fw-bold" style={{ fontSize: "clamp(1.3rem, 2.4vw, 1.55rem)" }}>{t("impact.scaleSection.highlight")}</p>
             </div>
           </div>
           <blockquote className="sd-pull-quote sd-pull-quote-hero mx-auto mt-4" style={{ maxWidth: "720px" }}>
@@ -204,12 +204,12 @@ export default function OurImpactPage() {
           <h2 className="sd-section-accent mb-4">{t("impact.transparencySection.title")}</h2>
           <div className="sd-blog-content mx-auto text-center" style={{ maxWidth: "800px" }}>
             <div className="sd-blog-metrics mb-4">
-              <div className="sd-blog-metric">{t("impact.transparencySection.metric1")}</div>
-              <div className="sd-blog-metric">{t("impact.transparencySection.metric2")}</div>
-              <div className="sd-blog-metric">{t("impact.transparencySection.metric3")}</div>
+              <div className="sd-blog-metric" style={{ fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>{t("impact.transparencySection.metric1")}</div>
+              <div className="sd-blog-metric" style={{ fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>{t("impact.transparencySection.metric2")}</div>
+              <div className="sd-blog-metric" style={{ fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>{t("impact.transparencySection.metric3")}</div>
             </div>
-            <p className="sd-blog-text mb-3" style={{ fontSize: "1rem" }}>{t("impact.transparencySection.body1")}</p>
-            <p className="sd-blog-text mb-4 text-muted" style={{ fontSize: "0.95rem" }}>{t("impact.transparencySection.body2")}</p>
+            <p className="sd-blog-text mb-3" style={{ fontSize: "clamp(1.15rem, 2.1vw, 1.28rem)" }}>{t("impact.transparencySection.body1")}</p>
+            <p className="sd-blog-text mb-4 text-muted" style={{ fontSize: "clamp(1.1rem, 2vw, 1.22rem)" }}>{t("impact.transparencySection.body2")}</p>
           </div>
           <a href="mailto:damian@mandatum.co">
             <button className="sd-cta-btn mt-3">{t("impact.transparencySection.ctaButton")}</button>

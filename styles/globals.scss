@@ -931,13 +931,14 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background: rgba(31, 138, 76, 0.15);
   color: var(--sd-dark);
   font-weight: 700;
-  margin-bottom: 1rem;
+  font-size: 1.15rem;
+  margin-bottom: 1.2rem;
 }
 
 .sd-feature-card-hero h3 {
@@ -1019,9 +1020,10 @@ button {
 
 .sd-section-accent {
   color: var(--sd-dark);
-  font-weight: 700;
-  font-size: 1.6rem;
-  line-height: 1.2;
+  font-weight: 800;
+  font-size: clamp(2.2rem, 4.5vw, 3.8rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
 }
 
 .sd-text-muted {
@@ -1121,7 +1123,7 @@ button {
   }
 
   .sd-section-accent {
-    font-size: 1.35rem;
+    font-size: clamp(1.4rem, 4.5vw, 1.8rem);
   }
 }
 
@@ -1256,6 +1258,8 @@ button {
 }
 
 .sd-comparison-card h3 {
+  font-size: clamp(1.4rem, 2.5vw, 1.75rem);
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
@@ -1303,8 +1307,8 @@ button {
 
 .sd-pull-quote-hero p {
   margin: 0;
-  font-size: 1.05rem;
-  line-height: 1.8;
+  font-size: clamp(1.3rem, 2.8vw, 1.6rem);
+  line-height: 1.7;
   font-weight: 600;
   color: var(--sd-dark);
 }
@@ -2160,9 +2164,10 @@ button {
 /* General Page Overrides */
 .sd-movement-page {
   .sd-section-accent {
-    font-size: 2.2rem;
+    font-size: clamp(2.2rem, 4.5vw, 3.8rem);
     font-weight: 800;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.03em;
+    line-height: 1.15;
     position: relative;
     display: inline-block;
     margin-bottom: 3.5rem;
@@ -2308,14 +2313,14 @@ button {
   }
 
   h3 {
-    font-size: 1.25rem;
+    font-size: clamp(1.3rem, 2.5vw, 1.6rem);
     font-weight: 700;
     color: var(--sd-dark);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
   }
 
   p {
-    font-size: 0.95rem;
+    font-size: clamp(1rem, 2vw, 1.2rem);
     color: rgba(27, 53, 37, 0.8);
     line-height: 1.6;
     margin: 0;
@@ -2356,7 +2361,7 @@ button {
 
   .sd-missing-kicker {
     text-transform: uppercase;
-    font-size: 0.85rem;
+    font-size: clamp(0.95rem, 2vw, 1.15rem);
     font-weight: 700;
     letter-spacing: 0.1em;
     color: var(--sd-accent);
@@ -2365,11 +2370,11 @@ button {
   }
 
   .sd-missing-headline {
-    font-size: 1.6rem;
+    font-size: clamp(1.75rem, 3.5vw, 2.3rem);
     font-weight: 700;
     line-height: 1.4;
     color: #ffffff;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
   }
 }
@@ -2465,14 +2470,14 @@ button {
   }
 
   h3 {
-    font-size: 1.35rem;
+    font-size: clamp(1.4rem, 2.5vw, 1.7rem);
     font-weight: 700;
     color: var(--sd-dark);
     margin-bottom: 0.8rem;
   }
 
   p {
-    font-size: 0.98rem;
+    font-size: clamp(1.05rem, 2vw, 1.25rem);
     color: rgba(27, 53, 37, 0.8);
     line-height: 1.6;
     margin: 0;
@@ -2494,7 +2499,7 @@ button {
 
 .sd-solution-footer-note {
   text-align: center;
-  font-size: 1.05rem;
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
   font-style: italic;
   color: rgba(27, 53, 37, 0.7);
   margin-top: 2.5rem;
@@ -2578,14 +2583,14 @@ button {
   justify-content: center;
 
   .sd-pipe-title {
-    font-size: 1.25rem;
+    font-size: clamp(1.3rem, 2.5vw, 1.6rem);
     font-weight: 700;
     color: var(--sd-primary);
     margin-bottom: 0.8rem;
   }
 
   .sd-pipe-value {
-    font-size: 1.1rem;
+    font-size: clamp(1.15rem, 2vw, 1.35rem);
     font-weight: 600;
     color: var(--sd-dark);
     line-height: 1.5;
@@ -2603,7 +2608,7 @@ button {
 @media (max-width: 991px) {
   .sd-movement-page {
     .sd-section-accent {
-      font-size: 1.8rem;
+      font-size: clamp(1.8rem, 4.5vw, 2.2rem);
       margin-bottom: 2.5rem;
     }
   }
@@ -2620,7 +2625,7 @@ button {
     padding: 2.5rem 1.5rem;
 
     .sd-missing-headline {
-      font-size: 1.35rem;
+      font-size: clamp(1.35rem, 4vw, 1.75rem);
     }
   }
 

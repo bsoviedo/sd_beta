@@ -99,17 +99,17 @@ export default function ForMerchantsPage() {
           <Row className="align-items-center g-5">
             <Col lg={7}>
               <div className="sd-blog-content">
-                <p className="sd-text-muted mb-3" style={{ fontSize: "1.05rem", lineHeight: "1.7" }}>
+                <p className="sd-text-muted mb-3" style={{ fontSize: "clamp(1.1rem, 2vw, 1.3rem)", lineHeight: "1.7" }}>
                   {t("how.problemSection.body1")}
                 </p>
-                <p className="sd-text-muted mb-0" style={{ fontSize: "1.05rem", lineHeight: "1.7" }}>
+                <p className="sd-text-muted mb-0" style={{ fontSize: "clamp(1.1rem, 2vw, 1.3rem)", lineHeight: "1.7" }}>
                   {t("how.problemSection.body2")}
                 </p>
               </div>
             </Col>
             <Col lg={5}>
               <div className="p-4 text-center" style={{ background: "rgba(31,138,76,0.05)", borderLeft: "4px solid var(--sd-primary)", borderRadius: "12px" }}>
-                <p className="fw-bold mb-0" style={{ fontSize: "1.15rem", color: "var(--sd-primary)", lineHeight: "1.6" }}>
+                <p className="fw-bold mb-0" style={{ fontSize: "clamp(1.25rem, 2.5vw, 1.5rem)", color: "var(--sd-primary)", lineHeight: "1.6" }}>
                   {t("how.problemSection.body3")}
                 </p>
               </div>
@@ -129,7 +129,7 @@ export default function ForMerchantsPage() {
                 </h3>
                 <ul style={{ listStyleType: "none", paddingLeft: 0, margin: 0 }}>
                   {withoutItems.map((item, idx) => (
-                    <li key={idx} className="mb-2 p-2" style={{ borderBottom: "1px solid rgba(0,0,0,0.05)", fontSize: "0.95rem" }}>
+                    <li key={idx} className="mb-2 p-2" style={{ borderBottom: "1px solid rgba(0,0,0,0.05)", fontSize: "clamp(1.05rem, 2vw, 1.25rem)" }}>
                       ❌ {item}
                     </li>
                   ))}
@@ -143,7 +143,7 @@ export default function ForMerchantsPage() {
                 </h3>
                 <ul style={{ listStyleType: "none", paddingLeft: 0, margin: 0 }}>
                   {withSDItems.map((item, idx) => (
-                    <li key={idx} className="mb-2 p-2" style={{ borderBottom: "1px solid rgba(31,138,76,0.1)", fontSize: "0.95rem", fontWeight: idx === 1 ? "600" : "normal" }}>
+                    <li key={idx} className="mb-2 p-2" style={{ borderBottom: "1px solid rgba(31,138,76,0.1)", fontSize: "clamp(1.05rem, 2vw, 1.25rem)", fontWeight: idx === 1 ? "600" : "normal" }}>
                       ✅ {item}
                     </li>
                   ))}
@@ -154,7 +154,7 @@ export default function ForMerchantsPage() {
           <Row className="g-4 mt-3 align-items-center">
             <Col lg={6}>
               <div className="sd-blog-highlight p-4 m-0" style={{ borderRadius: "12px", background: "rgba(31, 138, 76, 0.06)" }}>
-                <p className="sd-blog-text mb-0 fw-semibold" style={{ fontSize: "1rem", lineHeight: "1.6" }}>{t("how.mechanismSection.body")}</p>
+                <p className="sd-blog-text mb-0 fw-semibold" style={{ fontSize: "clamp(1.1rem, 2vw, 1.35rem)", lineHeight: "1.6" }}>{t("how.mechanismSection.body")}</p>
               </div>
             </Col>
             <Col lg={6}>
@@ -168,7 +168,7 @@ export default function ForMerchantsPage() {
 
       <section className="sd-section pt-0">
         <Container className="px-4 px-lg-5">
-          <h2 className="text-center mb-4">{t("how.featureSection.title")}</h2>
+          <h2 className="text-center sd-section-accent mb-4">{t("how.featureSection.title")}</h2>
           <Row className="g-4 sd-feature-grid">
             {featureItems.map((item, index) => (
               <Col md={6} key={item.title}>
@@ -191,17 +191,17 @@ export default function ForMerchantsPage() {
           <Row className="align-items-center g-5">
             <Col lg={5}>
               <div className="p-4 text-center d-flex flex-column justify-content-center" style={{ background: "rgba(31, 138, 76, 0.04)", borderRadius: "16px", minHeight: "180px", border: "1px solid rgba(31, 138, 76, 0.1)" }}>
-                <span className="text-uppercase fw-bold text-muted small d-block mb-2">Beta Result</span>
-                <h3 className="display-5 fw-extrabold text-primary mb-2" style={{ color: "var(--sd-primary)", fontWeight: "800" }}>32%</h3>
-                <p className="fw-semibold mb-0" style={{ color: "var(--sd-dark)", fontSize: "1rem" }}>Cart conversion rate uplift</p>
+                <span className="text-uppercase fw-bold text-muted d-block mb-2" style={{ fontSize: "clamp(0.9rem, 1.8vw, 1.05rem)" }}>Beta Result</span>
+                <h3 className="fw-extrabold text-primary mb-2" style={{ color: "var(--sd-primary)", fontWeight: "800", fontSize: "clamp(3.5rem, 5.5vw, 4.8rem)", lineHeight: "1" }}>32%</h3>
+                <p className="fw-semibold mb-0" style={{ color: "var(--sd-dark)", fontSize: "clamp(1.05rem, 2vw, 1.25rem)" }}>Cart conversion rate uplift</p>
               </div>
             </Col>
             <Col lg={7}>
               <div className="sd-blog-content">
-                <p className="sd-text-muted mb-3" style={{ fontSize: "1.05rem", lineHeight: "1.7" }}>
+                <p className="sd-text-muted mb-3" style={{ fontSize: "clamp(1.1rem, 2vw, 1.3rem)", lineHeight: "1.7" }}>
                   {t("how.conservationStorySection.body1")}
                 </p>
-                <p className="sd-text-muted fw-semibold mb-0" style={{ fontSize: "1.05rem", lineHeight: "1.7", color: "var(--sd-primary)" }}>
+                <p className="sd-text-muted fw-semibold mb-0" style={{ fontSize: "clamp(1.1rem, 2vw, 1.3rem)", lineHeight: "1.7", color: "var(--sd-primary)" }}>
                   {t("how.conservationStorySection.body2")}
                 </p>
               </div>
