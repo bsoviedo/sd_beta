@@ -178,8 +178,11 @@
       "headline": "Un mecanismo de precios, no una caridad.",
       "body": "SD se integra en el punto de venta. No pide donaciones. Reestructura la transacción.",
       "shopper": "✓ Los consumidores ahorran",
+      "shopperTitle": "Consumidores",
       "brand": "✓ Las marcas amplian su margen",
+      "brandTitle": "Marcas",
       "nature": "✓ La naturaleza recibe fondos",
+      "natureTitle": "Naturaleza",
       "footer": "No por generosidad, sino por transparencia en el comercio."
     },
     "visionSection": {
@@ -192,7 +195,7 @@
       "opportunityBody": "10% de los $2T en tarifas intermediarias",
       "impactTitle": "Impacto",
       "impactBody": "$200B para la naturaleza",
-      "footer": "El cambio profundo es estructural: todas las compras de bienes de consumo duradero (cómo electrodomésticos y muebles) contribuyen automáticamente a la naturaleza. Justicia climática automática."
+      "footer": "El cambio es profundo y estructural: todas las compras de bienes de consumo duradero (cómo electrodomésticos y muebles) contribuyen automáticamente a la naturaleza. Justicia climática automática."
     },
     "philosophySection": {
       "title": "El equipo",
@@ -228,8 +231,8 @@
     "hero": {
       "title": "Como funciona",
       "description": "Los comerciantes usan descuentos existentes y Sustainable Discounts™ los convierte en Sustainable Discounts™ conectados a resultados ambientales verificados.",
-      "titleExt": "Recupera control de precios, mejora ganancias.",
-      "descriptionExt": "SD convierte una parte de las tarifas que entregas a la infraestructura del marketplace en un descuento para compradores, una contribución de conservación y margen recuperado para tu marca. Sin costo adicional. Sin presupuesto de donaciones."
+      "titleExt": "Recupera el control de precios, mejora ganancias.",
+      "descriptionExt": "SD convierte una parte de las tarifas que entregas a la infraestructura del marketplace en un descuento para consumidores, una contribución de conservación y margen recuperado para tu marca. Sin costo adicional. Sin presupuesto de donaciones."
     },
     "steps": [
       {
@@ -271,7 +274,7 @@
       "quote": "El primer mecanismo de financiamiento donde todos ganan por diseño."
     },
     "featureSection": {
-      "title": "Cómo se ve SD para tu marca en la práctica.",
+      "title": "¿Cómo se ve SD para tu marca en la práctica?",
       "item1Title": "Un banner en la página de producto.",
       "item1Body": "\"Compra ahora y te damos a ti y al planeta hasta $X en este artículo\". Una declaración financiera, no una ventana de donación.",
       "item2Title": "Métricas de conservación en tiempo real.",
@@ -288,7 +291,9 @@
     "conservationStorySection": {
       "title": "La historia de conservación que ningún marketplace puede igualar",
       "body1": "El modelo de negocio del marketplace depende de que el secreto permanezca intacto. Cuando los compradores ven el precio real, toman una decisión diferente.",
-      "body2": "En la prueba privada, las marcas usando SD vieron un aumento del 32% en la conversión del carrito. Ese cliente no vino por publicidad: vino porque la oferta era genuinamente mejor."
+      "body2": "En la prueba privada, las marcas usando SD vieron un aumento del 32% en la conversión del carrito. Ese cliente no vino por publicidad: vino porque la oferta era genuinamente mejor.",
+      "betaKicker": "Resultado de la prueba",
+      "betaLabel": "Aumento en conversión de carrito"
     },
     "industriesSection": {
       "title": "Industrias",
@@ -297,9 +302,9 @@
       "ind1Title": "Moda y calzado",
       "ind1Body": "SD da al sector de la moda un impacto de conservación inmediato y medible. Empezando con la próxima transacción.",
       "ind2Title": "Artículos deportivos",
-      "ind2Body": "Esquiadores necesitan nieve. Surfistas necesitan océanos sanos. SD es el motor de financiamiento que faltaba en la sostenibilidad del deporte.",
+      "ind2Body": "Los esquiadores necesitan nieve. Los surfistas necesitan océanos sanos. SD es el motor de financiamiento que faltaba en la sostenibilidad del deporte.",
       "ind3Title": "Electrónica, muebles, electrodomésticos, herramientas",
-      "ind3Body": "Altos valores de transacción, fuerte crecimiento DTC, tarifas significativas. El núcleo de la oportunidad de $2T."
+      "ind3Body": "Estas compras tienen altos valores de transacción, un fuerte crecimiento DTC, y tarifas significativas. El centro de la oportunidad de $2T."
     },
     "startStepsSection": {
       "title": "Cómo comenzar",
@@ -409,7 +414,7 @@
       "record2": "Especies apoyadas",
       "record3": "CO2 compensado",
       "recordFooter": "No es un programa de lealtad. Es un registro de lo que tu compra realmente hizo por el planeta.",
-      "ctaButton": "Crear tu cuenta planeta. Gratis."
+      "ctaButton": "Crear tu cuenta, !gratis!"
     },
     "partnersSection": {
       "title": "¿A dónde va el dinero?",
@@ -417,7 +422,7 @@
       "partner1": "🐾 Panthera",
       "partner2": "🌍 Terrasos",
       "partnerFooter": "Cada contribución es rastreada. Documentación completa en cada ciclo.",
-      "quote": "“Cuando se les da una opción transparente, los compradores eligen el planeta. No por obligación. Por preferencia.”"
+      "quote": "Cuando se les da una opción transparente, los compradores eligen el planeta. No por obligación. Por preferencia."
     },
     "brandsSection": {
       "title": "Marcas SD que ofrecen descuentos reales y conservación real.",
@@ -437,7 +442,7 @@
   "conservation": {
     "hero": {
       "title": "El comercio puede financiar al planeta.",
-      "description": "Sustainable Discounts es un movimiento, no solo un mecanismo. Científicos, conservacionistas, activistas, periodistas, fundadores, celebridades, asociaciones y expertos. Si crees que el comercio puede rediseñarse para proteger la naturaleza, hay un lugar para ti aquí."
+      "description": "Sustainable Discounts es un movimiento, no solo un mecanismo: científicos, conservacionistas, activistas, periodistas, fundadores, celebridades, asociaciones y expertos. Si crees que el comercio puede rediseñarse para proteger la naturaleza, hay un lugar para ti aquí."
     },
     "problemSection": {
       "headline": "La crisis de financiamiento es estructural. La solución también.",
@@ -492,8 +497,8 @@
     },
     "closingSection": {
       "headline": "El movimiento necesita más que un mecanismo. Necesita a las personas que creen en él.",
-      "body1": "Organizaciones de conservación. Científicos. Activistas. Asociaciones industriales.",
-      "body2": "Celebridades. Periodistas. Fundadores. Filántropos.",
+      "body1": "Científicos, activistas, periodistas, educadores, líderes comunitarios, empresarios y organizaciones de conservación.",
+      "body2": "Personas de distintos sectores, con una misma convicción: que el comercio también puede generar impacto positivo.",
       "body3": "Educadores. Líderes comunitarios. Expertos en sostenibilidad.",
       "footer": "Cada voz que promueve este concepto acelera el momento en que el comercio y la conservación se vuelvan inseparables.",
       "cta": "Únete al movimiento."
@@ -515,7 +520,7 @@
       "card6Label": "Interacciones de compradores"
     },
     "betaSection": {
-      "title": "Lo que aprendimos en la prueba privada.",
+      "title": "Lo que aprendimos en la prueba.",
       "intro": "10 tiendas en EE. UU., Reino Unido y Colombia. El objetivo fue comprobar el mecanismo de manera directo.",
       "stat1": "60,000+ interacciones de consumidores en 10 tiendas.",
       "stat2": "32% de aumento en conversión de carrito para marcas usando SD.",

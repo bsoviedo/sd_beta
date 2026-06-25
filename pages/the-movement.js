@@ -143,21 +143,21 @@ export default function TheMovementPage() {
               <Col lg={4}>
                 <div className="sd-triple-win-card">
                   <div className="sd-triple-win-icon">🛒</div>
-                  <h3>Compradores</h3>
+                  <h3>{t("about.solutionSection.shopperTitle")}</h3>
                   <p>{t("about.solutionSection.shopper").replace("✓", "").trim()}</p>
                 </div>
               </Col>
               <Col lg={4}>
                 <div className="sd-triple-win-card">
                   <div className="sd-triple-win-icon">💼</div>
-                  <h3>Marcas</h3>
+                  <h3>{t("about.solutionSection.brandTitle")}</h3>
                   <p>{t("about.solutionSection.brand").replace("✓", "").trim()}</p>
                 </div>
               </Col>
               <Col lg={4}>
                 <div className="sd-triple-win-card">
                   <div className="sd-triple-win-icon">🌱</div>
-                  <h3>Naturaleza</h3>
+                  <h3>{t("about.solutionSection.natureTitle")}</h3>
                   <p>{t("about.solutionSection.nature").replace("✓", "").trim()}</p>
                 </div>
               </Col>

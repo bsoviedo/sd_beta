@@ -2541,7 +2541,7 @@ button {
   }
 
   .sd-target-kicker {
-    font-size: 0.95rem;
+    font-size: clamp(1.15rem, 2.2vw, 1.35rem);
     text-transform: uppercase;
     letter-spacing: 0.12em;
     font-weight: 700;

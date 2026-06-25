@@ -178,8 +178,11 @@
       "headline": "A pricing mechanism, not a charity.",
       "body": "SD is embedded at the point of sale. It doesn't ask for donations. It restructures the transaction.",
       "shopper": "✅ Shoppers save",
+      "shopperTitle": "Shoppers",
       "brand": "✅ Brands recover margin",
+      "brandTitle": "Brands",
       "nature": "✅ Nature gets funded",
+      "natureTitle": "Nature",
       "footer": "Not from generosity but from adding transparency to commerce."
     },
     "visionSection": {
@@ -288,7 +291,9 @@
     "conservationStorySection": {
       "title": "The Conservation Story No Marketplace Can Match",
       "body1": "Marketplace's business model depends on the secret staying intact. When shoppers see the real price, they make a different choice.",
-      "body2": "In the private beta, brands using SD saw a 32% cart conversion uplift. That customer didn't come through advertising: they came because the deal was genuinely better."
+      "body2": "In the private beta, brands using SD saw a 32% cart conversion uplift. That customer didn't come through advertising: they came because the deal was genuinely better.",
+      "betaKicker": "Beta Result",
+      "betaLabel": "Cart conversion rate uplift"
     },
     "industriesSection": {
       "title": "Industries",
@@ -417,7 +422,7 @@
       "partner1": "🐾 Panthera",
       "partner2": "🌍 Terrasos",
       "partnerFooter": "Every contribution is tracked. Full documentation every cycle.",
-      "quote": "“When given a transparent choice, shoppers chose the planet. Not out of obligation. Out of preference.”"
+      "quote": "When given a transparent choice, shoppers chose the planet. Not out of obligation. Out of preference."
     },
     "brandsSection": {
       "title": "SD brands offering real discounts and real conservation.",

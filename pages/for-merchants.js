@@ -191,9 +191,9 @@ export default function ForMerchantsPage() {
           <Row className="align-items-center g-5">
             <Col lg={5}>
               <div className="p-4 text-center d-flex flex-column justify-content-center" style={{ background: "rgba(31, 138, 76, 0.04)", borderRadius: "16px", minHeight: "180px", border: "1px solid rgba(31, 138, 76, 0.1)" }}>
-                <span className="text-uppercase fw-bold text-muted d-block mb-2" style={{ fontSize: "clamp(0.9rem, 1.8vw, 1.05rem)" }}>Beta Result</span>
+                <span className="text-uppercase fw-bold text-muted d-block mb-2" style={{ fontSize: "clamp(0.9rem, 1.8vw, 1.05rem)" }}>{t("how.conservationStorySection.betaKicker")}</span>
                 <h3 className="fw-extrabold text-primary mb-2" style={{ color: "var(--sd-primary)", fontWeight: "800", fontSize: "clamp(3.5rem, 5.5vw, 4.8rem)", lineHeight: "1" }}>32%</h3>
-                <p className="fw-semibold mb-0" style={{ color: "var(--sd-dark)", fontSize: "clamp(1.05rem, 2vw, 1.25rem)" }}>Cart conversion rate uplift</p>
+                <p className="fw-semibold mb-0" style={{ color: "var(--sd-dark)", fontSize: "clamp(1.05rem, 2vw, 1.25rem)" }}>{t("how.conservationStorySection.betaLabel")}</p>
               </div>
             </Col>
             <Col lg={7}>
@@ -260,7 +260,7 @@ export default function ForMerchantsPage() {
             {betaStats.map((stat, idx) => (
               <Col md={4} key={idx}>
                 <article className="sd-stat-card h-100 p-4 text-center d-flex flex-column justify-content-center" style={{ minHeight: "180px", borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.06)" }}>
-                  <p className="mb-0 fw-semibold" style={{ fontSize: "1.05rem", lineHeight: "1.6", color: "var(--sd-dark)" }}>{stat}</p>
+                  <p className="mb-0 fw-semibold" style={{ fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)", lineHeight: "1.6", color: "var(--sd-dark)" }}>{stat}</p>
                 </article>
               </Col>
             ))}

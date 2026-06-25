@@ -110,7 +110,7 @@ export default function ShoppersPage() {
                   <div className="sd-blog-record text-center p-3 w-100 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px", fontWeight: "600", fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)" }}>{t("shoppers.planetAccountSection.record3")}</div>
                 </div>
                 <div className="text-center mt-3">
-                  <a href="https://myplanetaccount.com" target="_blank" rel="noreferrer" className="w-100">
+                  <a href="https://www.myplanetaccount.com/auth" target="_blank" rel="noreferrer" className="w-100">
                     <button className="sd-cta-btn w-100">{t("shoppers.planetAccountSection.ctaButton")}</button>
                   </a>
                 </div>
