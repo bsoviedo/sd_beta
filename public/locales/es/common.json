@@ -157,28 +157,28 @@
       "author": "Damián Estrada, Fundador y CEO"
     },
     "problemSection": {
-      "headline": "La naturaleza no tiene un problema de soluciones. Tiene un problema de financiamiento.",
+      "headline": "Las soluciones para proteger la naturaleza ya existen. Lo que falta es cómo financiarlas.",
       "body1": "Los proyectos están planeados. Los científicos están entrenados. Los guardianes están listos.",
       "body2": "Lo que falta es el dinero: recurrente, confiable y que no dependa de calendarios políticos.",
-      "bullet1": "Los proyectos están planeados.",
-      "bullet2": "Los científicos están entrenados.",
-      "bullet3": "Los guardianes están listos."
+      "bullet1": "Hay personas listas para proteger la naturaleza.",
+      "bullet2": "No hay que inventar nada nuevo. La tecnología ya está disponible.",
+      "bullet3": "El comercio ya mueve miles de decisiones cada día. Solo falta conectarlo con el impacto."
     },
     "insightSection": {
-      "headline": "El dinero estaba ahí. Simplemente no iba a ningún lugar útil.",
-      "body1": "Cada compra de bienes de consumo duradero (cómo electrodomésticos y muebles) incluye un costo oculto.",
+      "headline": "El dinero ya estaba ahí. Solo no estaba llegando donde podía generar más impacto.",
+      "body1": "Cuando compras un electrodoméstico, un mueble o cualquier otro bien de consumo, parte de lo que pagas cubre costos de intermediación y operación.",
       "body2": "Va a la infraestructura del marketplace. No al producto. No al planeta.",
-      "body3": "SD no pide dinero nuevo. Pide que el comercio sea transparente sobre el dinero que ya existía.",
+      "body3": "SD no pide dinero nuevo. Hace visible ese valor y permite que una parte genere beneficios para las personas y para la naturaleza.",
       "metric1": "Hasta el 40% del precio",
       "metric2": "Va a infraestructura",
-      "metric3": "Ni al producto, ni al planeta",
+      "metric3": "No al producto, no al planeta",
       "link": "Ver exactamente cómo funciona el mecanismo"
     },
     "solutionSection": {
       "headline": "Un mecanismo de precios, no una caridad.",
       "body": "SD se integra en el punto de venta. No pide donaciones. Reestructura la transacción.",
-      "shopper": "✓ Los compradores ahorran",
-      "brand": "✓ Las marcas recuperan margen",
+      "shopper": "✓ Los consumidores ahorran",
+      "brand": "✓ Las marcas amplian su margen",
       "nature": "✓ La naturaleza recibe fondos",
       "footer": "No por generosidad, sino por transparencia en el comercio."
     },

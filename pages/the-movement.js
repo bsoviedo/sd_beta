@@ -164,7 +164,7 @@ export default function TheMovementPage() {
             </Row>
             <div className="sd-solution-footer-note">
               <p className="mb-0">
-                <strong>{t("about.solutionSection.body")}</strong> — {t("about.solutionSection.footer")}
+                <strong>{t("about.solutionSection.body")}</strong> {t("about.solutionSection.footer")}
               </p>
             </div>
           </Container>
@@ -179,7 +179,7 @@ export default function TheMovementPage() {
               <h3 className="sd-target-number">{t("about.visionSection.goalValue")}</h3>
               <p className="sd-target-footer">{t("about.visionSection.footer")}</p>
             </div>
-            
+
             <Row className="g-4 justify-content-center">
               <Col md={4}>
                 <div className="sd-vision-pipe-card">
