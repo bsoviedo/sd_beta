@@ -117,6 +117,23 @@ p {
   color: var(--sd-dark) !important;
   font-weight: 600;
   letter-spacing: 0.02em;
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+}
+
+@media (min-width: 992px) and (max-width: 1220px) {
+  .sd-nav-link {
+    padding-left: 0.4rem !important;
+    padding-right: 0.4rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  .sd-topnav .sd-cta-btn {
+    min-width: 120px !important;
+    min-height: 44px !important;
+    font-size: 0.85rem !important;
+    padding: 0.5rem 1rem !important;
+  }
 }
 
 .sd-brand-text {
@@ -226,6 +243,8 @@ button {
   .sd-hero-media,
   .sd-hero-content {
     min-height: 100vh;
+    padding-top: 9rem !important;
+    /* Clears the fixed top navbar */
   }
 }
 
@@ -614,9 +633,12 @@ button {
 }
 
 .sd-wordmark-inline {
-  width: min(100%, 500px);
+  width: auto;
+  max-height: 85px;
+  /* Default for desktop */
+  object-fit: contain;
   display: block;
-  margin-bottom: 24px;
+  margin-bottom: 0.8rem;
   filter: drop-shadow(0 12px 22px rgba(23, 49, 74, 0.16));
 }
 
@@ -629,7 +651,7 @@ button {
 }
 
 .sd-hero-copy .sd-wordmark-inline {
-  width: min(100%, 560px);
+  width: auto;
   margin: 0 auto;
 }
 
@@ -663,18 +685,23 @@ button {
     justify-items: start;
     width: min(100%, 640px);
   }
-  
+
+  .sd-hero-copy .sd-wordmark-inline {
+    max-height: 85px;
+    margin: 0 0 0.8rem;
+  }
+
   .sd-hero-copy p {
     margin-left: 0;
     margin-right: 0;
     max-width: 560px;
   }
-  
+
   .sd-hero-cta-row {
     justify-content: flex-start;
     flex-wrap: nowrap;
   }
-  
+
   .sd-hero-content>.container {
     justify-content: flex-start;
   }
@@ -684,15 +711,22 @@ button {
   .sd-hero-copy {
     width: min(100%, 820px);
   }
+
+  .sd-hero-copy .sd-wordmark-inline {
+    max-height: 140px;
+  }
+
   .sd-hero-content h1 {
-    font-size: 60px !important;
+    font-size: 40px !important;
     line-height: 1.1 !important;
   }
+
   .sd-hero-tagline {
-    font-size: 30px !important;
+    font-size: 24px !important;
   }
+
   .sd-hero-copy p {
-    font-size: 23px !important;
+    font-size: 18px !important;
     max-width: 720px !important;
   }
 }
@@ -701,22 +735,29 @@ button {
   .sd-hero-copy {
     width: min(100%, 960px);
   }
+
+  .sd-hero-copy .sd-wordmark-inline {
+    max-height: 200px;
+  }
+
   .sd-hero-content h1 {
-    font-size: 72px !important;
+    font-size: 50px !important;
     line-height: 1.1 !important;
   }
+
   .sd-hero-tagline {
     font-size: 36px !important;
   }
+
   .sd-hero-copy p {
-    font-size: 26px !important;
+    font-size: 20px !important;
     max-width: 840px !important;
   }
 }
 
 .sd-hero-content h1 {
   margin-top: 0;
-  font-size: clamp(38px, 4vw, 52px);
+  font-size: clamp(30px, 4vw, 40px);
   line-height: 1.15;
   font-weight: 800;
   letter-spacing: -0.02em;
@@ -1883,6 +1924,12 @@ button {
     max-width: 96%;
   }
 
+  .sd-wordmark-inline {
+    width: auto;
+    max-height: 58px;
+    margin: 0 auto 0.8rem;
+  }
+
   .sd-hero-right {
     padding-bottom: 3rem;
   }
@@ -1991,8 +2038,9 @@ button {
   }
 
   .sd-wordmark-inline {
-    width: min(100%, 420px);
-    margin: 0 auto 16px;
+    width: auto;
+    max-height: 48px;
+    margin: 0 auto 0.8rem;
   }
 
   .sd-hero-photo-credit {

@@ -297,6 +297,11 @@ function Hero() {
             </div>
             <Container className="px-4 px-lg-5 py-5 py-lg-0">
               <div className="sd-hero-copy">
+                <img
+                  src="/logos/Wordmark%20with%20TM_no_bg.png"
+                  alt="Sustainable Discounts"
+                  className="sd-wordmark-inline"
+                />
                 <h1>{t("home.heroExt.title")}</h1>
                 <p className="sd-hero-tagline">{t("home.heroExt.tagline")}</p>
                 <p className="mb-3">
