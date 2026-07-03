@@ -36,8 +36,8 @@ function Header() {
         <Navbar.Collapse id="sd-navbar">
           <Nav className="ms-auto align-items-lg-center">
             <Link href="/" className="nav-link sd-nav-link">{t("nav.home")}</Link>
-            {/*             <Link href="/the-movement" className="nav-link sd-nav-link">{t("nav.movement")}</Link>
- */}            <Link href="/for-merchants" className="nav-link sd-nav-link">{t("nav.merchants")}</Link>
+            <Link href="/about-us" className="nav-link sd-nav-link">{t("nav.aboutus")}</Link>
+            <Link href="/for-merchants" className="nav-link sd-nav-link">{t("nav.merchants")}</Link>
             <Link href="/for-shoppers" className="nav-link sd-nav-link">{t("nav.shoppers")}</Link>
             <Link href="/the-movement" className="nav-link sd-nav-link">{t("nav.conservation")}</Link>
             <Link href="/the-team" className="nav-link sd-nav-link">{t("nav.team")}</Link>

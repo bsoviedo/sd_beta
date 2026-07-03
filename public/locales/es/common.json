@@ -22,6 +22,7 @@
   "nav": {
     "home": "Inicio",
     "movement": "El Movimiento",
+    "aboutus": "¿Quienes somos?",
     "merchants": "Comercios",
     "shoppers": "Consumidores",
     "conservation": "Conservacion",
@@ -158,6 +159,7 @@
     },
     "problemSection": {
       "headline": "Las soluciones para proteger la naturaleza ya existen. Lo que falta es cómo financiarlas.",
+      "subtitle1": "La pieza faltante",
       "body1": "Los proyectos están planeados. Los científicos están entrenados. Los guardianes están listos.",
       "body2": "Lo que falta es el dinero: recurrente, confiable y que no dependa de calendarios políticos.",
       "bullet1": "Hay personas listas para proteger la naturaleza.",

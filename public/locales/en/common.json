@@ -21,6 +21,7 @@
   },
   "nav": {
     "home": "Home",
+    "aboutus": "About us",
     "movement": "The Movement",
     "merchants": "For Merchants",
     "shoppers": "For Shoppers",
@@ -135,7 +136,7 @@
       "title": "Our Mission",
       "description": "Mobilizing large scale recurring funding to protect forests and oceans while helping reduce climate and biodiversity risks.",
       "titleExt": "Born in the most biodiverse country on Earth.",
-      "descriptionExt": "Built to fix what commerce broke. Colombia holds approximately 10% of all species on the planet and it is also losing forests to economic forces that conservation funding has never matched."
+      "descriptionExt": "Colombia holds approximately 10% of all species on the planet and it is also losing forests to economic forces that conservation funding has never matched."
     },
     "vision": {
       "title": "Nature and climate action at no cost",
@@ -158,18 +159,19 @@
     },
     "problemSection": {
       "headline": "Nature doesn't have a solutions problem. It has a funding problem.",
-      "body1": "The projects are planned. The scientists are trained. The rangers are ready.",
+      "body1": "The projects are ready. The science is ready. The rangers are ready.",
+      "subtitle1": "Our Mission",
       "body2": "What's missing is the money: recurring, reliable, and not dependent on political calendars.",
-      "bullet1": "The projects are planned.",
-      "bullet2": "The scientists are trained.",
-      "bullet3": "The rangers are ready."
+      "bullet1": "+14K distinct conservation projects",
+      "bullet2": "~25,000 research authors",
+      "bullet3": "~300,000 individuals"
     },
     "insightSection": {
-      "headline": "The money is there. It just wasn't going anywhere useful.",
-      "body1": "Every durable goods purchase includes a hidden cost.",
+      "headline": "The money is there. Let's use it better.",
+      "body1": "Every durable goods purchase includes product and commerce costs.",
       "body2": "It goes to marketplace infrastructure. Not the product. Not the planet.",
-      "body3": "SD doesn't ask for new money. It asks commerce to be transparent about money that was always there.",
-      "metric1": "Up to 40% of price",
+      "body3": "SD does not ask for new money. It makes commerce transparent for shoppers and brands to choose.",
+      "metric1": "SD redirects up to 40% of what shoppers pay",
       "metric2": "Goes to infrastructure",
       "metric3": "Not product. Not planet.",
       "link": "See exactly how the mechanism works"
@@ -199,7 +201,7 @@
     },
     "philosophySection": {
       "title": "The Team",
-      "headline": "Everyone on this team chose to be here.",
+      "headline": "Our people",
       "body1": "No large seed round. No full team before proof of concept.",
       "body2": "What SD had: people who decided the mission was worth their time before anyone guaranteed it would be worth their money."
     },
@@ -215,7 +217,7 @@
       "noLinkedin": "LinkedIn not available"
     },
     "validatorsSection": {
-      "title": "External organizations that examined SD and took it seriously.",
+      "title": "Stakeholders are taking notice.",
       "cta": "Express interest",
       "item1Title": "Earthshot Prize 2025",
       "item1Desc": "Nominee - One of the most rigorous environmental prize processes in the world.",
