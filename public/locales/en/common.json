@@ -231,8 +231,8 @@
     "hero": {
       "title": "How It Works",
       "description": "Merchants use existing discounts and Sustainable Discounts™ turns them into Sustainable Discounts™ connected to verified environmental outcomes.",
-      "titleExt": "Recover pricing control, improve profits.",
-      "descriptionExt": "SD converts a portion of the fees you surrender to marketplace infrastructure into a discount for shoppers, a conservation contribution, and recovered margin for your brand. No additional cost. No donation budget required."
+      "titleExt": "Regain pricing control, improve margins.",
+      "descriptionExt": "SD converts commerce costs into a discount for shoppers, a conservation contribution, and more profits for your brand. No additional cost. No donation budget required."
     },
     "steps": [
       {
@@ -254,15 +254,15 @@
     ],
     "problemSection": {
       "title": "For every $1,000 in revenue.",
-      "body1": "Up to $400 goes to marketplace fees. The shopper doesn't know the split. And most marketplace agreements include a price parity clause.",
-      "body2": "You cannot offer the same product for less on your own store. So you earn less on the marketplace, and you can't compete on your own channel.",
-      "body3": "That is the secret. SD makes it visible."
+      "body1": "SD redirects up to $400 in commerce costs by giving visibility to shoppers who make the call.",
+      "body2": "DTC brands regain pricing control and make more money",
+      "body3": "SD makes it transparent. Shoppers make the final call."
     },
     "mechanismSection": {
       "headline": "Here is what changes when SD is live on your store.",
       "withoutTitle": "Without SD",
       "withoutItem1": "Shopper pays: $1,000",
-      "withoutItem2": "Marketplace takes: up to $400",
+      "withoutItem2": "Commerce cost: up to $400",
       "withoutItem3": "Your revenue: $600 or less",
       "withoutItem4": "Nature receives: $0",
       "withTitle": "With SD (10% pool example)",
@@ -289,15 +289,15 @@
       "item6Body": "Eco-conscious shoppers accumulate cross-brand conservation histories. Your brand is part of that network."
     },
     "conservationStorySection": {
-      "title": "The Conservation Story No Marketplace Can Match",
-      "body1": "Marketplace's business model depends on the secret staying intact. When shoppers see the real price, they make a different choice.",
-      "body2": "In the private beta, brands using SD saw a 32% cart conversion uplift. That customer didn't come through advertising: they came because the deal was genuinely better.",
+      "title": "An Unmatchable Conservation Story",
+      "body1": "Transparent pricing empowers shoppers to choose where their money goes. Pay a premium for a channel's convenience, or save money and support nature conservation.",
+      "body2": "During our private beta, brands using Sustainable Discounts™ increased cart conversion by 32%. Those additional customers weren't acquired through more advertising; they converted because the offer created more value.",
       "betaKicker": "Beta Result",
       "betaLabel": "Cart conversion rate uplift"
     },
     "industriesSection": {
       "title": "Industries",
-      "ctaBrand": "Add to Shopify. Free.",
+      "ctaBrand": "Add to Shopify.",
       "ctaFaq": "Request a conversation",
       "ind1Title": "Fashion and footwear",
       "ind1Body": "SD gives fashion immediate, measurable conservation impact. Starting with the next transaction.",
@@ -308,8 +308,8 @@
     },
     "startStepsSection": {
       "title": "How to Start",
-      "step1Title": "Install the free Shopify app.",
-      "step1Body": "Available to all 5+ million Shopify stores. Free. No contract.",
+      "step1Title": "Install Sustainable Discounts Free",
+      "step1Body": "It takes between 5 minutes and 48 hours, depending on the online store platform. Free. No contract.",
       "step2Title": "Choose which products to activate.",
       "step2Body": "Set your pool percentage. SD activates the banner and slider automatically.",
       "step3Title": "Launch, track, and share.",

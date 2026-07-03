@@ -172,11 +172,9 @@ export default function ForMerchantsPage() {
           <Row className="g-4 sd-feature-grid">
             {featureItems.map((item, index) => (
               <Col md={6} key={item.title}>
-                <article className="sd-feature-card sd-feature-card-hero h-100 d-flex flex-column justify-content-between">
-                  <div>
-                    <div className="sd-feature-card-number">0{index + 1}</div>
-                    <h3>{item.title}</h3>
-                  </div>
+                <article className="sd-feature-card sd-feature-card-hero h-100">
+                  <div className="sd-feature-card-number">0{index + 1}</div>
+                  <h3>{item.title}</h3>
                   <p>{item.body}</p>
                 </article>
               </Col>
@@ -243,10 +241,10 @@ export default function ForMerchantsPage() {
             ))}
           </Row>
           <div className="text-center mt-4">
-            <Link href="/for-merchants">
+            <Link href="https://apps.shopify.com/mandatum-app" rel="noopener noreferrer" target="_blank" >
               <button className="sd-cta-btn">{t("how.industriesSection.ctaBrand")}</button>
             </Link>
-            <Link href="/conservation">
+            <Link href="mailto:damian@mandatum.co">
               <button className="sd-cta-btn sd-cta-secondary mt-3 ms-md-3">{t("how.industriesSection.ctaFaq")}</button>
             </Link>
           </div>
