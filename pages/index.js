@@ -31,7 +31,7 @@ export default function HomePage() {
       headline: t("home.audiencesSection.card3.headline"),
       body: t("home.audiencesSection.card3.body"),
       foot: t("home.audiencesSection.card3.foot"),
-      href: "/conservation",
+      href: "/the-movement",
       cta: t("home.audiencesSection.card3.cta")
     }
   ];
@@ -41,8 +41,8 @@ export default function HomePage() {
     t("home.proofItems.item2", "GEF and World Bank - Currently in due diligence"),
     t("home.proofItems.item3", "Change100 Winner 2026 - Top Impact Startup to Watch"),
     t("home.proofItems.item4", "Cornell University Life Changing Labs - Accelerator Winner, Summer 2024"),
-    t("home.proofItems.item5", "Panthera - Partnership agreed in principle"),
-    t("home.proofItems.item6", "Terrasos - Active partnership, biodiversity credits live")
+    t("home.proofItems.item5", "Panthera - Stewardship partner for the pilot phase"),
+    t("home.proofItems.item6", "Terrasos - Stewardship partner for the pilot phase")
   ];
 
   return (
@@ -92,8 +92,8 @@ export default function HomePage() {
                     <p style={{ fontSize: "1.125rem", lineHeight: "1.65", color: "rgba(28,56,39,0.8)" }}>{card.body}</p>
                   </div>
                   <div>
-                    <p className="fw-semibold text-muted mt-2 mb-3" style={{ fontSize: "1rem" }}>{card.foot}</p>
-                    <Link href={card.href}>
+                    {/*                     <p className="fw-semibold text-muted mt-2 mb-3" style={{ fontSize: "1rem" }}>{card.foot}</p>
+ */}                    <Link href={card.href}>
                       <button className="sd-link-btn w-100 mt-2">{card.cta}</button>
                     </Link>
                   </div>
@@ -122,7 +122,6 @@ export default function HomePage() {
       <section className="sd-section pt-0 sd-beta-block">
         <Container className="px-4 px-lg-5">
           <h2 className="sd-section-title text-center mb-4">{t("home.betaSection.label")}</h2>
-          <p className="sd-section-label text-center mb-2">{t("home.betaSection.headline")}</p>
           <Row className="g-4 justify-content-center">
             {[t("home.betaSection.stat1"), t("home.betaSection.stat2"), t("home.betaSection.stat3")].map((stat, index) => (
               <Col md={6} lg={4} key={index}>
@@ -145,17 +144,17 @@ export default function HomePage() {
           <h2 className="sd-section-title mb-4">{t("home.closingSection.headline")}</h2>
           <Row className="g-3 justify-content-center">
             <Col md={4}>
-              <Link href="/for-merchants">
+              <Link href="https://apps.shopify.com/mandatum-app?locale=es&search_id=673df2ba-a6f0-4445-a703-eca3a41821a4&surface_detail=mandatum&surface_inter_position=1&surface_intra_position=3&surface_type=search" rel="noopener noreferrer" target="_blank">
                 <button className="sd-cta-btn w-100">{t("home.closingSection.merchant")}</button>
               </Link>
             </Col>
             <Col md={4}>
-              <Link href="/conservation">
+              <Link href="mailto:damian@mandatum.co">
                 <button className="sd-cta-btn w-100">{t("home.closingSection.nonShopify")}</button>
               </Link>
             </Col>
             <Col md={4}>
-              <Link href="/the-team">
+              <Link href="mailto:damian@mandatum.co">
                 <button className="sd-cta-btn w-100">{t("home.closingSection.movement")}</button>
               </Link>
             </Col>

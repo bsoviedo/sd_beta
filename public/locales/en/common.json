@@ -39,8 +39,8 @@
     "heroExt": {
       "title": "Every purchase, giving back to the planet.",
       "tagline": "At no extra cost to anyone.",
-      "description1": "Sustainable Discounts redirects fees hidden inside commerce to fund forest and ocean conservation.",
-      "description2": "Shoppers get a real discount. Brands recover margin. Nature gets funded.",
+      "description1": "Commerce can fund nature at no extra cost. Sustainable Discounts makes it happen.",
+      "description2": "Shoppers get a real discount. Brands improve margin. Nature gets funded.",
       "ctaBrand": "I'm a brand. See how it works.",
       "ctaShopper": "I'm a shopper. Find SD brands."
     },
@@ -74,42 +74,41 @@
     },
     "ideaSection": {
       "headline": "An opportunity in every purchase.",
-      "body1": "Commerce features costs. Sometimes all you need is the product.",
-      "body2": "Up to 40% of what you pay on a major marketplace goes to its infrastructure — not your product.",
-      "step1": "Commerce generates a hidden cost. Up to 40% of what you pay goes to marketplace infrastructure.",
-      "step2": "SD makes that cost visible and creates a real choice.",
+      "body1": "Commerce features costs. Most of the time, all you need is the product.",
+      "body2": "Sustainable Discounts redirects up to 40% of what you pay.",
+      "step1": "SD makes visible up to 40% of what you pay.",
+      "step2": "Shoppers and brands make the call.",
       "step3": "Shopper saves. Brand earns more. Nature gets funded. Automatically.",
       "linkText": "See the full mechanism",
       "stepLabel": "Step"
     },
     "audiencesSection": {
-      "title": "Three audiences. One mechanism.",
+      "title": "Three winners; one solution.",
       "card1": {
-        "title": "For brands",
+        "title": "Brands",
         "headline": "Recover pricing control and improve profits.",
         "body": "Offer shoppers a real discount on your direct channel. Earn a conservation story no marketplace can replicate.",
         "foot": "Free to install. No contract.",
         "cta": "How SD works for your brand"
       },
       "card2": {
-        "title": "For shoppers",
-        "headline": "The same product. Lower price.",
-        "body": "A verified conservation contribution included. You decide how much of your discount goes to you and how much pays back the planet.",
+        "title": "Shoppers",
+        "headline": "Same product; better price.",
+        "body": "A verified conservation contribution included. You decide how much of your discount goes to you and how much supports the planet.",
         "foot": "Find SD brands and create your planet account.",
         "cta": "Find SD brands"
       },
       "card3": {
-        "title": "For the movement",
+        "title": "Our planet",
         "headline": "Scientists, activists, journalists and experts.",
-        "body": "If you believe commerce can be redesigned to protect nature, there is a role for you here.",
+        "body": "Join us to change nature conservation forever; there is a role for you here.",
         "foot": "Join the movement.",
         "cta": "Join the movement"
       },
       "validatedLabel": "Independently validated"
     },
     "betaSection": {
-      "label": "The private beta said what we hoped it would.",
-      "headline": "Real numbers. Real purchases. Real conservation.",
+      "label": "Real Shoppers. Real Value for Brands: Early Results Confirm Our Potential",
       "stat1": "60,000+ consumer interactions across 10 stores in the USA, UK, and Colombia.",
       "stat2": "32% cart conversion rate uplift for brands using SD.",
       "stat3": "38% of available pools voluntarily redirected to conservation. The default was 30%.",
@@ -126,8 +125,8 @@
       "item2": "GEF and World Bank - Currently in due diligence",
       "item3": "Change100 Winner 2026 - Top Impact Startup to Watch",
       "item4": "Cornell University Life Changing Labs - Accelerator Winner, Summer 2024",
-      "item5": "Panthera - Partnership agreed in principle",
-      "item6": "Terrasos - Active partnership, biodiversity credits live"
+      "item5": "Panthera - Stewardship partner for the pilot phase",
+      "item6": "Terrasos - Stewardship partner for the pilot phase"
     }
   },
   "about": {
@@ -372,14 +371,14 @@
     "readMore": "Read article"
   },
   "benefits": {
-    "title": "The funding gap is real and the solution is already there.",
+    "title": "The funding gap is real; the money to close it, too.",
     "label": "The Problem in Three Numbers",
     "card1Stat": "$942B",
     "card1Body": "The annual gap between what nature needs and what it receives. It grew $200B in four years despite global pledges.",
     "card2Stat": "92%",
     "card2Body": "Of Americans support the Endangered Species Act. Most people want to help the planet. The problem is affordability.",
     "card3Stat": "$0",
-    "card3Body": "What it costs to redirect that money. The inefficiency was always there. We can just use it better."
+    "card3Body": "What it costs to make commerce work for nature too. SD makes the funds available."
   },
   "shoppers": {
     "hero": {
