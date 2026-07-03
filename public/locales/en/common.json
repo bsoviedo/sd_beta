@@ -6,7 +6,7 @@
     "aboutDescription": "The origin story of Sustainable Discounts and how hidden marketplace costs become nature funding.",
     "howTitle": "For Merchants",
     "howDescription": "Recover pricing control, improve profits, and fund conservation with Sustainable Discounts.",
-    "impactTitle": "The Numbers That Matter",
+    "impactTitle": "Numbers that matter",
     "impactDescription": "Live SD impact counts, private beta results, and how commerce can double conservation finance.",
     "blogTitle": "For Shoppers",
     "blogDescription": "How shoppers save, support nature, and build a conservation history with Sustainable Discounts.",
@@ -505,8 +505,8 @@
   },
   "impact": {
     "hero": {
-      "title": "The numbers that matter.",
-      "description": "Every contribution tracked. Every dollar transferred. Every hectare documented. This page shows what SD has actually done. Not what it plans to do."
+      "title": "Numbers that matter.",
+      "description": "Full transparency. SD tracks and provides online information on every contribution, every dollar transferred, and every hectare and species protected."
     },
     "countersSection": {
       "lastUpdated": "Last updated on",

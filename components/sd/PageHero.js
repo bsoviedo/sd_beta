@@ -84,9 +84,14 @@ function PageHero({ title, description, carouselSide = "right" }) {
         <span className="sd-forest-line sd-forest-line-right" />
       </div>
       <Container className="px-4 px-lg-5 py-5" style={{ paddingTop: "9rem", display: "block" }}>
-        <div style={{ maxWidth: "760px" }}>
-          <h1 className="mb-3">{title}</h1>
-          <p className="mb-0">{description}</p>
+        <div className="sd-hero-copy">
+          <img
+            src="/logos/Wordmark%20with%20TM_no_bg.png"
+            alt="Sustainable Discounts"
+            className="sd-wordmark-inline"
+          />
+          <h1>{title}</h1>
+          <p>{description}</p>
         </div>
       </Container>
     </Col>
