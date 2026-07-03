@@ -127,7 +127,7 @@ export default function ShoppersPage() {
             <Col lg={6}>
               <div className="sd-blog-content">
                 <p className="sd-blog-text mb-4" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7" }}>{t("shoppers.partnersSection.partnerIntro")}</p>
-                <div className="sd-blog-partners mb-4 align-items-center justify-content-start gap-3">
+                <div className="sd-blog-partners mb-4 align-items-center justify-content-center gap-3">
                   <div className="sd-blog-partner d-flex align-items-center justify-content-center m-0" style={{ background: "var(--sd-primary)", padding: "0.5rem 1.5rem", borderRadius: "8px" }}>
                     <a href="https://www.panthera.org/" target="_blank" rel="noreferrer">
                       <img src="/img/logos/logo-main-white.svg" alt="Panthera logo" style={{ height: "28px", objectFit: "contain" }} />

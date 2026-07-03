@@ -383,17 +383,17 @@
   },
   "shoppers": {
     "hero": {
-      "title": "Shop smarter. Pay less. Pay back the planet.",
-      "description": "SD gives you a real discount on brands that sell direct. Part of what you would have paid in marketplace fees funds forest and ocean conservation instead. You choose how much of your saving goes to you, and how much goes to the planet."
+      "title": "Shop smarter. Pay less. Support the planet.",
+      "description": "SD gives you a real discount, and you create funds for forest and ocean conservation projects. You choose how much of your savings goes to you, and how much goes to the planet."
     },
     "pointsSection": {
-      "title": "Most people want to protect nature but can't afford to.",
+      "title": "People want to protect nature but can't afford to.",
       "point1Headline": "The problem",
-      "point1Text": "When you buy a $1,000 product through a marketplace, up to $400 goes to fees. You didn't know it. Most people don't.",
+      "point1Text": "When you buy a $1,000 product, up to $400 goes to commerce fees. You didn't know. Most people don't.",
       "point2Headline": "The opportunity",
       "point2Text": "When you buy direct through an SD brand, that $400 goes somewhere better. You get a real discount. Nature gets funded.",
       "point3Headline": "The outcome",
-      "point3Text": "At least $30 goes to verified conservation. The brand earns more. You pay less. Nobody loses."
+      "point3Text": "The brand contributes at least $30 to verified conservation while you pay less. Everybody wins."
     },
     "sliderSection": {
       "title": "You decide how the pool splits.",
@@ -403,18 +403,18 @@
       "metric2": "🦁 Species supported",
       "metric3": "☁️ CO2 avoided",
       "sliderText": "Then the slider. Move left for more discount. Move right to help the planet. The brand earns the same either way.",
-      "statHeadline": "In private beta:",
-      "statText": "38% of pools went to conservation (default was 30%). People chose to give more."
+      "statHeadline": "In our private beta,",
+      "statText": "38% of available funds were allocated to conservation, despite a 30% default allocation. Given the choice, shoppers choose to give more."
     },
     "planetAccountSection": {
-      "title": "Every purchase builds a conservation history that's yours.",
-      "ctaText": "Create a free account at myplanetaccount.com",
-      "recordIntro": "Your personal record across every SD brand you buy from:",
-      "record1": "Hectares protected",
-      "record2": "Species supported",
-      "record3": "CO2 offset",
-      "recordFooter": "Not a loyalty program. A record of what your commerce actually did for the planet.",
-      "ctaButton": "Create your planet account. Free."
+      "title": "Every purchase leaves a positive footprint. See yours grow.",
+      "ctaText": "Create your free Planet Account”",
+      "recordIntro": "Track every contribution generated through Sustainable Discounts™ brands in one place.",
+      "record1": "Your hectares protected",
+      "record2": "Species you supported",
+      "record3": "Your CO2 offset",
+      "recordFooter": "Not a loyalty program. A transparent record of your verified impact on nature.",
+      "ctaButton": "Start tracking your impact. Free."
     },
     "partnersSection": {
       "title": "Where the money goes.",
@@ -426,7 +426,7 @@
     },
     "brandsSection": {
       "title": "SD brands offering real discounts and real conservation.",
-      "section5Desc": "Discover brands that pay you back and pay back the planet.",
+      "section5Desc": "Discover the brands improving affordability and changing how the world funds nature.",
       "browseButton": "Browse SD brands"
     },
     "storySection": {
@@ -436,7 +436,7 @@
       "actualLabel": "Actual average:",
       "actualVal": "38% to conservation",
       "noteText": "No reward. No nudge. Just transparency.",
-      "footerText": "SD doesn't ask you to be a different kind of consumer. It asks the system to be transparent. The rest follows."
+      "footerText": "SD doesn't ask you to be a different kind of consumer. It makes the system transparent. The rest follows."
     }
   },
   "conservation": {
