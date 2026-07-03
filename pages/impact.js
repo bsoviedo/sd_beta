@@ -83,7 +83,7 @@ export default function ImpactPage() {
         </Container>
       </section>
 
-      <section className="sd-section sd-blog-section pt-0">
+      {/*       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
           <h2 className="text-center sd-section-accent mb-4">{t("impact.betaSection.title")}</h2>
           <div className="sd-blog-content mx-auto text-center mb-5" style={{ maxWidth: "800px" }}>
@@ -101,9 +101,9 @@ export default function ImpactPage() {
             ))}
           </Row>
         </Container>
-      </section>
+      </section> */}
 
-      <section className="sd-section sd-blog-section pt-0">
+      {/*       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
           <h2 className="text-center sd-section-accent mb-4">{t("impact.validationSection.title")}</h2>
           <Row className="g-4 justify-content-center">
@@ -117,7 +117,7 @@ export default function ImpactPage() {
             ))}
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">

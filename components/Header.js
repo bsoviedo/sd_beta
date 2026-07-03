@@ -36,10 +36,10 @@ function Header() {
         <Navbar.Collapse id="sd-navbar">
           <Nav className="ms-auto align-items-lg-center">
             <Link href="/" className="nav-link sd-nav-link">{t("nav.home")}</Link>
-            <Link href="/the-movement" className="nav-link sd-nav-link">{t("nav.movement")}</Link>
-            <Link href="/for-merchants" className="nav-link sd-nav-link">{t("nav.merchants")}</Link>
+            {/*             <Link href="/the-movement" className="nav-link sd-nav-link">{t("nav.movement")}</Link>
+ */}            <Link href="/for-merchants" className="nav-link sd-nav-link">{t("nav.merchants")}</Link>
             <Link href="/for-shoppers" className="nav-link sd-nav-link">{t("nav.shoppers")}</Link>
-            <Link href="/conservation" className="nav-link sd-nav-link">{t("nav.conservation")}</Link>
+            <Link href="/the-movement" className="nav-link sd-nav-link">{t("nav.conservation")}</Link>
             <Link href="/the-team" className="nav-link sd-nav-link">{t("nav.team")}</Link>
             <Link href="/impact" className="nav-link sd-nav-link">{t("nav.impact")}</Link>
             <div className="d-flex align-items-center gap-2 ms-lg-3 my-2 my-lg-0">

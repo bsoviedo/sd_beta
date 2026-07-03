@@ -1,229 +1,206 @@
-import Link from "next/link";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Layout from "components/Layout";
 import PageHero from "components/sd/PageHero";
 
-export default function TheMovementPage() {
+export default function ConservationPage() {
   const { t } = useTranslation("common");
 
-  const authorParts = t("about.originSection.author") ? t("about.originSection.author").split(",") : [];
-  const authorName = authorParts[0]?.trim() || "";
-  const authorTitle = authorParts.slice(1).join(",").trim() || "";
-  const authorInitials = authorName ? authorName.split(" ").map(n => n[0]).join("").slice(0, 2).toUpperCase() : "SD";
-
   return (
-    <Layout title={t("meta.aboutTitle")} description={t("meta.aboutDescription")}>
+    <Layout title={t("meta.faqTitle")} description={t("meta.faqDescription")}>
       <PageHero
-        title={t("about.hero.titleExt")}
-        description={t("about.hero.descriptionExt")}
+        title={t("conservation.hero.title")}
+        description={t("conservation.hero.description")}
         carouselSide="right"
       />
 
-      <div className="sd-movement-page">
-        {/* 1. Origin Section (Editorial Style & Glass Quote Card) */}
-        <section className="sd-section sd-blog-section">
-          <Container className="px-4 px-lg-5">
-            <h2 className="sd-section-accent">{t("about.originSection.headline")}</h2>
-            <Row className="align-items-stretch g-5 mt-2">
-              <Col lg={7} className="d-flex align-items-center">
-                <div className="sd-origin-editorial sd-blog-content">
-                  <p className="sd-editorial-lead mb-4">
-                    {t("about.originSection.body1")}
-                  </p>
-                  <p className="sd-blog-text mb-0 fw-medium" style={{ fontSize: "1.1rem", color: "var(--sd-primary)" }}>
-                    {t("about.originSection.body2")}
-                  </p>
-                </div>
-              </Col>
-              <Col lg={5}>
-                <div className="sd-origin-quote-card h-100 d-flex flex-column justify-content-between">
-                  <p className="sd-quote-text">&quot;{t("about.originSection.quote")}&quot;</p>
-                  <div className="sd-quote-author-wrapper">
-                    <div className="sd-quote-avatar">
-                      {authorInitials}
-                    </div>
-                    <div className="sd-quote-author-info">
-                      <h4 className="sd-author-name">{authorName}</h4>
-                      <p className="sd-author-title">{authorTitle}</p>
-                    </div>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </section>
+      <section className="sd-section sd-blog-section pt-0">
+        <Container className="px-4 px-lg-5">
+          <h2 className="text-center sd-section-accent mb-5">{t("conservation.problemSection.headline")}</h2>
+          <Row className="align-items-center g-5 mb-4">
+            <Col lg={6}>
+              <div className="sd-blog-content">
+                <p className="sd-blog-text mb-3" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7", color: "var(--sd-dark)" }}>
+                  {t("conservation.problemSection.body1")}
+                </p>
+                <p className="sd-blog-text mb-4" style={{ fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)", lineHeight: "1.6" }}>{t("conservation.problemSection.body2")}</p>
+                <p className="sd-blog-text fw-bold mb-0" style={{ color: "var(--sd-primary)", fontSize: "clamp(1.3rem, 2.4vw, 1.55rem)" }}>
+                  {t("conservation.problemSection.body3")}
+                </p>
+              </div>
+            </Col>
+            <Col lg={6}>
+              <div className="d-flex flex-column gap-3">
+                <article className="sd-team-card p-4" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.04)" }}>
+                  <h3 className="fw-bold mb-2" style={{ color: "var(--sd-primary)", fontSize: "clamp(1.25rem, 2.3vw, 1.45rem)" }}>{t("conservation.problemSection.gapTitle")}</h3>
+                  <p className="text-muted mb-0" style={{ fontSize: "clamp(1.15rem, 2vw, 1.3rem)", lineHeight: "1.6" }}>{t("conservation.problemSection.gap")}</p>
+                </article>
+                <article className="sd-team-card p-4" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.04)" }}>
+                  <h3 className="fw-bold mb-2" style={{ color: "var(--sd-primary)", fontSize: "clamp(1.25rem, 2.3vw, 1.45rem)" }}>{t("conservation.problemSection.strainTitle")}</h3>
+                  <p className="text-muted mb-0" style={{ fontSize: "clamp(1.15rem, 2vw, 1.3rem)", lineHeight: "1.6" }}>{t("conservation.problemSection.strain")}</p>
+                </article>
+                <article className="sd-team-card p-4" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.04)" }}>
+                  <h3 className="fw-bold mb-2" style={{ color: "var(--sd-primary)", fontSize: "clamp(1.25rem, 2.3vw, 1.45rem)" }}>{t("conservation.problemSection.solutionTitle")}</h3>
+                  <p className="text-muted mb-0" style={{ fontSize: "clamp(1.15rem, 2vw, 1.3rem)", lineHeight: "1.6" }}>{t("conservation.problemSection.solution")}</p>
+                </article>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
 
-        {/* 2. Problem Section (Resource Cards & Missing Link Card) */}
-        <section className="sd-section sd-blog-section pt-0">
-          <Container className="px-4 px-lg-5">
-            <h2 className="sd-section-accent">{t("about.problemSection.headline")}</h2>
-            <Row className="g-4 mt-2">
-              <Col md={4}>
-                <div className="sd-resource-card">
-                  <div className="sd-resource-icon">📋</div>
-                  <h3>{t("about.problemSection.bullet1").split(".")[0]}</h3>
-                  <p>{t("about.problemSection.bullet1")}</p>
+      <section className="sd-section sd-blog-section pt-0">
+        <Container className="px-4 px-lg-5">
+          <h2 className="text-center sd-section-accent mb-5">{t("conservation.offerSection.headline")}</h2>
+          <Row className="align-items-center g-5">
+            <Col lg={6} className="order-lg-2">
+              <div className="sd-blog-content">
+                <div className="sd-blog-highlight mb-4 p-4" style={{ borderRadius: "12px", background: "rgba(31, 138, 76, 0.06)" }}>
+                  <p className="sd-blog-text mb-0 fw-semibold" style={{ fontSize: "clamp(1.3rem, 2.4vw, 1.55rem)" }}>{t("conservation.offerSection.highlight")}</p>
                 </div>
-              </Col>
-              <Col md={4}>
-                <div className="sd-resource-card">
-                  <div className="sd-resource-icon">🔬</div>
-                  <h3>{t("about.problemSection.bullet2").split(".")[0]}</h3>
-                  <p>{t("about.problemSection.bullet2")}</p>
-                </div>
-              </Col>
-              <Col md={4}>
-                <div className="sd-resource-card">
-                  <div className="sd-resource-icon">🛡️</div>
-                  <h3>{t("about.problemSection.bullet3").split(".")[0]}</h3>
-                  <p>{t("about.problemSection.bullet3")}</p>
-                </div>
-              </Col>
-            </Row>
-            <Row className="mt-4">
-              <Col xs={12}>
-                <div className="sd-missing-link-card">
-                  <span className="sd-missing-kicker">La Pieza Faltante</span>
-                  <h3 className="sd-missing-headline">
-                    {t("about.problemSection.body2")}
-                  </h3>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </section>
+                <p className="sd-blog-text mb-4" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.6" }}>{t("conservation.offerSection.subtitle")}</p>
+                <p className="sd-blog-text text-muted mb-0" style={{ fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>
+                  {t("conservation.offerSection.footer")}
+                </p>
+              </div>
+            </Col>
+            <Col lg={6} className="order-lg-1">
+              <div className="d-flex flex-column gap-3">
+                <div className="sd-blog-metric p-3 text-center m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px", fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)", fontWeight: "500" }}>{t("conservation.offerSection.metric1")}</div>
+                <div className="sd-blog-metric p-3 text-center m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px", fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)", fontWeight: "500" }}>{t("conservation.offerSection.metric2")}</div>
+                <div className="sd-blog-metric p-3 text-center m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "10px", fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)", fontWeight: "500" }}>{t("conservation.offerSection.metric3")}</div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
 
-        {/* 3. Insight Section (Dashboard Layout) */}
-        <section className="sd-section sd-blog-section pt-0">
-          <Container className="px-4 px-lg-5">
-            <h2 className="sd-section-accent">{t("about.insightSection.headline")}</h2>
-            <Row className="align-items-center g-5 mt-2">
-              <Col lg={6}>
-                <div className="sd-blog-content">
-                  <p className="sd-blog-text mb-4" style={{ fontSize: "1.15rem", lineHeight: "1.8" }}>
-                    {t("about.insightSection.body1")}
-                  </p>
-                  <div className="sd-insight-highlight-card">
-                    <p className="sd-highlight-text">{t("about.insightSection.body3")}</p>
-                  </div>
-                  <p className="sd-blog-text text-muted mb-0" style={{ fontSize: "0.95rem" }}>
-                    {t("about.insightSection.body2")}
-                  </p>
+      <section className="sd-section sd-blog-section pt-0">
+        <Container className="px-4 px-lg-5">
+          <h2 className="text-center sd-section-accent mb-5">{t("conservation.industrySection.headline")}</h2>
+          <Row className="align-items-center g-5">
+            <Col lg={6}>
+              <div className="sd-blog-content">
+                <p className="sd-blog-text mb-4" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)" }}>{t("conservation.industrySection.intro")}</p>
+                <div className="d-flex flex-wrap gap-2 mb-2">
+                  <div className="sd-blog-metric px-3 py-2 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "8px", fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>{t("conservation.industrySection.ind1")}</div>
+                  <div className="sd-blog-metric px-3 py-2 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "8px", fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>{t("conservation.industrySection.ind2")}</div>
+                  <div className="sd-blog-metric px-3 py-2 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "8px", fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>{t("conservation.industrySection.ind3")}</div>
+                  <div className="sd-blog-metric px-3 py-2 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "8px", fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>{t("conservation.industrySection.ind4")}</div>
                 </div>
-              </Col>
-              <Col lg={6}>
-                <div className="d-flex flex-column gap-3">
-                  <div className="sd-insight-metric-card">
-                    <div className="sd-metric-value">40%</div>
-                    <div className="sd-metric-label">{t("about.insightSection.metric1")}</div>
-                    <p className="sd-metric-sub">{t("about.insightSection.metric2")}</p>
-                  </div>
-                  <div className="sd-insight-metric-card" style={{ borderLeft: "5px solid var(--sd-accent)" }}>
-                    <div className="sd-metric-value" style={{ color: "var(--sd-accent)" }}>🌍</div>
-                    <div className="sd-metric-label">{t("about.insightSection.metric3")}</div>
-                  </div>
-                  <div className="text-center mt-3">
-                    <Link href="/for-merchants" className="w-100">
-                      <button className="sd-cta-btn w-100">{t("about.insightSection.link")}</button>
-                    </Link>
-                  </div>
+              </div>
+            </Col>
+            <Col lg={6}>
+              <div className="sd-blog-content">
+                <p className="sd-blog-text text-muted mb-3" style={{ fontSize: "clamp(1.15rem, 2.1vw, 1.28rem)" }}>
+                  {t("conservation.industrySection.bridge")}
+                </p>
+                <div className="sd-blog-highlight p-4 mb-4" style={{ borderRadius: "12px", background: "rgba(31,138,76,0.06)" }}>
+                  <p className="sd-blog-text mb-0 fw-semibold" style={{ fontSize: "clamp(1.3rem, 2.4vw, 1.55rem)" }}>{t("conservation.industrySection.highlight")}</p>
                 </div>
-              </Col>
-            </Row>
-          </Container>
-        </section>
+                <div className="text-center mt-3">
+                  <a href="mailto:damian@mandatum.co" className="w-100">
+                    <button className="sd-cta-btn w-100">{t("conservation.industrySection.cta")}</button>
+                  </a>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
 
-        {/* 4. Solution Section (Triple Win Grid) */}
-        <section className="sd-section sd-blog-section pt-0">
-          <Container className="px-4 px-lg-5">
-            <h2 className="sd-section-accent">{t("about.solutionSection.headline")}</h2>
-            <Row className="g-4 mt-2">
-              <Col lg={4}>
-                <div className="sd-triple-win-card">
-                  <div className="sd-triple-win-icon">🛒</div>
-                  <h3>{t("about.solutionSection.shopperTitle")}</h3>
-                  <p>{t("about.solutionSection.shopper").replace("✓", "").trim()}</p>
-                </div>
-              </Col>
-              <Col lg={4}>
-                <div className="sd-triple-win-card">
-                  <div className="sd-triple-win-icon">💼</div>
-                  <h3>{t("about.solutionSection.brandTitle")}</h3>
-                  <p>{t("about.solutionSection.brand").replace("✓", "").trim()}</p>
-                </div>
-              </Col>
-              <Col lg={4}>
-                <div className="sd-triple-win-card">
-                  <div className="sd-triple-win-icon">🌱</div>
-                  <h3>{t("about.solutionSection.natureTitle")}</h3>
-                  <p>{t("about.solutionSection.nature").replace("✓", "").trim()}</p>
-                </div>
-              </Col>
-            </Row>
-            <div className="sd-solution-footer-note">
-              <p className="mb-0">
-                <strong>{t("about.solutionSection.body")}</strong> {t("about.solutionSection.footer")}
-              </p>
-            </div>
-          </Container>
-        </section>
+      <section className="sd-section sd-blog-section pt-0">
+        <Container className="px-4 px-lg-5">
+          <h2 className="text-center sd-section-accent mb-4">{t("conservation.allocationSection.headline")}</h2>
+          <div className="sd-blog-content mx-auto text-center mb-5" style={{ maxWidth: "800px" }}>
+            <p className="sd-blog-text mb-0" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7" }}>{t("conservation.allocationSection.intro")}</p>
+          </div>
+          <Row className="g-4 justify-content-center">
+            <Col md={6}>
+              <article className="sd-team-card h-100 p-4 text-center" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.04)" }}>
+                <h3 className="fw-bold mb-3" style={{ color: "var(--sd-primary)", fontSize: "clamp(1.3rem, 2.4vw, 1.55rem)" }}>
+                  {t("conservation.allocationSection.primary")}
+                </h3>
+                <p className="mb-2 fw-medium" style={{ fontSize: "clamp(1.15rem, 2vw, 1.3rem)" }}>
+                  {t("conservation.allocationSection.primary1")}
+                </p>
+                <p className="mb-0 fw-medium" style={{ fontSize: "clamp(1.15rem, 2vw, 1.3rem)" }}>
+                  {t("conservation.allocationSection.primary2")}
+                </p>
+              </article>
+            </Col>
+            <Col md={6}>
+              <article className="sd-team-card h-100 p-4 text-center" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.04)" }}>
+                <h3 className="fw-bold mb-3" style={{ color: "var(--sd-accent)", fontSize: "clamp(1.3rem, 2.4vw, 1.55rem)" }}>
+                  {t("conservation.allocationSection.secondary")}
+                </h3>
+                <p className="mb-2 fw-medium" style={{ fontSize: "clamp(1.15rem, 2vw, 1.3rem)" }}>
+                  {t("conservation.allocationSection.secondary1")}
+                </p>
+                <p className="mb-0 fw-medium" style={{ fontSize: "clamp(1.15rem, 2vw, 1.3rem)" }}>
+                  {t("conservation.allocationSection.secondary2")}
+                </p>
+              </article>
+            </Col>
+          </Row>
+          <div className="sd-blog-content mx-auto text-center mt-4" style={{ maxWidth: "800px" }}>
+            <p className="sd-blog-text text-muted" style={{ fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>
+              {t("conservation.allocationSection.footer")}
+            </p>
+          </div>
+        </Container>
+      </section>
 
-        {/* 5. Vision Section (Target Box & Pipeline Grid) */}
-        <section className="sd-section sd-blog-section pt-0">
-          <Container className="px-4 px-lg-5">
-            <h2 className="sd-section-accent">{t("about.visionSection.headline")}</h2>
-            <div className="sd-vision-target-card mt-2">
-              <span className="sd-target-kicker">{t("about.visionSection.goalLabel")}</span>
-              <h3 className="sd-target-number">{t("about.visionSection.goalValue")}</h3>
-              <p className="sd-target-footer">{t("about.visionSection.footer")}</p>
-            </div>
+      <section className="sd-section sd-blog-section pt-0">
+        <Container className="px-4 px-lg-5">
+          <h2 className="text-center sd-section-accent mb-5">{t("conservation.projectSection.headline")}</h2>
+          <Row className="align-items-center g-5">
+            <Col lg={7}>
+              <div className="sd-blog-content">
+                <p className="sd-blog-text mb-3" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)" }}>{t("conservation.projectSection.intro")}</p>
+                <p className="sd-blog-text mb-4" style={{ fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)", lineHeight: "1.6" }}>
+                  {t("conservation.projectSection.body")}
+                </p>
+                <p className="sd-blog-text mb-0 text-muted fw-semibold" style={{ fontSize: "clamp(1.15rem, 2.1vw, 1.28rem)", color: "var(--sd-primary)" }}>
+                  {t("conservation.projectSection.partners")}
+                </p>
+              </div>
+            </Col>
+            <Col lg={5}>
+              <div className="d-flex flex-column gap-3">
+                <div className="sd-blog-highlight p-4 m-0" style={{ borderRadius: "12px", background: "rgba(31, 138, 76, 0.06)" }}>
+                  <p className="sd-blog-text mb-0 fw-semibold" style={{ fontSize: "clamp(1.3rem, 2.4vw, 1.55rem)", lineHeight: "1.5" }}>{t("conservation.projectSection.highlight")}</p>
+                </div>
+                <div className="text-center">
+                  <a href="mailto:damian@mandatum.co" className="w-100">
+                    <button className="sd-cta-btn w-100">{t("conservation.projectSection.cta")}</button>
+                  </a>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
 
-            <Row className="g-4 justify-content-center">
-              <Col md={4}>
-                <div className="sd-vision-pipe-card">
-                  <div className="sd-pipe-title">{t("about.visionSection.engineTitle")}</div>
-                  <p className="sd-pipe-value">{t("about.visionSection.engineBody")}</p>
-                </div>
-              </Col>
-              <Col md={4}>
-                <div className="sd-vision-pipe-card">
-                  <div className="sd-pipe-title">{t("about.visionSection.opportunityTitle")}</div>
-                  <p className="sd-pipe-value">{t("about.visionSection.opportunityBody")}</p>
-                </div>
-              </Col>
-              <Col md={4}>
-                <div className="sd-vision-pipe-card">
-                  <div className="sd-pipe-title">{t("about.visionSection.impactTitle")}</div>
-                  <p className="sd-pipe-value">{t("about.visionSection.impactBody")}</p>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </section>
-
-        {/* 6. CTA Section */}
-        <section className="sd-section sd-blog-section sd-blog-cta-section pt-0">
-          <Container className="px-4 px-lg-5 text-center">
-            <h2 className="sd-section-accent mb-4">
-              {t("about.validatorsSection.cta")}
-            </h2>
-            <Row className="g-3 justify-content-center mt-2">
-              <Col xs="auto">
-                <Link href="/for-merchants">
-                  <button className="sd-cta-btn">{t("nav.merchants")}</button>
-                </Link>
-              </Col>
-              <Col xs="auto">
-                <Link href="/conservation">
-                  <button className="sd-cta-btn sd-cta-secondary">{t("nav.movement")}</button>
-                </Link>
-              </Col>
-            </Row>
-          </Container>
-        </section>
-      </div>
+      <section className="sd-section sd-blog-section sd-blog-cta-section pt-0">
+        <Container className="px-4 px-lg-5 text-center">
+          <h2 className="sd-section-accent mb-4">{t("conservation.closingSection.headline")}</h2>
+          <div className="sd-blog-content mx-auto text-center" style={{ maxWidth: "800px" }}>
+            <p className="sd-blog-text mb-3" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7" }}>{t("conservation.closingSection.body1")}</p>
+            <p className="sd-blog-text mb-3" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7" }}>{t("conservation.closingSection.body2")}</p>
+            <p className="sd-blog-text mb-3" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7" }}>{t("conservation.closingSection.body3")}</p>
+            <p className="sd-blog-text mb-4 text-muted" style={{ fontSize: "clamp(1.15rem, 2.1vw, 1.28rem)" }}>
+              {t("conservation.closingSection.footer")}
+            </p>
+          </div>
+          <div className="mt-4">
+            <a href="mailto:damian@mandatum.co">
+              <button className="sd-cta-btn">{t("conservation.closingSection.cta")}</button>
+            </a>
+          </div>
+        </Container>
+      </section>
     </Layout>
   );
 }

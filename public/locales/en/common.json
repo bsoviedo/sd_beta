@@ -24,7 +24,7 @@
     "movement": "The Movement",
     "merchants": "For Merchants",
     "shoppers": "For Shoppers",
-    "conservation": "Conservation",
+    "conservation": "The Movement",
     "team": "The Team",
     "impact": "Impact",
     "cta": "Add to Shopify"
@@ -440,8 +440,8 @@
   },
   "conservation": {
     "hero": {
-      "title": "Commerce can fund the planet.",
-      "description": "Sustainable Discounts is a movement, not just a mechanism. Scientists, conservationists, activists, journalists, founders, celebrities, industry associations, sustainability experts. If you believe commerce can be redesigned to protect nature, there is a role for you here."
+      "title": "Join the movement to fund nature today, not tomorrow, not next year.",
+      "description": "Sustainable Discounts is a movement, not just a mechanism. We need scientists, conservationists, activists, journalists, founders, celebrities, industry associations, and sustainability experts to change nature conservation forever. There is a role for you here to drive this change faster."
     },
     "problemSection": {
       "headline": "The funding crisis is structural. So is the solution.",
