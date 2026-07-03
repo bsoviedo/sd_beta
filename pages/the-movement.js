@@ -18,19 +18,17 @@ export default function ConservationPage() {
       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
           <h2 className="text-center sd-section-accent mb-5">{t("conservation.problemSection.headline")}</h2>
-          <Row className="align-items-center g-5 mb-4">
-            <Col lg={6}>
+          <Row className="align-items-center justify-content-center g-5 mb-4">
+            <Col lg={8}>
               <div className="sd-blog-content">
-                <p className="sd-blog-text mb-3" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7", color: "var(--sd-dark)" }}>
+                {/*       <p className="sd-blog-text mb-3" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7", color: "var(--sd-dark)" }}>
                   {t("conservation.problemSection.body1")}
-                </p>
-                <p className="sd-blog-text mb-4" style={{ fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)", lineHeight: "1.6" }}>{t("conservation.problemSection.body2")}</p>
-                <p className="sd-blog-text fw-bold mb-0" style={{ color: "var(--sd-primary)", fontSize: "clamp(1.3rem, 2.4vw, 1.55rem)" }}>
-                  {t("conservation.problemSection.body3")}
-                </p>
+                </p> */}
+                {/*                 <p className="sd-blog-text mb-4" style={{ fontSize: "clamp(1.2rem, 2.1vw, 1.38rem)", lineHeight: "1.6" }}>{t("conservation.problemSection.body2")}</p>
+ */}
               </div>
-            </Col>
-            <Col lg={6}>
+              {/*       </Col>
+            <Col lg={6}> */}
               <div className="d-flex flex-column gap-3">
                 <article className="sd-team-card p-4" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.04)" }}>
                   <h3 className="fw-bold mb-2" style={{ color: "var(--sd-primary)", fontSize: "clamp(1.25rem, 2.3vw, 1.45rem)" }}>{t("conservation.problemSection.gapTitle")}</h3>
@@ -40,17 +38,21 @@ export default function ConservationPage() {
                   <h3 className="fw-bold mb-2" style={{ color: "var(--sd-primary)", fontSize: "clamp(1.25rem, 2.3vw, 1.45rem)" }}>{t("conservation.problemSection.strainTitle")}</h3>
                   <p className="text-muted mb-0" style={{ fontSize: "clamp(1.15rem, 2vw, 1.3rem)", lineHeight: "1.6" }}>{t("conservation.problemSection.strain")}</p>
                 </article>
-                <article className="sd-team-card p-4" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.04)" }}>
+                {/*   <article className="sd-team-card p-4" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.04)" }}>
                   <h3 className="fw-bold mb-2" style={{ color: "var(--sd-primary)", fontSize: "clamp(1.25rem, 2.3vw, 1.45rem)" }}>{t("conservation.problemSection.solutionTitle")}</h3>
                   <p className="text-muted mb-0" style={{ fontSize: "clamp(1.15rem, 2vw, 1.3rem)", lineHeight: "1.6" }}>{t("conservation.problemSection.solution")}</p>
-                </article>
+                </article> */}
+
+                <p className="sd-blog-text fw-bold mb-0" style={{ color: "var(--sd-primary)", fontSize: "clamp(1.3rem, 2.4vw, 1.55rem)" }}>
+                  {t("conservation.problemSection.body3")}
+                </p>
               </div>
             </Col>
           </Row>
         </Container>
       </section>
 
-      <section className="sd-section sd-blog-section pt-0">
+      {/*       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
           <h2 className="text-center sd-section-accent mb-5">{t("conservation.offerSection.headline")}</h2>
           <Row className="align-items-center g-5">
@@ -74,7 +76,7 @@ export default function ConservationPage() {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       <section className="sd-section sd-blog-section pt-0">
         <Container className="px-4 px-lg-5">
@@ -145,9 +147,12 @@ export default function ConservationPage() {
             </Col>
           </Row>
           <div className="sd-blog-content mx-auto text-center mt-4" style={{ maxWidth: "800px" }}>
-            <p className="sd-blog-text text-muted" style={{ fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>
+            <p className="sd-blog-text text-muted mb-4" style={{ fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>
               {t("conservation.allocationSection.footer")}
             </p>
+            <a href="mailto:damian@mandatum.co">
+              <button className="sd-cta-btn">{t("nav.contactUs", "Contact Us")}</button>
+            </a>
           </div>
         </Container>
       </section>

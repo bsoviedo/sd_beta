@@ -27,7 +27,8 @@
     "conservation": "The Movement",
     "team": "The Team",
     "impact": "Impact",
-    "cta": "Add to Shopify"
+    "cta": "Add to Shopify",
+    "contactUs": "Contact Us"
   },
   "home": {
     "hero": {
@@ -465,7 +466,7 @@
       "footer": "Transferred within 90 days. Verified. Tracked. Transparent."
     },
     "industrySection": {
-      "headline": "Your industries need immediate environmental impact. SD delivers it today.",
+      "headline": "Sustainability leader? Deliver meaningful climate impact today, not just years from now.",
       "intro": "Every durable goods sector is under sustainability pressure:",
       "ind1": "👗 Fashion",
       "ind2": "🏂 Sporting goods",
@@ -495,7 +496,7 @@
       "cta": "Present your project"
     },
     "closingSection": {
-      "headline": "The movement needs more than a mechanism. It needs the people who believe in it.",
+      "headline": "The faster this movement grows, the sooner we protect what protects us.",
       "body1": "Conservation organizations. Scientists. Activists. Industry associations.",
       "body2": "Celebrities. Journalists. Founders. Philanthropists.",
       "body3": "Educators. Community leaders. Sustainability experts.",
