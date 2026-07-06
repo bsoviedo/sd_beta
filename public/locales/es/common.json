@@ -1,19 +1,19 @@
 {
   "meta": {
     "homeTitle": "Accion climatica y ambiental sin costo",
-    "homeDescription": "Sustainable Discounts redirige cargos ocultos del comercio para financiar bosques y oceanos mientras los compradores ahorran y las marcas recuperan margen.",
+    "homeDescription": "Sustainable Discounts™ redirige cargos ocultos del comercio para financiar bosques y oceanos mientras los compradores ahorran y las marcas recuperan margen.",
     "aboutTitle": "El Movimiento",
-    "aboutDescription": "La historia de origen de Sustainable Discounts y como los costos ocultos del mercado se transforman en financiamiento para la naturaleza.",
+    "aboutDescription": "La historia de origen de Sustainable Discounts™ y como los costos ocultos del mercado se transforman en financiamiento para la naturaleza.",
     "howTitle": "Para Comercios",
-    "howDescription": "Recupera control de precios, mejora ganancias y financia conservacion con Sustainable Discounts.",
+    "howDescription": "Recupera control de precios, mejora ganancias y financia conservacion con Sustainable Discounts™.",
     "impactTitle": "Los numeros que importan",
     "impactDescription": "Contadores de impacto SD en vivo, resultados de la prueba privada y como el comercio puede duplicar las finanzas de conservacion.",
     "blogTitle": "Para Compradores",
-    "blogDescription": "Como los compradores ahorran, apoyan a la naturaleza y construyen un historial de conservacion con Sustainable Discounts.",
+    "blogDescription": "Como los compradores ahorran, apoyan a la naturaleza y construyen un historial de conservacion con Sustainable Discounts™.",
     "faqTitle": "Conservacion",
     "faqDescription": "El movimiento de conservacion de SD, asignacion de fondos y como el comercio crea financiamiento confiable para la naturaleza.",
     "teamTitle": "El Equipo",
-    "teamDescription": "Conoce al equipo detrás de Sustainable Discounts y las organizaciones externas que nos validan.",
+    "teamDescription": "Conoce al equipo detrás de Sustainable Discounts™ y las organizaciones externas que nos validan.",
     "termsTitle": "Terminos de Servicio",
     "termsDescription": "Terminos de uso para la plataforma Sustainable Discounts™ y sus Descuentos Sostenibles.",
     "privacyTitle": "Politica de Privacidad",
@@ -41,7 +41,7 @@
     "heroExt": {
       "title": "¡Cada compra le devuelve algo al planeta!",
       "tagline": "Sin costo adicional para nadie.",
-      "description1": "Sustainable Discounts redirige las tarifas ocultas del comercio para financiar la conservación de bosques y océanos.",
+      "description1": "Sustainable Discounts™ redirige las tarifas ocultas del comercio para financiar la conservación de bosques y océanos.",
       "description2": "Los consumidores obtienen un descuento real, mientras que las marcas aumentan su margen. Además, La naturaleza es financiada.",
       "ctaBrand": "Soy una marca. Ver cómo funciona.",
       "ctaShopper": "Soy un comprador. Buscar marcas SD."
@@ -444,7 +444,7 @@
   "conservation": {
     "hero": {
       "title": "El comercio puede financiar al planeta.",
-      "description": "Sustainable Discounts es un movimiento, no solo un mecanismo: científicos, conservacionistas, activistas, periodistas, fundadores, celebridades, asociaciones y expertos. Si crees que el comercio puede rediseñarse para proteger la naturaleza, hay un lugar para ti aquí."
+      "description": "Sustainable Discounts™ es un movimiento, no solo un mecanismo: científicos, conservacionistas, activistas, periodistas, fundadores, celebridades, asociaciones y expertos. Si crees que el comercio puede rediseñarse para proteger la naturaleza, hay un lugar para ti aquí."
     },
     "problemSection": {
       "headline": "La crisis de financiamiento es estructural. La solución también.",
