@@ -7,7 +7,7 @@
     "howTitle": "For Merchants",
     "howDescription": "Recover pricing control, improve profits, and fund conservation with Sustainable Discounts™.",
     "impactTitle": "Numbers that matter",
-    "impactDescription": "Live SD impact counts, private beta results, and how commerce can double conservation finance.",
+    "impactDescription": "Live Sustainable Discounts™ impact counts, private beta results, and how commerce can double conservation finance.",
     "blogTitle": "For Shoppers",
     "blogDescription": "How shoppers save, support nature, and build a conservation history with Sustainable Discounts™.",
     "faqTitle": "Conservation",
@@ -44,7 +44,7 @@
       "description1": "Commerce can fund nature at no extra cost. Sustainable Discounts™ makes it happen.",
       "description2": "Shoppers get a real discount. Brands improve margin. Nature gets funded.",
       "ctaBrand": "I'm a brand. See how it works.",
-      "ctaShopper": "I'm a shopper. Find SD brands."
+      "ctaShopper": "I'm a shopper. Find Sustainable Discounts™ brands."
     },
     "benefits": {
       "title": "Consumers Demand Sustainability",
@@ -78,7 +78,7 @@
       "headline": "An opportunity in every purchase.",
       "body1": "Commerce features costs. Most of the time, all you need is the product.",
       "body2": "Sustainable Discounts™ redirects up to 40% of what you pay.",
-      "step1": "SD makes visible up to 40% of what you pay.",
+      "step1": "Sustainable Discounts™ makes visible up to 40% of what you pay.",
       "step2": "Shoppers and brands make the call.",
       "step3": "Shopper saves. Brand earns more. Nature gets funded. Automatically.",
       "linkText": "See the full mechanism",
@@ -91,14 +91,14 @@
         "headline": "Recover pricing control and improve profits.",
         "body": "Offer shoppers a real discount on your direct channel. Earn a conservation story no marketplace can replicate.",
         "foot": "Free to install. No contract.",
-        "cta": "How SD works for your brand"
+        "cta": "How Sustainable Discounts™ works for your brand"
       },
       "card2": {
         "title": "Shoppers",
         "headline": "Same product; better price.",
         "body": "A verified conservation contribution included. You decide how much of your discount goes to you and how much supports the planet.",
-        "foot": "Find SD brands and create your planet account.",
-        "cta": "Find SD brands"
+        "foot": "Find Sustainable Discounts™ brands and create your planet account.",
+        "cta": "Find Sustainable Discounts™ brands"
       },
       "card3": {
         "title": "Our planet",
@@ -118,7 +118,7 @@
     },
     "closingSection": {
       "headline": "The mechanism is ready. The planet cannot wait.",
-      "merchant": "Add SD to your Shopify store. Free.",
+      "merchant": "Add Sustainable Discounts™ to your Shopify store. Free.",
       "nonShopify": "Different platform? We integrate in 48 hours. Talk to us.",
       "movement": "Want to promote the movement? Get in touch."
     },
@@ -162,23 +162,23 @@
       "body1": "The projects are ready. The science is ready. The rangers are ready.",
       "subtitle1": "Our Mission",
       "body2": "What's missing is the money: recurring, reliable, and not dependent on political calendars.",
-      "bullet1": "+14K distinct conservation projects",
-      "bullet2": "~25,000 research authors",
-      "bullet3": "~300,000 individuals"
+      "bullet1": "Conservation projects are ready.",
+      "bullet2": "The Science is ready",
+      "bullet3": "Communities are ready"
     },
     "insightSection": {
       "headline": "The money is there. Let's use it better.",
       "body1": "Every durable goods purchase includes product and commerce costs.",
       "body2": "It goes to marketplace infrastructure. Not the product. Not the planet.",
-      "body3": "SD does not ask for new money. It makes commerce transparent for shoppers and brands to choose.",
-      "metric1": "SD redirects up to 40% of what shoppers pay",
+      "body3": "Sustainable Discounts™ does not ask for new money. It makes commerce transparent for shoppers and brands to choose.",
+      "metric1": "Sustainable Discounts™ redirects up to 40% of what shoppers pay",
       "metric2": "Goes to infrastructure",
       "metric3": "Not product. Not planet.",
       "link": "See exactly how the mechanism works"
     },
     "solutionSection": {
       "headline": "A pricing mechanism, not a charity.",
-      "body": "SD is embedded at the point of sale. It doesn't ask for donations. It restructures the transaction.",
+      "body": "Sustainable Discounts™ is embedded at the point of sale. It doesn't ask for donations. It restructures the transaction.",
       "shopper": "✅ Shoppers save",
       "shopperTitle": "Shoppers",
       "brand": "✅ Brands recover margin",
@@ -203,7 +203,7 @@
       "title": "The Team",
       "headline": "Our people",
       "body1": "No large seed round. No full team before proof of concept.",
-      "body2": "What SD had: people who decided the mission was worth their time before anyone guaranteed it would be worth their money."
+      "body2": "What Sustainable Discounts™ had: people who decided the mission was worth their time before anyone guaranteed it would be worth their money."
     },
     "team": {
       "role": {
@@ -234,7 +234,7 @@
       "title": "How It Works",
       "description": "Merchants use existing discounts and Sustainable Discounts™ turns them into Sustainable Discounts™ connected to verified environmental outcomes.",
       "titleExt": "Regain pricing control, improve margins.",
-      "descriptionExt": "SD converts commerce costs into a discount for shoppers, a conservation contribution, and more profits for your brand. No additional cost. No donation budget required."
+      "descriptionExt": "Sustainable Discounts™ converts commerce costs into a discount for shoppers, a conservation contribution, and more profits for your brand. No additional cost. No donation budget required."
     },
     "steps": [
       {
@@ -256,27 +256,27 @@
     ],
     "problemSection": {
       "title": "For every $1,000 in revenue.",
-      "body1": "SD redirects up to $400 in commerce costs by giving visibility to shoppers who make the call.",
+      "body1": "Sustainable Discounts™ redirects up to $400 in commerce costs by giving visibility to shoppers who make the call.",
       "body2": "DTC brands regain pricing control and make more money",
-      "body3": "SD makes it transparent. Shoppers make the final call."
+      "body3": "Sustainable Discounts™ makes it transparent. Shoppers make the final call."
     },
     "mechanismSection": {
-      "headline": "Here is what changes when SD is live on your store.",
+      "headline": "Here is what changes when Sustainable Discounts™is live on your store.",
       "withoutTitle": "Without SD",
       "withoutItem1": "Shopper pays: $1,000",
       "withoutItem2": "Commerce cost: up to $400",
       "withoutItem3": "Your revenue: $600 or less",
       "withoutItem4": "Nature receives: $0",
-      "withTitle": "With SD (10% pool example)",
+      "withTitle": "With Sustainable Discounts™ (10% pool example)",
       "withItem1": "Shopper pays: $930 (received a $70 discount)",
       "withItem2": "Your revenue: $900 ($300 more than through the marketplace)",
       "withItem3": "Nature receives: at least $30, up to $100 via the slider",
-      "withItem4": "SD operational fee: 10% of the conservation contribution: at least $3, up to $10 via slider.",
-      "body": "You set the pool. SD guarantees 30% minimum goes to conservation. The rest is the shopper discount. The shopper uses the slider to decide: keep more discount, or give more to the planet. You always receive $900. Your revenue is fixed. The shopper carries the only variable.",
+      "withItem4": "Sustainable Discounts™ operational fee: 10% of the conservation contribution: at least $3, up to $10 via slider.",
+      "body": "You set the pool. Sustainable Discounts™ guarantees 30% minimum goes to conservation. The rest is the shopper discount. The shopper uses the slider to decide: keep more discount, or give more to the planet. You always receive $900. Your revenue is fixed. The shopper carries the only variable.",
       "quote": "The first funding mechanism where everyone wins by design."
     },
     "featureSection": {
-      "title": "What SD looks like for your brand, in practice.",
+      "title": "What Sustainable Discounts™ looks like for your brand, in practice.",
       "item1Title": "A banner at the product page.",
       "item1Body": "\"Shop now and we give you and the planet up to $X on this item.\" A financial announcement, not a donation popup.",
       "item2Title": "Real-time conservation metrics.",
@@ -284,9 +284,9 @@
       "item3Title": "The slider.",
       "item3Body": "The shopper splits the pool. You are not involved. Your margin is fixed.",
       "item4Title": "A sustainability landing page for your brand.",
-      "item4Body": "Your cumulative impact, updated in real time. SD provides the marketing assets.",
+      "item4Body": "Your cumulative impact, updated in real time. Sustainable Discounts™ provides the marketing assets.",
       "item5Title": "Impact documentation.",
-      "item5Body": "Conservation certificates, biodiversity credit records, or consolidated reports. SD handles everything.",
+      "item5Body": "Conservation certificates, biodiversity credit records, or consolidated reports. Sustainable Discounts™ handles everything.",
       "item6Title": "Access to the myplanetaccount.com network.",
       "item6Body": "Eco-conscious shoppers accumulate cross-brand conservation histories. Your brand is part of that network."
     },
@@ -302,9 +302,9 @@
       "ctaBrand": "Add to Shopify.",
       "ctaFaq": "Request a conversation",
       "ind1Title": "Fashion and footwear",
-      "ind1Body": "SD gives fashion immediate, measurable conservation impact. Starting with the next transaction.",
+      "ind1Body": "Sustainable Discounts™ gives fashion immediate, measurable conservation impact. Starting with the next transaction.",
       "ind2Title": "Sporting goods",
-      "ind2Body": "Skiers need snow. Surfers need healthy oceans. SD is the funding engine that sustainability frameworks in sport have been missing.",
+      "ind2Body": "Skiers need snow. Surfers need healthy oceans. Sustainable Discounts™ is the funding engine that sustainability frameworks in sport have been missing.",
       "ind3Title": "Electronics, furniture, home appliances, tools",
       "ind3Body": "High transaction values, strong DTC growth, significant fees. The bulk of the $2 trillion opportunity."
     },
@@ -313,7 +313,7 @@
       "step1Title": "Install Sustainable Discounts™ Free",
       "step1Body": "It takes between 5 minutes and 48 hours, depending on the online store platform. Free. No contract.",
       "step2Title": "Choose which products to activate.",
-      "step2Body": "Set your pool percentage. SD activates the banner and slider automatically.",
+      "step2Body": "Set your pool percentage. Sustainable Discounts™ activates the banner and slider automatically.",
       "step3Title": "Launch, track, and share.",
       "step3Body": "Your sustainability page goes live. Contributions transfer to verified projects within 90 days."
     },
@@ -381,19 +381,19 @@
     "card2Stat": "92%",
     "card2Body": "Of Americans support the Endangered Species Act. Most people want to help the planet. The problem is affordability.",
     "card3Stat": "$0",
-    "card3Body": "What it costs to make commerce work for nature too. SD makes the funds available."
+    "card3Body": "What it costs to make commerce work for nature too. Sustainable Discounts™makes the funds available."
   },
   "shoppers": {
     "hero": {
       "title": "Shop smarter. Pay less. Support the planet.",
-      "description": "SD gives you a real discount, and you create funds for forest and ocean conservation projects. You choose how much of your savings goes to you, and how much goes to the planet."
+      "description": "Sustainable Discounts™gives you a real discount, and you create funds for forest and ocean conservation projects. You choose how much of your savings goes to you, and how much goes to the planet."
     },
     "pointsSection": {
       "title": "People want to protect nature but can't afford to.",
       "point1Headline": "The problem",
       "point1Text": "When you buy a $1,000 product, up to $400 goes to commerce fees. You didn't know. Most people don't.",
       "point2Headline": "The opportunity",
-      "point2Text": "When you buy direct through an SD brand, that $400 goes somewhere better. You get a real discount. Nature gets funded.",
+      "point2Text": "When you buy direct through an Sustainable Discounts™ brand, that $400 goes somewhere better. You get a real discount. Nature gets funded.",
       "point3Headline": "The outcome",
       "point3Text": "The brand contributes at least $30 to verified conservation while you pay less. Everybody wins."
     },
@@ -427,9 +427,9 @@
       "quote": "When given a transparent choice, shoppers chose the planet. Not out of obligation. Out of preference."
     },
     "brandsSection": {
-      "title": "SD brands offering real discounts and real conservation.",
+      "title": "Sustainable Discounts™ brands offering real discounts and real conservation.",
       "section5Desc": "Discover the brands improving affordability and changing how the world funds nature.",
-      "browseButton": "Browse SD brands"
+      "browseButton": "Browse Sustainable Discounts™ brands"
     },
     "storySection": {
       "title": "The 38% story.",
@@ -438,7 +438,7 @@
       "actualLabel": "Actual average:",
       "actualVal": "38% to conservation",
       "noteText": "No reward. No nudge. Just transparency.",
-      "footerText": "SD doesn't ask you to be a different kind of consumer. It makes the system transparent. The rest follows."
+      "footerText": "Sustainable Discounts™ doesn't ask you to be a different kind of consumer. It makes the system transparent. The rest follows."
     }
   },
   "conservation": {
@@ -450,17 +450,17 @@
       "headline": "The funding crisis is structural. So is the solution.",
       "body1": "Nature needs $942 billion more per year than it currently receives. Governments are cutting. Corporate pledges disappear with earnings cycles.",
       "body2": "More than a quarter of conservation professionals are burning out. Not because they stopped caring, but because there is never enough money to do the work they know how to do.",
-      "body3": "SD does not ask conservation to work harder. It brings a new source of money entirely.",
+      "body3": "Sustainable Discounts™ does not ask conservation to work harder. It brings a new source of money entirely.",
       "gap": "The gap: Nature needs $942 billion more per year than it currently receives.",
       "strain": "The strain: Governments are cutting. Corporate pledges disappear. Professionals are burning out.",
-      "solution": "The solution: SD brings a new source of money entirely. Not asking conservation to work harder.",
+      "solution": "The solution: Sustainable Discounts™ brings a new source of money entirely. Not asking conservation to work harder.",
       "gapTitle": "The gap",
       "strainTitle": "The strain",
       "solutionTitle": "The solution"
     },
     "offerSection": {
       "headline": "Reliable, recurrent funding. Generated by commerce. Not by donors.",
-      "highlight": "Every SD transaction = verified conservation contribution",
+      "highlight": "Every Sustainable Discounts™ transaction = verified conservation contribution",
       "subtitle": "Funding scales with commerce, not donor cycles.",
       "metric1": "90% to projects",
       "metric2": "10% operations",
@@ -474,7 +474,20 @@
       "ind2": "🏂 Sporting goods",
       "ind3": "📱 Electronics",
       "ind4": "🛋️ Furniture",
-      "bridge": "Long-term solutions take years. SD is the bridge.",
+      "ind5": "🚗 Automobiles",
+      "ind6": "🔌 Home Appliances",
+      "ind7": "💻 Consumer Electronics",
+      "ind8": "🛠️ Tools and Equipment",
+      "ind9": "🏠 Home Improvement Products",
+      "ind10": "🧸 Toys and Games",
+      "ind11": "🎸 Musical Instruments",
+      "ind12": "⛵ Boats and Recreational Vehicles",
+      "ind13": "👕 Clothing",
+      "ind14": "🧵 Textiles",
+      "ind15": "👟 Footwear",
+      "ind16": "🧢 Headgear and Accessories",
+      "ind17": "💼 Leather and Fur Products",
+      "bridge": "Long-term solutions take years. Sustainable Discounts™ is the bridge.",
       "highlight": "Immediate, measurable conservation impact starting today",
       "cta": "Talk to us about your industry"
     },
@@ -490,8 +503,8 @@
       "footer": "Seeking representation from leading scientific institutions and frontline practitioners."
     },
     "projectSection": {
-      "headline": "If your project can deliver immediate impact, SD will fund it.",
-      "intro": "SD is not a traditional funder. There is no grant application or lengthy review cycle.",
+      "headline": "If your project can deliver immediate impact, Sustainable Discounts™ will fund it.",
+      "intro": "Sustainable Discounts™ is not a traditional funder. There is no grant application or lengthy review cycle.",
       "highlight": "Scientifically verified + Measurable near-term results = Funded",
       "body": "Evaluated on Climate Velocity and Biodiversity Integrity. Funded proportionally to commerce flowing through SD.",
       "partners": "Current verified partners: Panthera and Terrasos",
@@ -509,7 +522,7 @@
   "impact": {
     "hero": {
       "title": "Numbers that matter.",
-      "description": "Full transparency. SD tracks and provides online information on every contribution, every dollar transferred, and every hectare and species protected."
+      "description": "Full transparency. Sustainable Discounts™ tracks and provides online information on every contribution, every dollar transferred, and every hectare and species protected."
     },
     "countersSection": {
       "lastUpdated": "Last updated on",
@@ -530,7 +543,7 @@
       "stat4": "$0 additional cost to anyone. The money came from what was already being spent."
     },
     "validationSection": {
-      "title": "Organizations that examined SD and took it seriously.",
+      "title": "Organizations that examined Sustainable Discounts™ and took it seriously.",
       "item1Title": "Earthshot Prize 2025",
       "item1Desc": "Nominated. One of the most rigorous environmental prize processes in the world.",
       "item2Title": "GEF and World Bank",
@@ -552,7 +565,7 @@
       "sdg6Title": "SDG 6 - CLEAN WATER",
       "sdg6Body": "Forests are the most effective water filtration systems on Earth. When they go, rivers run brown and water costs rise.",
       "sdg8Title": "SDG 8 - DECENT WORK",
-      "sdg8Body": "Conservation projects funded by SD create employment in the most economically vulnerable regions: rangers, scientists, community monitors.",
+      "sdg8Body": "Conservation projects funded by Sustainable Discounts™ create employment in the most economically vulnerable regions: rangers, scientists, community monitors.",
       "sdg13Title": "SDG 13 - CLIMATE ACTION",
       "sdg13Body": "Forest protection delivers over 30% of the emission reductions needed by 2030. Every intact hectare is a carbon vault.",
       "sdg14Title": "SDG 14 - LIFE BELOW WATER",
@@ -579,7 +592,7 @@
       "footer": "It is much easier to redirect existing spending than to create new funding."
     },
     "transparencySection": {
-      "title": "What SD commits to on transparency.",
+      "title": "What Sustainable Discounts™ commits to on transparency.",
       "metric1": "90% → Projects (90 days)",
       "metric2": "10% → Operations",
       "metric3": "Surplus → Conservation",

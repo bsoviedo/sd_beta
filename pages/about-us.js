@@ -17,17 +17,20 @@ export default function TheMovementPage() {
     {
       name: "Damian Estrada",
       role: t("about.team.role.damian"),
-      href: "https://linkedin.com/in/damian-a-estrada"
+      href: "https://linkedin.com/in/damian-a-estrada",
+      image: "/img/about-us/team/damian-estrada.png"
     },
     {
       name: "Jeisson Prieto",
       role: t("about.team.role.jeisson"),
-      href: "https://linkedin.com/in/jeisson-prieto"
+      href: "https://linkedin.com/in/jeisson-prieto",
+      image: "/img/about-us/team/jeisson-prieto.png"
     },
     {
       name: "Brayan Oviedo",
       role: t("about.team.role.brayan"),
-      href: "https://www.linkedin.com/in/brayan-oviedo-yate-478072136/"
+      href: "https://www.linkedin.com/in/brayan-oviedo-yate-478072136/",
+      image: "/img/about-us/team/team-brayan-oviedo.jpg"
     },
     {
       name: "Dylan Price",
@@ -37,12 +40,14 @@ export default function TheMovementPage() {
     {
       name: "Adrian Gross",
       role: t("about.team.role.adrian"),
-      href: "https://www.linkedin.com/in/adrian-gross"
+      href: "https://www.linkedin.com/in/adrian-gross",
+      image: "/img/about-us/team/adrian-gross.png"
     },
     {
       name: "Claudia Estrada",
       role: t("about.team.role.claudia"),
-      href: "https://www.linkedin.com/in/claudia-maria-estrada-zuluaga-b43578184/"
+      href: "https://www.linkedin.com/in/claudia-maria-estrada-zuluaga-b43578184/",
+      image: "/img/about-us/team/team-claudia-estrada.jpg"
     }
   ];
 
@@ -105,21 +110,18 @@ export default function TheMovementPage() {
                 <div className="sd-resource-card">
                   <div className="sd-resource-icon">📋</div>
                   <h3>{t("about.problemSection.bullet1").split(".")[0]}</h3>
-                  <p>{t("about.problemSection.bullet1")}</p>
                 </div>
               </Col>
               <Col md={4}>
                 <div className="sd-resource-card">
                   <div className="sd-resource-icon">🔬</div>
                   <h3>{t("about.problemSection.bullet2").split(".")[0]}</h3>
-                  <p>{t("about.problemSection.bullet2")}</p>
                 </div>
               </Col>
               <Col md={4}>
                 <div className="sd-resource-card">
                   <div className="sd-resource-icon">🛡️</div>
                   <h3>{t("about.problemSection.bullet3").split(".")[0]}</h3>
-                  <p>{t("about.problemSection.bullet3")}</p>
                 </div>
               </Col>
             </Row>
@@ -267,7 +269,38 @@ export default function TheMovementPage() {
             <Row className="g-4 justify-content-center">
               {teamMembers.map((member) => (
                 <Col md={6} lg={4} key={member.name}>
-                  <article className="sd-team-card h-100 text-center p-4">
+                  <article className="sd-team-card h-100 text-center p-4" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.06)" }}>
+                    {member.image ? (
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="mb-4"
+                        style={{
+                          width: "150px",
+                          height: "150px",
+                          borderRadius: "50%",
+                          objectFit: "cover",
+                          border: "4px solid rgba(31, 138, 76, 0.1)",
+                          boxShadow: "0 8px 20px rgba(0, 0, 0, 0.05)"
+                        }}
+                      />
+                    ) : (
+                      <div
+                        className="mb-4 d-flex align-items-center justify-content-center mx-auto"
+                        style={{
+                          width: "150px",
+                          height: "150px",
+                          borderRadius: "50%",
+                          background: "linear-gradient(135deg, var(--sd-primary) 0%, var(--sd-secondary) 100%)",
+                          color: "#ffffff",
+                          fontWeight: "700",
+                          fontSize: "2.5rem",
+                          boxShadow: "0 8px 20px rgba(31, 138, 76, 0.15)"
+                        }}
+                      >
+                        {member.name.split(" ").map(n => n[0]).join("").slice(0, 2).toUpperCase()}
+                      </div>
+                    )}
                     <h3>{member.name}</h3>
                     <p className="mb-3" style={{ fontSize: "clamp(1.15rem, 2vw, 1.35rem)", color: "rgba(28, 56, 39, 0.75)" }}>{member.role}</p>
                     {member.href ? (

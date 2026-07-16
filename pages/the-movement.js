@@ -82,18 +82,23 @@ export default function ConservationPage() {
         <Container className="px-4 px-lg-5">
           <h2 className="text-center sd-section-accent mb-5">{t("conservation.industrySection.headline")}</h2>
           <Row className="align-items-center g-5">
-            <Col lg={6}>
+            <Col lg={7}>
               <div className="sd-blog-content">
                 <p className="sd-blog-text mb-4" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)" }}>{t("conservation.industrySection.intro")}</p>
                 <div className="d-flex flex-wrap gap-2 mb-2">
-                  <div className="sd-blog-metric px-3 py-2 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "8px", fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>{t("conservation.industrySection.ind1")}</div>
-                  <div className="sd-blog-metric px-3 py-2 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "8px", fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>{t("conservation.industrySection.ind2")}</div>
-                  <div className="sd-blog-metric px-3 py-2 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "8px", fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>{t("conservation.industrySection.ind3")}</div>
-                  <div className="sd-blog-metric px-3 py-2 m-0" style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "8px", fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}>{t("conservation.industrySection.ind4")}</div>
+                  {[...Array(17)].map((_, i) => (
+                    <div
+                      key={i}
+                      className="sd-blog-metric px-3 py-2 m-0"
+                      style={{ background: "white", boxShadow: "0 4px 15px rgba(0,0,0,0.03)", borderRadius: "8px", fontSize: "clamp(1.15rem, 2vw, 1.28rem)" }}
+                    >
+                      {t(`conservation.industrySection.ind${i + 1}`)}
+                    </div>
+                  ))}
                 </div>
               </div>
             </Col>
-            <Col lg={6}>
+            <Col lg={5}>
               <div className="sd-blog-content">
                 <p className="sd-blog-text text-muted mb-3" style={{ fontSize: "clamp(1.15rem, 2.1vw, 1.28rem)" }}>
                   {t("conservation.industrySection.bridge")}
