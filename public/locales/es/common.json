@@ -11,7 +11,7 @@
     "blogTitle": "Para Compradores",
     "blogDescription": "Como los compradores ahorran, apoyan a la naturaleza y construyen un historial de conservacion con Sustainable Discounts™.",
     "faqTitle": "Conservacion",
-    "faqDescription": "El movimiento de conservacion de SD, asignacion de fondos y como el comercio crea financiamiento confiable para la naturaleza.",
+    "faqDescription": "El movimiento de conservacion de Sustainable Discounts™, asignacion de fondos y como el comercio crea financiamiento confiable para la naturaleza.",
     "teamTitle": "El Equipo",
     "teamDescription": "Conoce al equipo detrás de Sustainable Discounts™ y las organizaciones externas que nos validan.",
     "termsTitle": "Terminos de Servicio",
@@ -39,12 +39,12 @@
       "secondaryCta": "Registrarme"
     },
     "heroExt": {
-      "title": "¡Cada compra le devuelve algo al planeta!",
+      "title": "¡Cada vez que compras, también ayudas al planeta!",
       "tagline": "Sin costo adicional para nadie.",
-      "description1": "Sustainable Discounts™ redirige las tarifas ocultas del comercio para financiar la conservación de bosques y océanos.",
+      "description1": "El comercio también puede ayudar a la naturaleza, sin que tengas que pagar más. Sustainable Discounts™ lo hace posible.",
       "description2": "Los consumidores obtienen un descuento real, mientras que las marcas aumentan su margen. Además, La naturaleza es financiada.",
       "ctaBrand": "Soy una marca. Ver cómo funciona.",
-      "ctaShopper": "Soy un comprador. Buscar marcas SD."
+      "ctaShopper": "Soy un comprador. Buscar marcas Sustainable Discounts™."
     },
     "benefits": {
       "title": "Los consumidores exigen sostenibilidad",
@@ -76,32 +76,32 @@
     },
     "ideaSection": {
       "headline": "Una oportunidad en cada compra.",
-      "body1": "A veces no necesitas pagar de más, solo necesitas el producto.",
-      "body2": "Hasta el 40% de lo que pagas en un marketplace puede destinarse a la operación de la plataforma y no al producto.",
-      "step1": "En muchos canales de venta, una parte del valor de cada compra se destina a la operación de la plataforma.",
-      "step2": "Sustainable Discounts™ hace visible ese costo y crea una opción real.",
+      "body1": "Al comprar un producto, no todo lo que pagas corresponde al producto en sí",
+      "body2": "Sustainable Discounts™ redirige hasta el 40 % de lo que pagas.",
+      "step1": "Sustainable Discounts™ te muestra hasta el 40 % de lo que pagas.",
+      "step2": "La decisión la toman los compradores y las marcas",
       "step3": "El comprador ahorra, la marca fortalece su relación con el cliente y se generan recursos para iniciativas ambientales.",
       "linkText": "Ver el mecanismo completo",
       "stepLabel": "Paso"
     },
     "audiencesSection": {
-      "title": "Tres audiencias,  una solución.",
+      "title": "Tres ganadores,  una solución.",
       "card1": {
-        "title": "Para marcas",
+        "title": "Marcas",
         "headline": " Ofrece mejores precios a tus clientes sin sacrificar margen.",
         "body": "Ofrece un descuento real en tu canal directo. Gana una historia de conservación que ningún marketplace puede reproducir, convirtiendo cada compra en una acción verificable para la naturaleza.",
         "foot": "Sin costos de instalación ni contratos.",
         "cta": "Conoce Sustainable Discounts™ para marcas"
       },
       "card2": {
-        "title": "Para compradores",
+        "title": "Compradores",
         "headline": "El mismo producto. Precio más bajo.",
         "body": "Una contribución de conservación verificada incluida. Tú decides cuánto de tu descuento va para ti y cuánto paga al planeta.",
         "foot": "Encuentra marcas Sustainable Discounts™ y rastrea tu impacto en 'my planet acount'",
-        "cta": "Buscar marcas SD"
+        "cta": "Buscar marcas Sustainable Discounts™"
       },
       "card3": {
-        "title": "Para el movimiento",
+        "title": "Para nuestro planeta",
         "headline": "Personas que creen que otra forma de comprar es posible: Científicos, activistas, periodistas y expertos.",
         "body": "Si crees que el comercio puede ser rediseñado para proteger la naturaleza, aquí hay un lugar para ti.",
         "foot": "Únete al movimiento.",
@@ -110,9 +110,9 @@
       "validatedLabel": "Validado de manera independiente"
     },
     "betaSection": {
-      "label": "Las pruebas realizadas confirmaron lo que esperabamos.",
+      "label": "Compradores reales, valor real para las marcas: Los primeros resultados confirman nuestro potencial",
       "stat1": "60,000+ interacciones de consumidores en 10 tiendas de EE. UU., Reino Unido y Colombia.",
-      "stat2": "32% de aumento en conversiones de carrito para marcas que usan SD.",
+      "stat2": "32% de aumento en conversiones de carrito para marcas que usan Sustainable Discounts™.",
       "stat3": "38% de los pools disponibles fueron redirigidos voluntariamente a conservacion. El predeterminado era 30%.",
       "body": "No hubo premios ni beneficios extra. Cuando la gente vio una alternativa clara, eligió ayudar al planeta."
     },
@@ -127,8 +127,8 @@
       "item2": "GEF y Banco Mundial - Actualmente en debida diligencia",
       "item3": "Ganador de Change100 2026 - Startup de impacto a seguir",
       "item4": "Cornell University Life Changing Labs - Ganador de la aceleradora, verano de 2024",
-      "item5": "Panthera - Alianza acordada en principio",
-      "item6": "Terrasos - Alianza activa, créditos de biodiversidad en vivo"
+      "item5": "Panthera - Alianza acordada para la fase piloto",
+      "item6": "Terrasos - Alianza acordada para la fase piloto"
     }
   },
   "about": {
@@ -262,7 +262,7 @@
     },
     "mechanismSection": {
       "headline": "Esto es lo que cambia cuando Sustainable Discounts™ está activo en tu tienda.",
-      "withoutTitle": "Sin SD",
+      "withoutTitle": "Sin Sustainable Discounts™",
       "withoutItem1": "Comprador paga: $1,000",
       "withoutItem2": "El Marketplace se lleva: hasta $400",
       "withoutItem3": "Tus ingresos: $600 o menos",
@@ -271,7 +271,7 @@
       "withItem1": "Comprador paga: $930 (recibe un descuento de $70)",
       "withItem2": "Tus ingresos: $900 ($300 más que a través del marketplace)",
       "withItem3": "La Naturaleza recibe: al menos $30, hasta $100 mediante el slider",
-      "withItem4": "Tarifa operativa de SD: 10% de la contribución: al menos $3, hasta $10",
+      "withItem4": "Tarifa operativa de Sustainable Discounts™: 10% de la contribución: al menos $3, hasta $10",
       "body": "Tú defines el pool. Sustainable Discounts™ garantiza un mínimo de 30% para conservación. El resto es el descuento del comprador. El comprador usa el slider para decidir: mantener más descuento o dar más al planeta. Tu margen es fijo: siempre recibes $900. La variable es el comprador.",
       "quote": "El primer mecanismo de financiamiento donde todos ganan por diseño."
     },
@@ -374,14 +374,14 @@
     "readMore": "Leer articulo"
   },
   "benefits": {
-    "title": "La brecha entre la naturaleza y el financiamiento climático es real.",
+    "title": "La brecha de financiamiento es real, pero también existe el dinero para cerrarla.",
     "label": "La problemática en tres números",
     "card1Stat": "$942B",
     "card1Body": "La brecha anual entre lo que la naturaleza necesita y lo que recibe creció $200B en cuatro años pese a los compromisos globales.",
     "card2Stat": "92%",
     "card2Body": "De los estadounidenses apoyan la Ley de Especies en Peligro. La voluntad está, el problema es la asequibilidad.",
     "card3Stat": "$0",
-    "card3Body": "Lo que cuesta redirigir ese dinero. La ineficiencia siempre estuvo ahí, ¡solo tenemos que usarla mejor!"
+    "card3Body": "Esto es lo que se necesita para que el comercio también aporte a la naturaleza. Sustainable Discounts™ pone esos recursos a disposición."
   },
   "shoppers": {
     "hero": {
@@ -393,7 +393,7 @@
       "point1Headline": "El problema",
       "point1Text": "Cuando compras un producto de $1,000 en un marketplace, hasta $400 van a tarifas. No lo sabías. La mayoría de la gente no lo sabe.",
       "point2Headline": "La oportunidad",
-      "point2Text": "Al comprar directo a una marca SD, ese dinero va a un lugar mejor. Obtienes un descuento real y la naturaleza recibe fondos.",
+      "point2Text": "Al comprar directo a una marca Sustainable Discounts™, ese dinero va a un lugar mejor. Obtienes un descuento real y la naturaleza recibe fondos.",
       "point3Headline": "El resultado",
       "point3Text": "Al menos $30 van a conservación verificada. La marca gana más, tú pagas menos y nadie pierde."
     },
@@ -429,7 +429,7 @@
     "brandsSection": {
       "title": "Marcas Sustainable Discounts™ que ofrecen descuentos reales y conservación real.",
       "section5Desc": "Descubre marcas que te devuelven a ti y le devuelven al planeta.",
-      "browseButton": "Explorar marcas SD"
+      "browseButton": "Explorar marcas Sustainable Discounts™"
     },
     "storySection": {
       "title": "La historia del 38%.",
@@ -506,7 +506,7 @@
       "headline": "Si tu proyecto puede ofrecer un impacto inmediato, Sustainable Discounts™ lo financiará.",
       "intro": "Sustainable Discounts™ no es un financiador tradicional. No hay solicitudes de subvención extensas ni ciclos de revisión de un año.",
       "highlight": "Verificado científicamente + Resultados medibles a corto plazo = Financiado",
-      "body": "Evaluado en base a la Velocidad Climática y la Integridad de la Biodiversidad. Financiado proporcionalmente al comercio que fluye a través de SD.",
+      "body": "Evaluado en base a la Velocidad Climática y la Integridad de la Biodiversidad. Financiado proporcionalmente al comercio que fluye a través de Sustainable Discounts™.",
       "partners": "Socios verificados actuales: Panthera y Terrasos",
       "cta": "Presenta tu proyecto"
     },
@@ -531,14 +531,14 @@
       "card2Label": "Toneladas de CO2 evitadas",
       "card3Label": "Especies apoyadas",
       "card4Label": "Contribuciones transferidas",
-      "card5Label": "Tiendas (actuales y anteriores) en SD",
+      "card5Label": "Tiendas (actuales y anteriores) en Sustainable Discounts™",
       "card6Label": "Interacciones de compradores"
     },
     "betaSection": {
       "title": "Lo que aprendimos en la prueba.",
       "intro": "10 tiendas en EE. UU., Reino Unido y Colombia. El objetivo fue comprobar el mecanismo de manera directo.",
       "stat1": "60,000+ interacciones de consumidores en 10 tiendas.",
-      "stat2": "32% de aumento en conversión de carrito para marcas usando SD.",
+      "stat2": "32% de aumento en conversión de carrito para marcas usando Sustainable Discounts™.",
       "stat3": "38% de porción promedio de pools redirigida voluntariamente a conservación (predeterminado era 30%).",
       "stat4": "$0 de costo adicional para todos. El dinero provino de lo que ya se gastaba."
     },
@@ -554,7 +554,7 @@
       "item4Desc": "Ganador de la Aceleradora, Verano de 2024."
     },
     "sdgsSection": {
-      "title": "Los ocho ODS de la ONU en el modelo SD",
+      "title": "Los ocho ODS de la ONU en el modelo Sustainable Discounts™",
       "desc": "No es un reclamo publicitario. Es el resultado directo de décadas de investigación sobre el impacto de la conservación forestal.",
       "sdg1Title": "ODS 1 - FIN DE LA POBREZA",
       "sdg1Body": "1.2 mil millones de personas dependen de los bosques. Si un bosque cae, cae su base económica.",
