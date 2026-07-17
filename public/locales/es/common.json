@@ -6,7 +6,7 @@
     "aboutDescription": "La historia de origen de Sustainable Discounts™ y como los costos ocultos del mercado se transforman en financiamiento para la naturaleza.",
     "howTitle": "Para Comercios",
     "howDescription": "Recupera control de precios, mejora ganancias y financia conservacion con Sustainable Discounts™.",
-    "impactTitle": "Los numeros que importan",
+    "impactTitle": "Los números que importan",
     "impactDescription": "Contadores de impacto Sustainable Discounts™ en vivo, resultados de la prueba privada y como el comercio puede duplicar las finanzas de conservacion.",
     "blogTitle": "Para Compradores",
     "blogDescription": "Como los compradores ahorran, apoyan a la naturaleza y construyen un historial de conservacion con Sustainable Discounts™.",
@@ -160,18 +160,18 @@
     "problemSection": {
       "headline": "Las soluciones para proteger la naturaleza ya existen. Lo que falta es cómo financiarlas.",
       "subtitle1": "La pieza faltante",
-      "body1": "Los proyectos están planeados. Los científicos están entrenados. Los guardianes están listos.",
+      "body1": "Los proyectos están listos. Los científicos están entrenados. Los guardianes están listos.",
       "body2": "Lo que falta es el dinero: recurrente, confiable y que no dependa de calendarios políticos.",
-      "bullet1": "Hay personas listas para proteger la naturaleza.",
-      "bullet2": "No hay que inventar nada nuevo. La tecnología ya está disponible.",
-      "bullet3": "El comercio ya mueve miles de decisiones cada día. Solo falta conectarlo con el impacto."
+      "bullet1": "Los proyectos de conservación estan listos.",
+      "bullet2": "La ciencia esta lista.",
+      "bullet3": "Las comunidades estan listas."
     },
     "insightSection": {
-      "headline": "El dinero ya estaba ahí. Solo no estaba llegando donde podía generar más impacto.",
-      "body1": "Cuando compras un electrodoméstico, un mueble o cualquier otro bien de consumo, parte de lo que pagas cubre costos de intermediación y operación.",
+      "headline": "El dinero ya está ahí. Usemoslo mejor.",
+      "body1": "Cada compra incluye el costo del producto y los costos asociados a su comercialización.",
       "body2": "Va a la infraestructura del marketplace. No al producto. No al planeta.",
-      "body3": "Sustainable Discounts™ no pide dinero nuevo. Hace visible ese valor y permite que una parte genere beneficios para las personas y para la naturaleza.",
-      "metric1": "Hasta el 40% del precio",
+      "body3": "Sustainable Discounts™ no pide dinero nuevo. Hace que los costos del comercio sean transparentes para que compradores y marcas puedan decidir.",
+      "metric1": "Sustainable Discounts™ redirije hasta el 40% del precio",
       "metric2": "Va a infraestructura",
       "metric3": "No al producto, no al planeta",
       "link": "Ver exactamente cómo funciona el mecanismo"
@@ -201,7 +201,7 @@
     },
     "philosophySection": {
       "title": "El equipo",
-      "headline": "Todos en este equipo eligieron estar aquí.",
+      "headline": "Nuestro equipo",
       "body1": "Sin una gran ronda semilla. Sin equipo completo antes de la prueba.",
       "body2": "Sustainable Discounts™ tuvo personas que decidieron que la misión valía su tiempo antes de que alguien garantizara que valdría su dinero."
     },
@@ -217,7 +217,7 @@
       "noLinkedin": "Link de LinkedIn no disponible"
     },
     "validatorsSection": {
-      "title": "Externos que examinaron Sustainable Discounts™ y lo tomaron en serio.",
+      "title": "Los principales actores ya están tomando nota.",
       "cta": "Estoy interesado",
       "item1Title": "Premio Earthshot 2025",
       "item1Desc": "Nominado - Uno de los procesos de premios ambientales más rigurosos del mundo.",
@@ -234,7 +234,7 @@
       "title": "Como funciona",
       "description": "Los comerciantes usan descuentos existentes y Sustainable Discounts™ los convierte en Sustainable Discounts™ conectados a resultados ambientales verificados.",
       "titleExt": "Recupera el control de precios, mejora ganancias.",
-      "descriptionExt": "Sustainable Discounts™ convierte una parte de las tarifas que entregas a la infraestructura del marketplace en un descuento para consumidores, una contribución de conservación y margen recuperado para tu marca. Sin costo adicional. Sin presupuesto de donaciones."
+      "descriptionExt": "Sustainable Discounts™ transforma los costos habituales del comercio en descuentos para los compradores, aportes a la conservación y mayores ganancias para las marcas, sin generar costos adicionales ni requerir un presupuesto para donaciones."
     },
     "steps": [
       {
@@ -256,15 +256,15 @@
     ],
     "problemSection": {
       "title": "Por cada $1,000 en ingresos.",
-      "body1": "Hasta $400 van a las tarifas del marketplace. El comprador no conoce la división y la mayoría de los acuerdos exigen paridad de precios.",
-      "body2": "No puedes ofrecer el mismo producto más barato en tu propia tienda. Ganas menos en el marketplace y no puedes competir directamente.",
-      "body3": "Ese es el secreto. Sustainable Discounts™ lo hace visible."
+      "body1": "Sustainable Discounts™ redirige hasta 400 dólares de los costos del comercio hacia descuentos para los compradores que toman la iniciativa.",
+      "body2": "Las marcas de venta directa al consumidor recuperan el control sobre sus precios y aumentan sus ganancias.",
+      "body3": "Sustainable Discounts™ hace que todo sea transparente. La decisión final siempre la toma el comprador."
     },
     "mechanismSection": {
       "headline": "Esto es lo que cambia cuando Sustainable Discounts™ está activo en tu tienda.",
       "withoutTitle": "Sin Sustainable Discounts™",
       "withoutItem1": "Comprador paga: $1,000",
-      "withoutItem2": "El Marketplace se lleva: hasta $400",
+      "withoutItem2": "El Marketplace cuesta hasta $400",
       "withoutItem3": "Tus ingresos: $600 o menos",
       "withoutItem4": "La Naturaleza recibe: $0",
       "withTitle": "Con Sustainable Discounts™ (Ejemplo pool 10%)",
@@ -291,9 +291,9 @@
       "item6Body": "Compradores eco-conscientes acumulan historiales de conservación cross-brand. Tu marca forma parte de esa red."
     },
     "conservationStorySection": {
-      "title": "La historia de conservación que ningún marketplace puede igualar",
-      "body1": "El modelo de negocio del marketplace depende de que el secreto permanezca intacto. Cuando los compradores ven el precio real, toman una decisión diferente.",
-      "body2": "En la prueba privada, las marcas usando Sustainable Discounts™ vieron un aumento del 32% en la conversión del carrito. Ese cliente no vino por publicidad: vino porque la oferta era genuinamente mejor.",
+      "title": "Una historia de conservación sin igual",
+      "body1": "La transparencia en los precios permite que los compradores decidan a dónde va su dinero. Pueden pagar un precio adicional por la comodidad de un canal de venta o ahorrar dinero mientras apoyan la conservación de la naturaleza.",
+      "body2": "Durante nuestra fase de pruebas privadas, las marcas que utilizaron Sustainable Discounts™ aumentaron la conversión de sus carritos de compra en un 32 %. Ese incremento no fue producto de una mayor inversión en publicidad, sino del valor adicional que ofrecía la propuesta.",
       "betaKicker": "Resultado de la prueba",
       "betaLabel": "Aumento en conversión de carrito"
     },
@@ -310,8 +310,8 @@
     },
     "startStepsSection": {
       "title": "Cómo comenzar",
-      "step1Title": "Instala la app gratuita de Shopify.",
-      "step1Body": "Disponible para los más de 5 millones de tiendas Shopify. Gratis. Sin contrato.",
+      "step1Title": "Instala Sustainable Discounts™ gratis",
+      "step1Body": "La implementación puede tardar entre 5 minutos y 48 horas, según la plataforma de la tienda en línea. Es gratuita y no requiere contrato.",
       "step2Title": "Elige los productos a activar.",
       "step2Body": "Configura tu porcentaje de pool. Sustainable Discounts™ activa automáticamente el banner y el slider.",
       "step3Title": "Lanza, rastrea y comparte.",
@@ -385,17 +385,17 @@
   },
   "shoppers": {
     "hero": {
-      "title": "Compra inteligente. Paga menos. Devuelve al planeta.",
-      "description": "Sustainable Discounts™ te da un descuento real en marcas que venden directo. Parte de lo que habrías pagado en tarifas de marketplace financia la conservación de bosques y océanos en su lugar. Tú eliges cuánto de tu ahorro va para ti y cuánto va para el planeta."
+      "title": "Compra inteligente. Paga menos. Cuida el planeta.",
+      "description": "Sustainable Discounts™ te ofrece un descuento real y, al mismo tiempo, genera recursos para proyectos de conservación de bosques y océanos. Tú decides qué parte del ahorro conservar y qué parte destinar a la protección del planeta."
     },
     "pointsSection": {
-      "title": "La mayoría quiere proteger la naturaleza, pero no puede permitírselo.",
+      "title": "Las personas quieren proteger la naturaleza, pero no puede permitírselo.",
       "point1Headline": "El problema",
-      "point1Text": "Cuando compras un producto de $1,000 en un marketplace, hasta $400 van a tarifas. No lo sabías. La mayoría de la gente no lo sabe.",
+      "point1Text": "Cuando compras un producto de 1.000 dólares, hasta 400 dólares pueden destinarse a costos del comercio. Probablemente no lo sabías, y la mayoría de las personas tampoco.",
       "point2Headline": "La oportunidad",
       "point2Text": "Al comprar directo a una marca Sustainable Discounts™, ese dinero va a un lugar mejor. Obtienes un descuento real y la naturaleza recibe fondos.",
       "point3Headline": "El resultado",
-      "point3Text": "Al menos $30 van a conservación verificada. La marca gana más, tú pagas menos y nadie pierde."
+      "point3Text": "La marca destina al menos 30 dólares a proyectos de conservación verificados, mientras tú pagas menos. Todos ganan."
     },
     "sliderSection": {
       "title": "Tú decides cómo se divide el pool.",
@@ -405,18 +405,18 @@
       "metric2": "🦁 Especies apoyadas",
       "metric3": "☁️ CO2 evitado",
       "sliderText": "Luego, el slider. Muévelo a la izquierda para obtener más descuento, o a la derecha para ayudar al planeta. La marca gana lo mismo de cualquier manera.",
-      "statHeadline": "En la prueba privada:",
-      "statText": "El 38% de los pools se redirigió voluntariamente a conservación (el predeterminado era 30%). La gente eligió dar más."
+      "statHeadline": "Durante nuestra fase de pruebas privadas,",
+      "statText": "El 38 % de los fondos disponibles se destinó a la conservación, a pesar de que la asignación predeterminada era del 30 %. Cuando tienen la posibilidad de elegir, los compradores deciden aportar más."
     },
     "planetAccountSection": {
       "title": "Cada compra construye un historial de conservación que es tuyo.",
       "ctaText": "Crea una cuenta gratuita en myplanetaccount.com",
-      "recordIntro": "Tu historial personal en todas las marcas Sustainable Discounts™ a las que les compras:",
-      "record1": "Hectáreas protegidas",
-      "record2": "Especies apoyadas",
-      "record3": "CO2 compensado",
-      "recordFooter": "No es un programa de lealtad. Es un registro de lo que tu compra realmente hizo por el planeta.",
-      "ctaButton": "Crear tu cuenta, !gratis!"
+      "recordIntro": "Haz seguimiento a todas las contribuciones generadas por las marcas que utilizan Sustainable Discounts™, desde un solo lugar.",
+      "record1": "Tus Hectáreas protegidas",
+      "record2": "Tus Especies apoyadas",
+      "record3": "Tu CO2 compensado",
+      "recordFooter": "No es un programa de fidelización. Es un registro transparente del impacto verificado que has generado en favor de la naturaleza.",
+      "ctaButton": "Empieza a seguir tu impacto, ¡gratis!"
     },
     "partnersSection": {
       "title": "¿A dónde va el dinero?",
@@ -427,7 +427,7 @@
       "quote": "Cuando se les da una opción transparente, los compradores eligen el planeta. No por obligación. Por preferencia."
     },
     "brandsSection": {
-      "title": "Marcas Sustainable Discounts™ que ofrecen descuentos reales y conservación real.",
+      "title": "Marcas con Sustainable Discounts™ que ofrecen descuentos reales y un impacto real en la conservación.",
       "section5Desc": "Descubre marcas que te devuelven a ti y le devuelven al planeta.",
       "browseButton": "Explorar marcas Sustainable Discounts™"
     },
@@ -438,13 +438,13 @@
       "actualLabel": "Promedio real:",
       "actualVal": "38% a conservación",
       "noteText": "Sin recompensa. Sin presiones. Solo transparencia.",
-      "footerText": "Sustainable Discounts™ no te pide que seas un tipo diferente de consumidor. Le pide al sistema que sea transparente. El resto viene solo."
+      "footerText": "Sustainable Discounts™ no te pide que seas un consumidor diferente. Hace que el sistema sea transparente. Lo demás viene por sí solo."
     }
   },
   "conservation": {
     "hero": {
-      "title": "El comercio puede financiar al planeta.",
-      "description": "Sustainable Discounts™ es un movimiento, no solo un mecanismo: científicos, conservacionistas, activistas, periodistas, fundadores, celebridades, asociaciones y expertos. Si crees que el comercio puede rediseñarse para proteger la naturaleza, hay un lugar para ti aquí."
+      "title": "¡Unete al movimiento para financiar a la naturaleza hoy! No mañana, no el proximo mes, no el proximo año.",
+      "description": "Sustainable Discounts™ es un movimiento, no solo un mecanismo. Necesitamos científicos, conservacionistas, activistas, periodistas, emprendedores, celebridades, asociaciones y expertos en sostenibilidad para cambiar la forma en que protegemos la naturaleza. Si crees que el comercio puede rediseñarse para lograrlo, aquí hay un lugar para ti y para ayudar a acelerar ese cambio."
     },
     "problemSection": {
       "headline": "La crisis de financiamiento es estructural. La solución también.",
@@ -468,7 +468,7 @@
       "footer": "Transferido dentro de 90 días. Verificado. Rastreado. Transparente."
     },
     "industrySection": {
-      "headline": "Tus industrias necesitan un impacto ambiental inmediato. Sustainable Discounts™ lo entrega hoy.",
+      "headline": "¿Lideras la estrategia de sostenibilidad? Logra un impacto climático real desde hoy, no dentro de unos años.",
       "intro": "Cada sector de bienes de consumo duradero (cómo electrodomésticos y muebles) está bajo presión de sostenibilidad:",
       "ind1": "👗 Moda",
       "ind2": "🏂 Artículos deportivos",
@@ -511,7 +511,7 @@
       "cta": "Presenta tu proyecto"
     },
     "closingSection": {
-      "headline": "El movimiento necesita más que un mecanismo. Necesita a las personas que creen en él.",
+      "headline": "El crecimiento de este movimiento nos permitirá proteger, cuanto antes, aquello de lo que también dependemos.",
       "body1": "Científicos, activistas, periodistas, educadores, líderes comunitarios, empresarios y organizaciones de conservación.",
       "body2": "Personas de distintos sectores, con una misma convicción: que el comercio también puede generar impacto positivo.",
       "body3": "Educadores. Líderes comunitarios. Expertos en sostenibilidad.",
@@ -522,7 +522,7 @@
   "impact": {
     "hero": {
       "title": "Los números que importan.",
-      "description": "Cada contribución rastreada. Cada dólar transferido. Cada hectárea documentada. Esta página muestra lo que Sustainable Discounts™ ya ha hecho, no lo que planea hacer."
+      "description": "Transparencia total. Sustainable Discounts hace seguimiento y muestra en línea cada aporte, cada dólar transferido y cada hectárea y especie protegida."
     },
     "countersSection": {
       "lastUpdated": "Última actualización el",
