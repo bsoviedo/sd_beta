@@ -7,6 +7,18 @@ import PageHero from "components/sd/PageHero";
 export default function ConservationPage() {
   const { t } = useTranslation("common");
 
+  const closingRoleGroups = [
+    t("conservation.closingSection.body1"),
+    t("conservation.closingSection.body2"),
+    t("conservation.closingSection.body3")
+  ];
+
+  const splitRoleItems = (line) =>
+    line
+      .split(/[,\.]+/)
+      .map((item) => item.trim())
+      .filter(Boolean);
+
   return (
     <Layout title={t("meta.faqTitle")} description={t("meta.faqDescription")}>
       <PageHero
@@ -196,14 +208,24 @@ export default function ConservationPage() {
       <section className="sd-section sd-blog-section sd-blog-cta-section pt-0">
         <Container className="px-4 px-lg-5 text-center">
           <h2 className="sd-section-accent mb-4">{t("conservation.closingSection.headline")}</h2>
-          <div className="sd-blog-content mx-auto text-center" style={{ maxWidth: "800px" }}>
-            <p className="sd-blog-text mb-3" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7" }}>{t("conservation.closingSection.body1")}</p>
-            <p className="sd-blog-text mb-3" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7" }}>{t("conservation.closingSection.body2")}</p>
-            <p className="sd-blog-text mb-3" style={{ fontSize: "clamp(1.25rem, 2.2vw, 1.45rem)", lineHeight: "1.7" }}>{t("conservation.closingSection.body3")}</p>
-            <p className="sd-blog-text mb-4 text-muted" style={{ fontSize: "clamp(1.15rem, 2.1vw, 1.28rem)" }}>
-              {t("conservation.closingSection.footer")}
-            </p>
-          </div>
+          <div className="sd-blog-content mx-auto text-center" style={{ maxWidth: "920px" }}>
+              <div className="sd-closing-roles-panel sd-closing-roles-columns">
+                {closingRoleGroups.map((group, index) => (
+                  <div key={index} className="sd-role-list-group">
+                    <ul className="sd-role-list">
+                      {splitRoleItems(group).map((item) => (
+                        <li key={item} className="sd-role-list-item">
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+              <p className="sd-blog-text mb-4 text-muted" style={{ fontSize: "clamp(1.15rem, 2.1vw, 1.28rem)" }}>
+                {t("conservation.closingSection.footer")}
+              </p>
+            </div>
           <div className="mt-4">
             <a href="mailto:damian@mandatum.co">
               <button className="sd-cta-btn">{t("conservation.closingSection.cta")}</button>

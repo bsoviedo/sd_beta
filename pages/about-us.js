@@ -35,7 +35,8 @@ export default function TheMovementPage() {
     {
       name: "Dylan Price",
       role: t("about.team.role.dylan"),
-      href: "https://www.linkedin.com/in/dylan-price-387a99199/"
+      href: "https://www.linkedin.com/in/dylan-price-387a99199/",
+      image:"/img/about-us/team/Dylan price.jpeg"
     },
     {
       name: "Adrian Gross",
@@ -266,53 +267,37 @@ export default function TheMovementPage() {
                 </div>
               </Col>
             </Row>
-            <Row className="g-4 justify-content-center">
-              {teamMembers.map((member) => (
-                <Col md={6} lg={4} key={member.name}>
-                  <article className="sd-team-card h-100 text-center p-4" style={{ borderRadius: "16px", background: "#ffffff", boxShadow: "0 10px 24px rgba(35,59,45,0.06)" }}>
-                    {member.image ? (
-                      <img
-                        src={member.image}
-                        alt={member.name}
-                        className="mb-4"
-                        style={{
-                          width: "150px",
-                          height: "150px",
-                          borderRadius: "50%",
-                          objectFit: "cover",
-                          border: "4px solid rgba(31, 138, 76, 0.1)",
-                          boxShadow: "0 8px 20px rgba(0, 0, 0, 0.05)"
-                        }}
-                      />
-                    ) : (
-                      <div
-                        className="mb-4 d-flex align-items-center justify-content-center mx-auto"
-                        style={{
-                          width: "150px",
-                          height: "150px",
-                          borderRadius: "50%",
-                          background: "linear-gradient(135deg, var(--sd-primary) 0%, var(--sd-secondary) 100%)",
-                          color: "#ffffff",
-                          fontWeight: "700",
-                          fontSize: "2.5rem",
-                          boxShadow: "0 8px 20px rgba(31, 138, 76, 0.15)"
-                        }}
-                      >
-                        {member.name.split(" ").map(n => n[0]).join("").slice(0, 2).toUpperCase()}
+            <Row className="g-4 justify-content-center sd-team-grid">
+              {teamMembers.map((member) => {
+                const handle = member.href ? member.href.split("/").filter(Boolean).pop() : "";
+
+                return (
+                  <Col md={6} lg={4} key={member.name}>
+                    <article className="sd-team-member-card h-100">
+                      <div className="sd-team-avatar">
+                        {member.image ? (
+                          <img src={member.image} alt={member.name} />
+                        ) : (
+                          <div className="sd-team-initials">
+                            {member.name.split(" ").map(n => n[0]).join("").slice(0, 2).toUpperCase()}
+                          </div>
+                        )}
                       </div>
-                    )}
-                    <h3>{member.name}</h3>
-                    <p className="mb-3" style={{ fontSize: "clamp(1.15rem, 2vw, 1.35rem)", color: "rgba(28, 56, 39, 0.75)" }}>{member.role}</p>
-                    {member.href ? (
-                      <a href={member.href} target="_blank" rel="noreferrer" className="sd-link sd-link-inline" style={{ fontSize: "clamp(1.05rem, 2vw, 1.25rem)" }}>
-                        linkedin.com/in/{member.href.split("/").pop()}
-                      </a>
-                    ) : (
-                      <p className="text-muted mb-0" style={{ fontSize: "clamp(1.05rem, 2vw, 1.25rem)" }}>{t("about.team.noLinkedin")}</p>
-                    )}
-                  </article>
-                </Col>
-              ))}
+                      <div className="sd-team-member-copy">
+                        <h3 className="sd-team-name">{member.name}</h3>
+                        <p className="sd-team-role">{member.role}</p>
+                        {member.href ? (
+                          <a href={member.href} target="_blank" rel="noreferrer noopener" className="sd-team-link">
+                            linkedin.com/in/{handle}
+                          </a>
+                        ) : (
+                          <p className="text-muted mb-0 sd-team-role">{t("about.team.noLinkedin")}</p>
+                        )}
+                      </div>
+                    </article>
+                  </Col>
+                );
+              })}
             </Row>
           </Container>
         </section>
