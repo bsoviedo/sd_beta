@@ -29,7 +29,7 @@ export default function TheMovementPage() {
     {
       name: "Brayan Oviedo",
       role: t("about.team.role.brayan"),
-      href: "https://www.linkedin.com/in/brayan-oviedo-yate-478072136/",
+      href: "https://www.linkedin.com/in/brayan-stiven-oviedo-yate/",
       image: "/img/about-us/team/team-brayan-oviedo.jpg"
     },
     {
@@ -47,7 +47,7 @@ export default function TheMovementPage() {
     {
       name: "Claudia Estrada",
       role: t("about.team.role.claudia"),
-      href: "https://www.linkedin.com/in/claudia-maria-estrada-zuluaga-b43578184/",
+      href: "https://www.linkedin.com/in/claudia-m-estrada-z-b43578184/",
       image: "/img/about-us/team/team-claudia-estrada.jpg"
     }
   ];
